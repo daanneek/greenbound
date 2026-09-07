@@ -7,7 +7,9 @@
     "latitude": 55.542113,
     "longitude": 21.12075,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://nerija.lrv.lt/en/"
   },
   {
     "id": "lt-dzukija-national-park",
@@ -17,7 +19,9 @@
     "latitude": 54.163175,
     "longitude": 24.186144,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://vstt.lrv.lt/en/lithuanian-protected-areas/national-parks/"
   },
   {
     "id": "lt-aukstaitija-national-park",
@@ -27,7 +31,9 @@
     "latitude": 55.34391,
     "longitude": 26.05693,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://vstt.lrv.lt/en/lithuanian-protected-areas/national-parks/"
   },
   {
     "id": "lt-trakai-historical-national-park",
@@ -37,7 +43,9 @@
     "latitude": 54.647888,
     "longitude": 24.933296,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://vstt.lrv.lt/en/lithuanian-protected-areas/national-parks/"
   },
   {
     "id": "lt-zemaitija-national-park",
@@ -47,6 +55,8 @@
     "latitude": 56.033622,
     "longitude": 21.853167,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://vstt.lrv.lt/en/lithuanian-protected-areas/national-parks/"
   }
 ]

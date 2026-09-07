@@ -7,6 +7,8 @@
     "latitude": 52.56928,
     "longitude": 23.802966,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://npbp.by/eng/"
   },
   {
@@ -17,6 +19,8 @@
     "latitude": 55.644909,
     "longitude": 27.016575,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://braslavpark.by/en/"
   },
   {
@@ -27,6 +31,8 @@
     "latitude": 52.139285,
     "longitude": 26.888713,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.belarus.by/en/about-belarus/natural-history/pripyatsky-national-park"
   },
   {
@@ -37,6 +43,8 @@
     "latitude": 54.909534,
     "longitude": 26.706591,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://narochpark.by/?lang=en"
   }
 ]

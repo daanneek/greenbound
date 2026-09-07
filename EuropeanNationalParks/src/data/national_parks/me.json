@@ -7,7 +7,9 @@
     "latitude": 43.211703,
     "longitude": 19.116994,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://nparkovi.me/parks/Durmitor"
   },
   {
     "id": "me-national-park-prokletije",
@@ -17,7 +19,9 @@
     "latitude": 42.531902,
     "longitude": 19.913959,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://nparkovi.me/parks/Prokletije"
   },
   {
     "id": "me-lovcen-national-park",
@@ -27,7 +31,9 @@
     "latitude": 42.397607,
     "longitude": 18.843266,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://nparkovi.me/parks/Lov%C4%87en"
   },
   {
     "id": "me-biogradska-gora-national-park",
@@ -37,7 +43,9 @@
     "latitude": 42.900708,
     "longitude": 19.595545,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://nparkovi.me/parks/Biogradska%20Gora"
   },
   {
     "id": "me-lake-skadar-national-park",
@@ -47,6 +55,8 @@
     "latitude": 42.245961,
     "longitude": 19.090953,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://nparkovi.me/parks/Skadarsko%20Jezero"
   }
 ]

@@ -7,7 +7,9 @@
     "latitude": 41.65959,
     "longitude": 20.735954,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://npmavrovo.org.mk/en/"
   },
   {
     "id": "mk-sar-mountain-national-park",
@@ -17,7 +19,9 @@
     "latitude": 41.989866,
     "longitude": 20.884158,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.sarmountain.org.mk/en"
   },
   {
     "id": "mk-national-park-galicica",
@@ -27,7 +31,9 @@
     "latitude": 40.967271,
     "longitude": 20.840078,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://galicica.org.mk/en/"
   },
   {
     "id": "mk-national-park-pelister",
@@ -37,6 +43,8 @@
     "latitude": 41.001455,
     "longitude": 21.212962,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://nppelister.mk/en/"
   }
 ]

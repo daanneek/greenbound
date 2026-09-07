@@ -7,6 +7,8 @@
     "latitude": 48.972027,
     "longitude": 13.633135,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.npsumava.cz/en/"
   },
   {
@@ -17,6 +19,8 @@
     "latitude": 50.878404,
     "longitude": 14.374297,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.npcs.cz/en"
   },
   {
@@ -27,6 +31,8 @@
     "latitude": 50.688949,
     "longitude": 15.657069,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.krnap.cz/en/"
   },
   {
@@ -37,6 +43,8 @@
     "latitude": 48.844812,
     "longitude": 15.92027,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.nppodyji.cz/"
   }
 ]

@@ -7,7 +7,9 @@
     "latitude": 47.522543,
     "longitude": 21.091579,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.hnp.hu/"
   },
   {
     "id": "hu-bukki-national-park",
@@ -17,7 +19,9 @@
     "latitude": 48.055631,
     "longitude": 20.40379,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.bnpi.hu/"
   },
   {
     "id": "hu-duna-ipoly-nemzeti-park",
@@ -27,7 +31,9 @@
     "latitude": 47.726442,
     "longitude": 18.908157,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.dunaipoly.hu/"
   },
   {
     "id": "hu-aggtelek-national-park",
@@ -37,7 +43,9 @@
     "latitude": 48.508027,
     "longitude": 20.540031,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://anp.hu/"
   },
   {
     "id": "hu-orseg-national-park",
@@ -47,7 +55,9 @@
     "latitude": 46.841448,
     "longitude": 16.417011,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://orseginemzetipark.hu/"
   },
   {
     "id": "hu-duna-drava-national-park",
@@ -57,7 +67,9 @@
     "latitude": 45.939118,
     "longitude": 18.74886,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://ddnp.hu/en"
   },
   {
     "id": "hu-kiskunsag-national-park",
@@ -67,7 +79,9 @@
     "latitude": 46.883316,
     "longitude": 19.400018,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://knp.hu/en"
   },
   {
     "id": "hu-ferto-hansag-national-park",
@@ -77,7 +91,9 @@
     "latitude": 47.638785,
     "longitude": 16.863306,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.ferto-hansag.hu/en"
   },
   {
     "id": "hu-koros-maros-national-park",
@@ -87,7 +103,9 @@
     "latitude": 46.857487,
     "longitude": 20.526672,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://kmnp.hu/en/"
   },
   {
     "id": "hu-balaton-uplands-national-park",
@@ -97,6 +115,8 @@
     "latitude": 46.976246,
     "longitude": 17.928564,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.bfnp.hu/en"
   }
 ]

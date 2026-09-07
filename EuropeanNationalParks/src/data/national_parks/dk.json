@@ -7,6 +7,8 @@
     "latitude": 56.046298,
     "longitude": 12.377112,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://eng.nationalparkkongernesnordsjaelland.dk/"
   },
   {
@@ -17,6 +19,8 @@
     "latitude": 55.241032,
     "longitude": 8.497208,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://eng.nationalparkvadehavet.dk/"
   },
   {
@@ -27,6 +31,8 @@
     "latitude": 56.283449,
     "longitude": 10.479454,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://eng.nationalparkmolsbjerge.dk/"
   },
   {
@@ -37,6 +43,8 @@
     "latitude": 55.664652,
     "longitude": 11.998783,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://eng.nationalparkskjoldungernesland.dk/"
   },
   {
@@ -47,6 +55,8 @@
     "latitude": 56.929808,
     "longitude": 8.33822,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://eng.nationalparkthy.dk/explore-the-national-park/visitor-centers/stenbjerg-landingsplads"
   }
 ]

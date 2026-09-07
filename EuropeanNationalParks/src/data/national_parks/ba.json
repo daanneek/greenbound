@@ -7,6 +7,8 @@
     "latitude": 44.698205,
     "longitude": 16.00647,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://npuna.com/"
   },
   {
@@ -17,6 +19,8 @@
     "latitude": 43.303744,
     "longitude": 18.694726,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.npsutjeska.net/"
   },
   {
@@ -27,6 +31,8 @@
     "latitude": 45.014116,
     "longitude": 16.910812,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://npkozara.com/"
   },
   {
@@ -37,6 +43,8 @@
     "latitude": 43.97103,
     "longitude": 19.532863,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://npdrina.com/"
   }
 ]

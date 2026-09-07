@@ -7,7 +7,9 @@
     "latitude": 49.271441,
     "longitude": 19.982744,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "211.64",
+    "nationalParkSince": "1954",
+    "website": "https://tpn.gov.pl/tatra-national-park"
   },
   {
     "id": "pl-bieszczady-national-park",
@@ -17,7 +19,9 @@
     "latitude": 49.141177,
     "longitude": 22.590435,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://bdpn.gov.pl/bieszczady-national-park"
   },
   {
     "id": "pl-pieniny-national-park",
@@ -27,7 +31,9 @@
     "latitude": 49.419199,
     "longitude": 20.386342,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://piepn.gov.pl/english-version"
   },
   {
     "id": "pl-babia-gora-national-park",
@@ -37,7 +43,9 @@
     "latitude": 49.593742,
     "longitude": 19.531196,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://bgpn.gov.pl/english-version"
   },
   {
     "id": "pl-bia-owieza-national-park",
@@ -47,7 +55,9 @@
     "latitude": 52.703323,
     "longitude": 23.846854,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://bpn.gov.pl/bialowieza-national-park"
   },
   {
     "id": "pl-s-owinski-national-park",
@@ -57,7 +67,9 @@
     "latitude": 54.700173,
     "longitude": 17.316931,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://spn.gov.pl/english-version"
   },
   {
     "id": "pl-biebrzanski-park-narodowy",
@@ -67,7 +79,9 @@
     "latitude": 53.495788,
     "longitude": 22.752013,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://bbpn.gov.pl/biebrza-national-park"
   },
   {
     "id": "pl-wigierski-park-narodowy",
@@ -77,27 +91,33 @@
     "latitude": 54.084282,
     "longitude": 23.009834,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://wigpn.gov.pl/english-version"
   },
   {
     "id": "pl-wolin-national-park",
-    "name": "Wolin National Park",
+    "name": "Wolinski National Park",
     "country": "Poland",
     "code": "PL",
     "latitude": 53.966128,
     "longitude": 14.523244,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://wopn.gov.pl/english-version"
   },
   {
     "id": "pl-warta-mouth-national-park",
-    "name": "Warta Mouth National Park",
+    "name": "Ujście Warty National Park",
     "country": "Poland",
     "code": "PL",
     "latitude": 52.568932,
     "longitude": 14.651084,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://pnuw.gov.pl/ujscie-warty-national-park"
   },
   {
     "id": "pl-park-narodowy-bory-tucholskie",
@@ -107,37 +127,45 @@
     "latitude": 53.81517,
     "longitude": 17.564826,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://pnbt.gov.pl/english-version"
   },
   {
     "id": "pl-drawno-national-park",
-    "name": "Drawno National Park",
+    "name": "Drawieński Park Narodowy",
     "country": "Poland",
     "code": "PL",
     "latitude": 53.213581,
     "longitude": 15.742052,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://dpn.gov.pl/english-version"
   },
   {
     "id": "pl-greater-poland-national-park",
-    "name": "Greater Poland National Park",
+    "name": "Wielkopolska National Park ",
     "country": "Poland",
     "code": "PL",
     "latitude": 52.268706,
     "longitude": 16.797277,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://wpn.gov.pl/english-version"
   },
   {
     "id": "pl-kampinos-national-park",
-    "name": "Kampinos National Park",
+    "name": "Kampinoski National Park",
     "country": "Poland",
     "code": "PL",
     "latitude": 52.320009,
     "longitude": 20.644055,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://kampn.gov.pl/english-version"
   },
   {
     "id": "pl-swietokrzyski-national-park",
@@ -147,17 +175,21 @@
     "latitude": 50.896028,
     "longitude": 20.914549,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://swpn.gov.pl/swietokrzyski-national-park"
   },
   {
     "id": "pl-karkonosze-national-park",
-    "name": "Karkonosze National Park",
+    "name": "Karkonoski National Park",
     "country": "Poland",
     "code": "PL",
     "latitude": 50.767503,
     "longitude": 15.728373,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://kpn.gov.pl/english-version"
   },
   {
     "id": "pl-sto-owe-mountains-national-park",
@@ -167,7 +199,9 @@
     "latitude": 50.460124,
     "longitude": 16.395856,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://pngs.gov.pl/english-version"
   },
   {
     "id": "pl-gorczanski-park-narodowy",
@@ -177,7 +211,9 @@
     "latitude": 49.550354,
     "longitude": 20.150933,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://gpn.gov.pl/english-version"
   },
   {
     "id": "pl-ojcowski-national-park",
@@ -187,7 +223,9 @@
     "latitude": 50.207052,
     "longitude": 19.817876,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://ppn.gov.pl/english-version"
   },
   {
     "id": "pl-magura-national-park",
@@ -197,7 +235,9 @@
     "latitude": 49.509253,
     "longitude": 21.469835,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://ppn.gov.pl/english-version"
   },
   {
     "id": "pl-roztocze-national-park",
@@ -207,7 +247,9 @@
     "latitude": 50.60014,
     "longitude": 22.962861,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://rpn.gov.pl/english-version"
   },
   {
     "id": "pl-polesie-national-park",
@@ -217,7 +259,9 @@
     "latitude": 51.431387,
     "longitude": 23.118764,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://polpn.gov.pl/english-version"
   },
   {
     "id": "pl-narew-national-park",
@@ -227,6 +271,8 @@
     "latitude": 53.072765,
     "longitude": 22.868615,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://ppn.gov.pl/english-version"
   }
 ]

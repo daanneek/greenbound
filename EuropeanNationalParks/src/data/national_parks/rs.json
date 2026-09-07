@@ -7,7 +7,9 @@
     "latitude": 43.919046,
     "longitude": 19.33468,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.nptara.rs/en"
   },
   {
     "id": "rs-djerdap-national-park",
@@ -17,7 +19,9 @@
     "latitude": 44.52896,
     "longitude": 21.980269,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://npdjerdap.rs/en/"
   },
   {
     "id": "rs-fruska-gora-national-park",
@@ -27,7 +31,9 @@
     "latitude": 45.15614,
     "longitude": 19.744403,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.npfruskagora.co.rs/"
   },
   {
     "id": "rs-stara-planina-national-park",
@@ -37,7 +43,9 @@
     "latitude": 43.209868,
     "longitude": 22.678099,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://srbijasume.rs/en/"
   },
   {
     "id": "rs-kopaonik-national-park",
@@ -47,7 +55,9 @@
     "latitude": 43.276191,
     "longitude": 20.798512,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://npkopaonik.rs/en/"
   },
   {
     "id": "rs-kucaj-beljanica-national-park",
@@ -57,6 +67,8 @@
     "latitude": 44.075124,
     "longitude": 21.735248,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.ekologija.gov.rs/"
   }
 ]

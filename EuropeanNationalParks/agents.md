@@ -36,7 +36,7 @@ Greenbound is a single-page React/Vite app for exploring European national parks
 
 ## Park data contract
 
-The park JSON under `src/data/national_parks/` carries a project-specific slug `id`, `name`, full country name in `country`, ISO-like country code in `code`, `latitude`, `longitude`, `description` and `website`. The `size`, `year`, `terrain`, `status` and `war` fields referenced by the UI are not populated yet, which is why the detail card is sparse. Data enrichment is planned; document country definitions, area units, establishment-year rules, visitor status, and travel-advisory source when it lands.
+The park JSON under `src/data/national_parks/` carries a project-specific slug `id`, `name`, full country name in `country`, ISO-like country code in `code`, `latitude`, `longitude`, `description`, `sizeInSquareKilometers` and `website`. The `sizeInSquareKilometers` field is reserved for park area in square kilometers and is currently an empty string across the dataset until values can be added from a consistent authoritative source. The `year`, `terrain`, `status` and `war` fields referenced by the UI are not populated yet, which is why the detail card is sparse. Data enrichment is planned; document country definitions, area units, establishment-year rules, visitor status, and travel-advisory source when it lands.
 
 ## Product state
 
@@ -88,3 +88,65 @@ Explicitly declined for now: geolocation / "parks near me".
 Keep the map logic coordinate-based, preserve OpenStreetMap and OpenTopoMap attribution, avoid claiming the dataset is complete, and run `npm run lint` plus `npm run build` after changes to the map or data model.
 
 `App.css` is the single stylesheet and has been pruned of rules for markup that no longer exists. When you delete an element, delete its rules too. Screenshot and trace output from browser tooling belongs in `.playwright-mcp/`, which is gitignored.
+
+## Future monetization: Payhip
+
+Planned provider: Payhip. Do not implement this yet. The site should sell digital route products such as GPX files, PDFs, maps, route notes and ZIP bundles for European national parks.
+
+### Payhip setup required before integration
+
+1. Create a Payhip account.
+2. Connect Stripe and/or PayPal inside Payhip.
+3. Create and publish the first digital products, including their uploaded files and prices.
+4. Copy the public Payhip checkout URL for each product. These URLs normally look like `https://payhip.com/b/<product-id>`.
+5. Provide the product names, prices and checkout URLs for the application configuration.
+
+The application does not need Payhip API keys for the initial integration. It should use public hosted checkout links, opened in a new tab or through a normal external link. Never put Stripe, PayPal or Payhip secrets in this Vite frontend.
+
+### Planned application integration
+
+- Add a central product configuration module rather than scattering Payhip URLs through JSX or park JSON files.
+- Support products attached to individual parks plus regional and country-wide packages.
+- Render a reusable route-pack section in the selected park detail card.
+- Hide products whose checkout URL is not configured, so unpublished products cannot create broken buttons.
+- Use clear product labels and prices, for example `Five routes in Slovenia - EUR 5` or `Complete Slovenia route collection - EUR 15`.
+- Open the hosted Payhip checkout in a new tab with appropriate external-link attributes.
+- Keep the site usable when no products are configured; monetization must be additive and must not block map browsing.
+- Prefer bundles over very cheap individual products because fixed payment-processing fees make EUR 0.50 sales inefficient.
+
+A future configuration shape may be:
+
+```js
+const payhipProducts = {
+	"si-triglav-national-park": {
+		title: "Triglav route pack",
+		price: "EUR 3",
+		checkoutUrl: "https://payhip.com/b/your-product-id",
+	},
+	"slovenia-regional-pack": {
+		title: "Slovenia national parks pack",
+		price: "EUR 5",
+		checkoutUrl: "https://payhip.com/b/your-product-id",
+	},
+};
+```
+
+The exact schema can change when the first Payhip products exist. Do not add placeholder checkout URLs to production UI.
+
+### Product strategy
+
+- Individual route or park pack: approximately EUR 1-3.
+- Five-route bundle: approximately EUR 5.
+- Regional package: approximately EUR 10.
+- Country package: approximately EUR 15-20.
+- Larger Europe or multi-country collection: price according to the amount of route material and support included.
+
+Each product may contain a GPX route, offline map, PDF guide, waypoints, parking/access notes, difficulty, water points, seasonal warnings and filming locations where relevant. Product contents and route safety claims must be accurate and clearly described.
+
+### Fees and legal notes
+
+Payhip's free plan has no monthly fee but currently adds a 5% Payhip transaction fee on top of Stripe or PayPal processing fees. This is expected to be the initial no-code option. Recheck the official Payhip pricing, payment and tax documentation before launch because fees and provider features can change.
+
+Payhip states that it can collect and remit EU and UK VAT, but this does not remove every business, income-tax, invoicing, consumer-rights, privacy or digital-content obligation. Confirm the requirements for the seller's country before selling. Include appropriate digital-content refund/withdrawal wording and privacy information at launch.
+
+The first implementation should use a real low-priced test product, such as a EUR 1 route pack, so the complete external checkout and file-delivery flow can be verified before adding the larger regional and country catalogue.

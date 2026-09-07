@@ -7,6 +7,8 @@
     "latitude": 51.751135,
     "longitude": 4.796987,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://np-debiesbosch.nl"
   },
   {
@@ -17,6 +19,8 @@
     "latitude": 51.569722,
     "longitude": 3.94863,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.np-oosterschelde.nl"
   },
   {
@@ -27,6 +31,8 @@
     "latitude": 53.075229,
     "longitude": 4.743342,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.npduinenvantexel.nl"
   },
   {
@@ -37,6 +43,8 @@
     "latitude": 52.078716,
     "longitude": 5.832489,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://hogeveluwe.nl"
   },
   {
@@ -47,6 +55,8 @@
     "latitude": 52.04831,
     "longitude": 6.019887,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.natuurmonumenten.nl/natuurgebieden/nationaal-park-veluwezoom"
   },
   {
@@ -57,6 +67,8 @@
     "latitude": 52.725612,
     "longitude": 6.028254,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.visitweerribbenwieden.com"
   },
   {
@@ -67,6 +79,8 @@
     "latitude": 51.583111,
     "longitude": 6.09851,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": ""
   },
   {
@@ -77,6 +91,8 @@
     "latitude": 51.156074,
     "longitude": 6.084749,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.natuurparkenlimburg.nl/np/de-maasduinen"
   },
   {
@@ -87,6 +103,8 @@
     "latitude": 52.396055,
     "longitude": 4.592128,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.np-zuidkennemerland.nl"
   },
   {
@@ -97,6 +115,8 @@
     "latitude": 51.653375,
     "longitude": 5.131833,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.natuurmonumenten.nl/natuurgebieden/loonse-en-drunense-duinen"
   },
   {
@@ -107,6 +127,8 @@
     "latitude": 52.880008,
     "longitude": 6.310443,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.nationaalpark-drents-friese-wold.nl"
   },
   {
@@ -117,6 +139,8 @@
     "latitude": 52.049531,
     "longitude": 5.353988,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.np-utrechtseheuvelrug.nl"
   },
   {
@@ -127,6 +151,8 @@
     "latitude": 53.037593,
     "longitude": 6.650157,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.drentscheaa.nl"
   },
   {
@@ -137,6 +163,8 @@
     "latitude": 53.129715,
     "longitude": 5.93798,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.np-aldefeanen.nl"
   },
   {
@@ -147,6 +175,8 @@
     "latitude": 52.808598,
     "longitude": 6.409263,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.nationaalpark-dwingelderveld.nl"
   },
   {
@@ -157,6 +187,8 @@
     "latitude": 52.346905,
     "longitude": 6.418445,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.sallandseheuvelrug.nl"
   },
   {
@@ -167,6 +199,8 @@
     "latitude": 53.380174,
     "longitude": 6.187712,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.np-lauwersmeer.nl"
   },
   {
@@ -177,6 +211,8 @@
     "latitude": 53.477416,
     "longitude": 6.161458,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.np-schiermonnikoog.nl/nl"
   },
   {
@@ -187,6 +223,8 @@
     "latitude": 51.346545,
     "longitude": 5.817371,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://npdepeel.nl/nl"
   },
   {
@@ -197,6 +235,8 @@
     "latitude": 51.580988,
     "longitude": 5.187157,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.vangoghnationalpark.com/nl/homepage"
   }
 ]

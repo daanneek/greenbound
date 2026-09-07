@@ -1,6 +1,13 @@
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import { useEffect, useId, useMemo, useRef, useState } from "react";
+import {
+  useEffect,
+  useId,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import Supercluster from "supercluster";
 import "./App.css";
@@ -25,6 +32,7 @@ const EUROPE_BOUNDS = [
   [34, -25],
   [72, 60],
 ];
+const ALL_WORLD_BOUNDS = [-180, -90, 180, 90];
 
 const MAP_STYLES = {
   osm: {
@@ -281,7 +289,11 @@ function MapZoomButtons() {
 function MapSizeFix() {
   const map = useMap();
 
-  useEffect(() => {
+  // Runs synchronously before paint (and before sibling components such as
+  // ParkMarkers read map.getBounds() in their own mount effects), so the
+  // map is already fitted to Europe on the very first render instead of
+  // only becoming correct after a later pan/zoom/resize event.
+  useLayoutEffect(() => {
     const fitMapToEurope = () => {
       map.invalidateSize();
       // Narrow viewports need a lower floor, otherwise Europe cannot fit horizontally.
@@ -289,14 +301,14 @@ function MapSizeFix() {
       map.fitBounds(EUROPE_BOUNDS, {
         padding: [24, 24],
         maxZoom: 4.5,
+        animate: false,
       });
     };
-    const frame = requestAnimationFrame(fitMapToEurope);
+    fitMapToEurope();
     const resizeObserver = new ResizeObserver(fitMapToEurope);
     resizeObserver.observe(map.getContainer());
 
     return () => {
-      cancelAnimationFrame(frame);
       resizeObserver.disconnect();
     };
   }, [map]);
@@ -327,7 +339,7 @@ function ParkMarkers({ visibleParks, selectedId, onSelect }) {
   const [clusters, setClusters] = useState([]);
 
   // Supercluster indexes the points in a KD-tree once per filter change, so
-  // recomputing clusters on pan/zoom stays cheap.
+  // querying the complete park set on zoom stays cheap.
   const indexes = useMemo(() => {
     return ["open", "caution"].map((variant) => {
       const supercluster = new Supercluster({
@@ -355,27 +367,18 @@ function ParkMarkers({ visibleParks, selectedId, onSelect }) {
 
   useEffect(() => {
     const updateClusters = () => {
-      const bounds = map.getBounds();
-      const clusterBounds = [
-        bounds.getWest(),
-        bounds.getSouth(),
-        bounds.getEast(),
-        bounds.getNorth(),
-      ];
       setClusters(
         indexes.flatMap(({ index, variant }) =>
           index
-            .getClusters(clusterBounds, Math.round(map.getZoom()))
+            .getClusters(ALL_WORLD_BOUNDS, Math.round(map.getZoom()))
             .map((feature) => ({ feature, index, variant })),
         ),
       );
     };
 
     updateClusters();
-    map.on("moveend", updateClusters);
     map.on("zoomend", updateClusters);
     return () => {
-      map.off("moveend", updateClusters);
       map.off("zoomend", updateClusters);
     };
   }, [indexes, map]);

@@ -7,6 +7,8 @@
     "latitude": 50.992458,
     "longitude": 5.615112,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.nationaalparkhogekempen.be/"
   },
   {
@@ -17,6 +19,8 @@
     "latitude": 51.162317,
     "longitude": 5.316873,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.nationaalparkbosland.be/"
   },
   {
@@ -27,6 +31,8 @@
     "latitude": 51.110803,
     "longitude": 4.221458,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.nationaalparkscheldevallei.be/"
   },
   {
@@ -37,6 +43,8 @@
     "latitude": 50.810863,
     "longitude": 4.662938,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.brabantsewouden.be/"
   },
   {
@@ -47,6 +55,8 @@
     "latitude": 49.903179,
     "longitude": 5.13373,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.semois-parcnational.be/en"
   },
   {
@@ -57,6 +67,8 @@
     "latitude": 50.073414,
     "longitude": 4.428946,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.parc-national-esem.be/en"
   },
   {
@@ -67,6 +79,8 @@
     "latitude": 51.39959,
     "longitude": 4.407619,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://grensparkkalmthoutseheide.com"
   }
 ]

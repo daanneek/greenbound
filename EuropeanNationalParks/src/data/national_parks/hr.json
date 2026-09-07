@@ -7,7 +7,9 @@
     "latitude": 43.866602,
     "longitude": 15.972484,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://npkrka.hr/en_us/"
   },
   {
     "id": "hr-mljet-national-park",
@@ -17,7 +19,9 @@
     "latitude": 42.773947,
     "longitude": 17.408538,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://np-mljet.hr/"
   },
   {
     "id": "hr-plitvice-lakes-national-park",
@@ -27,7 +31,9 @@
     "latitude": 44.865397,
     "longitude": 15.582012,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://np-plitvicka-jezera.hr/en/"
   },
   {
     "id": "hr-risnjak-national-park",
@@ -37,7 +43,9 @@
     "latitude": 45.418332,
     "longitude": 14.685276,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.np-risnjak.hr/"
   },
   {
     "id": "hr-paklenica-national-park",
@@ -47,7 +55,9 @@
     "latitude": 44.34381,
     "longitude": 15.484047,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.np-paklenica.hr/"
   },
   {
     "id": "hr-northern-velebit-national-park",
@@ -57,7 +67,9 @@
     "latitude": 44.765675,
     "longitude": 14.944074,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://np-sjeverni-velebit.hr/www/en/"
   },
   {
     "id": "hr-national-park-kornati",
@@ -67,7 +79,9 @@
     "latitude": 43.781556,
     "longitude": 15.352288,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.np-kornati.hr/index.php?lang=en"
   },
   {
     "id": "hr-brijuni-national-park",
@@ -77,6 +91,8 @@
     "latitude": 44.914692,
     "longitude": 13.757567,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://np-brijuni.hr/en/home"
   }
 ]

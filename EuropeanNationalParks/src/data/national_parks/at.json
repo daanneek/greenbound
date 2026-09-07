@@ -7,6 +7,8 @@
     "latitude": 47.072024,
     "longitude": 12.667666,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.hohetauern.at/"
   },
   {
@@ -17,6 +19,8 @@
     "latitude": 47.565208,
     "longitude": 14.589113,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://nationalpark-gesaeuse.at/"
   },
   {
@@ -27,6 +31,8 @@
     "latitude": 47.782426,
     "longitude": 14.384326,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.kalkalpen.at/"
   },
   {
@@ -37,6 +43,8 @@
     "latitude": 48.844471,
     "longitude": 15.860063,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.np-thayatal.at/"
   },
   {
@@ -47,6 +55,8 @@
     "latitude": 47.77046,
     "longitude": 16.801729,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.nationalparkneusiedlersee.at/"
   },
   {
@@ -57,6 +67,8 @@
     "latitude": 48.194417,
     "longitude": 16.468985,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": "https://www.donauauen.at/"
   }
 ]

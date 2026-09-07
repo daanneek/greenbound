@@ -7,7 +7,9 @@
     "latitude": 47.949141,
     "longitude": 5.007102,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.forets-parcnational.fr/"
   },
   {
     "id": "fr-cevennes-national-park",
@@ -17,7 +19,9 @@
     "latitude": 44.323307,
     "longitude": 3.593426,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.cevennes-parcnational.fr/"
   },
   {
     "id": "fr-parc-national-des-calanques",
@@ -27,7 +31,9 @@
     "latitude": 43.217839,
     "longitude": 5.443018,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.calanques-parcnational.fr/"
   },
   {
     "id": "fr-parc-national-de-port-cros",
@@ -37,7 +43,9 @@
     "latitude": 43.073926,
     "longitude": 6.384694,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.portcros-parcnational.fr/"
   },
   {
     "id": "fr-parc-national-des-pyrenees",
@@ -47,7 +55,9 @@
     "latitude": 42.872209,
     "longitude": -0.083409,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.pyrenees-parcnational.fr/"
   },
   {
     "id": "fr-parc-national-de-la-vanoise",
@@ -57,7 +67,9 @@
     "latitude": 45.336032,
     "longitude": 6.916217,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.vanoise-parcnational.fr/"
   },
   {
     "id": "fr-parc-national-des-ecrins",
@@ -67,7 +79,9 @@
     "latitude": 44.83879,
     "longitude": 6.262056,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.ecrins-parcnational.fr/"
   },
   {
     "id": "fr-parc-national-du-mercantour",
@@ -77,6 +91,8 @@
     "latitude": 44.163977,
     "longitude": 7.065413,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.mercantour-parcnational.fr/"
   }
 ]

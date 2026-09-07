@@ -7,17 +7,21 @@
     "latitude": 48.888969,
     "longitude": 19.229809,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.napant.sk/"
   },
   {
     "id": "sk-national-park-great-fatra",
-    "name": "National Park Great Fatra",
+    "name": "Muránska Planina National Park",
     "country": "Slovakia",
     "code": "SK",
     "latitude": 48.940048,
     "longitude": 19.087296,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://npvelkafatra.sk/en/"
   },
   {
     "id": "sk-slovak-paradise-national-park",
@@ -27,7 +31,9 @@
     "latitude": 48.919798,
     "longitude": 20.385218,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.npslovenskyraj.sk/"
   },
   {
     "id": "sk-tatra-national-park",
@@ -37,7 +43,9 @@
     "latitude": 49.206546,
     "longitude": 19.933708,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.tanap.org/english/"
   },
   {
     "id": "sk-mala-fatra-national-park",
@@ -47,7 +55,9 @@
     "latitude": 49.251216,
     "longitude": 19.061178,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.npmalafatra.sk/"
   },
   {
     "id": "sk-poloniny-national-park",
@@ -57,7 +67,9 @@
     "latitude": 49.054412,
     "longitude": 22.409885,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.nppoloniny.sk/en/"
   },
   {
     "id": "sk-pieniny-national-park",
@@ -67,7 +79,9 @@
     "latitude": 49.387282,
     "longitude": 20.506103,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.pienap.sk/"
   },
   {
     "id": "sk-muran-plateau-national-park",
@@ -77,7 +91,9 @@
     "latitude": 48.773922,
     "longitude": 20.033931,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.npmuranskaplanina.sk/"
   },
   {
     "id": "sk-slovak-karst-national-park",
@@ -87,6 +103,8 @@
     "latitude": 48.630902,
     "longitude": 20.497618,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.npslovenskykras.sk/"
   }
 ]

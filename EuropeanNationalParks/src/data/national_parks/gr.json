@@ -7,7 +7,9 @@
     "latitude": 41.470074,
     "longitude": 24.478856,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.visitgreece.gr/en/experiences/nature/forests/rhodope-mountain-range-national-park"
   },
   {
     "id": "gr-national-park-of-tzoumerka-peristeri-and-arachthos-gorge",
@@ -17,7 +19,9 @@
     "latitude": 39.48786,
     "longitude": 21.199507,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-the-protected-areas-of-epirus-necca/"
   },
   {
     "id": "gr-mount-olympus-national-park",
@@ -27,7 +31,9 @@
     "latitude": 40.067335,
     "longitude": 22.405305,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-olympus-national-park/"
   },
   {
     "id": "gr-samaria-gorge-national-park",
@@ -37,7 +43,9 @@
     "latitude": 35.291559,
     "longitude": 23.959344,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://necca.gov.gr/mu-samaria"
   },
   {
     "id": "gr-parnassos-national-park",
@@ -47,7 +55,9 @@
     "latitude": 38.529852,
     "longitude": 22.574822,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://onparnassos.gr/en/destination/parnassos-national-park/"
   },
   {
     "id": "gr-national-park-of-parnitha",
@@ -57,6 +67,8 @@
     "latitude": 38.159983,
     "longitude": 23.719479,
     "description": "",
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
     "website": ""
   },
   {
@@ -67,7 +79,9 @@
     "latitude": 38.136667,
     "longitude": 20.671389,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.visitgreece.gr/en/experiences/nature/forests/mt-ainos-national-park"
   },
   {
     "id": "gr-mt-iti-national-park",
@@ -77,7 +91,9 @@
     "latitude": 38.749371,
     "longitude": 22.377024,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.visitgreece.gr/en/experiences/architecture/picturesque-villages/iti-national-park"
   },
   {
     "id": "gr-prespa-national-park",
@@ -87,7 +103,9 @@
     "latitude": 40.7515,
     "longitude": 21.07721,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://visitprespes.gr/en/discover/32/places/191/1-great-prespa"
   },
   {
     "id": "gr-kerkini-lake-national-park",
@@ -97,7 +115,9 @@
     "latitude": 41.259262,
     "longitude": 23.140403,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.experienceserres.gr/en/where-to-go/7/natural-landscapes/21/lake-kerkini-national-park"
   },
   {
     "id": "gr-delta-nestos-national-park",
@@ -107,7 +127,9 @@
     "latitude": 41.00782,
     "longitude": 25.110836,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-the-protected-areas-of-thrace-necca/"
   },
   {
     "id": "gr-pindos-national-park",
@@ -117,7 +139,9 @@
     "latitude": 39.941268,
     "longitude": 20.950858,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.pindosnationalpark.gr/en/"
   },
   {
     "id": "gr-vikos-national-park",
@@ -127,7 +151,9 @@
     "latitude": 39.981161,
     "longitude": 20.75023,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.pindosnationalpark.gr/en/"
   },
   {
     "id": "gr-sounion-national-park",
@@ -137,17 +163,9 @@
     "latitude": 37.715929,
     "longitude": 24.019067,
     "description": "",
-    "website": ""
-  },
-  {
-    "id": "gr-peripheral-zone-of-national-marine-park-of-zakynthos",
-    "name": "Peripheral Zone of National Marine Park of Zakynthos",
-    "country": "Greece",
-    "code": "GR",
-    "latitude": 37.742534,
-    "longitude": 20.912294,
-    "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.visitgreece.gr/en/experiences/nature/forests/sounio-national-park"
   },
   {
     "id": "gr-national-marine-park",
@@ -157,7 +175,9 @@
     "latitude": 39.27052,
     "longitude": 23.979669,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://alonissos.gr/en/marine-park/overview.html?__cf_chl_tk=7T148Ul_.b3nJzKIi.ijClZKDtDLFPemnQQTfvEluHI-1788776704-1.0.1.1-O1zrCNvFnwN0d8qoYkeoL6U.Q.iOA8pBAaNES7Jv3uM"
   },
   {
     "id": "gr-evros-delta-national-park",
@@ -167,7 +187,9 @@
     "latitude": 40.808517,
     "longitude": 26.029567,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-evros-delta-and-dadia-national-parks-and-protected-areas-of-eastern-thrace/"
   },
   {
     "id": "gr-national-forest-park-of-dadia-lefkimi-soufli",
@@ -177,7 +199,9 @@
     "latitude": 41.122558,
     "longitude": 26.227951,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://dadia-np.gr/?lang=en"
   },
   {
     "id": "gr-amvrakikos-wetlands-national-park",
@@ -187,7 +211,9 @@
     "latitude": 39.070434,
     "longitude": 20.838599,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://amvrakikos.eu/park/"
   },
   {
     "id": "gr-axios-delta-national-park",
@@ -197,7 +223,9 @@
     "latitude": 40.529725,
     "longitude": 22.682967,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://axiosdelta.gr/en/national-park/%CF%87%CF%81%CE%AE%CF%83%CE%B9%CE%BC%CE%B5%CF%82-%CF%80%CE%BB%CE%B7%CF%81%CE%BF%CF%86%CE%BF%CF%81%CE%AF%CE%B5%CF%82/"
   },
   {
     "id": "gr-chelmos-national-park",
@@ -207,7 +235,9 @@
     "latitude": 37.98556,
     "longitude": 22.198394,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://www.unesco.org/en/iggp/chelmos-vouraikos-unesco-global-geopark"
   },
   {
     "id": "gr-national-park-of-eastern-macedonia-and-thrace",
@@ -217,7 +247,9 @@
     "latitude": 40.847059,
     "longitude": 24.804057,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://en.fd-nestosvistonis.gr/"
   },
   {
     "id": "gr-national-park-of-lakes-koronia-volvi-and-the-macedonian-tempe",
@@ -227,7 +259,9 @@
     "latitude": 40.656759,
     "longitude": 23.49809,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-koroneia-volvi-kerkini-and-thermaikos-national-parks-and-protected-areas-of-central-macedonia/"
   },
   {
     "id": "gr-kotychi-strofylia-wetlands-national-park",
@@ -237,7 +271,9 @@
     "latitude": 38.145012,
     "longitude": 21.384494,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-kotychi-strofylia-wetlands-national-park-and-protected-areas-of-western-peloponnese/"
   },
   {
     "id": "gr-missolonghi-aitoliko-lagoons",
@@ -247,7 +283,9 @@
     "latitude": 38.3877,
     "longitude": 21.34056,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-messolongi-national-park-and-protected-areas-of-western-central-greece/"
   },
   {
     "id": "gr-schinias-national-park",
@@ -257,6 +295,8 @@
     "latitude": 38.153242,
     "longitude": 24.030961,
     "description": "",
-    "website": ""
+    "sizeInSquareKilometers": "",
+    "nationalParkSince": "",
+    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-parnitha-and-schinias-national-parks-and-protected-areas-of-saronikos-gulf/"
   }
 ]
