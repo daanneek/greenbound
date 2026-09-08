@@ -35,6 +35,12 @@ const EUROPE_BOUNDS = [
 const ALL_WORLD_BOUNDS = [-180, -90, 180, 90];
 
 const MAP_STYLES = {
+  alidade: {
+    label: "Alidade Smooth",
+    attribution:
+      '&copy; <a href="https://stadiamaps.com/attribution/">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    url: "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}.png",
+  },
   osm: {
     label: "OpenStreetMap",
     attribution:
@@ -441,7 +447,7 @@ function App() {
   const [country, setCountry] = useState("All countries");
   const [excludeWar, setExcludeWar] = useState(false);
   const [selectedId, setSelectedId] = useState("si-triglav-national-park");
-  const [mapStyle, setMapStyle] = useState("osm");
+  const [mapStyle, setMapStyle] = useState("alidade");
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [cardExpanded, setCardExpanded] = useState(false);
   const mapRef = useRef(null);
