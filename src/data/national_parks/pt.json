@@ -1,11 +1,11 @@
 {
-    "id":  "pt-parque-nacional-peneda-geres",
-    "name":  "Parque Nacional Peneda-Gerês",
-    "country":  "Portugal",
-    "code":  "PT",
-    "latitude":  41.728217,
-    "longitude":  -8.162632,
-    "sizeInSquareKilometers":  "702.9",
-    "nationalParkSince":  "1971",
-    "website":  "https://natural.pt/protected-areas/parque-nacional-peneda-geres?locale=en"
+  "id": "pt-parque-nacional-peneda-geres",
+  "name": "Parque Nacional Peneda-Gerês",
+  "country": "Portugal",
+  "code": "PT",
+  "latitude": 41.728217,
+  "longitude": -8.162632,
+  "sizeInSquareKilometers": "702.9",
+  "nationalParkSince": "1971",
+  "website": "https://natural.pt/protected-areas/parque-nacional-peneda-geres?locale=en"
 }

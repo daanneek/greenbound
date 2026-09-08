@@ -1,101 +1,101 @@
 [
-    {
-        "id":  "sk-low-tatras-national-park",
-        "name":  "Low Tatras National Park",
-        "country":  "Slovakia",
-        "code":  "SK",
-        "latitude":  48.888969,
-        "longitude":  19.229809,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.napant.sk/"
-    },
-    {
-        "id":  "sk-national-park-great-fatra",
-        "name":  "Muránska Planina National Park",
-        "country":  "Slovakia",
-        "code":  "SK",
-        "latitude":  48.940048,
-        "longitude":  19.087296,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://npvelkafatra.sk/en/"
-    },
-    {
-        "id":  "sk-slovak-paradise-national-park",
-        "name":  "Slovak Paradise National Park",
-        "country":  "Slovakia",
-        "code":  "SK",
-        "latitude":  48.919798,
-        "longitude":  20.385218,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.npslovenskyraj.sk/"
-    },
-    {
-        "id":  "sk-tatra-national-park",
-        "name":  "Tatra National Park",
-        "country":  "Slovakia",
-        "code":  "SK",
-        "latitude":  49.206546,
-        "longitude":  19.933708,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.tanap.org/english/"
-    },
-    {
-        "id":  "sk-mala-fatra-national-park",
-        "name":  "Malá Fatra National Park",
-        "country":  "Slovakia",
-        "code":  "SK",
-        "latitude":  49.251216,
-        "longitude":  19.061178,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.npmalafatra.sk/"
-    },
-    {
-        "id":  "sk-poloniny-national-park",
-        "name":  "Poloniny National Park",
-        "country":  "Slovakia",
-        "code":  "SK",
-        "latitude":  49.054412,
-        "longitude":  22.409885,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.nppoloniny.sk/en/"
-    },
-    {
-        "id":  "sk-pieniny-national-park",
-        "name":  "Pieniny National Park",
-        "country":  "Slovakia",
-        "code":  "SK",
-        "latitude":  49.387282,
-        "longitude":  20.506103,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.pienap.sk/"
-    },
-    {
-        "id":  "sk-muran-plateau-national-park",
-        "name":  "Muran Plateau National Park",
-        "country":  "Slovakia",
-        "code":  "SK",
-        "latitude":  48.773922,
-        "longitude":  20.033931,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.npmuranskaplanina.sk/"
-    },
-    {
-        "id":  "sk-slovak-karst-national-park",
-        "name":  "Slovak Karst National Park",
-        "country":  "Slovakia",
-        "code":  "SK",
-        "latitude":  48.630902,
-        "longitude":  20.497618,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.npslovenskykras.sk/"
-    }
+  {
+    "id": "sk-low-tatras-national-park",
+    "name": "Low Tatras National Park",
+    "country": "Slovakia",
+    "code": "SK",
+    "latitude": 48.888969,
+    "longitude": 19.229809,
+    "sizeInSquareKilometers": 728.42,
+    "nationalParkSince": 1978,
+    "website": "https://www.napant.sk/"
+  },
+  {
+    "id": "sk-national-park-great-fatra",
+    "name": "Veľká Fatra National Park",
+    "country": "Slovakia",
+    "code": "SK",
+    "latitude": 48.940048,
+    "longitude": 19.087296,
+    "sizeInSquareKilometers": 403.71,
+    "nationalParkSince": 2002,
+    "website": "https://npvelkafatra.sk/en/"
+  },
+  {
+    "id": "sk-slovak-paradise-national-park",
+    "name": "Slovak Paradise National Park",
+    "country": "Slovakia",
+    "code": "SK",
+    "latitude": 48.919798,
+    "longitude": 20.385218,
+    "sizeInSquareKilometers": 194.14,
+    "nationalParkSince": 1988,
+    "website": "https://www.npslovenskyraj.sk/"
+  },
+  {
+    "id": "sk-tatra-national-park",
+    "name": "Tatra National Park",
+    "country": "Slovakia",
+    "code": "SK",
+    "latitude": 49.206546,
+    "longitude": 19.933708,
+    "sizeInSquareKilometers": 738.0,
+    "nationalParkSince": 1949,
+    "website": "https://www.tanap.org/english/"
+  },
+  {
+    "id": "sk-mala-fatra-national-park",
+    "name": "Malá Fatra National Park",
+    "country": "Slovakia",
+    "code": "SK",
+    "latitude": 49.251216,
+    "longitude": 19.061178,
+    "sizeInSquareKilometers": 208.35,
+    "nationalParkSince": 1988,
+    "website": "https://www.npmalafatra.sk/"
+  },
+  {
+    "id": "sk-poloniny-national-park",
+    "name": "Poloniny National Park",
+    "country": "Slovakia",
+    "code": "SK",
+    "latitude": 49.054412,
+    "longitude": 22.409885,
+    "sizeInSquareKilometers": 298.05,
+    "nationalParkSince": 1997,
+    "website": "https://www.nppoloniny.sk/en/"
+  },
+  {
+    "id": "sk-pieniny-national-park",
+    "name": "Pieniny National Park",
+    "country": "Slovakia",
+    "code": "SK",
+    "latitude": 49.387282,
+    "longitude": 20.506103,
+    "sizeInSquareKilometers": 37.5,
+    "nationalParkSince": 1967,
+    "website": "https://www.pienap.sk/"
+  },
+  {
+    "id": "sk-muran-plateau-national-park",
+    "name": "Muran Plateau National Park",
+    "country": "Slovakia",
+    "code": "SK",
+    "latitude": 48.773922,
+    "longitude": 20.033931,
+    "sizeInSquareKilometers": 185.16,
+    "nationalParkSince": 1997,
+    "website": "https://www.npmuranskaplanina.sk/"
+  },
+  {
+    "id": "sk-slovak-karst-national-park",
+    "name": "Slovak Karst National Park",
+    "country": "Slovakia",
+    "code": "SK",
+    "latitude": 48.630902,
+    "longitude": 20.497618,
+    "sizeInSquareKilometers": 346.11,
+    "nationalParkSince": 2002,
+    "website": "https://www.npslovenskykras.sk/"
+  }
 ]

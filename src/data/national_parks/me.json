@@ -1,57 +1,57 @@
 [
-    {
-        "id":  "me-durmitor-national-park",
-        "name":  "Durmitor National Park",
-        "country":  "Montenegro",
-        "code":  "ME",
-        "latitude":  43.211703,
-        "longitude":  19.116994,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://nparkovi.me/parks/Durmitor"
-    },
-    {
-        "id":  "me-national-park-prokletije",
-        "name":  "National Park Prokletije",
-        "country":  "Montenegro",
-        "code":  "ME",
-        "latitude":  42.531902,
-        "longitude":  19.913959,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://nparkovi.me/parks/Prokletije"
-    },
-    {
-        "id":  "me-lovcen-national-park",
-        "name":  "Lovćen National Park",
-        "country":  "Montenegro",
-        "code":  "ME",
-        "latitude":  42.397607,
-        "longitude":  18.843266,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://nparkovi.me/parks/Lov%C4%87en"
-    },
-    {
-        "id":  "me-biogradska-gora-national-park",
-        "name":  "Biogradska gora National Park",
-        "country":  "Montenegro",
-        "code":  "ME",
-        "latitude":  42.900708,
-        "longitude":  19.595545,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://nparkovi.me/parks/Biogradska%20Gora"
-    },
-    {
-        "id":  "me-lake-skadar-national-park",
-        "name":  "Lake Skadar National Park",
-        "country":  "Montenegro",
-        "code":  "ME",
-        "latitude":  42.245961,
-        "longitude":  19.090953,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://nparkovi.me/parks/Skadarsko%20Jezero"
-    }
+  {
+    "id": "me-durmitor-national-park",
+    "name": "Durmitor National Park",
+    "country": "Montenegro",
+    "code": "ME",
+    "latitude": 43.211703,
+    "longitude": 19.116994,
+    "sizeInSquareKilometers": 390.0,
+    "nationalParkSince": 1952,
+    "website": "https://nparkovi.me/parks/Durmitor"
+  },
+  {
+    "id": "me-national-park-prokletije",
+    "name": "National Park Prokletije",
+    "country": "Montenegro",
+    "code": "ME",
+    "latitude": 42.531902,
+    "longitude": 19.913959,
+    "sizeInSquareKilometers": 166.3,
+    "nationalParkSince": 2009,
+    "website": "https://nparkovi.me/parks/Prokletije"
+  },
+  {
+    "id": "me-lovcen-national-park",
+    "name": "Lovćen National Park",
+    "country": "Montenegro",
+    "code": "ME",
+    "latitude": 42.397607,
+    "longitude": 18.843266,
+    "sizeInSquareKilometers": 62.2,
+    "nationalParkSince": 1952,
+    "website": "https://nparkovi.me/parks/Lov%C4%87en"
+  },
+  {
+    "id": "me-biogradska-gora-national-park",
+    "name": "Biogradska gora National Park",
+    "country": "Montenegro",
+    "code": "ME",
+    "latitude": 42.900708,
+    "longitude": 19.595545,
+    "sizeInSquareKilometers": 56.5,
+    "nationalParkSince": 1952,
+    "website": "https://nparkovi.me/parks/Biogradska%20Gora"
+  },
+  {
+    "id": "me-lake-skadar-national-park",
+    "name": "Lake Skadar National Park",
+    "country": "Montenegro",
+    "code": "ME",
+    "latitude": 42.245961,
+    "longitude": 19.090953,
+    "sizeInSquareKilometers": 400.0,
+    "nationalParkSince": 1983,
+    "website": "https://nparkovi.me/parks/Skadarsko%20Jezero"
+  }
 ]

@@ -1,11 +1,11 @@
 {
-    "id":  "mt-park-nazzjonali-ta-qali",
-    "name":  "Park Nazzjonali Ta\u0027 Qali",
-    "country":  "Malta",
-    "code":  "MT",
-    "latitude":  35.892409,
-    "longitude":  14.42066,
-    "sizeInSquareKilometers":  "",
-    "nationalParkSince":  "",
-    "website":  "https://maltanationalpark.mt/"
+  "id": "mt-park-nazzjonali-ta-qali",
+  "name": "Park Nazzjonali Ta\u0027 Qali",
+  "country": "Malta",
+  "code": "MT",
+  "latitude": 35.892409,
+  "longitude": 14.42066,
+  "sizeInSquareKilometers": "0.35",
+  "nationalParkSince": "",
+  "website": "https://maltanationalpark.mt/"
 }

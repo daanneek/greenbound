@@ -1,112 +1,112 @@
 [
-    {
-        "id":  "hu-hortobagyi-national-park",
-        "name":  "Hortobágyi National Park",
-        "country":  "Hungary",
-        "code":  "HU",
-        "latitude":  47.522543,
-        "longitude":  21.091579,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.hnp.hu/"
-    },
-    {
-        "id":  "hu-bukki-national-park",
-        "name":  "Bükki National Park",
-        "country":  "Hungary",
-        "code":  "HU",
-        "latitude":  48.055631,
-        "longitude":  20.40379,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.bnpi.hu/"
-    },
-    {
-        "id":  "hu-duna-ipoly-nemzeti-park",
-        "name":  "Duna-Ipoly Nemzeti Park",
-        "country":  "Hungary",
-        "code":  "HU",
-        "latitude":  47.726442,
-        "longitude":  18.908157,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.dunaipoly.hu/"
-    },
-    {
-        "id":  "hu-aggtelek-national-park",
-        "name":  "Aggtelek National Park",
-        "country":  "Hungary",
-        "code":  "HU",
-        "latitude":  48.508027,
-        "longitude":  20.540031,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://anp.hu/"
-    },
-    {
-        "id":  "hu-orseg-national-park",
-        "name":  "Őrség National Park",
-        "country":  "Hungary",
-        "code":  "HU",
-        "latitude":  46.841448,
-        "longitude":  16.417011,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://orseginemzetipark.hu/"
-    },
-    {
-        "id":  "hu-duna-drava-national-park",
-        "name":  "Duna-Dráva National Park",
-        "country":  "Hungary",
-        "code":  "HU",
-        "latitude":  45.939118,
-        "longitude":  18.74886,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://ddnp.hu/en"
-    },
-    {
-        "id":  "hu-kiskunsag-national-park",
-        "name":  "Kiskunság National Park",
-        "country":  "Hungary",
-        "code":  "HU",
-        "latitude":  46.883316,
-        "longitude":  19.400018,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://knp.hu/en"
-    },
-    {
-        "id":  "hu-ferto-hansag-national-park",
-        "name":  "Fertő-Hanság National Park",
-        "country":  "Hungary",
-        "code":  "HU",
-        "latitude":  47.638785,
-        "longitude":  16.863306,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.ferto-hansag.hu/en"
-    },
-    {
-        "id":  "hu-koros-maros-national-park",
-        "name":  "Körös-Maros National Park",
-        "country":  "Hungary",
-        "code":  "HU",
-        "latitude":  46.857487,
-        "longitude":  20.526672,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://kmnp.hu/en/"
-    },
-    {
-        "id":  "hu-balaton-uplands-national-park",
-        "name":  "Balaton Uplands National Park",
-        "country":  "Hungary",
-        "code":  "HU",
-        "latitude":  46.976246,
-        "longitude":  17.928564,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.bfnp.hu/en"
-    }
+  {
+    "id": "hu-hortobagyi-national-park",
+    "name": "Hortobágyi National Park",
+    "country": "Hungary",
+    "code": "HU",
+    "latitude": 47.522543,
+    "longitude": 21.091579,
+    "sizeInSquareKilometers": 800.0,
+    "nationalParkSince": 1973,
+    "website": "https://www.hnp.hu/"
+  },
+  {
+    "id": "hu-bukki-national-park",
+    "name": "Bükki National Park",
+    "country": "Hungary",
+    "code": "HU",
+    "latitude": 48.055631,
+    "longitude": 20.40379,
+    "sizeInSquareKilometers": 431.3,
+    "nationalParkSince": 1977,
+    "website": "https://www.bnpi.hu/"
+  },
+  {
+    "id": "hu-duna-ipoly-nemzeti-park",
+    "name": "Duna-Ipoly Nemzeti Park",
+    "country": "Hungary",
+    "code": "HU",
+    "latitude": 47.726442,
+    "longitude": 18.908157,
+    "sizeInSquareKilometers": 603.14,
+    "nationalParkSince": 1997,
+    "website": "https://www.dunaipoly.hu/"
+  },
+  {
+    "id": "hu-aggtelek-national-park",
+    "name": "Aggtelek National Park",
+    "country": "Hungary",
+    "code": "HU",
+    "latitude": 48.508027,
+    "longitude": 20.540031,
+    "sizeInSquareKilometers": 201.7,
+    "nationalParkSince": 1985,
+    "website": "https://anp.hu/"
+  },
+  {
+    "id": "hu-orseg-national-park",
+    "name": "Őrség National Park",
+    "country": "Hungary",
+    "code": "HU",
+    "latitude": 46.841448,
+    "longitude": 16.417011,
+    "sizeInSquareKilometers": 442.21,
+    "nationalParkSince": 2002,
+    "website": "https://orseginemzetipark.hu/"
+  },
+  {
+    "id": "hu-duna-drava-national-park",
+    "name": "Duna-Dráva National Park",
+    "country": "Hungary",
+    "code": "HU",
+    "latitude": 45.939118,
+    "longitude": 18.74886,
+    "sizeInSquareKilometers": 494.79,
+    "nationalParkSince": 1996,
+    "website": "https://ddnp.hu/en"
+  },
+  {
+    "id": "hu-kiskunsag-national-park",
+    "name": "Kiskunság National Park",
+    "country": "Hungary",
+    "code": "HU",
+    "latitude": 46.883316,
+    "longitude": 19.400018,
+    "sizeInSquareKilometers": 570.0,
+    "nationalParkSince": 1975,
+    "website": "https://knp.hu/en"
+  },
+  {
+    "id": "hu-ferto-hansag-national-park",
+    "name": "Fertő-Hanság National Park",
+    "country": "Hungary",
+    "code": "HU",
+    "latitude": 47.638785,
+    "longitude": 16.863306,
+    "sizeInSquareKilometers": 235.88,
+    "nationalParkSince": 1991,
+    "website": "https://www.ferto-hansag.hu/en"
+  },
+  {
+    "id": "hu-koros-maros-national-park",
+    "name": "Körös-Maros National Park",
+    "country": "Hungary",
+    "code": "HU",
+    "latitude": 46.857487,
+    "longitude": 20.526672,
+    "sizeInSquareKilometers": 511.3,
+    "nationalParkSince": 1997,
+    "website": "https://kmnp.hu/en/"
+  },
+  {
+    "id": "hu-balaton-uplands-national-park",
+    "name": "Balaton Uplands National Park",
+    "country": "Hungary",
+    "code": "HU",
+    "latitude": 46.976246,
+    "longitude": 17.928564,
+    "sizeInSquareKilometers": 569.98,
+    "nationalParkSince": 1997,
+    "website": "https://www.bfnp.hu/en"
+  }
 ]

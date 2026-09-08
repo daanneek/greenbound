@@ -6,9 +6,9 @@
     "code": "IT",
     "latitude": 46.169919,
     "longitude": 12.036645,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 31.03,
+    "nationalParkSince": 1990,
+    "website": "http://dolomitipark.it"
   },
   {
     "id": "it-national-park-of-abruzzo",
@@ -17,9 +17,9 @@
     "code": "IT",
     "latitude": 41.808807,
     "longitude": 13.790082,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 506.83,
+    "nationalParkSince": 1923,
+    "website": "http://parcoabruzzo.it"
   },
   {
     "id": "it-parco-nazionale-gran-paradiso",
@@ -28,9 +28,9 @@
     "code": "IT",
     "latitude": 45.522028,
     "longitude": 7.324484,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 710.4,
+    "nationalParkSince": 1922,
+    "website": "http://pngp.it"
   },
   {
     "id": "it-parco-nazionale-dell-arcipelago-di-la-maddalena",
@@ -39,9 +39,9 @@
     "code": "IT",
     "latitude": 41.23951,
     "longitude": 9.42838,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 201.46,
+    "nationalParkSince": 1994,
+    "website": "http://lamaddalenapark.it"
   },
   {
     "id": "it-parco-nazionale-del-golfo-di-orosei-e-del-gennargentu",
@@ -50,9 +50,9 @@
     "code": "IT",
     "latitude": 40.072866,
     "longitude": 9.385124,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 739.35,
+    "nationalParkSince": 1998,
+    "website": "http://parcogennargentu.it"
   },
   {
     "id": "it-parco-nazionale-dei-monti-sibillini",
@@ -61,9 +61,9 @@
     "code": "IT",
     "latitude": 42.907839,
     "longitude": 13.220183,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 697.22,
+    "nationalParkSince": 1993,
+    "website": "http://sibillini.net"
   },
   {
     "id": "it-stelvio-national-park",
@@ -72,9 +72,9 @@
     "code": "IT",
     "latitude": 46.455632,
     "longitude": 10.533914,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 1307.0,
+    "nationalParkSince": 1935,
+    "website": "http://parcostelvio.it"
   },
   {
     "id": "it-vesuvius-national-park",
@@ -83,9 +83,9 @@
     "code": "IT",
     "latitude": 40.828171,
     "longitude": 14.425853,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 72.59,
+    "nationalParkSince": 1995,
+    "website": "http://parconazionaledelvesuvio.it"
   },
   {
     "id": "it-parco-nazionale-del-cilento-vallo-di-diano-e-alburni",
@@ -94,9 +94,9 @@
     "code": "IT",
     "latitude": 40.288587,
     "longitude": 15.360849,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 1810.48,
+    "nationalParkSince": 1991,
+    "website": "http://cilentoediano.it"
   },
   {
     "id": "it-parco-nazionale-del-pollino",
@@ -105,9 +105,9 @@
     "code": "IT",
     "latitude": 39.94133,
     "longitude": 16.122265,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 1925.65,
+    "nationalParkSince": 1993,
+    "website": "http://parcopollino.gov.it"
   },
   {
     "id": "it-parco-nazionale-del-gargano",
@@ -116,9 +116,9 @@
     "code": "IT",
     "latitude": 41.781708,
     "longitude": 15.851642,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 1181.44,
+    "nationalParkSince": 1991,
+    "website": "http://parcogargano.it"
   },
   {
     "id": "it-parco-nazionale-del-gran-sasso-e-monti-della-laga",
@@ -127,9 +127,9 @@
     "code": "IT",
     "latitude": 42.490648,
     "longitude": 13.497426,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 1413.41,
+    "nationalParkSince": 1991,
+    "website": "http://gransassolagapark.it"
   },
   {
     "id": "it-parco-nazionale-dell-arcipelago-toscano",
@@ -138,9 +138,9 @@
     "code": "IT",
     "latitude": 42.824985,
     "longitude": 10.268673,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 168.56,
+    "nationalParkSince": 1996,
+    "website": "http://islepark.it"
   },
   {
     "id": "it-parco-nazionale-dell-appennino-tosco-emiliano",
@@ -149,9 +149,9 @@
     "code": "IT",
     "latitude": 44.384176,
     "longitude": 10.10312,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 261.49,
+    "nationalParkSince": 2001,
+    "website": "http://parcoappennino.it"
   },
   {
     "id": "it-asinara-national-park",
@@ -160,9 +160,9 @@
     "code": "IT",
     "latitude": 41.064376,
     "longitude": 8.274076,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 51.7,
+    "nationalParkSince": 1997,
+    "website": "http://parcoasinara.org"
   },
   {
     "id": "it-parco-nazionale-delle-cinque-terre",
@@ -171,9 +171,9 @@
     "code": "IT",
     "latitude": 44.128109,
     "longitude": 9.712391,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 38.6,
+    "nationalParkSince": 1999,
+    "website": "http://parconazionale5terre.it"
   },
   {
     "id": "it-aspromonte-national-park",
@@ -182,9 +182,9 @@
     "code": "IT",
     "latitude": 38.163136,
     "longitude": 15.948358,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 641.05,
+    "nationalParkSince": 1989,
+    "website": "http://parcoaspromonte.gov.it"
   },
   {
     "id": "it-sila-national-park",
@@ -193,9 +193,9 @@
     "code": "IT",
     "latitude": 39.276136,
     "longitude": 16.579186,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 736.95,
+    "nationalParkSince": 2002,
+    "website": "http://parcosila.it"
   },
   {
     "id": "it-parco-nazionale-dell-appennino-lucano-val-d-agri-lagonegrese",
@@ -204,9 +204,9 @@
     "code": "IT",
     "latitude": 40.358549,
     "longitude": 15.872586,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 689.96,
+    "nationalParkSince": 2007,
+    "website": "http://parcoappenninolucano.it"
   },
   {
     "id": "it-alta-murgia-national-park",
@@ -215,9 +215,9 @@
     "code": "IT",
     "latitude": 40.999984,
     "longitude": 16.369927,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 680.77,
+    "nationalParkSince": 2004,
+    "website": "http://parcoaltamurgia.gov.it"
   },
   {
     "id": "it-parco-nazionale-della-maiella",
@@ -226,9 +226,9 @@
     "code": "IT",
     "latitude": 42.076274,
     "longitude": 14.089175,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 740.95,
+    "nationalParkSince": 1991,
+    "website": "http://parcomajella.it"
   },
   {
     "id": "it-parco-nazionale-delle-foreste-casentinesi-monte-falterona-e-campigna",
@@ -237,9 +237,9 @@
     "code": "IT",
     "latitude": 43.956885,
     "longitude": 11.735263,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 368.43,
+    "nationalParkSince": 1993,
+    "website": "http://parcoforestecasentinesi.it"
   },
   {
     "id": "it-parco-nazionale-della-val-grande",
@@ -248,9 +248,9 @@
     "code": "IT",
     "latitude": 46.038762,
     "longitude": 8.463083,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 145.98,
+    "nationalParkSince": 1992,
+    "website": "http://parcovalgrande.it"
   },
   {
     "id": "it-parco-nazionale-del-circeo",
@@ -259,9 +259,9 @@
     "code": "IT",
     "latitude": 41.397774,
     "longitude": 12.916487,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 84.4,
+    "nationalParkSince": 1934,
+    "website": "http://parcocirceo.it"
   },
   {
     "id": "it-pantelleria-island-national-park",
@@ -270,8 +270,8 @@
     "code": "IT",
     "latitude": 36.779891,
     "longitude": 12.007364,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": ""
+    "sizeInSquareKilometers": 65.6,
+    "nationalParkSince": 2016,
+    "website": "http://parconazionalepantelleria.it"
   }
 ]

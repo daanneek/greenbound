@@ -1,68 +1,68 @@
 [
-    {
-        "id":  "rs-tara-national-park",
-        "name":  "Tara National Park",
-        "country":  "Serbia",
-        "code":  "RS",
-        "latitude":  43.919046,
-        "longitude":  19.33468,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.nptara.rs/en"
-    },
-    {
-        "id":  "rs-djerdap-national-park",
-        "name":  "Djerdap National Park",
-        "country":  "Serbia",
-        "code":  "RS",
-        "latitude":  44.52896,
-        "longitude":  21.980269,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://npdjerdap.rs/en/"
-    },
-    {
-        "id":  "rs-fruska-gora-national-park",
-        "name":  "Fruška Gora National Park",
-        "country":  "Serbia",
-        "code":  "RS",
-        "latitude":  45.15614,
-        "longitude":  19.744403,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.npfruskagora.co.rs/"
-    },
-    {
-        "id":  "rs-stara-planina-national-park",
-        "name":  "Stara Planina National Park",
-        "country":  "Serbia",
-        "code":  "RS",
-        "latitude":  43.209868,
-        "longitude":  22.678099,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://srbijasume.rs/en/"
-    },
-    {
-        "id":  "rs-kopaonik-national-park",
-        "name":  "Kopaonik National Park",
-        "country":  "Serbia",
-        "code":  "RS",
-        "latitude":  43.276191,
-        "longitude":  20.798512,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://npkopaonik.rs/en/"
-    },
-    {
-        "id":  "rs-kucaj-beljanica-national-park",
-        "name":  "Национални парк Кучај-Бељаница",
-        "country":  "Serbia",
-        "code":  "RS",
-        "latitude":  44.075124,
-        "longitude":  21.735248,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.ekologija.gov.rs/"
-    }
+  {
+    "id": "rs-tara-national-park",
+    "name": "Tara National Park",
+    "country": "Serbia",
+    "code": "RS",
+    "latitude": 43.919046,
+    "longitude": 19.33468,
+    "sizeInSquareKilometers": 249.92,
+    "nationalParkSince": 1981,
+    "website": "https://www.nptara.rs/en"
+  },
+  {
+    "id": "rs-djerdap-national-park",
+    "name": "Djerdap National Park",
+    "country": "Serbia",
+    "code": "RS",
+    "latitude": 44.52896,
+    "longitude": 21.980269,
+    "sizeInSquareKilometers": 637.86,
+    "nationalParkSince": 1974,
+    "website": "https://npdjerdap.rs/en/"
+  },
+  {
+    "id": "rs-fruska-gora-national-park",
+    "name": "Fruška Gora National Park",
+    "country": "Serbia",
+    "code": "RS",
+    "latitude": 45.15614,
+    "longitude": 19.744403,
+    "sizeInSquareKilometers": 266.72,
+    "nationalParkSince": 1960,
+    "website": "https://www.npfruskagora.co.rs/"
+  },
+  {
+    "id": "rs-stara-planina-national-park",
+    "name": "Stara Planina National Park",
+    "country": "Serbia",
+    "code": "RS",
+    "latitude": 43.209868,
+    "longitude": 22.678099,
+    "sizeInSquareKilometers": 1212.88,
+    "nationalParkSince": 2022,
+    "website": "https://srbijasume.rs/en/"
+  },
+  {
+    "id": "rs-kopaonik-national-park",
+    "name": "Kopaonik National Park",
+    "country": "Serbia",
+    "code": "RS",
+    "latitude": 43.276191,
+    "longitude": 20.798512,
+    "sizeInSquareKilometers": 119.69,
+    "nationalParkSince": 1981,
+    "website": "https://npkopaonik.rs/en/"
+  },
+  {
+    "id": "rs-kucaj-beljanica-national-park",
+    "name": "Kučaj-Beljanica National Park",
+    "country": "Serbia",
+    "code": "RS",
+    "latitude": 44.075124,
+    "longitude": 21.735248,
+    "sizeInSquareKilometers": 453.71,
+    "nationalParkSince": 2022,
+    "website": "https://www.ekologija.gov.rs/"
+  }
 ]
