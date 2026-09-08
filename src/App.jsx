@@ -350,7 +350,9 @@ function ParkMarkers({ visibleParks, selectedId, onSelect }) {
       supercluster.load(
         visibleParks
           .filter((park) =>
-            variant === "caution" ? isCountryAtWar(park) : !isCountryAtWar(park),
+            variant === "caution"
+              ? isCountryAtWar(park)
+              : !isCountryAtWar(park),
           )
           .map((park) => ({
             type: "Feature",
@@ -480,7 +482,8 @@ function App() {
     setFiltersOpen(false);
     mapRef.current?.flyTo(
       [park.latitude, park.longitude],
-      Math.max(mapRef.current.getZoom(), 8),
+      // Must exceed the ParkMarkers cluster maxZoom so nearby parks never fly in as a cluster bubble.
+      Math.max(mapRef.current.getZoom(), 11),
       { duration: 0.8 },
     );
   };
@@ -598,7 +601,9 @@ function App() {
             </div>
           </div>
           <div className="map-body">
-            <div className={`map-stage ${selectedPark ? "has-selected-park" : ""}`}>
+            <div
+              className={`map-stage ${selectedPark ? "has-selected-park" : ""}`}
+            >
               <button
                 className="mobile-filters-toggle"
                 onClick={() => setFiltersOpen(true)}
@@ -667,6 +672,20 @@ function App() {
                   </a>
                 )}
                 <div className="park-facts">
+                  <div>
+                    <span>Size</span>
+                    <strong>
+                      {selectedPark.sizeInSquareKilometers?.toString().trim()
+                        ? `${selectedPark.sizeInSquareKilometers} km²`
+                        : "-"}
+                    </strong>
+                  </div>
+                  <div>
+                    <span>National park since</span>
+                    <strong>
+                      {selectedPark.nationalParkSince?.toString().trim() || "-"}
+                    </strong>
+                  </div>
                   <div>
                     <span>Coordinates</span>
                     <strong>

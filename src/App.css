@@ -738,13 +738,17 @@ input::placeholder {
 }
 .park-facts {
   display: flex;
-  gap: 48px;
+  flex-direction: column;
+  gap: 12px;
   margin: 18px 0 15px;
 }
 .park-facts div {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+.park-facts span {
+  flex: 0 0 auto;
 }
 .park-facts span {
   color: var(--muted);
@@ -934,7 +938,7 @@ input::placeholder {
     color: var(--muted);
   }
   .park-facts {
-    gap: 24px;
+    gap: 10px;
   }
   .park-card h2 {
     margin-top: 10px;

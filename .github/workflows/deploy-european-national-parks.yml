@@ -3,9 +3,6 @@ name: Deploy European National Parks
 on:
   push:
     branches: [master]
-    paths:
-      - "EuropeanNationalParks/**"
-      - ".github/workflows/deploy-european-national-parks.yml"
   workflow_dispatch:
 
 permissions:
@@ -29,20 +26,18 @@ jobs:
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: EuropeanNationalParks/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Install dependencies
-        working-directory: EuropeanNationalParks
         run: npm ci
 
       - name: Build site
-        working-directory: EuropeanNationalParks
         run: npm run build
 
       - name: Prepare Pages artifact
         run: |
           mkdir -p _site
-          cp -R EuropeanNationalParks/dist/. _site/
+          cp -R dist/. _site/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
