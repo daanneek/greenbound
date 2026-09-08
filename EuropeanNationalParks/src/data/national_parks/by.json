@@ -1,46 +1,46 @@
 [
-    {
-        "id":  "by-belavezhskaya-pushcha-national-park",
-        "name":  "Belavezhskaya Pushcha National Park",
-        "country":  "Belarus",
-        "code":  "BY",
-        "latitude":  52.56928,
-        "longitude":  23.802966,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://npbp.by/eng/"
-    },
-    {
-        "id":  "by-braslau-lakes-national-park",
-        "name":  "Braslau Lakes National Park",
-        "country":  "Belarus",
-        "code":  "BY",
-        "latitude":  55.644909,
-        "longitude":  27.016575,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://braslavpark.by/en/"
-    },
-    {
-        "id":  "by-prypyatski-national-park",
-        "name":  "Prypyatski National Park",
-        "country":  "Belarus",
-        "code":  "BY",
-        "latitude":  52.139285,
-        "longitude":  26.888713,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://www.belarus.by/en/about-belarus/natural-history/pripyatsky-national-park"
-    },
-    {
-        "id":  "by-narachanski-national-park",
-        "name":  "Narachanski National Park",
-        "country":  "Belarus",
-        "code":  "BY",
-        "latitude":  54.909534,
-        "longitude":  26.706591,
-        "sizeInSquareKilometers":  "",
-        "nationalParkSince":  "",
-        "website":  "https://narochpark.by/?lang=en"
-    }
+  {
+    "id": "by-belavezhskaya-pushcha-national-park",
+    "name": "Belavezhskaya Pushcha National Park",
+    "country": "Belarus",
+    "code": "BY",
+    "latitude": 52.56928,
+    "longitude": 23.802966,
+    "sizeInSquareKilometers": 1500.69,
+    "nationalParkSince": 1991,
+    "website": "https://npbp.by/eng/"
+  },
+  {
+    "id": "by-braslau-lakes-national-park",
+    "name": "Braslau Lakes National Park",
+    "country": "Belarus",
+    "code": "BY",
+    "latitude": 55.644909,
+    "longitude": 27.016575,
+    "sizeInSquareKilometers": 691.15,
+    "nationalParkSince": 1995,
+    "website": "https://braslavpark.by/en/"
+  },
+  {
+    "id": "by-prypyatski-national-park",
+    "name": "Prypyatski National Park",
+    "country": "Belarus",
+    "code": "BY",
+    "latitude": 52.139285,
+    "longitude": 26.888713,
+    "sizeInSquareKilometers": 858.41,
+    "nationalParkSince": 1996,
+    "website": "https://www.belarus.by/en/about-belarus/natural-history/pripyatsky-national-park"
+  },
+  {
+    "id": "by-narachanski-national-park",
+    "name": "Narachanski National Park",
+    "country": "Belarus",
+    "code": "BY",
+    "latitude": 54.909534,
+    "longitude": 26.706591,
+    "sizeInSquareKilometers": 871.35,
+    "nationalParkSince": 1999,
+    "website": "https://narochpark.by/?lang=en"
+  }
 ]
