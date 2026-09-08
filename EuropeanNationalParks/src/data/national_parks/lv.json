@@ -1,50 +1,46 @@
 [
-  {
-    "id": "lv-gauja-national-park",
-    "name": "Gauja National Park",
-    "country": "Latvia",
-    "code": "LV",
-    "latitude": 57.332055,
-    "longitude": 25.212301,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.daba.gov.lv/en/gaujas-nacionalais-parks"
-  },
-  {
-    "id": "lv-raznas-nacionalais-parks",
-    "name": "Rāznas nacionālais parks",
-    "country": "Latvia",
-    "code": "LV",
-    "latitude": 56.267097,
-    "longitude": 27.479025,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.daba.gov.lv/en/razna-national-park"
-  },
-  {
-    "id": "lv-kemeri-national-park",
-    "name": "Ķemeri National Park",
-    "country": "Latvia",
-    "code": "LV",
-    "latitude": 56.952161,
-    "longitude": 23.513171,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.daba.gov.lv/en/kemeri-national-park"
-  },
-  {
-    "id": "lv-slitere-national-park",
-    "name": "Slītere National Park",
-    "country": "Latvia",
-    "code": "LV",
-    "latitude": 57.693578,
-    "longitude": 22.413386,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.daba.gov.lv/en/slitere-national-park"
-  }
+    {
+        "id":  "lv-gauja-national-park",
+        "name":  "Gauja National Park",
+        "country":  "Latvia",
+        "code":  "LV",
+        "latitude":  57.332055,
+        "longitude":  25.212301,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.daba.gov.lv/en/gaujas-nacionalais-parks"
+    },
+    {
+        "id":  "lv-raznas-nacionalais-parks",
+        "name":  "Rāznas nacionālais parks",
+        "country":  "Latvia",
+        "code":  "LV",
+        "latitude":  56.267097,
+        "longitude":  27.479025,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.daba.gov.lv/en/razna-national-park"
+    },
+    {
+        "id":  "lv-kemeri-national-park",
+        "name":  "Ķemeri National Park",
+        "country":  "Latvia",
+        "code":  "LV",
+        "latitude":  56.952161,
+        "longitude":  23.513171,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.daba.gov.lv/en/kemeri-national-park"
+    },
+    {
+        "id":  "lv-slitere-national-park",
+        "name":  "Slītere National Park",
+        "country":  "Latvia",
+        "code":  "LV",
+        "latitude":  57.693578,
+        "longitude":  22.413386,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.daba.gov.lv/en/slitere-national-park"
+    }
 ]

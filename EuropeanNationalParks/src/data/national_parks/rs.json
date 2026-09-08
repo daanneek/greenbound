@@ -1,74 +1,68 @@
 [
-  {
-    "id": "rs-tara-national-park",
-    "name": "Tara National Park",
-    "country": "Serbia",
-    "code": "RS",
-    "latitude": 43.919046,
-    "longitude": 19.33468,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.nptara.rs/en"
-  },
-  {
-    "id": "rs-djerdap-national-park",
-    "name": "Djerdap National Park",
-    "country": "Serbia",
-    "code": "RS",
-    "latitude": 44.52896,
-    "longitude": 21.980269,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://npdjerdap.rs/en/"
-  },
-  {
-    "id": "rs-fruska-gora-national-park",
-    "name": "Fruška Gora National Park",
-    "country": "Serbia",
-    "code": "RS",
-    "latitude": 45.15614,
-    "longitude": 19.744403,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.npfruskagora.co.rs/"
-  },
-  {
-    "id": "rs-stara-planina-national-park",
-    "name": "Stara Planina National Park",
-    "country": "Serbia",
-    "code": "RS",
-    "latitude": 43.209868,
-    "longitude": 22.678099,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://srbijasume.rs/en/"
-  },
-  {
-    "id": "rs-kopaonik-national-park",
-    "name": "Kopaonik National Park",
-    "country": "Serbia",
-    "code": "RS",
-    "latitude": 43.276191,
-    "longitude": 20.798512,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://npkopaonik.rs/en/"
-  },
-  {
-    "id": "rs-kucaj-beljanica-national-park",
-    "name": "Национални парк Кучај-Бељаница",
-    "country": "Serbia",
-    "code": "RS",
-    "latitude": 44.075124,
-    "longitude": 21.735248,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.ekologija.gov.rs/"
-  }
+    {
+        "id":  "rs-tara-national-park",
+        "name":  "Tara National Park",
+        "country":  "Serbia",
+        "code":  "RS",
+        "latitude":  43.919046,
+        "longitude":  19.33468,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.nptara.rs/en"
+    },
+    {
+        "id":  "rs-djerdap-national-park",
+        "name":  "Djerdap National Park",
+        "country":  "Serbia",
+        "code":  "RS",
+        "latitude":  44.52896,
+        "longitude":  21.980269,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://npdjerdap.rs/en/"
+    },
+    {
+        "id":  "rs-fruska-gora-national-park",
+        "name":  "Fruška Gora National Park",
+        "country":  "Serbia",
+        "code":  "RS",
+        "latitude":  45.15614,
+        "longitude":  19.744403,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.npfruskagora.co.rs/"
+    },
+    {
+        "id":  "rs-stara-planina-national-park",
+        "name":  "Stara Planina National Park",
+        "country":  "Serbia",
+        "code":  "RS",
+        "latitude":  43.209868,
+        "longitude":  22.678099,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://srbijasume.rs/en/"
+    },
+    {
+        "id":  "rs-kopaonik-national-park",
+        "name":  "Kopaonik National Park",
+        "country":  "Serbia",
+        "code":  "RS",
+        "latitude":  43.276191,
+        "longitude":  20.798512,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://npkopaonik.rs/en/"
+    },
+    {
+        "id":  "rs-kucaj-beljanica-national-park",
+        "name":  "Национални парк Кучај-Бељаница",
+        "country":  "Serbia",
+        "code":  "RS",
+        "latitude":  44.075124,
+        "longitude":  21.735248,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.ekologija.gov.rs/"
+    }
 ]

@@ -1,86 +1,79 @@
 [
-  {
-    "id": "ie-killarney-national-park",
-    "name": "Killarney National Park",
-    "country": "Ireland",
-    "code": "IE",
-    "latitude": 52.005845,
-    "longitude": -9.55618,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.nationalparks.ie/killarney/"
-  },
-  {
-    "id": "ie-kerry-seas-national-park-pairc-naisiunta-na-mara-ciarrai",
-    "name": "Kerry Seas National Park (Páirc Náisiúnta na Mara, Ciarraí)",
-    "country": "Ireland",
-    "code": "IE",
-    "latitude": 52.275495,
-    "longitude": -10.232042,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.nationalparks.ie/mara-ciarrai/"
-  },
-  {
-    "id": "ie-burren-national-park",
-    "name": "Burren National Park",
-    "country": "Ireland",
-    "code": "IE",
-    "latitude": 52.996828,
-    "longitude": -9.037361,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.nationalparks.ie/burren/"
-  },
-  {
-    "id": "ie-connemara-national-park",
-    "name": "Connemara National Park",
-    "country": "Ireland",
-    "code": "IE",
-    "latitude": 53.540221,
-    "longitude": -9.88298,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.nationalparks.ie/connemara/"
-  },
-  {
-    "id": "ie-wicklow-mountains-national-park",
-    "name": "Wicklow Mountains National Park",
-    "country": "Ireland",
-    "code": "IE",
-    "latitude": 53.14302,
-    "longitude": -6.310922,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.nationalparks.ie/wicklow/"
-  },
-  {
-    "id": "ie-wild-nephin-national-park",
-    "name": "Wild Nephin National Park",
-    "country": "Ireland",
-    "code": "IE",
-    "latitude": 53.984728,
-    "longitude": -9.560848,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.nationalparks.ie/wild-nephin/"
-  },
-  {
-    "id": "ie-glenveagh-national-park",
-    "name": "Glenveagh National Park",
-    "country": "Ireland",
-    "code": "IE",
-    "latitude": 55.057588,
-    "longitude": -7.937687,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.nationalparks.ie/glenveagh/"
-  }
+    {
+        "id":  "ie-killarney-national-park",
+        "name":  "Killarney National Park",
+        "country":  "Ireland",
+        "code":  "IE",
+        "latitude":  52.005845,
+        "longitude":  -9.55618,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.nationalparks.ie/killarney/"
+    },
+    {
+        "id":  "ie-kerry-seas-national-park-pairc-naisiunta-na-mara-ciarrai",
+        "name":  "Kerry Seas National Park (Páirc Náisiúnta na Mara, Ciarraí)",
+        "country":  "Ireland",
+        "code":  "IE",
+        "latitude":  52.275495,
+        "longitude":  -10.232042,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.nationalparks.ie/mara-ciarrai/"
+    },
+    {
+        "id":  "ie-burren-national-park",
+        "name":  "Burren National Park",
+        "country":  "Ireland",
+        "code":  "IE",
+        "latitude":  52.996828,
+        "longitude":  -9.037361,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.nationalparks.ie/burren/"
+    },
+    {
+        "id":  "ie-connemara-national-park",
+        "name":  "Connemara National Park",
+        "country":  "Ireland",
+        "code":  "IE",
+        "latitude":  53.540221,
+        "longitude":  -9.88298,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.nationalparks.ie/connemara/"
+    },
+    {
+        "id":  "ie-wicklow-mountains-national-park",
+        "name":  "Wicklow Mountains National Park",
+        "country":  "Ireland",
+        "code":  "IE",
+        "latitude":  53.14302,
+        "longitude":  -6.310922,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.nationalparks.ie/wicklow/"
+    },
+    {
+        "id":  "ie-wild-nephin-national-park",
+        "name":  "Wild Nephin National Park",
+        "country":  "Ireland",
+        "code":  "IE",
+        "latitude":  53.984728,
+        "longitude":  -9.560848,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.nationalparks.ie/wild-nephin/"
+    },
+    {
+        "id":  "ie-glenveagh-national-park",
+        "name":  "Glenveagh National Park",
+        "country":  "Ireland",
+        "code":  "IE",
+        "latitude":  55.057588,
+        "longitude":  -7.937687,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.nationalparks.ie/glenveagh/"
+    }
 ]

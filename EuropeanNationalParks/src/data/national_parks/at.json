@@ -6,9 +6,8 @@
     "code": "AT",
     "latitude": 47.072024,
     "longitude": 12.667666,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
+    "sizeInSquareKilometers": "1856.00",
+    "nationalParkSince": "1981",
     "website": "https://www.hohetauern.at/"
   },
   {
@@ -18,9 +17,8 @@
     "code": "AT",
     "latitude": 47.565208,
     "longitude": 14.589113,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
+    "sizeInSquareKilometers": "110.54",
+    "nationalParkSince": "2002",
     "website": "https://nationalpark-gesaeuse.at/"
   },
   {
@@ -30,9 +28,8 @@
     "code": "AT",
     "latitude": 47.782426,
     "longitude": 14.384326,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
+    "sizeInSquareKilometers": "208.56",
+    "nationalParkSince": "1997",
     "website": "https://www.kalkalpen.at/"
   },
   {
@@ -42,9 +39,8 @@
     "code": "AT",
     "latitude": 48.844471,
     "longitude": 15.860063,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
+    "sizeInSquareKilometers": "13.30",
+    "nationalParkSince": "2000",
     "website": "https://www.np-thayatal.at/"
   },
   {
@@ -54,9 +50,8 @@
     "code": "AT",
     "latitude": 47.77046,
     "longitude": 16.801729,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
+    "sizeInSquareKilometers": "97.00",
+    "nationalParkSince": "1993",
     "website": "https://www.nationalparkneusiedlersee.at/"
   },
   {
@@ -66,10 +61,8 @@
     "code": "AT",
     "latitude": 48.194417,
     "longitude": 16.468985,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
+    "sizeInSquareKilometers": "96.00",
+    "nationalParkSince": "1996",
     "website": "https://www.donauauen.at/"
   }
 ]
-

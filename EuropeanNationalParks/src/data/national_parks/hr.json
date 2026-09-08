@@ -1,98 +1,90 @@
 [
-  {
-    "id": "hr-krka-national-park",
-    "name": "Krka National Park",
-    "country": "Croatia",
-    "code": "HR",
-    "latitude": 43.866602,
-    "longitude": 15.972484,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://npkrka.hr/en_us/"
-  },
-  {
-    "id": "hr-mljet-national-park",
-    "name": "Mljet National Park",
-    "country": "Croatia",
-    "code": "HR",
-    "latitude": 42.773947,
-    "longitude": 17.408538,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://np-mljet.hr/"
-  },
-  {
-    "id": "hr-plitvice-lakes-national-park",
-    "name": "Plitvice Lakes National Park",
-    "country": "Croatia",
-    "code": "HR",
-    "latitude": 44.865397,
-    "longitude": 15.582012,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://np-plitvicka-jezera.hr/en/"
-  },
-  {
-    "id": "hr-risnjak-national-park",
-    "name": "Risnjak National Park",
-    "country": "Croatia",
-    "code": "HR",
-    "latitude": 45.418332,
-    "longitude": 14.685276,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.np-risnjak.hr/"
-  },
-  {
-    "id": "hr-paklenica-national-park",
-    "name": "Paklenica National Park",
-    "country": "Croatia",
-    "code": "HR",
-    "latitude": 44.34381,
-    "longitude": 15.484047,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.np-paklenica.hr/"
-  },
-  {
-    "id": "hr-northern-velebit-national-park",
-    "name": "Northern Velebit National Park",
-    "country": "Croatia",
-    "code": "HR",
-    "latitude": 44.765675,
-    "longitude": 14.944074,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://np-sjeverni-velebit.hr/www/en/"
-  },
-  {
-    "id": "hr-national-park-kornati",
-    "name": "National Park Kornati",
-    "country": "Croatia",
-    "code": "HR",
-    "latitude": 43.781556,
-    "longitude": 15.352288,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.np-kornati.hr/index.php?lang=en"
-  },
-  {
-    "id": "hr-brijuni-national-park",
-    "name": "Brijuni National Park",
-    "country": "Croatia",
-    "code": "HR",
-    "latitude": 44.914692,
-    "longitude": 13.757567,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://np-brijuni.hr/en/home"
-  }
+    {
+        "id":  "hr-krka-national-park",
+        "name":  "Krka National Park",
+        "country":  "Croatia",
+        "code":  "HR",
+        "latitude":  43.866602,
+        "longitude":  15.972484,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://npkrka.hr/en_us/"
+    },
+    {
+        "id":  "hr-mljet-national-park",
+        "name":  "Mljet National Park",
+        "country":  "Croatia",
+        "code":  "HR",
+        "latitude":  42.773947,
+        "longitude":  17.408538,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://np-mljet.hr/"
+    },
+    {
+        "id":  "hr-plitvice-lakes-national-park",
+        "name":  "Plitvice Lakes National Park",
+        "country":  "Croatia",
+        "code":  "HR",
+        "latitude":  44.865397,
+        "longitude":  15.582012,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://np-plitvicka-jezera.hr/en/"
+    },
+    {
+        "id":  "hr-risnjak-national-park",
+        "name":  "Risnjak National Park",
+        "country":  "Croatia",
+        "code":  "HR",
+        "latitude":  45.418332,
+        "longitude":  14.685276,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.np-risnjak.hr/"
+    },
+    {
+        "id":  "hr-paklenica-national-park",
+        "name":  "Paklenica National Park",
+        "country":  "Croatia",
+        "code":  "HR",
+        "latitude":  44.34381,
+        "longitude":  15.484047,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.np-paklenica.hr/"
+    },
+    {
+        "id":  "hr-northern-velebit-national-park",
+        "name":  "Northern Velebit National Park",
+        "country":  "Croatia",
+        "code":  "HR",
+        "latitude":  44.765675,
+        "longitude":  14.944074,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://np-sjeverni-velebit.hr/www/en/"
+    },
+    {
+        "id":  "hr-national-park-kornati",
+        "name":  "National Park Kornati",
+        "country":  "Croatia",
+        "code":  "HR",
+        "latitude":  43.781556,
+        "longitude":  15.352288,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.np-kornati.hr/index.php?lang=en"
+    },
+    {
+        "id":  "hr-brijuni-national-park",
+        "name":  "Brijuni National Park",
+        "country":  "Croatia",
+        "code":  "HR",
+        "latitude":  44.914692,
+        "longitude":  13.757567,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://np-brijuni.hr/en/home"
+    }
 ]

@@ -1,51 +1,46 @@
 [
-  {
-    "id": "cz-sumava-national-park",
-    "name": "Šumava National Park",
-    "country": "Czechia",
-    "code": "CZ",
-    "latitude": 48.972027,
-    "longitude": 13.633135,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.npsumava.cz/en/"
-  },
-  {
-    "id": "cz-bohemian-switzerland-national-park",
-    "name": "Bohemian Switzerland National Park",
-    "country": "Czechia",
-    "code": "CZ",
-    "latitude": 50.878404,
-    "longitude": 14.374297,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.npcs.cz/en"
-  },
-  {
-    "id": "cz-krkonose-national-park",
-    "name": "Krkonoše National Park",
-    "country": "Czechia",
-    "code": "CZ",
-    "latitude": 50.688949,
-    "longitude": 15.657069,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.krnap.cz/en/"
-  },
-  {
-    "id": "cz-podyji-national-park",
-    "name": "Podyjí National Park",
-    "country": "Czechia",
-    "code": "CZ",
-    "latitude": 48.844812,
-    "longitude": 15.92027,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.nppodyji.cz/"
-  }
+    {
+        "id":  "cz-sumava-national-park",
+        "name":  "Šumava National Park",
+        "country":  "Czechia",
+        "code":  "CZ",
+        "latitude":  48.972027,
+        "longitude":  13.633135,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.npsumava.cz/en/"
+    },
+    {
+        "id":  "cz-bohemian-switzerland-national-park",
+        "name":  "Bohemian Switzerland National Park",
+        "country":  "Czechia",
+        "code":  "CZ",
+        "latitude":  50.878404,
+        "longitude":  14.374297,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.npcs.cz/en"
+    },
+    {
+        "id":  "cz-krkonose-national-park",
+        "name":  "Krkonoše National Park",
+        "country":  "Czechia",
+        "code":  "CZ",
+        "latitude":  50.688949,
+        "longitude":  15.657069,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.krnap.cz/en/"
+    },
+    {
+        "id":  "cz-podyji-national-park",
+        "name":  "Podyjí National Park",
+        "country":  "Czechia",
+        "code":  "CZ",
+        "latitude":  48.844812,
+        "longitude":  15.92027,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.nppodyji.cz/"
+    }
 ]
-

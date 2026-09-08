@@ -1,63 +1,57 @@
 [
-  {
-    "id": "dk-kongernes-nordsj-lland",
-    "name": "Kongernes Nordsjælland",
-    "country": "Denmark",
-    "code": "DK",
-    "latitude": 56.046298,
-    "longitude": 12.377112,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://eng.nationalparkkongernesnordsjaelland.dk/"
-  },
-  {
-    "id": "dk-wadden-sea-national-park",
-    "name": "Wadden Sea National Park",
-    "country": "Denmark",
-    "code": "DK",
-    "latitude": 55.241032,
-    "longitude": 8.497208,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://eng.nationalparkvadehavet.dk/"
-  },
-  {
-    "id": "dk-nationalpark-mols-bjerge",
-    "name": "Nationalpark Mols Bjerge",
-    "country": "Denmark",
-    "code": "DK",
-    "latitude": 56.283449,
-    "longitude": 10.479454,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://eng.nationalparkmolsbjerge.dk/"
-  },
-  {
-    "id": "dk-skjoldungernes-land-national-park",
-    "name": "Skjoldungernes Land National Park",
-    "country": "Denmark",
-    "code": "DK",
-    "latitude": 55.664652,
-    "longitude": 11.998783,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://eng.nationalparkskjoldungernesland.dk/"
-  },
-  {
-    "id": "dk-nationalpark-thy-visitor-centre-stenbjerg-landingsplads",
-    "name": "Nationalpark Thy, visitor centre Stenbjerg Landingsplads",
-    "country": "Denmark",
-    "code": "DK",
-    "latitude": 56.929808,
-    "longitude": 8.33822,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://eng.nationalparkthy.dk/explore-the-national-park/visitor-centers/stenbjerg-landingsplads"
-  }
+    {
+        "id":  "dk-kongernes-nordsj-lland",
+        "name":  "Kongernes Nordsjælland",
+        "country":  "Denmark",
+        "code":  "DK",
+        "latitude":  56.046298,
+        "longitude":  12.377112,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://eng.nationalparkkongernesnordsjaelland.dk/"
+    },
+    {
+        "id":  "dk-wadden-sea-national-park",
+        "name":  "Wadden Sea National Park",
+        "country":  "Denmark",
+        "code":  "DK",
+        "latitude":  55.241032,
+        "longitude":  8.497208,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://eng.nationalparkvadehavet.dk/"
+    },
+    {
+        "id":  "dk-nationalpark-mols-bjerge",
+        "name":  "Nationalpark Mols Bjerge",
+        "country":  "Denmark",
+        "code":  "DK",
+        "latitude":  56.283449,
+        "longitude":  10.479454,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://eng.nationalparkmolsbjerge.dk/"
+    },
+    {
+        "id":  "dk-skjoldungernes-land-national-park",
+        "name":  "Skjoldungernes Land National Park",
+        "country":  "Denmark",
+        "code":  "DK",
+        "latitude":  55.664652,
+        "longitude":  11.998783,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://eng.nationalparkskjoldungernesland.dk/"
+    },
+    {
+        "id":  "dk-nationalpark-thy-visitor-centre-stenbjerg-landingsplads",
+        "name":  "Nationalpark Thy, visitor centre Stenbjerg Landingsplads",
+        "country":  "Denmark",
+        "code":  "DK",
+        "latitude":  56.929808,
+        "longitude":  8.33822,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://eng.nationalparkthy.dk/explore-the-national-park/visitor-centers/stenbjerg-landingsplads"
+    }
 ]
-

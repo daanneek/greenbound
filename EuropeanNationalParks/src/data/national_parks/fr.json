@@ -1,98 +1,90 @@
 [
-  {
-    "id": "fr-parc-national-de-forets",
-    "name": "Parc national de forêts",
-    "country": "France",
-    "code": "FR",
-    "latitude": 47.949141,
-    "longitude": 5.007102,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.forets-parcnational.fr/"
-  },
-  {
-    "id": "fr-cevennes-national-park",
-    "name": "Cévennes National Park",
-    "country": "France",
-    "code": "FR",
-    "latitude": 44.323307,
-    "longitude": 3.593426,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.cevennes-parcnational.fr/"
-  },
-  {
-    "id": "fr-parc-national-des-calanques",
-    "name": "Parc national des Calanques",
-    "country": "France",
-    "code": "FR",
-    "latitude": 43.217839,
-    "longitude": 5.443018,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.calanques-parcnational.fr/"
-  },
-  {
-    "id": "fr-parc-national-de-port-cros",
-    "name": "Parc national de Port-Cros",
-    "country": "France",
-    "code": "FR",
-    "latitude": 43.073926,
-    "longitude": 6.384694,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.portcros-parcnational.fr/"
-  },
-  {
-    "id": "fr-parc-national-des-pyrenees",
-    "name": "Parc national des Pyrénées",
-    "country": "France",
-    "code": "FR",
-    "latitude": 42.872209,
-    "longitude": -0.083409,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.pyrenees-parcnational.fr/"
-  },
-  {
-    "id": "fr-parc-national-de-la-vanoise",
-    "name": "Parc national de la Vanoise",
-    "country": "France",
-    "code": "FR",
-    "latitude": 45.336032,
-    "longitude": 6.916217,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.vanoise-parcnational.fr/"
-  },
-  {
-    "id": "fr-parc-national-des-ecrins",
-    "name": "Parc national des Écrins",
-    "country": "France",
-    "code": "FR",
-    "latitude": 44.83879,
-    "longitude": 6.262056,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.ecrins-parcnational.fr/"
-  },
-  {
-    "id": "fr-parc-national-du-mercantour",
-    "name": "Parc national du Mercantour",
-    "country": "France",
-    "code": "FR",
-    "latitude": 44.163977,
-    "longitude": 7.065413,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.mercantour-parcnational.fr/"
-  }
+    {
+        "id":  "fr-parc-national-de-forets",
+        "name":  "Parc national de forêts",
+        "country":  "France",
+        "code":  "FR",
+        "latitude":  47.949141,
+        "longitude":  5.007102,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.forets-parcnational.fr/"
+    },
+    {
+        "id":  "fr-cevennes-national-park",
+        "name":  "Cévennes National Park",
+        "country":  "France",
+        "code":  "FR",
+        "latitude":  44.323307,
+        "longitude":  3.593426,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.cevennes-parcnational.fr/"
+    },
+    {
+        "id":  "fr-parc-national-des-calanques",
+        "name":  "Parc national des Calanques",
+        "country":  "France",
+        "code":  "FR",
+        "latitude":  43.217839,
+        "longitude":  5.443018,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.calanques-parcnational.fr/"
+    },
+    {
+        "id":  "fr-parc-national-de-port-cros",
+        "name":  "Parc national de Port-Cros",
+        "country":  "France",
+        "code":  "FR",
+        "latitude":  43.073926,
+        "longitude":  6.384694,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.portcros-parcnational.fr/"
+    },
+    {
+        "id":  "fr-parc-national-des-pyrenees",
+        "name":  "Parc national des Pyrénées",
+        "country":  "France",
+        "code":  "FR",
+        "latitude":  42.872209,
+        "longitude":  -0.083409,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.pyrenees-parcnational.fr/"
+    },
+    {
+        "id":  "fr-parc-national-de-la-vanoise",
+        "name":  "Parc national de la Vanoise",
+        "country":  "France",
+        "code":  "FR",
+        "latitude":  45.336032,
+        "longitude":  6.916217,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.vanoise-parcnational.fr/"
+    },
+    {
+        "id":  "fr-parc-national-des-ecrins",
+        "name":  "Parc national des Écrins",
+        "country":  "France",
+        "code":  "FR",
+        "latitude":  44.83879,
+        "longitude":  6.262056,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.ecrins-parcnational.fr/"
+    },
+    {
+        "id":  "fr-parc-national-du-mercantour",
+        "name":  "Parc national du Mercantour",
+        "country":  "France",
+        "code":  "FR",
+        "latitude":  44.163977,
+        "longitude":  7.065413,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.mercantour-parcnational.fr/"
+    }
 ]

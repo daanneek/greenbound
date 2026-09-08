@@ -1,26 +1,24 @@
 [
-  {
-    "id": "xk-sharr-mountain-national-park",
-    "name": "Sharr Mountain National Park",
-    "country": "Kosovo",
-    "code": "XK",
-    "latitude": 42.205408,
-    "longitude": 20.944344,
-    "description": "",
-    "sizeInSquareKilometers": "532.72",
-    "nationalParkSince": "2012",
-    "website": "https://www.sarmountain.org.mk/en"
-  },
-  {
-    "id": "xk-bjeshket-e-nemuna-national-park",
-    "name": "Bjeshkët e Nemuna National Park",
-    "country": "Kosovo",
-    "code": "XK",
-    "latitude": 42.623414,
-    "longitude": 20.187911,
-    "description": "",
-    "sizeInSquareKilometers": "630.28",
-    "nationalParkSince": "2012",
-    "website": "https://www.ammk-rks.net/en/drejtorite/29/drejtoria-parku-kombetar-bjeshket-e-nemuna"
-  }
+    {
+        "id":  "xk-sharr-mountain-national-park",
+        "name":  "Sharr Mountain National Park",
+        "country":  "Kosovo",
+        "code":  "XK",
+        "latitude":  42.205408,
+        "longitude":  20.944344,
+        "sizeInSquareKilometers":  "532.72",
+        "nationalParkSince":  "2012",
+        "website":  "https://www.sarmountain.org.mk/en"
+    },
+    {
+        "id":  "xk-bjeshket-e-nemuna-national-park",
+        "name":  "Bjeshkët e Nemuna National Park",
+        "country":  "Kosovo",
+        "code":  "XK",
+        "latitude":  42.623414,
+        "longitude":  20.187911,
+        "sizeInSquareKilometers":  "630.28",
+        "nationalParkSince":  "2012",
+        "website":  "https://www.ammk-rks.net/en/drejtorite/29/drejtoria-parku-kombetar-bjeshket-e-nemuna"
+    }
 ]

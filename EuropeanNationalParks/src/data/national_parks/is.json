@@ -1,38 +1,35 @@
 [
-  {
-    "id": "is-vatnajokull-national-park",
-    "name": "Vatnajökull National Park",
-    "country": "Iceland",
-    "code": "IS",
-    "latitude": 64.7843,
-    "longitude": -17.209108,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.vatnajokulsthjodgardur.is/en"
-  },
-  {
-    "id": "is-sn-fellsjokull-national-park",
-    "name": "Snæfellsjökull National Park",
-    "country": "Iceland",
-    "code": "IS",
-    "latitude": 64.908341,
-    "longitude": -23.908629,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://snaefellsjokull.is/en"
-  },
-  {
-    "id": "is-thingvellir-national-park",
-    "name": "Thingvellir National Park",
-    "country": "Iceland",
-    "code": "IS",
-    "latitude": 64.282172,
-    "longitude": -21.076449,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.thingvellir.is/en/"
-  }
+    {
+        "id":  "is-vatnajokull-national-park",
+        "name":  "Vatnajökull National Park",
+        "country":  "Iceland",
+        "code":  "IS",
+        "latitude":  64.7843,
+        "longitude":  -17.209108,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.vatnajokulsthjodgardur.is/en"
+    },
+    {
+        "id":  "is-sn-fellsjokull-national-park",
+        "name":  "Snæfellsjökull National Park",
+        "country":  "Iceland",
+        "code":  "IS",
+        "latitude":  64.908341,
+        "longitude":  -23.908629,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://snaefellsjokull.is/en"
+    },
+    {
+        "id":  "is-thingvellir-national-park",
+        "name":  "Thingvellir National Park",
+        "country":  "Iceland",
+        "code":  "IS",
+        "latitude":  64.282172,
+        "longitude":  -21.076449,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.thingvellir.is/en/"
+    }
 ]

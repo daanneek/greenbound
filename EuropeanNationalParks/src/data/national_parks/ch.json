@@ -1,15 +1,11 @@
-[
-  {
-    "id": "ch-swiss-national-park",
-    "name": "Swiss National Park",
-    "country": "Switzerland",
-    "code": "CH",
-    "latitude": 46.666626,
-    "longitude": 10.200026,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://nationalpark.ch/en/"
-  }
-]
-
+{
+    "id":  "ch-swiss-national-park",
+    "name":  "Swiss National Park",
+    "country":  "Switzerland",
+    "code":  "CH",
+    "latitude":  46.666626,
+    "longitude":  10.200026,
+    "sizeInSquareKilometers":  "",
+    "nationalParkSince":  "",
+    "website":  "https://nationalpark.ch/en/"
+}

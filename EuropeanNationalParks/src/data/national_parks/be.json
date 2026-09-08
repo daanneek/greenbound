@@ -6,9 +6,8 @@
     "code": "BE",
     "latitude": 50.992458,
     "longitude": 5.615112,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
+    "sizeInSquareKilometers": 127.42,
+    "nationalParkSince": 2006,
     "website": "https://www.nationaalparkhogekempen.be/"
   },
   {
@@ -18,9 +17,8 @@
     "code": "BE",
     "latitude": 51.162317,
     "longitude": 5.316873,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
+    "sizeInSquareKilometers": 51.37,
+    "nationalParkSince": 2023,
     "website": "https://www.nationaalparkbosland.be/"
   },
   {
@@ -30,9 +28,8 @@
     "code": "BE",
     "latitude": 51.110803,
     "longitude": 4.221458,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
+    "sizeInSquareKilometers": 86.0,
+    "nationalParkSince": 2023,
     "website": "https://www.nationaalparkscheldevallei.be/"
   },
   {
@@ -42,9 +39,8 @@
     "code": "BE",
     "latitude": 50.810863,
     "longitude": 4.662938,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
+    "sizeInSquareKilometers": 100.0,
+    "nationalParkSince": 2023,
     "website": "https://www.brabantsewouden.be/"
   },
   {
@@ -54,9 +50,8 @@
     "code": "BE",
     "latitude": 49.903179,
     "longitude": 5.13373,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
+    "sizeInSquareKilometers": 289.03,
+    "nationalParkSince": 2022,
     "website": "https://www.semois-parcnational.be/en"
   },
   {
@@ -66,9 +61,8 @@
     "code": "BE",
     "latitude": 50.073414,
     "longitude": 4.428946,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
+    "sizeInSquareKilometers": 220.0,
+    "nationalParkSince": 2022,
     "website": "https://www.parc-national-esem.be/en"
   },
   {
@@ -78,9 +72,8 @@
     "code": "BE",
     "latitude": 51.39959,
     "longitude": 4.407619,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
+    "sizeInSquareKilometers": 37.5,
+    "nationalParkSince": 2001,
     "website": "https://grensparkkalmthoutseheide.com"
   }
 ]

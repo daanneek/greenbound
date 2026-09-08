@@ -1,50 +1,46 @@
 [
-  {
-    "id": "mk-mavrovo-national-park",
-    "name": "Mavrovo National Park",
-    "country": "North Macedonia",
-    "code": "MK",
-    "latitude": 41.65959,
-    "longitude": 20.735954,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://npmavrovo.org.mk/en/"
-  },
-  {
-    "id": "mk-sar-mountain-national-park",
-    "name": "Šar Mountain National Park",
-    "country": "North Macedonia",
-    "code": "MK",
-    "latitude": 41.989866,
-    "longitude": 20.884158,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://www.sarmountain.org.mk/en"
-  },
-  {
-    "id": "mk-national-park-galicica",
-    "name": "National Park Galicica",
-    "country": "North Macedonia",
-    "code": "MK",
-    "latitude": 40.967271,
-    "longitude": 20.840078,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://galicica.org.mk/en/"
-  },
-  {
-    "id": "mk-national-park-pelister",
-    "name": "National park Pelister",
-    "country": "North Macedonia",
-    "code": "MK",
-    "latitude": 41.001455,
-    "longitude": 21.212962,
-    "description": "",
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "https://nppelister.mk/en/"
-  }
+    {
+        "id":  "mk-mavrovo-national-park",
+        "name":  "Mavrovo National Park",
+        "country":  "North Macedonia",
+        "code":  "MK",
+        "latitude":  41.65959,
+        "longitude":  20.735954,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://npmavrovo.org.mk/en/"
+    },
+    {
+        "id":  "mk-sar-mountain-national-park",
+        "name":  "Šar Mountain National Park",
+        "country":  "North Macedonia",
+        "code":  "MK",
+        "latitude":  41.989866,
+        "longitude":  20.884158,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://www.sarmountain.org.mk/en"
+    },
+    {
+        "id":  "mk-national-park-galicica",
+        "name":  "National Park Galicica",
+        "country":  "North Macedonia",
+        "code":  "MK",
+        "latitude":  40.967271,
+        "longitude":  20.840078,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://galicica.org.mk/en/"
+    },
+    {
+        "id":  "mk-national-park-pelister",
+        "name":  "National park Pelister",
+        "country":  "North Macedonia",
+        "code":  "MK",
+        "latitude":  41.001455,
+        "longitude":  21.212962,
+        "sizeInSquareKilometers":  "",
+        "nationalParkSince":  "",
+        "website":  "https://nppelister.mk/en/"
+    }
 ]
