@@ -49,7 +49,7 @@ const MAP_STYLES = {
   },
 };
 
-const MARKER_PIN_SVG = `<span class="park-marker__pin"><svg viewBox="0 0 28 36" width="28" height="36" aria-hidden="true" focusable="false"><path class="park-marker__body" d="M14 34.4S25.2 21.1 25.2 13.2C25.2 7 20.2 2 14 2S2.8 7 2.8 13.2C2.8 21.1 14 34.4 14 34.4z"/><circle class="park-marker__core" cx="14" cy="13.1" r="4.3"/></svg></span>`;
+const MARKER_PIN_SVG = `<span class="park-marker__pin"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><circle class="park-marker__glow" cx="12" cy="12" r="10"/><circle class="park-marker__ring" cx="12" cy="12" r="7"/><circle class="park-marker__core" cx="12" cy="12" r="3"/></svg></span>`;
 const markerIconCache = new Map();
 
 const getMarkerIcon = (variant, isSelected) => {
@@ -60,11 +60,11 @@ const getMarkerIcon = (variant, isSelected) => {
       L.divIcon({
         className: `park-marker park-marker--${variant}${isSelected ? " is-selected" : ""}`,
         html: isSelected
-          ? `<span class="park-marker__halo"></span>${MARKER_PIN_SVG}`
+          ? `<span class="park-marker__halo"></span><span class="park-marker__halo park-marker__halo--delay"></span>${MARKER_PIN_SVG}`
           : MARKER_PIN_SVG,
-        iconSize: [28, 36],
-        iconAnchor: [14, 34],
-        popupAnchor: [0, -30],
+        iconSize: [24, 24],
+        iconAnchor: [12, 12],
+        popupAnchor: [0, -14],
       }),
     );
   }
