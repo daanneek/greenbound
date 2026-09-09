@@ -37,6 +37,20 @@ const getNavigationUrl = (park) => {
     : `https://www.google.com/maps/dir/?api=1&destination=${destination}`;
 };
 
+// Visit dates are hand-edited in the JSON; count/latest are derived so there's one source of truth.
+const getSortedVisitDates = (park) =>
+  Array.isArray(park.visitDates) ? [...park.visitDates].sort() : [];
+const getLatestVisitDate = (park) => {
+  const dates = getSortedVisitDates(park);
+  return dates[dates.length - 1];
+};
+const formatVisitDate = (dateString) =>
+  new Date(dateString).toLocaleDateString(undefined, {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  });
+
 const countries = [
   "All countries",
   ...new Set(parks.map((park) => getCountryName(park.country))),
@@ -63,19 +77,23 @@ const MAP_STYLES = {
   },
 };
 
-const MARKER_PIN_SVG = `<span class="park-marker__pin"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><circle class="park-marker__glow" cx="12" cy="12" r="10"/><circle class="park-marker__ring" cx="12" cy="12" r="7"/><circle class="park-marker__core" cx="12" cy="12" r="3"/></svg></span>`;
+const MARKER_CORE_CIRCLE = `<circle class="park-marker__core" cx="12" cy="12" r="3"/>`;
+const MARKER_CORE_CHECK = `<path class="park-marker__check" d="M8 12.5l2.6 2.6L16.5 8.6"/>`;
+const getPinMarkup = (visited) =>
+  `<span class="park-marker__pin"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><circle class="park-marker__glow" cx="12" cy="12" r="10"/><circle class="park-marker__ring" cx="12" cy="12" r="7"/>${visited ? MARKER_CORE_CHECK : MARKER_CORE_CIRCLE}</svg></span>`;
 const markerIconCache = new Map();
 
-const getMarkerIcon = (variant, isSelected) => {
-  const key = `${variant}:${isSelected}`;
+const getMarkerIcon = (variant, isSelected, visited) => {
+  const key = `${variant}:${isSelected}:${visited}`;
   if (!markerIconCache.has(key)) {
+    const pinMarkup = getPinMarkup(visited);
     markerIconCache.set(
       key,
       L.divIcon({
-        className: `park-marker park-marker--${variant}${isSelected ? " is-selected" : ""}`,
+        className: `park-marker park-marker--${variant}${isSelected ? " is-selected" : ""}${visited ? " is-visited" : ""}`,
         html: isSelected
-          ? `<span class="park-marker__halo"></span><span class="park-marker__halo park-marker__halo--delay"></span>${MARKER_PIN_SVG}`
-          : MARKER_PIN_SVG,
+          ? `<span class="park-marker__halo"></span><span class="park-marker__halo park-marker__halo--delay"></span>${pinMarkup}`
+          : pinMarkup,
         iconSize: [24, 24],
         iconAnchor: [12, 12],
         popupAnchor: [0, -14],
@@ -261,7 +279,7 @@ const clusterIconCache = new Map();
 const getClusterIcon = (count, variant) => {
   const key = `${variant}:${count}`;
   if (!clusterIconCache.has(key)) {
-    const size = count < 10 ? 34 : count < 50 ? 42 : 50;
+    const size = count < 10 ? 26 : count < 50 ? 32 : 38;
     clusterIconCache.set(
       key,
       L.divIcon({
@@ -437,6 +455,7 @@ function ParkMarkers({ visibleParks, selectedId, onSelect }) {
         icon={getMarkerIcon(
           isCountryAtWar(park) ? "caution" : "open",
           isSelected,
+          Boolean(park.visited),
         )}
         eventHandlers={{ click: () => onSelect(park.id) }}
       >
@@ -450,10 +469,60 @@ function ParkMarkers({ visibleParks, selectedId, onSelect }) {
   });
 }
 
+function ParkActionLinks({ park }) {
+  const hasCoordinates =
+    Number.isFinite(park.latitude) && Number.isFinite(park.longitude);
+  const actions = [
+    {
+      label: "Info",
+      href: park.website?.trim(),
+      disabledReason: "No website link available",
+    },
+    {
+      label: "Route",
+      href: hasCoordinates ? getNavigationUrl(park) : "",
+      disabledReason: "No coordinates available",
+    },
+    {
+      label: "Video",
+      href: park.youtubeUrl?.trim(),
+      disabledReason: "No video available",
+    },
+  ];
+
+  return (
+    <div className="park-actions">
+      {actions.map(({ label, href, disabledReason }) =>
+        href ? (
+          <a
+            key={label}
+            className="park-website"
+            href={href}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {label} <span aria-hidden="true">↗</span>
+          </a>
+        ) : (
+          <span
+            key={label}
+            className="park-website is-disabled"
+            aria-disabled="true"
+            title={disabledReason}
+          >
+            {label}
+          </span>
+        ),
+      )}
+    </div>
+  );
+}
+
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [country, setCountry] = useState("All countries");
   const [excludeWar, setExcludeWar] = useState(false);
+  const [visitedFilter, setVisitedFilter] = useState("all");
   const [selectedId, setSelectedId] = useState("si-triglav-national-park");
   const [mapStyle, setMapStyle] = useState("osm");
   const [filtersOpen, setFiltersOpen] = useState(false);
@@ -477,10 +546,13 @@ function App() {
           (!normalizedSearch || searchableText.includes(normalizedSearch)) &&
           (country === "All countries" ||
             getCountryName(park.country) === country) &&
-          (!excludeWar || !isCountryAtWar(park))
+          (!excludeWar || !isCountryAtWar(park)) &&
+          (visitedFilter === "all" ||
+            (visitedFilter === "visited" && park.visited) ||
+            (visitedFilter === "unvisited" && !park.visited))
         );
       }),
-    [country, excludeWar, searchTerm],
+    [country, excludeWar, searchTerm, visitedFilter],
   );
   const selectedPark =
     visibleParks.find((park) => park.id === selectedId) ?? visibleParks[0];
@@ -506,6 +578,7 @@ function App() {
     setSearchTerm("");
     setCountry("All countries");
     setExcludeWar(false);
+    setVisitedFilter("all");
   };
 
   return (
@@ -560,6 +633,24 @@ function App() {
               <span>◌</span> Exclude countries at war{" "}
               <b>{excludeWar ? "ON" : "OFF"}</b>
             </button>
+            <div className="segmented-control" role="radiogroup" aria-label="Visited status">
+              {[
+                { value: "all", label: "All" },
+                { value: "visited", label: "Visited" },
+                { value: "unvisited", label: "Unvisited" },
+              ].map(({ value, label }) => (
+                <button
+                  key={value}
+                  type="button"
+                  role="radio"
+                  aria-checked={visitedFilter === value}
+                  className={visitedFilter === value ? "selected" : ""}
+                  onClick={() => setVisitedFilter(value)}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
             <button
               type="button"
               className="reset-filters"
@@ -594,6 +685,11 @@ function App() {
                       <i
                         className={`legend-dot ${isCountryAtWar(park) ? "caution" : "open"}`}
                       />
+                      {park.visited && (
+                        <i className="result-item__visited" aria-hidden="true">
+                          ✓
+                        </i>
+                      )}
                       <span className="result-item__text">
                         <strong>{park.name}</strong>
                         <em>{getCountryName(park.country)}</em>
@@ -681,24 +777,18 @@ function App() {
                   {getCountryName(selectedPark.country)} ·{" "}
                   {selectedPark.terrain || "National park"}
                 </p>
-                {selectedPark.website?.trim() && (
-                  <a
-                    className="park-website"
-                    href={selectedPark.website}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    More info <span aria-hidden="true">↗</span>
-                  </a>
+                {selectedPark.visited && (
+                  <div className="card-visited">
+                    <span className="card-visited__check" aria-hidden="true">
+                      ✓
+                    </span>
+                    Visited {getSortedVisitDates(selectedPark).length}×
+                    <span className="card-visited__date">
+                      Last: {formatVisitDate(getLatestVisitDate(selectedPark))}
+                    </span>
+                  </div>
                 )}
-                <a
-                  className="park-website park-navigation"
-                  href={getNavigationUrl(selectedPark)}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Route to <span aria-hidden="true">↗</span>
-                </a>
+                <ParkActionLinks park={selectedPark} />
                 <div className="park-facts">
                   <div>
                     <span>Size</span>

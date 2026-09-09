@@ -8,7 +8,11 @@
     "longitude": 19.33468,
     "sizeInSquareKilometers": 249.92,
     "nationalParkSince": 1981,
-    "website": "https://www.nptara.rs/en"
+    "website": "https://www.nptara.rs/en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "rs-djerdap-national-park",
@@ -19,7 +23,11 @@
     "longitude": 21.980269,
     "sizeInSquareKilometers": 637.86,
     "nationalParkSince": 1974,
-    "website": "https://npdjerdap.rs/en/"
+    "website": "https://npdjerdap.rs/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "rs-fruska-gora-national-park",
@@ -30,7 +38,11 @@
     "longitude": 19.744403,
     "sizeInSquareKilometers": 266.72,
     "nationalParkSince": 1960,
-    "website": "https://www.npfruskagora.co.rs/"
+    "website": "https://www.npfruskagora.co.rs/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "rs-stara-planina-national-park",
@@ -41,7 +53,11 @@
     "longitude": 22.678099,
     "sizeInSquareKilometers": 1212.88,
     "nationalParkSince": 2022,
-    "website": "https://srbijasume.rs/en/"
+    "website": "https://srbijasume.rs/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "rs-kopaonik-national-park",
@@ -52,7 +68,11 @@
     "longitude": 20.798512,
     "sizeInSquareKilometers": 119.69,
     "nationalParkSince": 1981,
-    "website": "https://npkopaonik.rs/en/"
+    "website": "https://npkopaonik.rs/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "rs-kucaj-beljanica-national-park",
@@ -63,6 +83,10 @@
     "longitude": 21.735248,
     "sizeInSquareKilometers": 453.71,
     "nationalParkSince": 2022,
-    "website": "https://www.ekologija.gov.rs/"
+    "website": "https://www.ekologija.gov.rs/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

@@ -8,7 +8,11 @@
     "longitude": 25.232808,
     "sizeInSquareKilometers": "147.66",
     "nationalParkSince": "1990",
-    "website": "https://www.pcrai.ro/"
+    "website": "https://www.pcrai.ro/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ro-rodnei-mountains-national-park",
@@ -19,7 +23,11 @@
     "longitude": 24.720298,
     "sizeInSquareKilometers": "466",
     "nationalParkSince": "1990",
-    "website": "https://www.parcrodna.ro/"
+    "website": "https://www.parcrodna.ro/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ro-cozia-national-park",
@@ -30,7 +38,11 @@
     "longitude": 24.250706,
     "sizeInSquareKilometers": "171",
     "nationalParkSince": "1966",
-    "website": "https://www.parccozia.ro/"
+    "website": "https://www.parccozia.ro/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ro-retezat-national-park",
@@ -41,7 +53,11 @@
     "longitude": 22.882143,
     "sizeInSquareKilometers": "380.47",
     "nationalParkSince": "2000",
-    "website": "https://www.retezat.ro/"
+    "website": "https://www.retezat.ro/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ro-vatafu-lungulet-national-park",
@@ -52,7 +68,11 @@
     "longitude": 29.560661,
     "sizeInSquareKilometers": "16.25",
     "nationalParkSince": "2000",
-    "website": "https://danubedelta.org/en/vatafu-lungulet/"
+    "website": "https://danubedelta.org/en/vatafu-lungulet/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ro-ceahlau-national-park",
@@ -63,7 +83,11 @@
     "longitude": 25.939533,
     "sizeInSquareKilometers": "83.96",
     "nationalParkSince": "1995",
-    "website": "https://www.ceahlaupark.ro/"
+    "website": "https://www.ceahlaupark.ro/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ro-parcul-national-domogled-valea-cernei",
@@ -74,7 +98,11 @@
     "longitude": 22.429842,
     "sizeInSquareKilometers": "612.11",
     "nationalParkSince": "1990",
-    "website": "https://domogled.ro/en/"
+    "website": "https://domogled.ro/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ro-defileul-jiului-national-park",
@@ -85,7 +113,11 @@
     "longitude": 23.381908,
     "sizeInSquareKilometers": "111.27",
     "nationalParkSince": "2005",
-    "website": "https://www.defileuljiului.ro/"
+    "website": "https://www.defileuljiului.ro/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ro-semenic-cheile-carasului-national-park",
@@ -96,7 +128,11 @@
     "longitude": 21.961281,
     "sizeInSquareKilometers": "366.6",
     "nationalParkSince": "2000",
-    "website": "https://pnscc.ro/en/"
+    "website": "https://pnscc.ro/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ro-cheile-nerei-beusnita-national-park",
@@ -107,7 +143,11 @@
     "longitude": 21.88779,
     "sizeInSquareKilometers": "367.58",
     "nationalParkSince": "1990",
-    "website": "https://www.cheilenereibeusnita.ro/"
+    "website": "https://www.cheilenereibeusnita.ro/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ro-calimani-national-park",
@@ -118,7 +158,11 @@
     "longitude": 25.168317,
     "sizeInSquareKilometers": "245.19",
     "nationalParkSince": "2000",
-    "website": "https://www.calimani.ro/"
+    "website": "https://www.calimani.ro/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ro-buila-vanturarita-national-park",
@@ -129,7 +173,11 @@
     "longitude": 24.094346,
     "sizeInSquareKilometers": "41.9",
     "nationalParkSince": "2004",
-    "website": "https://www.buila.ro/"
+    "website": "https://www.buila.ro/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ro-parcul-national-cheile-bicazului",
@@ -140,7 +188,11 @@
     "longitude": 25.836758,
     "sizeInSquareKilometers": "65.75",
     "nationalParkSince": "1990",
-    "website": "https://www.cheilebicazului-hasmas.ro/"
+    "website": "https://www.cheilebicazului-hasmas.ro/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ro-macin-mountains-national-park",
@@ -151,6 +203,10 @@
     "longitude": 28.203571,
     "sizeInSquareKilometers": "111.52",
     "nationalParkSince": "2000",
-    "website": "https://parcmacin.ro/en/"
+    "website": "https://parcmacin.ro/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

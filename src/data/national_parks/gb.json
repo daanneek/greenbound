@@ -6,9 +6,13 @@
     "code": "GB",
     "latitude": 54.467869,
     "longitude": -3.070425,
-    "sizeInSquareKilometers": 2362.0,
+    "sizeInSquareKilometers": 2362,
     "nationalParkSince": 1951,
-    "website": "https://www.lakedistrict.gov.uk/"
+    "website": "https://www.lakedistrict.gov.uk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gb-northumberland-national-park",
@@ -17,9 +21,13 @@
     "code": "GB",
     "latitude": 55.281444,
     "longitude": -2.226745,
-    "sizeInSquareKilometers": 1049.0,
+    "sizeInSquareKilometers": 1049,
     "nationalParkSince": 1956,
-    "website": "https://www.northumberlandnationalpark.org.uk/"
+    "website": "https://www.northumberlandnationalpark.org.uk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gb-cairngorms-national-park",
@@ -28,20 +36,28 @@
     "code": "GB",
     "latitude": 57.049219,
     "longitude": -3.561566,
-    "sizeInSquareKilometers": 4528.0,
+    "sizeInSquareKilometers": 4528,
     "nationalParkSince": 2003,
-    "website": "https://www.cairngorms.co.uk/"
+    "website": "https://www.cairngorms.co.uk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gb-loch-lomond-and-the-trossachs-national-park",
-    "name": "Loch Lomond \u0026 The Trossachs National Park",
+    "name": "Loch Lomond & The Trossachs National Park",
     "country": "United Kingdom",
     "code": "GB",
     "latitude": 56.010169,
     "longitude": -4.584202,
-    "sizeInSquareKilometers": 1865.0,
+    "sizeInSquareKilometers": 1865,
     "nationalParkSince": 2002,
-    "website": "https://www.lochlomond-trossachs.org/"
+    "website": "https://www.lochlomond-trossachs.org/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gb-eryri-national-park-snowdonia",
@@ -52,7 +68,11 @@
     "longitude": -3.896338,
     "sizeInSquareKilometers": 2131.56,
     "nationalParkSince": 1951,
-    "website": "https://eryri.gov.wales/"
+    "website": "https://eryri.gov.wales/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gb-peak-district-national-park",
@@ -61,9 +81,13 @@
     "code": "GB",
     "latitude": 53.29916,
     "longitude": -1.801692,
-    "sizeInSquareKilometers": 1438.0,
+    "sizeInSquareKilometers": 1438,
     "nationalParkSince": 1951,
-    "website": "https://www.peakdistrict.gov.uk/"
+    "website": "https://www.peakdistrict.gov.uk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gb-yorkshire-dales-national-park",
@@ -72,9 +96,13 @@
     "code": "GB",
     "latitude": 54.26088,
     "longitude": -2.219675,
-    "sizeInSquareKilometers": 2179.0,
+    "sizeInSquareKilometers": 2179,
     "nationalParkSince": 1954,
-    "website": "https://www.yorkshiredales.org.uk/"
+    "website": "https://www.yorkshiredales.org.uk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gb-north-york-moors-national-park",
@@ -83,9 +111,13 @@
     "code": "GB",
     "latitude": 54.374848,
     "longitude": -0.882748,
-    "sizeInSquareKilometers": 1436.0,
+    "sizeInSquareKilometers": 1436,
     "nationalParkSince": 1952,
-    "website": "https://www.northyorkmoors.org.uk/"
+    "website": "https://www.northyorkmoors.org.uk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gb-bannau-brycheiniog-national-park-brecon-beacons",
@@ -94,9 +126,13 @@
     "code": "GB",
     "latitude": 51.863197,
     "longitude": -3.42754,
-    "sizeInSquareKilometers": 1347.0,
+    "sizeInSquareKilometers": 1347,
     "nationalParkSince": 1957,
-    "website": "https://bannaubrycheiniog.org/"
+    "website": "https://bannaubrycheiniog.org/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gb-pembrokeshire-coast-national-park",
@@ -105,9 +141,13 @@
     "code": "GB",
     "latitude": 51.812296,
     "longitude": -5.092491,
-    "sizeInSquareKilometers": 629.0,
+    "sizeInSquareKilometers": 629,
     "nationalParkSince": 1952,
-    "website": "https://www.pembrokeshirecoast.wales/"
+    "website": "https://www.pembrokeshirecoast.wales/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gb-exmoor-national-park",
@@ -116,9 +156,13 @@
     "code": "GB",
     "latitude": 51.134614,
     "longitude": -3.646235,
-    "sizeInSquareKilometers": 692.0,
+    "sizeInSquareKilometers": 692,
     "nationalParkSince": 1954,
-    "website": "https://www.exmoor-nationalpark.gov.uk/"
+    "website": "https://www.exmoor-nationalpark.gov.uk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gb-dartmoor-national-park",
@@ -127,9 +171,13 @@
     "code": "GB",
     "latitude": 50.571886,
     "longitude": -3.920688,
-    "sizeInSquareKilometers": 954.0,
+    "sizeInSquareKilometers": 954,
     "nationalParkSince": 1951,
-    "website": "https://www.dartmoor.gov.uk/"
+    "website": "https://www.dartmoor.gov.uk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gb-south-downs-national-park",
@@ -138,9 +186,13 @@
     "code": "GB",
     "latitude": 50.951794,
     "longitude": -0.663294,
-    "sizeInSquareKilometers": 1627.0,
+    "sizeInSquareKilometers": 1627,
     "nationalParkSince": 2010,
-    "website": "https://www.southdowns.gov.uk/"
+    "website": "https://www.southdowns.gov.uk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gb-new-forest-national-park",
@@ -149,9 +201,13 @@
     "code": "GB",
     "latitude": 50.85715,
     "longitude": -1.593988,
-    "sizeInSquareKilometers": 566.0,
+    "sizeInSquareKilometers": 566,
     "nationalParkSince": 2005,
-    "website": "https://www.newforestnpa.gov.uk/"
+    "website": "https://www.newforestnpa.gov.uk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gb-the-broads-national-park",
@@ -160,8 +216,12 @@
     "code": "GB",
     "latitude": 52.617194,
     "longitude": 1.599426,
-    "sizeInSquareKilometers": 303.0,
+    "sizeInSquareKilometers": 303,
     "nationalParkSince": 1989,
-    "website": "https://www.broads-authority.gov.uk/"
+    "website": "https://www.broads-authority.gov.uk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

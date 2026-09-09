@@ -8,7 +8,11 @@
     "longitude": 23.524767,
     "sizeInSquareKilometers": 810.46,
     "nationalParkSince": 1992,
-    "website": "https://rilanationalpark.bg/en/"
+    "website": "https://rilanationalpark.bg/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "bg-central-balkan-national-park",
@@ -19,7 +23,11 @@
     "longitude": 24.761218,
     "sizeInSquareKilometers": 716.69,
     "nationalParkSince": 1991,
-    "website": "https://visitcentralbalkan.net/"
+    "website": "https://visitcentralbalkan.net/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "bg-pirin-national-park",
@@ -30,6 +38,10 @@
     "longitude": 23.41481,
     "sizeInSquareKilometers": 403.56,
     "nationalParkSince": 1962,
-    "website": "https://www.pirin.bg/"
+    "website": "https://www.pirin.bg/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

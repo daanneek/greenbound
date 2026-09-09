@@ -6,9 +6,13 @@
     "code": "FR",
     "latitude": 47.949141,
     "longitude": 5.007102,
-    "sizeInSquareKilometers": 560.0,
+    "sizeInSquareKilometers": 560,
     "nationalParkSince": 2019,
-    "website": "https://www.forets-parcnational.fr/"
+    "website": "https://www.forets-parcnational.fr/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fr-cevennes-national-park",
@@ -17,9 +21,13 @@
     "code": "FR",
     "latitude": 44.323307,
     "longitude": 3.593426,
-    "sizeInSquareKilometers": 935.0,
+    "sizeInSquareKilometers": 935,
     "nationalParkSince": 1970,
-    "website": "https://www.cevennes-parcnational.fr/"
+    "website": "https://www.cevennes-parcnational.fr/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fr-parc-national-des-calanques",
@@ -28,9 +36,13 @@
     "code": "FR",
     "latitude": 43.217839,
     "longitude": 5.443018,
-    "sizeInSquareKilometers": 85.0,
+    "sizeInSquareKilometers": 85,
     "nationalParkSince": 2012,
-    "website": "https://www.calanques-parcnational.fr/"
+    "website": "https://www.calanques-parcnational.fr/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fr-parc-national-de-port-cros",
@@ -39,9 +51,13 @@
     "code": "FR",
     "latitude": 43.073926,
     "longitude": 6.384694,
-    "sizeInSquareKilometers": 17.0,
+    "sizeInSquareKilometers": 17,
     "nationalParkSince": 1963,
-    "website": "https://www.portcros-parcnational.fr/"
+    "website": "https://www.portcros-parcnational.fr/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fr-parc-national-des-pyrenees",
@@ -50,9 +66,13 @@
     "code": "FR",
     "latitude": 42.872209,
     "longitude": -0.083409,
-    "sizeInSquareKilometers": 457.0,
+    "sizeInSquareKilometers": 457,
     "nationalParkSince": 1967,
-    "website": "https://www.pyrenees-parcnational.fr/"
+    "website": "https://www.pyrenees-parcnational.fr/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fr-parc-national-de-la-vanoise",
@@ -61,9 +81,13 @@
     "code": "FR",
     "latitude": 45.336032,
     "longitude": 6.916217,
-    "sizeInSquareKilometers": 535.0,
+    "sizeInSquareKilometers": 535,
     "nationalParkSince": 1963,
-    "website": "https://www.vanoise-parcnational.fr/"
+    "website": "https://www.vanoise-parcnational.fr/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fr-parc-national-des-ecrins",
@@ -72,9 +96,13 @@
     "code": "FR",
     "latitude": 44.83879,
     "longitude": 6.262056,
-    "sizeInSquareKilometers": 918.0,
+    "sizeInSquareKilometers": 918,
     "nationalParkSince": 1973,
-    "website": "https://www.ecrins-parcnational.fr/"
+    "website": "https://www.ecrins-parcnational.fr/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fr-parc-national-du-mercantour",
@@ -83,8 +111,12 @@
     "code": "FR",
     "latitude": 44.163977,
     "longitude": 7.065413,
-    "sizeInSquareKilometers": 685.0,
+    "sizeInSquareKilometers": 685,
     "nationalParkSince": 1979,
-    "website": "https://www.mercantour-parcnational.fr/"
+    "website": "https://www.mercantour-parcnational.fr/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

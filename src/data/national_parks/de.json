@@ -6,9 +6,13 @@
     "code": "DE",
     "latitude": 50.581538,
     "longitude": 6.423238,
-    "sizeInSquareKilometers": 110.0,
+    "sizeInSquareKilometers": 110,
     "nationalParkSince": 2004,
-    "website": "https://www.nationalpark-eifel.de/en/"
+    "website": "https://www.nationalpark-eifel.de/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "de-nationalpark-schwarzwald",
@@ -19,7 +23,11 @@
     "longitude": 8.226677,
     "sizeInSquareKilometers": 112.67,
     "nationalParkSince": 2014,
-    "website": "https://www.nationalpark-schwarzwald.de/"
+    "website": "https://www.nationalpark-schwarzwald.de/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "de-hunsruck-hochwald-national-park",
@@ -30,7 +38,11 @@
     "longitude": 7.067484,
     "sizeInSquareKilometers": 101.2,
     "nationalParkSince": 2015,
-    "website": "https://www.nlphh.de"
+    "website": "https://www.nlphh.de",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "de-nationalpark-berchtesgaden",
@@ -41,7 +53,11 @@
     "longitude": 12.917668,
     "sizeInSquareKilometers": 208.6,
     "nationalParkSince": 1978,
-    "website": "https://www.nationalpark-berchtesgaden.bayern.de/"
+    "website": "https://www.nationalpark-berchtesgaden.bayern.de/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "de-nationalpark-bayerischer-wald",
@@ -52,7 +68,11 @@
     "longitude": 13.384103,
     "sizeInSquareKilometers": 242.5,
     "nationalParkSince": 1970,
-    "website": "https://www.nationalpark-bayerischer-wald.bayern.de/"
+    "website": "https://www.nationalpark-bayerischer-wald.bayern.de/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "de-saxon-switzerland-national-park",
@@ -63,7 +83,11 @@
     "longitude": 14.281172,
     "sizeInSquareKilometers": 93.5,
     "nationalParkSince": 1990,
-    "website": "https://nationalpark-saechsische-schweiz.de/en"
+    "website": "https://nationalpark-saechsische-schweiz.de/en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "de-harz-national-park",
@@ -74,7 +98,11 @@
     "longitude": 10.523191,
     "sizeInSquareKilometers": 247.03,
     "nationalParkSince": 1990,
-    "website": "https://www.nationalpark-harz.de/en/start/"
+    "website": "https://www.nationalpark-harz.de/en/start/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "de-nationalpark-schleswig-holsteinisches-wattenmeer",
@@ -83,9 +111,13 @@
     "code": "DE",
     "latitude": 54.483774,
     "longitude": 8.446826,
-    "sizeInSquareKilometers": 4410.0,
+    "sizeInSquareKilometers": 4410,
     "nationalParkSince": 1985,
-    "website": "https://www.nationalpark-wattenmeer.de/"
+    "website": "https://www.nationalpark-wattenmeer.de/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "de-hamburgisches-wattenmeer-national-park",
@@ -96,7 +128,11 @@
     "longitude": 8.565494,
     "sizeInSquareKilometers": 13.75,
     "nationalParkSince": 1990,
-    "website": "https://www.nationalpark-wattenmeer.de/hh/"
+    "website": "https://www.nationalpark-wattenmeer.de/hh/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "de-niedersachsisches-wattenmeer-national-park",
@@ -105,9 +141,13 @@
     "code": "DE",
     "latitude": 53.285503,
     "longitude": 7.223732,
-    "sizeInSquareKilometers": 3458.0,
+    "sizeInSquareKilometers": 3458,
     "nationalParkSince": 1986,
-    "website": "https://www.nationalpark-wattenmeer.de/"
+    "website": "https://www.nationalpark-wattenmeer.de/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "de-hainich-national-park",
@@ -116,9 +156,13 @@
     "code": "DE",
     "latitude": 51.084285,
     "longitude": 10.438122,
-    "sizeInSquareKilometers": 75.0,
+    "sizeInSquareKilometers": 75,
     "nationalParkSince": 1997,
-    "website": "https://www.nationalpark-hainich.de/en/index.html"
+    "website": "https://www.nationalpark-hainich.de/en/index.html",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "de-kellerwald-edersee-national-park",
@@ -129,7 +173,11 @@
     "longitude": 8.973736,
     "sizeInSquareKilometers": 76.88,
     "nationalParkSince": 2004,
-    "website": "https://nationalpark-kellerwald-edersee.de"
+    "website": "https://nationalpark-kellerwald-edersee.de",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "de-jasmund-national-park",
@@ -138,9 +186,13 @@
     "code": "DE",
     "latitude": 54.551059,
     "longitude": 13.647866,
-    "sizeInSquareKilometers": 30.0,
+    "sizeInSquareKilometers": 30,
     "nationalParkSince": 1990,
-    "website": "https://www.nationalpark-jasmund.de/en/"
+    "website": "https://www.nationalpark-jasmund.de/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "de-nationalpark-vorpommersche-boddenlandschaft",
@@ -149,9 +201,13 @@
     "code": "DE",
     "latitude": 54.393034,
     "longitude": 12.527522,
-    "sizeInSquareKilometers": 786.0,
+    "sizeInSquareKilometers": 786,
     "nationalParkSince": 1990,
-    "website": "https://www.nationalpark-vorpommersche-boddenlandschaft.de/"
+    "website": "https://www.nationalpark-vorpommersche-boddenlandschaft.de/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "de-unteres-odertal-national-park",
@@ -162,7 +218,11 @@
     "longitude": 14.274666,
     "sizeInSquareKilometers": 103.23,
     "nationalParkSince": 1995,
-    "website": "https://www.nationalpark-unteres-odertal.eu/en/"
+    "website": "https://www.nationalpark-unteres-odertal.eu/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "de-muritz-nationalpark",
@@ -171,8 +231,12 @@
     "code": "DE",
     "latitude": 53.31103,
     "longitude": 13.279927,
-    "sizeInSquareKilometers": 322.0,
+    "sizeInSquareKilometers": 322,
     "nationalParkSince": 1990,
-    "website": "https://www.mueritz-nationalpark.de/"
+    "website": "https://www.mueritz-nationalpark.de/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

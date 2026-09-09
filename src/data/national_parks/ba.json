@@ -2,45 +2,61 @@
   {
     "id": "ba-nacionalni-park-una",
     "name": "Nacionalni park Una",
-    "country": "Bosnia \u0026 Herzegovina",
+    "country": "Bosnia & Herzegovina",
     "code": "BA",
     "latitude": 44.698205,
     "longitude": 16.00647,
     "sizeInSquareKilometers": "350.00",
     "nationalParkSince": "2008",
-    "website": "https://npuna.com/"
+    "website": "https://npuna.com/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ba-sutjeska-national-park",
     "name": "Sutjeska National Park",
-    "country": "Bosnia \u0026 Herzegovina",
+    "country": "Bosnia & Herzegovina",
     "code": "BA",
     "latitude": 43.303744,
     "longitude": 18.694726,
     "sizeInSquareKilometers": "172.00",
     "nationalParkSince": "1962",
-    "website": "https://www.npsutjeska.net/"
+    "website": "https://www.npsutjeska.net/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ba-kozara-national-park",
     "name": "Kozara National Park",
-    "country": "Bosnia \u0026 Herzegovina",
+    "country": "Bosnia & Herzegovina",
     "code": "BA",
     "latitude": 45.014116,
     "longitude": 16.910812,
     "sizeInSquareKilometers": "39.08",
     "nationalParkSince": "1967",
-    "website": "https://npkozara.com/"
+    "website": "https://npkozara.com/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ba-nacionalni-park-drina",
     "name": "Nacionalni Park „Drina“",
-    "country": "Bosnia \u0026 Herzegovina",
+    "country": "Bosnia & Herzegovina",
     "code": "BA",
     "latitude": 43.97103,
     "longitude": 19.532863,
     "sizeInSquareKilometers": "63.15",
     "nationalParkSince": "2017",
-    "website": "https://npdrina.com/"
+    "website": "https://npdrina.com/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

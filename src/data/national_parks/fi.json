@@ -6,9 +6,13 @@
     "code": "FI",
     "latitude": 67.966667,
     "longitude": 24.133333,
-    "sizeInSquareKilometers": 1020.0,
+    "sizeInSquareKilometers": 1020,
     "nationalParkSince": 2005,
-    "website": "https://www.luontoon.fi/en/destinations/pallas-yllastunturi-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/pallas-yllastunturi-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-pyha-luosto-national-park",
@@ -17,9 +21,13 @@
     "code": "FI",
     "latitude": 67.085197,
     "longitude": 26.919739,
-    "sizeInSquareKilometers": 142.0,
+    "sizeInSquareKilometers": 142,
     "nationalParkSince": 2005,
-    "website": "https://www.luontoon.fi/en/destinations/pyha-luosto-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/pyha-luosto-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-oulanka-national-park",
@@ -28,9 +36,13 @@
     "code": "FI",
     "latitude": 66.374572,
     "longitude": 29.322234,
-    "sizeInSquareKilometers": 270.0,
+    "sizeInSquareKilometers": 270,
     "nationalParkSince": 1956,
-    "website": "https://www.luontoon.fi/en/destinations/oulanka-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/oulanka-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-riisitunturi-national-park",
@@ -39,9 +51,13 @@
     "code": "FI",
     "latitude": 66.2157,
     "longitude": 28.586278,
-    "sizeInSquareKilometers": 77.0,
+    "sizeInSquareKilometers": 77,
     "nationalParkSince": 1982,
-    "website": "https://www.luontoon.fi/en/destinations/riisitunturi-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/riisitunturi-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-koli-national-park",
@@ -50,9 +66,13 @@
     "code": "FI",
     "latitude": 63.096858,
     "longitude": 29.806231,
-    "sizeInSquareKilometers": 30.0,
+    "sizeInSquareKilometers": 30,
     "nationalParkSince": 1991,
-    "website": "https://www.luontoon.fi/en/destinations/koli-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/koli-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-nuuksio-national-park",
@@ -61,9 +81,13 @@
     "code": "FI",
     "latitude": 60.292729,
     "longitude": 24.556511,
-    "sizeInSquareKilometers": 55.0,
+    "sizeInSquareKilometers": 55,
     "nationalParkSince": 1994,
-    "website": "https://www.luontoon.fi/en/destinations/nuuksio-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/nuuksio-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-repovesi-national-park",
@@ -72,9 +96,13 @@
     "code": "FI",
     "latitude": 61.187995,
     "longitude": 26.902364,
-    "sizeInSquareKilometers": 15.0,
+    "sizeInSquareKilometers": 15,
     "nationalParkSince": 2003,
-    "website": "https://www.luontoon.fi/en/destinations/repovesi-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/repovesi-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-urho-kekkonen-national-park",
@@ -83,9 +111,13 @@
     "code": "FI",
     "latitude": 68.166667,
     "longitude": 28.25,
-    "sizeInSquareKilometers": 2550.0,
+    "sizeInSquareKilometers": 2550,
     "nationalParkSince": 1983,
-    "website": "https://www.luontoon.fi/en/destinations/urho-kekkonen-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/urho-kekkonen-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-archipelago-national-park",
@@ -94,9 +126,13 @@
     "code": "FI",
     "latitude": 59.93454,
     "longitude": 21.811538,
-    "sizeInSquareKilometers": 500.0,
+    "sizeInSquareKilometers": 500,
     "nationalParkSince": 1983,
-    "website": "https://www.luontoon.fi/en/destinations/archipelago-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/archipelago-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-sipoonkorpi-national-park",
@@ -105,9 +141,13 @@
     "code": "FI",
     "latitude": 60.31165,
     "longitude": 25.161534,
-    "sizeInSquareKilometers": 23.0,
+    "sizeInSquareKilometers": 23,
     "nationalParkSince": 2011,
-    "website": "https://www.luontoon.fi/en/destinations/sipoonkorpi-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/sipoonkorpi-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-teijo-national-park",
@@ -116,9 +156,13 @@
     "code": "FI",
     "latitude": 60.209994,
     "longitude": 22.937817,
-    "sizeInSquareKilometers": 34.0,
+    "sizeInSquareKilometers": 34,
     "nationalParkSince": 2015,
-    "website": "https://www.luontoon.fi/en/destinations/teijo-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/teijo-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-perameri-national-park",
@@ -129,7 +173,11 @@
     "longitude": 24.319009,
     "sizeInSquareKilometers": 15.7,
     "nationalParkSince": 1991,
-    "website": "https://www.luontoon.fi/en/destinations/bothnian-bay-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/bothnian-bay-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-selkameri-national-park-pori",
@@ -138,9 +186,13 @@
     "code": "FI",
     "latitude": 61.535468,
     "longitude": 21.564002,
-    "sizeInSquareKilometers": 913.0,
+    "sizeInSquareKilometers": 913,
     "nationalParkSince": 2011,
-    "website": "https://www.luontoon.fi/en/destinations/bothnian-sea-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/bothnian-sea-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-eastern-gulf-of-finland-national-park",
@@ -151,7 +203,11 @@
     "longitude": 27.456857,
     "sizeInSquareKilometers": 6.7,
     "nationalParkSince": 1982,
-    "website": "https://www.luontoon.fi/en/destinations/gulf-of-finland-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/gulf-of-finland-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-ekenas-archipelago-national-park",
@@ -160,9 +216,13 @@
     "code": "FI",
     "latitude": 59.872806,
     "longitude": 23.397055,
-    "sizeInSquareKilometers": 52.0,
+    "sizeInSquareKilometers": 52,
     "nationalParkSince": 1989,
-    "website": "https://www.luontoon.fi/en/destinations/ekenas-archipelago-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/ekenas-archipelago-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-helvetinjarvi-national-park",
@@ -173,7 +233,11 @@
     "longitude": 23.84635,
     "sizeInSquareKilometers": 49.8,
     "nationalParkSince": 1982,
-    "website": "https://www.luontoon.fi/en/destinations/helvetinjarvi-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/helvetinjarvi-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-hiidenportti-national-park",
@@ -182,9 +246,13 @@
     "code": "FI",
     "latitude": 63.902086,
     "longitude": 28.984853,
-    "sizeInSquareKilometers": 30.0,
+    "sizeInSquareKilometers": 30,
     "nationalParkSince": 1982,
-    "website": "https://www.luontoon.fi/en/destinations/hiidenportti-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/hiidenportti-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-hossa-national-park",
@@ -193,9 +261,13 @@
     "code": "FI",
     "latitude": 65.467649,
     "longitude": 29.518354,
-    "sizeInSquareKilometers": 110.0,
+    "sizeInSquareKilometers": 110,
     "nationalParkSince": 2017,
-    "website": "https://www.luontoon.fi/en/destinations/hossa-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/hossa-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-isojarvi-national-park",
@@ -204,9 +276,13 @@
     "code": "FI",
     "latitude": 61.690591,
     "longitude": 25.002154,
-    "sizeInSquareKilometers": 22.0,
+    "sizeInSquareKilometers": 22,
     "nationalParkSince": 1982,
-    "website": "https://www.luontoon.fi/en/destinations/isojarvi-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/isojarvi-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-kauhaneva-pohjankangas-national-park",
@@ -215,9 +291,13 @@
     "code": "FI",
     "latitude": 62.239574,
     "longitude": 22.323431,
-    "sizeInSquareKilometers": 57.0,
+    "sizeInSquareKilometers": 57,
     "nationalParkSince": 1982,
-    "website": "https://www.luontoon.fi/en/destinations/kauhaneva-pohjankangas-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/kauhaneva-pohjankangas-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-kolovesi-national-park",
@@ -226,9 +306,13 @@
     "code": "FI",
     "latitude": 62.252307,
     "longitude": 28.81853,
-    "sizeInSquareKilometers": 60.0,
+    "sizeInSquareKilometers": 60,
     "nationalParkSince": 1990,
-    "website": "https://www.luontoon.fi/en/destinations/kolovesi-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/kolovesi-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-kurjenrahka-national-park",
@@ -237,9 +321,13 @@
     "code": "FI",
     "latitude": 60.739957,
     "longitude": 22.41303,
-    "sizeInSquareKilometers": 29.0,
+    "sizeInSquareKilometers": 29,
     "nationalParkSince": 1998,
-    "website": "https://www.luontoon.fi/en/destinations/kurjenrahka-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/kurjenrahka-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-lauhanvuori-national-park",
@@ -248,9 +336,13 @@
     "code": "FI",
     "latitude": 62.152116,
     "longitude": 22.175126,
-    "sizeInSquareKilometers": 53.0,
+    "sizeInSquareKilometers": 53,
     "nationalParkSince": 1982,
-    "website": "https://www.luontoon.fi/en/destinations/lauhanvuori-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/lauhanvuori-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "fi-leivonmaki-national-park",
@@ -259,8 +351,12 @@
     "code": "FI",
     "latitude": 61.934819,
     "longitude": 25.97981,
-    "sizeInSquareKilometers": 30.0,
+    "sizeInSquareKilometers": 30,
     "nationalParkSince": 2003,
-    "website": "https://www.luontoon.fi/en/destinations/leivonmaki-national-park"
+    "website": "https://www.luontoon.fi/en/destinations/leivonmaki-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

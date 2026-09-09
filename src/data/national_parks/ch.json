@@ -7,5 +7,9 @@
   "longitude": 10.200026,
   "sizeInSquareKilometers": 170.3,
   "nationalParkSince": 1914,
-  "website": "https://nationalpark.ch/en/"
+  "website": "https://nationalpark.ch/en/",
+  "youtubeUrl": "",
+  "gpxAvailable": false,
+  "visited": false,
+  "visitDates": []
 }

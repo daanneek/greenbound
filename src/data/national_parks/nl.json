@@ -6,9 +6,13 @@
     "code": "NL",
     "latitude": 51.751135,
     "longitude": 4.796987,
-    "sizeInSquareKilometers": 71.0,
+    "sizeInSquareKilometers": 71,
     "nationalParkSince": 1994,
-    "website": "https://np-debiesbosch.nl"
+    "website": "https://np-debiesbosch.nl",
+    "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "gpxAvailable": true,
+    "visited": true,
+    "visitDates": ["2022-08-14", "2023-07-02"]
   },
   {
     "id": "nl-oosterschelde-national-park",
@@ -17,9 +21,13 @@
     "code": "NL",
     "latitude": 51.569722,
     "longitude": 3.94863,
-    "sizeInSquareKilometers": 370.0,
+    "sizeInSquareKilometers": 370,
     "nationalParkSince": 2002,
-    "website": "https://www.np-oosterschelde.nl"
+    "website": "https://www.np-oosterschelde.nl",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-nationaal-park-duinen-van-texel",
@@ -28,9 +36,13 @@
     "code": "NL",
     "latitude": 53.075229,
     "longitude": 4.743342,
-    "sizeInSquareKilometers": 43.0,
+    "sizeInSquareKilometers": 43,
     "nationalParkSince": 2002,
-    "website": "https://www.npduinenvantexel.nl"
+    "website": "https://www.npduinenvantexel.nl",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-het-nationale-park-de-hoge-veluwe",
@@ -39,9 +51,13 @@
     "code": "NL",
     "latitude": 52.078716,
     "longitude": 5.832489,
-    "sizeInSquareKilometers": 54.0,
+    "sizeInSquareKilometers": 54,
     "nationalParkSince": 1935,
-    "website": "https://hogeveluwe.nl"
+    "website": "https://hogeveluwe.nl",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-nationaal-park-veluwezoom",
@@ -50,9 +66,13 @@
     "code": "NL",
     "latitude": 52.04831,
     "longitude": 6.019887,
-    "sizeInSquareKilometers": 50.0,
+    "sizeInSquareKilometers": 50,
     "nationalParkSince": 1930,
-    "website": "https://www.natuurmonumenten.nl/natuurgebieden/nationaal-park-veluwezoom"
+    "website": "https://www.natuurmonumenten.nl/natuurgebieden/nationaal-park-veluwezoom",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-nationaal-park-weerribben-wieden",
@@ -61,9 +81,13 @@
     "code": "NL",
     "latitude": 52.725612,
     "longitude": 6.028254,
-    "sizeInSquareKilometers": 105.0,
+    "sizeInSquareKilometers": 105,
     "nationalParkSince": 1992,
-    "website": "https://www.visitweerribbenwieden.com"
+    "website": "https://www.visitweerribbenwieden.com",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-nationaal-park-de-maasduinen",
@@ -72,9 +96,13 @@
     "code": "NL",
     "latitude": 51.583111,
     "longitude": 6.09851,
-    "sizeInSquareKilometers": 42.0,
+    "sizeInSquareKilometers": 42,
     "nationalParkSince": 1996,
-    "website": "https://www.natuurparkenlimburg.nl/np/de-maasduinen"
+    "website": "https://www.natuurparkenlimburg.nl/np/de-maasduinen",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-meinweg-national-park",
@@ -83,9 +111,13 @@
     "code": "NL",
     "latitude": 51.156074,
     "longitude": 6.084749,
-    "sizeInSquareKilometers": 17.0,
+    "sizeInSquareKilometers": 17,
     "nationalParkSince": 1995,
-    "website": "https://natuurparkenlimburg.nl"
+    "website": "https://natuurparkenlimburg.nl",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-zuid-kennemerland-national-park",
@@ -94,9 +126,13 @@
     "code": "NL",
     "latitude": 52.396055,
     "longitude": 4.592128,
-    "sizeInSquareKilometers": 38.0,
+    "sizeInSquareKilometers": 38,
     "nationalParkSince": 1995,
-    "website": "https://www.np-zuidkennemerland.nl"
+    "website": "https://www.np-zuidkennemerland.nl",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-the-loonse-and-drunense-duinen-national-park",
@@ -105,9 +141,13 @@
     "code": "NL",
     "latitude": 51.653375,
     "longitude": 5.131833,
-    "sizeInSquareKilometers": 34.0,
+    "sizeInSquareKilometers": 34,
     "nationalParkSince": 2002,
-    "website": "https://www.natuurmonumenten.nl/natuurgebieden/loonse-en-drunense-duinen"
+    "website": "https://www.natuurmonumenten.nl/natuurgebieden/loonse-en-drunense-duinen",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-drents-friese-wold-national-park",
@@ -116,9 +156,13 @@
     "code": "NL",
     "latitude": 52.880008,
     "longitude": 6.310443,
-    "sizeInSquareKilometers": 61.0,
+    "sizeInSquareKilometers": 61,
     "nationalParkSince": 2000,
-    "website": "https://www.nationaalpark-drents-friese-wold.nl"
+    "website": "https://www.nationaalpark-drents-friese-wold.nl",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-utrechtse-heuvelrug-national-park",
@@ -127,9 +171,13 @@
     "code": "NL",
     "latitude": 52.049531,
     "longitude": 5.353988,
-    "sizeInSquareKilometers": 100.0,
+    "sizeInSquareKilometers": 100,
     "nationalParkSince": 2003,
-    "website": "https://www.np-utrechtseheuvelrug.nl"
+    "website": "https://www.np-utrechtseheuvelrug.nl",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-nationaal-park-drentsche-aa",
@@ -138,9 +186,13 @@
     "code": "NL",
     "latitude": 53.037593,
     "longitude": 6.650157,
-    "sizeInSquareKilometers": 106.0,
+    "sizeInSquareKilometers": 106,
     "nationalParkSince": 2002,
-    "website": "https://www.drentscheaa.nl"
+    "website": "https://www.drentscheaa.nl",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-de-alde-feanen-national-park",
@@ -149,9 +201,13 @@
     "code": "NL",
     "latitude": 53.129715,
     "longitude": 5.93798,
-    "sizeInSquareKilometers": 40.0,
+    "sizeInSquareKilometers": 40,
     "nationalParkSince": 2006,
-    "website": "https://www.np-aldefeanen.nl"
+    "website": "https://www.np-aldefeanen.nl",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-dwingelderveld-national-park",
@@ -160,9 +216,13 @@
     "code": "NL",
     "latitude": 52.808598,
     "longitude": 6.409263,
-    "sizeInSquareKilometers": 37.0,
+    "sizeInSquareKilometers": 37,
     "nationalParkSince": 1991,
-    "website": "https://www.nationaalpark-dwingelderveld.nl"
+    "website": "https://www.nationaalpark-dwingelderveld.nl",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-sallandse-heuvelrug",
@@ -173,7 +233,11 @@
     "longitude": 6.418445,
     "sizeInSquareKilometers": 27.4,
     "nationalParkSince": 2004,
-    "website": "https://www.sallandseheuvelrug.nl"
+    "website": "https://www.sallandseheuvelrug.nl",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-national-park-lauwersmeer",
@@ -182,9 +246,13 @@
     "code": "NL",
     "latitude": 53.380174,
     "longitude": 6.187712,
-    "sizeInSquareKilometers": 60.0,
+    "sizeInSquareKilometers": 60,
     "nationalParkSince": 2003,
-    "website": "https://www.np-lauwersmeer.nl"
+    "website": "https://www.np-lauwersmeer.nl",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-schiermonnikoog-national-park",
@@ -193,9 +261,13 @@
     "code": "NL",
     "latitude": 53.477416,
     "longitude": 6.161458,
-    "sizeInSquareKilometers": 54.0,
+    "sizeInSquareKilometers": 54,
     "nationalParkSince": 1989,
-    "website": "https://www.np-schiermonnikoog.nl/nl"
+    "website": "https://www.np-schiermonnikoog.nl/nl",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-de-groote-peel-national-park",
@@ -206,7 +278,11 @@
     "longitude": 5.817371,
     "sizeInSquareKilometers": 13.4,
     "nationalParkSince": 1993,
-    "website": "https://npdepeel.nl/nl"
+    "website": "https://npdepeel.nl/nl",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "nl-van-gogh-national-park",
@@ -215,8 +291,13 @@
     "code": "NL",
     "latitude": 51.580988,
     "longitude": 5.187157,
-    "sizeInSquareKilometers": 1200.0,
+    "sizeInSquareKilometers": 1200,
     "nationalParkSince": 2024,
-    "website": "https://www.vangoghnationalpark.com/nl/homepage"
+    "website": "https://www.vangoghnationalpark.com/nl/homepage",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]
+

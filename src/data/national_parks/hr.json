@@ -6,9 +6,13 @@
     "code": "HR",
     "latitude": 43.866602,
     "longitude": 15.972484,
-    "sizeInSquareKilometers": 109.0,
+    "sizeInSquareKilometers": 109,
     "nationalParkSince": 1985,
-    "website": "https://npkrka.hr/en_us/"
+    "website": "https://npkrka.hr/en_us/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "hr-mljet-national-park",
@@ -19,7 +23,11 @@
     "longitude": 17.408538,
     "sizeInSquareKilometers": 53.75,
     "nationalParkSince": 1960,
-    "website": "https://np-mljet.hr/"
+    "website": "https://np-mljet.hr/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "hr-plitvice-lakes-national-park",
@@ -30,7 +38,11 @@
     "longitude": 15.582012,
     "sizeInSquareKilometers": 296.85,
     "nationalParkSince": 1949,
-    "website": "https://np-plitvicka-jezera.hr/en/"
+    "website": "https://np-plitvicka-jezera.hr/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "hr-risnjak-national-park",
@@ -41,7 +53,11 @@
     "longitude": 14.685276,
     "sizeInSquareKilometers": 63.5,
     "nationalParkSince": 1953,
-    "website": "https://www.np-risnjak.hr/"
+    "website": "https://www.np-risnjak.hr/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "hr-paklenica-national-park",
@@ -50,9 +66,13 @@
     "code": "HR",
     "latitude": 44.34381,
     "longitude": 15.484047,
-    "sizeInSquareKilometers": 95.0,
+    "sizeInSquareKilometers": 95,
     "nationalParkSince": 1949,
-    "website": "https://www.np-paklenica.hr/"
+    "website": "https://www.np-paklenica.hr/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "hr-northern-velebit-national-park",
@@ -61,9 +81,13 @@
     "code": "HR",
     "latitude": 44.765675,
     "longitude": 14.944074,
-    "sizeInSquareKilometers": 109.0,
+    "sizeInSquareKilometers": 109,
     "nationalParkSince": 1999,
-    "website": "https://np-sjeverni-velebit.hr/www/en/"
+    "website": "https://np-sjeverni-velebit.hr/www/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "hr-national-park-kornati",
@@ -72,9 +96,13 @@
     "code": "HR",
     "latitude": 43.781556,
     "longitude": 15.352288,
-    "sizeInSquareKilometers": 217.0,
+    "sizeInSquareKilometers": 217,
     "nationalParkSince": 1980,
-    "website": "https://www.np-kornati.hr/index.php?lang=en"
+    "website": "https://www.np-kornati.hr/index.php?lang=en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "hr-brijuni-national-park",
@@ -85,6 +113,10 @@
     "longitude": 13.757567,
     "sizeInSquareKilometers": 33.9,
     "nationalParkSince": 1983,
-    "website": "https://np-brijuni.hr/en/home"
+    "website": "https://np-brijuni.hr/en/home",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

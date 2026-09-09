@@ -8,7 +8,11 @@
     "longitude": -9.55618,
     "sizeInSquareKilometers": 102.89,
     "nationalParkSince": 1932,
-    "website": "https://www.nationalparks.ie/killarney/"
+    "website": "https://www.nationalparks.ie/killarney/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ie-kerry-seas-national-park-pairc-naisiunta-na-mara-ciarrai",
@@ -19,7 +23,11 @@
     "longitude": -10.232042,
     "sizeInSquareKilometers": 283.28,
     "nationalParkSince": 2024,
-    "website": "https://www.nationalparks.ie/mara-ciarrai/"
+    "website": "https://www.nationalparks.ie/mara-ciarrai/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ie-burren-national-park",
@@ -28,9 +36,13 @@
     "code": "IE",
     "latitude": 52.996828,
     "longitude": -9.037361,
-    "sizeInSquareKilometers": 15.0,
+    "sizeInSquareKilometers": 15,
     "nationalParkSince": 1991,
-    "website": "https://www.nationalparks.ie/burren/"
+    "website": "https://www.nationalparks.ie/burren/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ie-connemara-national-park",
@@ -39,9 +51,13 @@
     "code": "IE",
     "latitude": 53.540221,
     "longitude": -9.88298,
-    "sizeInSquareKilometers": 20.0,
+    "sizeInSquareKilometers": 20,
     "nationalParkSince": 1980,
-    "website": "https://www.nationalparks.ie/connemara/"
+    "website": "https://www.nationalparks.ie/connemara/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ie-wicklow-mountains-national-park",
@@ -50,9 +66,13 @@
     "code": "IE",
     "latitude": 53.14302,
     "longitude": -6.310922,
-    "sizeInSquareKilometers": 230.0,
+    "sizeInSquareKilometers": 230,
     "nationalParkSince": 1991,
-    "website": "https://www.nationalparks.ie/wicklow/"
+    "website": "https://www.nationalparks.ie/wicklow/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ie-wild-nephin-national-park",
@@ -61,9 +81,13 @@
     "code": "IE",
     "latitude": 53.984728,
     "longitude": -9.560848,
-    "sizeInSquareKilometers": 150.0,
+    "sizeInSquareKilometers": 150,
     "nationalParkSince": 1998,
-    "website": "https://www.nationalparks.ie/wild-nephin/"
+    "website": "https://www.nationalparks.ie/wild-nephin/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ie-glenveagh-national-park",
@@ -74,6 +98,10 @@
     "longitude": -7.937687,
     "sizeInSquareKilometers": 154.84,
     "nationalParkSince": 1984,
-    "website": "https://www.nationalparks.ie/glenveagh/"
+    "website": "https://www.nationalparks.ie/glenveagh/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

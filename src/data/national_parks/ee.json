@@ -8,7 +8,11 @@
     "longitude": 25.781019,
     "sizeInSquareKilometers": 747.84,
     "nationalParkSince": 1971,
-    "website": "https://visitlahemaa.com/en/"
+    "website": "https://visitlahemaa.com/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ee-matsalu-national-park",
@@ -19,7 +23,11 @@
     "longitude": 23.48276,
     "sizeInSquareKilometers": 486.1,
     "nationalParkSince": 2004,
-    "website": "https://visitmatsalu.ee/en/"
+    "website": "https://visitmatsalu.ee/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ee-vilsandi-national-park",
@@ -30,7 +38,11 @@
     "longitude": 21.856905,
     "sizeInSquareKilometers": 238.9,
     "nationalParkSince": 1993,
-    "website": "https://vilsandinationalpark.com/"
+    "website": "https://vilsandinationalpark.com/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ee-karula-national-park",
@@ -41,7 +53,11 @@
     "longitude": 26.491525,
     "sizeInSquareKilometers": 123.64,
     "nationalParkSince": 1993,
-    "website": "https://rmk.ee/en/exploring-nature/where-to-go/karula-national-park-visitor-center/"
+    "website": "https://rmk.ee/en/exploring-nature/where-to-go/karula-national-park-visitor-center/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ee-soomaa-national-park",
@@ -52,7 +68,11 @@
     "longitude": 24.982437,
     "sizeInSquareKilometers": 398.44,
     "nationalParkSince": 1993,
-    "website": "https://soomaa.com/"
+    "website": "https://soomaa.com/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "ee-alutaguse-national-park",
@@ -63,6 +83,10 @@
     "longitude": 27.457945,
     "sizeInSquareKilometers": 443.31,
     "nationalParkSince": 2018,
-    "website": "https://kaitsealad.ee/en/protected-areas/alutaguse-national-park"
+    "website": "https://kaitsealad.ee/en/protected-areas/alutaguse-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

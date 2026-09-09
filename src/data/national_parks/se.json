@@ -6,9 +6,13 @@
     "code": "SE",
     "latitude": 67.283333,
     "longitude": 17.7,
-    "sizeInSquareKilometers": 1970.0,
+    "sizeInSquareKilometers": 1970,
     "nationalParkSince": 1909,
-    "website": "https://www.sverigesnationalparker.se/en/parks/sarek-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/sarek-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-padjelanta-national-park",
@@ -17,9 +21,13 @@
     "code": "SE",
     "latitude": 67.373681,
     "longitude": 16.713291,
-    "sizeInSquareKilometers": 1984.0,
+    "sizeInSquareKilometers": 1984,
     "nationalParkSince": 1962,
-    "website": "https://www.sverigesnationalparker.se/en/parks/padjelantabadjelannda-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/padjelantabadjelannda-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-stora-sjofallets-stuor-muorkke-national-park",
@@ -28,9 +36,13 @@
     "code": "SE",
     "latitude": 67.560248,
     "longitude": 18.037654,
-    "sizeInSquareKilometers": 1278.0,
+    "sizeInSquareKilometers": 1278,
     "nationalParkSince": 1909,
-    "website": "https://www.sverigesnationalparker.se/en/parks/stora-sjofalletstuor-muorkke-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/stora-sjofalletstuor-muorkke-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-abisko-national-park",
@@ -39,9 +51,13 @@
     "code": "SE",
     "latitude": 68.318766,
     "longitude": 18.685017,
-    "sizeInSquareKilometers": 77.0,
+    "sizeInSquareKilometers": 77,
     "nationalParkSince": 1909,
-    "website": "https://www.sverigesnationalparker.se/en/parks/abisko-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/abisko-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-gotska-sandon-national-park",
@@ -52,7 +68,11 @@
     "longitude": 19.217702,
     "sizeInSquareKilometers": 36.5,
     "nationalParkSince": 1909,
-    "website": "https://www.sverigesnationalparker.se/en/parks/gotska-sandon-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/gotska-sandon-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-tyresta-national-park-and-nature-reserve",
@@ -63,7 +83,11 @@
     "longitude": 18.281183,
     "sizeInSquareKilometers": 19.6,
     "nationalParkSince": 1993,
-    "website": "https://www.sverigesnationalparker.se/en/parks/tyresta-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/tyresta-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-fulufjallet-national-park",
@@ -72,9 +96,13 @@
     "code": "SE",
     "latitude": 61.54729,
     "longitude": 12.752978,
-    "sizeInSquareKilometers": 385.0,
+    "sizeInSquareKilometers": 385,
     "nationalParkSince": 2002,
-    "website": "https://www.sverigesnationalparker.se/en/parks/fulufjallet-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/fulufjallet-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-sonfjallet-national-park",
@@ -83,9 +111,13 @@
     "code": "SE",
     "latitude": 62.3,
     "longitude": 13.583333,
-    "sizeInSquareKilometers": 104.0,
+    "sizeInSquareKilometers": 104,
     "nationalParkSince": 1909,
-    "website": "https://www.sverigesnationalparker.se/en/parks/sonfjallet-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/sonfjallet-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-vadvetjakka-national-park",
@@ -96,7 +128,11 @@
     "longitude": 18.434521,
     "sizeInSquareKilometers": 26.3,
     "nationalParkSince": 1920,
-    "website": "https://www.sverigesnationalparker.se/en/parks/vadvetjakka-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/vadvetjakka-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-muddus-national-park",
@@ -105,9 +141,13 @@
     "code": "SE",
     "latitude": 66.929677,
     "longitude": 20.220481,
-    "sizeInSquareKilometers": 493.0,
+    "sizeInSquareKilometers": 493,
     "nationalParkSince": 1942,
-    "website": "https://www.sverigesnationalparker.se/en/parks/muddusmuttos-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/muddusmuttos-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-tiveden-national-park",
@@ -116,9 +156,13 @@
     "code": "SE",
     "latitude": 58.717109,
     "longitude": 14.606503,
-    "sizeInSquareKilometers": 34.0,
+    "sizeInSquareKilometers": 34,
     "nationalParkSince": 1983,
-    "website": "https://www.sverigesnationalparker.se/en/parks/tiveden-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/tiveden-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-stenshuvud-s-national-park",
@@ -129,7 +173,11 @@
     "longitude": 14.268711,
     "sizeInSquareKilometers": 3.9,
     "nationalParkSince": 1986,
-    "website": "https://www.sverigesnationalparker.se/en/parks/stenshuvud-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/stenshuvud-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-angso-national-park",
@@ -140,7 +188,11 @@
     "longitude": 18.760807,
     "sizeInSquareKilometers": 1.68,
     "nationalParkSince": 1909,
-    "website": "https://www.sverigesnationalparker.se/en/parks/angso-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/angso-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-asnens-nationalpark",
@@ -151,7 +203,11 @@
     "longitude": 14.65,
     "sizeInSquareKilometers": 18.7,
     "nationalParkSince": 2018,
-    "website": "https://www.sverigesnationalparker.se/en/parks/asnen-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/asnen-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-bjornlandets-nationalpark",
@@ -162,7 +218,11 @@
     "longitude": 18.055395,
     "sizeInSquareKilometers": 23.6,
     "nationalParkSince": 1991,
-    "website": "https://www.sverigesnationalparker.se/en/parks/bjornlandet-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/bjornlandet-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-bla-jungfrun-nationalpark",
@@ -173,7 +233,11 @@
     "longitude": 16.793733,
     "sizeInSquareKilometers": 1.98,
     "nationalParkSince": 1909,
-    "website": "https://www.sverigesnationalparker.se/en/parks/bla-jungfrun-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/bla-jungfrun-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-dalby-soderskog-national-park",
@@ -184,7 +248,11 @@
     "longitude": 13.33023,
     "sizeInSquareKilometers": 0.36,
     "nationalParkSince": 1918,
-    "website": "https://www.sverigesnationalparker.se/en/parks/dalby-soderskog-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/dalby-soderskog-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-djuro-national-park",
@@ -193,9 +261,13 @@
     "code": "SE",
     "latitude": 58.86413,
     "longitude": 13.468351,
-    "sizeInSquareKilometers": 24.0,
+    "sizeInSquareKilometers": 24,
     "nationalParkSince": 1991,
-    "website": "https://www.sverigesnationalparker.se/en/parks/djuro-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/djuro-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-farnebofjarden-national-park",
@@ -204,9 +276,13 @@
     "code": "SE",
     "latitude": 60.269924,
     "longitude": 16.908702,
-    "sizeInSquareKilometers": 101.0,
+    "sizeInSquareKilometers": 101,
     "nationalParkSince": 1998,
-    "website": "https://www.sverigesnationalparker.se/en/parks/farnebofjarden-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/farnebofjarden-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-garphyttans-nationalpark",
@@ -217,7 +293,11 @@
     "longitude": 14.883403,
     "sizeInSquareKilometers": 1.11,
     "nationalParkSince": 1909,
-    "website": "https://www.sverigesnationalparker.se/en/parks/garphyttan-national-park"
+    "website": "https://www.sverigesnationalparker.se/en/parks/garphyttan-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "se-hamra-national-park",
@@ -228,6 +308,10 @@
     "longitude": 14.757578,
     "sizeInSquareKilometers": 13.8,
     "nationalParkSince": 1909,
-    "website": "https://sverigesnationalparker.se"
+    "website": "https://sverigesnationalparker.se",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

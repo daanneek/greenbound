@@ -8,7 +8,11 @@
     "longitude": 7.044121,
     "sizeInSquareKilometers": "1314",
     "nationalParkSince": "1991",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/jostedalsbreen/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/jostedalsbreen/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-jotunheimen-national-park",
@@ -19,7 +23,11 @@
     "longitude": 8.484206,
     "sizeInSquareKilometers": "1151",
     "nationalParkSince": "1980",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/jotunheimen/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/jotunheimen/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-lofotodden-nasjonalpark",
@@ -30,7 +38,11 @@
     "longitude": 12.97056,
     "sizeInSquareKilometers": "99",
     "nationalParkSince": "2018",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/lofotodden/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/lofotodden/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-anderdalen-national-park",
@@ -41,7 +53,11 @@
     "longitude": 17.248183,
     "sizeInSquareKilometers": "134",
     "nationalParkSince": "1970",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/anderdalen/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/anderdalen/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-vre-dividal-national-park",
@@ -52,7 +68,11 @@
     "longitude": 19.961287,
     "sizeInSquareKilometers": "280",
     "nationalParkSince": "1971",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/ovre-dividal/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/ovre-dividal/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-rago-national-park",
@@ -63,7 +83,11 @@
     "longitude": 16.005676,
     "sizeInSquareKilometers": "171",
     "nationalParkSince": "1971",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/rago/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/rago/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-sjunkhatten-national-park",
@@ -74,7 +98,11 @@
     "longitude": 15.174707,
     "sizeInSquareKilometers": "417",
     "nationalParkSince": "2009",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/sjunkhatten/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/sjunkhatten/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-saltfjellet-svartisen-national-park",
@@ -85,7 +113,11 @@
     "longitude": 14.538544,
     "sizeInSquareKilometers": "1850",
     "nationalParkSince": "1989",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/saltfjellet-svartisen/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/saltfjellet-svartisen/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-hardangervidda-national-park",
@@ -96,7 +128,11 @@
     "longitude": 7.443046,
     "sizeInSquareKilometers": "3445",
     "nationalParkSince": "1981",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/hardangervidda/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/hardangervidda/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-folgefonna-national-park",
@@ -107,7 +143,11 @@
     "longitude": 6.297915,
     "sizeInSquareKilometers": "545",
     "nationalParkSince": "2005",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/folgefonna/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/folgefonna/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-rondane-national-park",
@@ -118,7 +158,11 @@
     "longitude": 9.788881,
     "sizeInSquareKilometers": "986.5",
     "nationalParkSince": "1962",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/rondane/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/rondane/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-varanger-national-park",
@@ -129,7 +173,11 @@
     "longitude": 29.928262,
     "sizeInSquareKilometers": "1804",
     "nationalParkSince": "2006",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/varangerhalvoya/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/varangerhalvoya/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-reisa-national-park",
@@ -140,7 +188,11 @@
     "longitude": 21.717378,
     "sizeInSquareKilometers": "803",
     "nationalParkSince": "1986",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/reisa/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/reisa/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-raet-national-park",
@@ -151,7 +203,11 @@
     "longitude": 8.856276,
     "sizeInSquareKilometers": "607",
     "nationalParkSince": "2016",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/raet/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/raet/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-jomfruland-national-park",
@@ -162,7 +218,11 @@
     "longitude": 9.606327,
     "sizeInSquareKilometers": "117",
     "nationalParkSince": "2016",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/jomfruland/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/jomfruland/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-f-rder-national-park",
@@ -173,7 +233,11 @@
     "longitude": 10.406694,
     "sizeInSquareKilometers": "340",
     "nationalParkSince": "2013",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/faerder/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/faerder/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-ytre-hvaler-national-park",
@@ -184,7 +248,11 @@
     "longitude": 10.857879,
     "sizeInSquareKilometers": "354",
     "nationalParkSince": "2009",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/ytre-hvaler/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/ytre-hvaler/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-hallingskarvet-national-park",
@@ -195,7 +263,11 @@
     "longitude": 7.7378,
     "sizeInSquareKilometers": "450",
     "nationalParkSince": "2006",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/hallingskarvet/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/hallingskarvet/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-langsua-national-park",
@@ -206,7 +278,11 @@
     "longitude": 9.814675,
     "sizeInSquareKilometers": "537",
     "nationalParkSince": "2011",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/langsua/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/langsua/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-breheimen-national-park",
@@ -217,7 +293,11 @@
     "longitude": 7.858495,
     "sizeInSquareKilometers": "1691",
     "nationalParkSince": "2009",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/breheimen/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/breheimen/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-gutulia-nasjonalpark",
@@ -228,7 +308,11 @@
     "longitude": 12.133649,
     "sizeInSquareKilometers": "23",
     "nationalParkSince": "1968",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/gutulia/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/gutulia/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-femundsmarka-national-park",
@@ -239,7 +323,11 @@
     "longitude": 12.151693,
     "sizeInSquareKilometers": "573",
     "nationalParkSince": "1971",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/femundsmarka/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/femundsmarka/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-dovre-national-park",
@@ -250,7 +338,11 @@
     "longitude": 9.642129,
     "sizeInSquareKilometers": "289",
     "nationalParkSince": "2003",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/dovre/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/dovre/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-reinheimen-national-park",
@@ -261,7 +353,11 @@
     "longitude": 7.866649,
     "sizeInSquareKilometers": "1969",
     "nationalParkSince": "2006",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/reinheimen/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/reinheimen/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-dovrefjell-sunndalsfjella-national-park",
@@ -272,7 +368,11 @@
     "longitude": 9.545706,
     "sizeInSquareKilometers": "1830",
     "nationalParkSince": "2002",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/dovrefjell-sunndalsfjella/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/dovrefjell-sunndalsfjella/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-forollhogna-national-park",
@@ -283,7 +383,11 @@
     "longitude": 10.704803,
     "sizeInSquareKilometers": "1059",
     "nationalParkSince": "2001",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/forollhogna/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/forollhogna/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-skarvan-and-roltdalen-national-park",
@@ -294,7 +398,11 @@
     "longitude": 11.517244,
     "sizeInSquareKilometers": "441",
     "nationalParkSince": "2004",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/skarvan-og-roltdalen/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/skarvan-og-roltdalen/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-blafjella-skj-kerfjella-nasjonalpark",
@@ -305,7 +413,11 @@
     "longitude": 12.478409,
     "sizeInSquareKilometers": "1931",
     "nationalParkSince": "2004",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/blafjella-skjakerfjella/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/blafjella-skjakerfjella/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-lierne-nasjonalpark-lijren-vaarjelimmiedajve",
@@ -316,7 +428,11 @@
     "longitude": 13.967084,
     "sizeInSquareKilometers": "333",
     "nationalParkSince": "2004",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/lierne/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/lierne/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-b-rgefjell-byrkije-nasjonalpark",
@@ -327,7 +443,11 @@
     "longitude": 13.946758,
     "sizeInSquareKilometers": "1447",
     "nationalParkSince": "1963",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/borgefjell/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/borgefjell/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-lomsdal-visten-national-park",
@@ -338,7 +458,11 @@
     "longitude": 12.9728,
     "sizeInSquareKilometers": "1102",
     "nationalParkSince": "2009",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/lomsdal-visten/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/lomsdal-visten/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-lahko-national-park",
@@ -349,7 +473,11 @@
     "longitude": 14.269809,
     "sizeInSquareKilometers": "188",
     "nationalParkSince": "2012",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/lahko/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/lahko/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-junkerdal-national-park",
@@ -360,7 +488,11 @@
     "longitude": 15.745301,
     "sizeInSquareKilometers": "682",
     "nationalParkSince": "2004",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/junkerdal/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/junkerdal/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-m-ysalen-national-park",
@@ -371,7 +503,11 @@
     "longitude": 15.489665,
     "sizeInSquareKilometers": "52.2",
     "nationalParkSince": "2003",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/moysalen/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/moysalen/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-rohkunborri-national-park",
@@ -382,7 +518,11 @@
     "longitude": 18.794318,
     "sizeInSquareKilometers": "556",
     "nationalParkSince": "2011",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/rohkunborri/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/rohkunborri/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-vre-anarjohka-nasjonalpark",
@@ -393,7 +533,11 @@
     "longitude": 24.68879,
     "sizeInSquareKilometers": "1414",
     "nationalParkSince": "1975",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/anarjohka/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/anarjohka/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-vre-pasvik-nasjonalpark",
@@ -404,7 +548,11 @@
     "longitude": 29.231599,
     "sizeInSquareKilometers": "119",
     "nationalParkSince": "1970",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/ovre-pasvik/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/ovre-pasvik/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-stabbursdalen-national-park",
@@ -415,7 +563,11 @@
     "longitude": 24.909608,
     "sizeInSquareKilometers": "747",
     "nationalParkSince": "1970",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/stabbursdalen/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/stabbursdalen/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "no-seiland-national-park",
@@ -426,6 +578,10 @@
     "longitude": 23.308438,
     "sizeInSquareKilometers": "316",
     "nationalParkSince": "2006",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/seiland/"
+    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/seiland/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

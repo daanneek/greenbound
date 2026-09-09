@@ -8,18 +8,26 @@
     "longitude": 24.478856,
     "sizeInSquareKilometers": 1731.15,
     "nationalParkSince": 2009,
-    "website": "https://www.visitgreece.gr/en/experiences/nature/forests/rhodope-mountain-range-national-park"
+    "website": "https://www.visitgreece.gr/en/experiences/nature/forests/rhodope-mountain-range-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-national-park-of-tzoumerka-peristeri-and-arachthos-gorge",
-    "name": "National Park of Tzoumerka, Peristeri \u0026 Arachthos Gorge",
+    "name": "National Park of Tzoumerka, Peristeri & Arachthos Gorge",
     "country": "Greece",
     "code": "GR",
     "latitude": 39.48786,
     "longitude": 21.199507,
-    "sizeInSquareKilometers": 820.0,
+    "sizeInSquareKilometers": 820,
     "nationalParkSince": 2009,
-    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-the-protected-areas-of-epirus-necca/"
+    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-the-protected-areas-of-epirus-necca/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-mount-olympus-national-park",
@@ -30,7 +38,11 @@
     "longitude": 22.405305,
     "sizeInSquareKilometers": 238.41,
     "nationalParkSince": 1938,
-    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-olympus-national-park/"
+    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-olympus-national-park/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-samaria-gorge-national-park",
@@ -41,7 +53,11 @@
     "longitude": 23.959344,
     "sizeInSquareKilometers": 48.5,
     "nationalParkSince": 1962,
-    "website": "https://necca.gov.gr/mu-samaria"
+    "website": "https://necca.gov.gr/mu-samaria",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-parnassos-national-park",
@@ -50,9 +66,13 @@
     "code": "GR",
     "latitude": 38.529852,
     "longitude": 22.574822,
-    "sizeInSquareKilometers": 36.0,
+    "sizeInSquareKilometers": 36,
     "nationalParkSince": 1938,
-    "website": "https://onparnassos.gr/en/destination/parnassos-national-park/"
+    "website": "https://onparnassos.gr/en/destination/parnassos-national-park/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-national-park-of-parnitha",
@@ -63,7 +83,11 @@
     "longitude": 23.719479,
     "sizeInSquareKilometers": 38.12,
     "nationalParkSince": 1961,
-    "website": "https://necca.gov.gr"
+    "website": "https://necca.gov.gr",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-ainos-oros",
@@ -72,9 +96,13 @@
     "code": "GR",
     "latitude": 38.136667,
     "longitude": 20.671389,
-    "sizeInSquareKilometers": 30.0,
+    "sizeInSquareKilometers": 30,
     "nationalParkSince": 1962,
-    "website": "https://www.visitgreece.gr/en/experiences/nature/forests/mt-ainos-national-park"
+    "website": "https://www.visitgreece.gr/en/experiences/nature/forests/mt-ainos-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-mt-iti-national-park",
@@ -83,9 +111,13 @@
     "code": "GR",
     "latitude": 38.749371,
     "longitude": 22.377024,
-    "sizeInSquareKilometers": 70.0,
+    "sizeInSquareKilometers": 70,
     "nationalParkSince": 1966,
-    "website": "https://www.visitgreece.gr/en/experiences/architecture/picturesque-villages/iti-national-park"
+    "website": "https://www.visitgreece.gr/en/experiences/architecture/picturesque-villages/iti-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-prespa-national-park",
@@ -96,7 +128,11 @@
     "longitude": 21.07721,
     "sizeInSquareKilometers": 194.7,
     "nationalParkSince": 1974,
-    "website": "https://visitprespes.gr/en/discover/32/places/191/1-great-prespa"
+    "website": "https://visitprespes.gr/en/discover/32/places/191/1-great-prespa",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-kerkini-lake-national-park",
@@ -105,9 +141,13 @@
     "code": "GR",
     "latitude": 41.259262,
     "longitude": 23.140403,
-    "sizeInSquareKilometers": 83.0,
+    "sizeInSquareKilometers": 83,
     "nationalParkSince": 2006,
-    "website": "https://www.experienceserres.gr/en/where-to-go/7/natural-landscapes/21/lake-kerkini-national-park"
+    "website": "https://www.experienceserres.gr/en/where-to-go/7/natural-landscapes/21/lake-kerkini-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-delta-nestos-national-park",
@@ -118,7 +158,11 @@
     "longitude": 25.110836,
     "sizeInSquareKilometers": 85.31,
     "nationalParkSince": 2008,
-    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-the-protected-areas-of-thrace-necca/"
+    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-the-protected-areas-of-thrace-necca/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-pindos-national-park",
@@ -129,7 +173,11 @@
     "longitude": 20.950858,
     "sizeInSquareKilometers": 69.27,
     "nationalParkSince": 1966,
-    "website": "https://www.pindosnationalpark.gr/en/"
+    "website": "https://www.pindosnationalpark.gr/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-vikos-national-park",
@@ -138,9 +186,13 @@
     "code": "GR",
     "latitude": 39.981161,
     "longitude": 20.75023,
-    "sizeInSquareKilometers": 126.0,
+    "sizeInSquareKilometers": 126,
     "nationalParkSince": 1973,
-    "website": "https://www.pindosnationalpark.gr/en/"
+    "website": "https://www.pindosnationalpark.gr/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-sounion-national-park",
@@ -149,9 +201,13 @@
     "code": "GR",
     "latitude": 37.715929,
     "longitude": 24.019067,
-    "sizeInSquareKilometers": 35.0,
+    "sizeInSquareKilometers": 35,
     "nationalParkSince": 1974,
-    "website": "https://www.visitgreece.gr/en/experiences/nature/forests/sounio-national-park"
+    "website": "https://www.visitgreece.gr/en/experiences/nature/forests/sounio-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-national-marine-park",
@@ -160,9 +216,13 @@
     "code": "GR",
     "latitude": 39.27052,
     "longitude": 23.979669,
-    "sizeInSquareKilometers": 2260.0,
+    "sizeInSquareKilometers": 2260,
     "nationalParkSince": 1992,
-    "website": "https://alonissos.gr/en/marine-park/overview.html?__cf_chl_tk=7T148Ul_.b3nJzKIi.ijClZKDtDLFPemnQQTfvEluHI-1788776704-1.0.1.1-O1zrCNvFnwN0d8qoYkeoL6U.Q.iOA8pBAaNES7Jv3uM"
+    "website": "https://alonissos.gr/en/marine-park/overview.html?__cf_chl_tk=7T148Ul_.b3nJzKIi.ijClZKDtDLFPemnQQTfvEluHI-1788776704-1.0.1.1-O1zrCNvFnwN0d8qoYkeoL6U.Q.iOA8pBAaNES7Jv3uM",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-evros-delta-national-park",
@@ -171,9 +231,13 @@
     "code": "GR",
     "latitude": 40.808517,
     "longitude": 26.029567,
-    "sizeInSquareKilometers": 188.0,
+    "sizeInSquareKilometers": 188,
     "nationalParkSince": 2007,
-    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-evros-delta-and-dadia-national-parks-and-protected-areas-of-eastern-thrace/"
+    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-evros-delta-and-dadia-national-parks-and-protected-areas-of-eastern-thrace/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-national-forest-park-of-dadia-lefkimi-soufli",
@@ -182,9 +246,13 @@
     "code": "GR",
     "latitude": 41.122558,
     "longitude": 26.227951,
-    "sizeInSquareKilometers": 428.0,
+    "sizeInSquareKilometers": 428,
     "nationalParkSince": 2006,
-    "website": "https://dadia-np.gr/?lang=en"
+    "website": "https://dadia-np.gr/?lang=en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-amvrakikos-wetlands-national-park",
@@ -193,9 +261,13 @@
     "code": "GR",
     "latitude": 39.070434,
     "longitude": 20.838599,
-    "sizeInSquareKilometers": 287.0,
+    "sizeInSquareKilometers": 287,
     "nationalParkSince": 2008,
-    "website": "https://amvrakikos.eu/park/"
+    "website": "https://amvrakikos.eu/park/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-axios-delta-national-park",
@@ -204,9 +276,13 @@
     "code": "GR",
     "latitude": 40.529725,
     "longitude": 22.682967,
-    "sizeInSquareKilometers": 338.0,
+    "sizeInSquareKilometers": 338,
     "nationalParkSince": 2009,
-    "website": "https://axiosdelta.gr/en/national-park/%CF%87%CF%81%CE%AE%CF%83%CE%B9%CE%BC%CE%B5%CF%82-%CF%80%CE%BB%CE%B7%CF%81%CE%BF%CF%86%CE%BF%CF%81%CE%AF%CE%B5%CF%82/"
+    "website": "https://axiosdelta.gr/en/national-park/%CF%87%CF%81%CE%AE%CF%83%CE%B9%CE%BC%CE%B5%CF%82-%CF%80%CE%BB%CE%B7%CF%81%CE%BF%CF%86%CE%BF%CF%81%CE%AF%CE%B5%CF%82/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-chelmos-national-park",
@@ -215,9 +291,13 @@
     "code": "GR",
     "latitude": 37.98556,
     "longitude": 22.198394,
-    "sizeInSquareKilometers": 544.0,
+    "sizeInSquareKilometers": 544,
     "nationalParkSince": 2009,
-    "website": "https://www.unesco.org/en/iggp/chelmos-vouraikos-unesco-global-geopark"
+    "website": "https://www.unesco.org/en/iggp/chelmos-vouraikos-unesco-global-geopark",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "gr-national-park-of-eastern-macedonia-and-thrace",
@@ -228,6 +308,10 @@
     "longitude": 24.804057,
     "sizeInSquareKilometers": 931.38,
     "nationalParkSince": 2008,
-    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-the-protected-areas-of-thrace-necca/"
+    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-the-protected-areas-of-thrace-necca/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

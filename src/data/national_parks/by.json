@@ -8,7 +8,11 @@
     "longitude": 23.802966,
     "sizeInSquareKilometers": 1500.69,
     "nationalParkSince": 1991,
-    "website": "https://npbp.by/eng/"
+    "website": "https://npbp.by/eng/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "by-braslau-lakes-national-park",
@@ -19,7 +23,11 @@
     "longitude": 27.016575,
     "sizeInSquareKilometers": 691.15,
     "nationalParkSince": 1995,
-    "website": "https://braslavpark.by/en/"
+    "website": "https://braslavpark.by/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "by-prypyatski-national-park",
@@ -30,7 +38,11 @@
     "longitude": 26.888713,
     "sizeInSquareKilometers": 858.41,
     "nationalParkSince": 1996,
-    "website": "https://www.belarus.by/en/about-belarus/natural-history/pripyatsky-national-park"
+    "website": "https://www.belarus.by/en/about-belarus/natural-history/pripyatsky-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "by-narachanski-national-park",
@@ -41,6 +53,10 @@
     "longitude": 26.706591,
     "sizeInSquareKilometers": 871.35,
     "nationalParkSince": 1999,
-    "website": "https://narochpark.by/?lang=en"
+    "website": "https://narochpark.by/?lang=en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

@@ -6,9 +6,13 @@
     "code": "HU",
     "latitude": 47.522543,
     "longitude": 21.091579,
-    "sizeInSquareKilometers": 800.0,
+    "sizeInSquareKilometers": 800,
     "nationalParkSince": 1973,
-    "website": "https://www.hnp.hu/"
+    "website": "https://www.hnp.hu/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "hu-bukki-national-park",
@@ -19,7 +23,11 @@
     "longitude": 20.40379,
     "sizeInSquareKilometers": 431.3,
     "nationalParkSince": 1977,
-    "website": "https://www.bnpi.hu/"
+    "website": "https://www.bnpi.hu/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "hu-duna-ipoly-nemzeti-park",
@@ -30,7 +38,11 @@
     "longitude": 18.908157,
     "sizeInSquareKilometers": 603.14,
     "nationalParkSince": 1997,
-    "website": "https://www.dunaipoly.hu/"
+    "website": "https://www.dunaipoly.hu/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "hu-aggtelek-national-park",
@@ -41,7 +53,11 @@
     "longitude": 20.540031,
     "sizeInSquareKilometers": 201.7,
     "nationalParkSince": 1985,
-    "website": "https://anp.hu/"
+    "website": "https://anp.hu/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "hu-orseg-national-park",
@@ -52,7 +68,11 @@
     "longitude": 16.417011,
     "sizeInSquareKilometers": 442.21,
     "nationalParkSince": 2002,
-    "website": "https://orseginemzetipark.hu/"
+    "website": "https://orseginemzetipark.hu/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "hu-duna-drava-national-park",
@@ -63,7 +83,11 @@
     "longitude": 18.74886,
     "sizeInSquareKilometers": 494.79,
     "nationalParkSince": 1996,
-    "website": "https://ddnp.hu/en"
+    "website": "https://ddnp.hu/en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "hu-kiskunsag-national-park",
@@ -72,9 +96,13 @@
     "code": "HU",
     "latitude": 46.883316,
     "longitude": 19.400018,
-    "sizeInSquareKilometers": 570.0,
+    "sizeInSquareKilometers": 570,
     "nationalParkSince": 1975,
-    "website": "https://knp.hu/en"
+    "website": "https://knp.hu/en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "hu-ferto-hansag-national-park",
@@ -85,7 +113,11 @@
     "longitude": 16.863306,
     "sizeInSquareKilometers": 235.88,
     "nationalParkSince": 1991,
-    "website": "https://www.ferto-hansag.hu/en"
+    "website": "https://www.ferto-hansag.hu/en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "hu-koros-maros-national-park",
@@ -96,7 +128,11 @@
     "longitude": 20.526672,
     "sizeInSquareKilometers": 511.3,
     "nationalParkSince": 1997,
-    "website": "https://kmnp.hu/en/"
+    "website": "https://kmnp.hu/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "hu-balaton-uplands-national-park",
@@ -107,6 +143,10 @@
     "longitude": 17.928564,
     "sizeInSquareKilometers": 569.98,
     "nationalParkSince": 1997,
-    "website": "https://www.bfnp.hu/en"
+    "website": "https://www.bfnp.hu/en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

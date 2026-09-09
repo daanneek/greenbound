@@ -8,7 +8,11 @@
     "longitude": 13.633135,
     "sizeInSquareKilometers": 680.64,
     "nationalParkSince": 1991,
-    "website": "https://www.npsumava.cz/en/"
+    "website": "https://www.npsumava.cz/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "cz-bohemian-switzerland-national-park",
@@ -17,9 +21,13 @@
     "code": "CZ",
     "latitude": 50.878404,
     "longitude": 14.374297,
-    "sizeInSquareKilometers": 79.0,
+    "sizeInSquareKilometers": 79,
     "nationalParkSince": 2000,
-    "website": "https://www.npcs.cz/en"
+    "website": "https://www.npcs.cz/en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "cz-krkonose-national-park",
@@ -30,7 +38,11 @@
     "longitude": 15.657069,
     "sizeInSquareKilometers": 363.52,
     "nationalParkSince": 1963,
-    "website": "https://www.krnap.cz/en/"
+    "website": "https://www.krnap.cz/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "cz-podyji-national-park",
@@ -41,6 +53,10 @@
     "longitude": 15.92027,
     "sizeInSquareKilometers": 62.59,
     "nationalParkSince": 1991,
-    "website": "https://www.nppodyji.cz/"
+    "website": "https://www.nppodyji.cz/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

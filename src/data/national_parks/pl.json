@@ -8,7 +8,11 @@
     "longitude": 19.982744,
     "sizeInSquareKilometers": 211.97,
     "nationalParkSince": 1954,
-    "website": "https://tpn.gov.pl/tatra-national-park"
+    "website": "https://tpn.gov.pl/tatra-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-bieszczady-national-park",
@@ -19,7 +23,11 @@
     "longitude": 22.590435,
     "sizeInSquareKilometers": 292.02,
     "nationalParkSince": 1973,
-    "website": "https://bdpn.gov.pl/bieszczady-national-park"
+    "website": "https://bdpn.gov.pl/bieszczady-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-pieniny-national-park",
@@ -30,7 +38,11 @@
     "longitude": 20.386342,
     "sizeInSquareKilometers": 23.46,
     "nationalParkSince": 1932,
-    "website": "https://piepn.gov.pl/english-version"
+    "website": "https://piepn.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-babia-gora-national-park",
@@ -41,7 +53,11 @@
     "longitude": 19.531196,
     "sizeInSquareKilometers": 33.92,
     "nationalParkSince": 1954,
-    "website": "https://bgpn.gov.pl/english-version"
+    "website": "https://bgpn.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-bia-owieza-national-park",
@@ -52,7 +68,11 @@
     "longitude": 23.846854,
     "sizeInSquareKilometers": 105.17,
     "nationalParkSince": 1932,
-    "website": "https://bpn.gov.pl/bialowieza-national-park"
+    "website": "https://bpn.gov.pl/bialowieza-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-s-owinski-national-park",
@@ -63,7 +83,11 @@
     "longitude": 17.316931,
     "sizeInSquareKilometers": 327.44,
     "nationalParkSince": 1967,
-    "website": "https://spn.gov.pl/english-version"
+    "website": "https://spn.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-biebrzanski-park-narodowy",
@@ -74,7 +98,11 @@
     "longitude": 22.752013,
     "sizeInSquareKilometers": 592.23,
     "nationalParkSince": 1993,
-    "website": "https://bbpn.gov.pl/biebrza-national-park"
+    "website": "https://bbpn.gov.pl/biebrza-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-wigierski-park-narodowy",
@@ -85,7 +113,11 @@
     "longitude": 23.009834,
     "sizeInSquareKilometers": 149.86,
     "nationalParkSince": 1989,
-    "website": "https://wigpn.gov.pl/english-version"
+    "website": "https://wigpn.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-wolin-national-park",
@@ -96,7 +128,11 @@
     "longitude": 14.523244,
     "sizeInSquareKilometers": 109.37,
     "nationalParkSince": 1960,
-    "website": "https://wopn.gov.pl/english-version"
+    "website": "https://wopn.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-warta-mouth-national-park",
@@ -107,7 +143,11 @@
     "longitude": 14.651084,
     "sizeInSquareKilometers": 80.74,
     "nationalParkSince": 2001,
-    "website": "https://pnuw.gov.pl/ujscie-warty-national-park"
+    "website": "https://pnuw.gov.pl/ujscie-warty-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-park-narodowy-bory-tucholskie",
@@ -118,7 +158,11 @@
     "longitude": 17.564826,
     "sizeInSquareKilometers": 46.13,
     "nationalParkSince": 1996,
-    "website": "https://pnbt.gov.pl/english-version"
+    "website": "https://pnbt.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-drawno-national-park",
@@ -129,7 +173,11 @@
     "longitude": 15.742052,
     "sizeInSquareKilometers": 113.42,
     "nationalParkSince": 1990,
-    "website": "https://dpn.gov.pl/english-version"
+    "website": "https://dpn.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-greater-poland-national-park",
@@ -140,7 +188,11 @@
     "longitude": 16.797277,
     "sizeInSquareKilometers": 75.84,
     "nationalParkSince": 1957,
-    "website": "https://wpn.gov.pl/english-version"
+    "website": "https://wpn.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-kampinos-national-park",
@@ -151,7 +203,11 @@
     "longitude": 20.644055,
     "sizeInSquareKilometers": 385.44,
     "nationalParkSince": 1959,
-    "website": "https://kampn.gov.pl/english-version"
+    "website": "https://kampn.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-swietokrzyski-national-park",
@@ -162,7 +218,11 @@
     "longitude": 20.914549,
     "sizeInSquareKilometers": 76.26,
     "nationalParkSince": 1950,
-    "website": "https://swpn.gov.pl/swietokrzyski-national-park"
+    "website": "https://swpn.gov.pl/swietokrzyski-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-karkonosze-national-park",
@@ -173,7 +233,11 @@
     "longitude": 15.728373,
     "sizeInSquareKilometers": 55.76,
     "nationalParkSince": 1959,
-    "website": "https://kpn.gov.pl/english-version"
+    "website": "https://kpn.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-sto-owe-mountains-national-park",
@@ -184,7 +248,11 @@
     "longitude": 16.395856,
     "sizeInSquareKilometers": 63.4,
     "nationalParkSince": 1993,
-    "website": "https://pngs.gov.pl/english-version"
+    "website": "https://pngs.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-gorczanski-park-narodowy",
@@ -195,7 +263,11 @@
     "longitude": 20.150933,
     "sizeInSquareKilometers": 70.3,
     "nationalParkSince": 1981,
-    "website": "https://gpn.gov.pl/english-version"
+    "website": "https://gpn.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-ojcowski-national-park",
@@ -206,7 +278,11 @@
     "longitude": 19.817876,
     "sizeInSquareKilometers": 21.46,
     "nationalParkSince": 1956,
-    "website": "https://ppn.gov.pl/english-version"
+    "website": "https://ppn.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-magura-national-park",
@@ -217,7 +293,11 @@
     "longitude": 21.469835,
     "sizeInSquareKilometers": 194.39,
     "nationalParkSince": 1995,
-    "website": "https://ppn.gov.pl/english-version"
+    "website": "https://ppn.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-roztocze-national-park",
@@ -228,7 +308,11 @@
     "longitude": 22.962861,
     "sizeInSquareKilometers": 84.83,
     "nationalParkSince": 1974,
-    "website": "https://rpn.gov.pl/english-version"
+    "website": "https://rpn.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-polesie-national-park",
@@ -239,7 +323,11 @@
     "longitude": 23.118764,
     "sizeInSquareKilometers": 97.62,
     "nationalParkSince": 1990,
-    "website": "https://polpn.gov.pl/english-version"
+    "website": "https://polpn.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "pl-narew-national-park",
@@ -250,6 +338,10 @@
     "longitude": 22.868615,
     "sizeInSquareKilometers": 73.5,
     "nationalParkSince": 1996,
-    "website": "https://ppn.gov.pl/english-version"
+    "website": "https://ppn.gov.pl/english-version",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

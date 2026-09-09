@@ -8,7 +8,11 @@
     "longitude": 21.12075,
     "sizeInSquareKilometers": 273.89,
     "nationalParkSince": 1991,
-    "website": "https://nerija.lrv.lt/en/"
+    "website": "https://nerija.lrv.lt/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "lt-dzukija-national-park",
@@ -19,7 +23,11 @@
     "longitude": 24.186144,
     "sizeInSquareKilometers": 584.53,
     "nationalParkSince": 1991,
-    "website": "https://vstt.lrv.lt/en/lithuanian-protected-areas/national-parks/"
+    "website": "https://vstt.lrv.lt/en/lithuanian-protected-areas/national-parks/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "lt-aukstaitija-national-park",
@@ -30,7 +38,11 @@
     "longitude": 26.05693,
     "sizeInSquareKilometers": 410.56,
     "nationalParkSince": 1974,
-    "website": "https://vstt.lrv.lt/en/lithuanian-protected-areas/national-parks/"
+    "website": "https://vstt.lrv.lt/en/lithuanian-protected-areas/national-parks/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "lt-trakai-historical-national-park",
@@ -39,9 +51,13 @@
     "code": "LT",
     "latitude": 54.647888,
     "longitude": 24.933296,
-    "sizeInSquareKilometers": 82.0,
+    "sizeInSquareKilometers": 82,
     "nationalParkSince": 1991,
-    "website": "https://vstt.lrv.lt/en/lithuanian-protected-areas/national-parks/"
+    "website": "https://vstt.lrv.lt/en/lithuanian-protected-areas/national-parks/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "lt-zemaitija-national-park",
@@ -52,6 +68,10 @@
     "longitude": 21.853167,
     "sizeInSquareKilometers": 217.54,
     "nationalParkSince": 1991,
-    "website": "https://vstt.lrv.lt/en/lithuanian-protected-areas/national-parks/"
+    "website": "https://vstt.lrv.lt/en/lithuanian-protected-areas/national-parks/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

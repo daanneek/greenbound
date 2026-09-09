@@ -8,7 +8,11 @@
     "longitude": 12.667666,
     "sizeInSquareKilometers": "1856.00",
     "nationalParkSince": "1981",
-    "website": "https://www.hohetauern.at/"
+    "website": "https://www.hohetauern.at/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "at-nationalpark-gesause",
@@ -19,7 +23,11 @@
     "longitude": 14.589113,
     "sizeInSquareKilometers": "110.54",
     "nationalParkSince": "2002",
-    "website": "https://nationalpark-gesaeuse.at/"
+    "website": "https://nationalpark-gesaeuse.at/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "at-nationalpark-kalkalpen",
@@ -30,7 +38,11 @@
     "longitude": 14.384326,
     "sizeInSquareKilometers": "208.56",
     "nationalParkSince": "1997",
-    "website": "https://www.kalkalpen.at/"
+    "website": "https://www.kalkalpen.at/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "at-thayatal-national-park",
@@ -41,7 +53,11 @@
     "longitude": 15.860063,
     "sizeInSquareKilometers": "13.30",
     "nationalParkSince": "2000",
-    "website": "https://www.np-thayatal.at/"
+    "website": "https://www.np-thayatal.at/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "at-lake-neusiedl-seewinkel-national-park",
@@ -52,7 +68,11 @@
     "longitude": 16.801729,
     "sizeInSquareKilometers": "97.00",
     "nationalParkSince": "1993",
-    "website": "https://www.nationalparkneusiedlersee.at/"
+    "website": "https://www.nationalparkneusiedlersee.at/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "at-nationalpark-donau-auen",
@@ -63,6 +83,10 @@
     "longitude": 16.468985,
     "sizeInSquareKilometers": "96.00",
     "nationalParkSince": "1996",
-    "website": "https://www.donauauen.at/"
+    "website": "https://www.donauauen.at/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

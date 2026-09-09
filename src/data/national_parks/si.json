@@ -7,5 +7,10 @@
   "longitude": 13.799133,
   "sizeInSquareKilometers": "880",
   "nationalParkSince": "1981",
-  "website": "https://www.tnp.si/en/"
+  "website": "https://www.tnp.si/en/",
+  "youtubeUrl": "",
+  "gpxAvailable": false,
+  "visited": false,
+  "visitDates": []
 }
+

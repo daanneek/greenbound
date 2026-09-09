@@ -30,7 +30,7 @@ Greenbound is a single-page React/Vite app for exploring European national parks
 - Park locations use WGS84 decimal degrees in `latitude` and `longitude` fields. Do not use percentage positions or SVG silhouettes for geographic placement.
 - `MapZoomButtons` must remain rendered inside `MapContainer`, because it uses `useMap()`.
 - Marker selection updates `selectedId`; filtered markers are rendered from `visibleParks`.
-- Markers are Leaflet `divIcon` teardrop pins built by `getMarkerIcon(variant, isSelected)` in `App.jsx`; icons are cached per `variant:isSelected` key. Variants are `open` and `caution`. All pin visuals, hover/active transitions and the selected halo pulse live in `App.css` under `.park-marker*`. Do not put transforms on the `.park-marker` root element, because Leaflet controls its `transform` and `position`.
+- Markers are Leaflet `divIcon` teardrop pins built by `getMarkerIcon(variant, isSelected, visited)` in `App.jsx`; icons are cached per `variant:isSelected:visited` key. Variants are `open` and `caution`. When `visited` is true the pin's core circle is swapped for a checkmark glyph (`.park-marker__check`). All pin visuals, hover/active transitions and the selected halo pulse live in `App.css` under `.park-marker*`. Do not put transforms on the `.park-marker` root element, because Leaflet controls its `transform` and `position`.
 - `MapSizeFix` lowers `minZoom` to `3` when the map container is narrower than 760px so Europe still fits on phones; wider containers keep `4.5`.
 - Clustering uses `supercluster` inside the `ParkMarkers` component. The KD-tree index is rebuilt with `useMemo` only when `visibleParks` changes; `moveend`/`zoomend` just re-query `getClusters` for the current bbox, so panning stays cheap. Cluster bubbles are cached `divIcon`s (`getClusterIcon`) styled under `.park-cluster*`, and clicking one flies to `getClusterExpansionZoom`.
 - `App` holds a `mapRef` on `MapContainer` so UI outside the map (the results list) can call `flyTo`.
@@ -38,6 +38,13 @@ Greenbound is a single-page React/Vite app for exploring European national parks
 ## Park data contract
 
 The park JSON under `src/data/national_parks/` carries a project-specific slug `id`, `name`, full country name in `country`, ISO-like country code in `code`, `latitude`, `longitude`, `description`, `sizeInSquareKilometers` and `website`. The `sizeInSquareKilometers` field is reserved for park area in square kilometers and is currently an empty string across the dataset until values can be added from a consistent authoritative source. The `year`, `terrain`, `status` and `war` fields referenced by the UI are not populated yet, which is why the detail card is sparse. Data enrichment is planned; document country definitions, area units, establishment-year rules, visitor status, and travel-advisory source when it lands.
+
+Four more fields are optional and hand-edited per park as the journey log grows (no data-entry UI yet):
+
+- `youtubeUrl`: link to the trip video for that park; absent/empty means no video yet.
+- `gpxAvailable`: boolean marking that a GPX track exists for the visit. There is currently no file storage, download button, or purchase flow for it — this flag only reserves the data model ahead of the future Payhip-based GPX sales flow described below.
+- `visited`: boolean; true swaps the map pin's core to a checkmark and shows the visited badge in the detail card.
+- `visitDates`: array of ISO date strings (`"YYYY-MM-DD"`). Visit count and "last visited" are derived from this array (`getSortedVisitDates`/`getLatestVisitDate` in `App.jsx`) rather than stored as a separate count field, so there is one source of truth when hand-editing JSON.
 
 ## Product state
 
@@ -50,12 +57,14 @@ Implemented:
 - Clickable pin markers with hover, press and selection animations, plus Leaflet popups.
 - Marker clustering via `supercluster`.
 - Scrollable results list in the sidebar below the legend. Clicking an entry selects the park and flies the map to it; selecting a park on the map scrolls the matching entry into view. Only the list scrolls, never the page: `.app-shell` and `.sidebar` stay `overflow: hidden` on desktop and `.results-list` takes the remaining height.
-- Selected park card with status, location and coordinates.
+- Selected park card with status, location, coordinates, and a `visited` badge (checkmark, visit count and latest visit date) when the park's `visited` field is true.
+- Unified action-button row (`ParkActionLinks` in `App.jsx`) with "More info", "Route to" and "Watch video" always rendered together; any button whose underlying data (`website`/`youtubeUrl`) is missing renders grayed out (`.park-website.is-disabled`) instead of being hidden.
 - Mobile layout (`max-width: 760px`): full-height map, filters in an off-canvas left drawer opened by a `.mobile-filters-toggle` button that floats over the top-left of the map, and the park card as a collapsible bottom sheet. All mobile chrome (`.mobile-filters-toggle`, `.sidebar-close`, `.card-handle`, `.mobile-backdrop`) is `display: none` on desktop, so desktop styling must stay untouched when editing it.
 - There is no page header. The `Greenbound` wordmark lives alone in `.sidebar-heading`, and the live park count is folded into the search label as `Search {n} places`.
 
 Known limitations:
 
+- GPX files have no storage, upload or download mechanism yet; `gpxAvailable` is only a data flag ahead of the planned Payhip-based purchase flow.
 - Park records lack area, establishment year, terrain and official links, so the detail card shows little.
 - The `war` flag is a hardcoded country set rather than a dated, sourced advisory.
 - OpenStreetMap tiles require network access in the browser, and OSM's tile policy discourages production use.
@@ -70,6 +79,7 @@ Agreed backlog, roughly in priority order. Not started.
 1. Enrich the park dataset: area, establishment year, IUCN category, terrain, description and official website link, with documented sources.
 2. URL state: encode selected park, country filter, search term and map viewport so views are shareable and survive refresh and back/forward.
 3. Favourites / trip list in `localStorage`, with GPX or GeoJSON export.
+   3a. GPX purchase/download flow for parks with `gpxAvailable: true`, built on the planned Payhip integration (see below).
 4. Filter by area, founding year, terrain type and IUCN category (depends on 1).
 5. Multi-select countries plus region groupings (Nordics, Balkans, Alps).
 6. Bounding-box filter: "only show parks in the current view", with the counter reflecting it.

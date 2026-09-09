@@ -8,7 +8,11 @@
     "longitude": 12.377112,
     "sizeInSquareKilometers": 262.5,
     "nationalParkSince": 2018,
-    "website": "https://danmarksnationalparker.dk"
+    "website": "https://danmarksnationalparker.dk",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "dk-wadden-sea-national-park",
@@ -17,9 +21,13 @@
     "code": "DK",
     "latitude": 55.241032,
     "longitude": 8.497208,
-    "sizeInSquareKilometers": 1466.0,
+    "sizeInSquareKilometers": 1466,
     "nationalParkSince": 2010,
-    "website": "https://danmarksnationalparker.dk"
+    "website": "https://danmarksnationalparker.dk",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "dk-nationalpark-mols-bjerge",
@@ -30,7 +38,11 @@
     "longitude": 10.479454,
     "sizeInSquareKilometers": 180.56,
     "nationalParkSince": 2009,
-    "website": "https://danmarksnationalparker.dk"
+    "website": "https://danmarksnationalparker.dk",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "dk-skjoldungernes-land-national-park",
@@ -39,9 +51,13 @@
     "code": "DK",
     "latitude": 55.664652,
     "longitude": 11.998783,
-    "sizeInSquareKilometers": 170.0,
+    "sizeInSquareKilometers": 170,
     "nationalParkSince": 2015,
-    "website": "https://danmarksnationalparker.dk"
+    "website": "https://danmarksnationalparker.dk",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "dk-nationalpark-thy",
@@ -50,8 +66,12 @@
     "code": "DK",
     "latitude": 56.929808,
     "longitude": 8.33822,
-    "sizeInSquareKilometers": 244.0,
+    "sizeInSquareKilometers": 244,
     "nationalParkSince": 2008,
-    "website": "https://danmarksnationalparker.dk"
+    "website": "https://danmarksnationalparker.dk",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

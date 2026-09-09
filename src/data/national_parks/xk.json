@@ -8,7 +8,11 @@
     "longitude": 20.944344,
     "sizeInSquareKilometers": "532.72",
     "nationalParkSince": "2012",
-    "website": "https://www.sarmountain.org.mk/en"
+    "website": "https://www.sarmountain.org.mk/en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "xk-bjeshket-e-nemuna-national-park",
@@ -19,6 +23,10 @@
     "longitude": 20.187911,
     "sizeInSquareKilometers": "630.28",
     "nationalParkSince": "2012",
-    "website": "https://www.ammk-rks.net/en/drejtorite/29/drejtoria-parku-kombetar-bjeshket-e-nemuna"
+    "website": "https://www.ammk-rks.net/en/drejtorite/29/drejtoria-parku-kombetar-bjeshket-e-nemuna",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

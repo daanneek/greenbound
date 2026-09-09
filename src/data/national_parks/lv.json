@@ -8,7 +8,11 @@
     "longitude": 25.212301,
     "sizeInSquareKilometers": 917.86,
     "nationalParkSince": 1973,
-    "website": "https://www.daba.gov.lv/en/gaujas-nacionalais-parks"
+    "website": "https://www.daba.gov.lv/en/gaujas-nacionalais-parks",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "lv-raznas-nacionalais-parks",
@@ -19,7 +23,11 @@
     "longitude": 27.479025,
     "sizeInSquareKilometers": 596.15,
     "nationalParkSince": 2007,
-    "website": "https://www.daba.gov.lv/en/razna-national-park"
+    "website": "https://www.daba.gov.lv/en/razna-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "lv-kemeri-national-park",
@@ -30,7 +38,11 @@
     "longitude": 23.513171,
     "sizeInSquareKilometers": 361.84,
     "nationalParkSince": 1997,
-    "website": "https://www.daba.gov.lv/en/kemeri-national-park"
+    "website": "https://www.daba.gov.lv/en/kemeri-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "lv-slitere-national-park",
@@ -41,6 +53,10 @@
     "longitude": 22.413386,
     "sizeInSquareKilometers": 163.65,
     "nationalParkSince": 2000,
-    "website": "https://www.daba.gov.lv/en/slitere-national-park"
+    "website": "https://www.daba.gov.lv/en/slitere-national-park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

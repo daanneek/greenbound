@@ -8,7 +8,11 @@
     "longitude": 12.036645,
     "sizeInSquareKilometers": 31.03,
     "nationalParkSince": 1990,
-    "website": "http://dolomitipark.it"
+    "website": "http://dolomitipark.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-national-park-of-abruzzo",
@@ -19,7 +23,11 @@
     "longitude": 13.790082,
     "sizeInSquareKilometers": 506.83,
     "nationalParkSince": 1923,
-    "website": "http://parcoabruzzo.it"
+    "website": "http://parcoabruzzo.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-parco-nazionale-gran-paradiso",
@@ -30,7 +38,11 @@
     "longitude": 7.324484,
     "sizeInSquareKilometers": 710.4,
     "nationalParkSince": 1922,
-    "website": "http://pngp.it"
+    "website": "http://pngp.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-parco-nazionale-dell-arcipelago-di-la-maddalena",
@@ -41,7 +53,11 @@
     "longitude": 9.42838,
     "sizeInSquareKilometers": 201.46,
     "nationalParkSince": 1994,
-    "website": "http://lamaddalenapark.it"
+    "website": "http://lamaddalenapark.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-parco-nazionale-del-golfo-di-orosei-e-del-gennargentu",
@@ -52,7 +68,11 @@
     "longitude": 9.385124,
     "sizeInSquareKilometers": 739.35,
     "nationalParkSince": 1998,
-    "website": "http://parcogennargentu.it"
+    "website": "http://parcogennargentu.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-parco-nazionale-dei-monti-sibillini",
@@ -63,7 +83,11 @@
     "longitude": 13.220183,
     "sizeInSquareKilometers": 697.22,
     "nationalParkSince": 1993,
-    "website": "http://sibillini.net"
+    "website": "http://sibillini.net",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-stelvio-national-park",
@@ -72,9 +96,13 @@
     "code": "IT",
     "latitude": 46.455632,
     "longitude": 10.533914,
-    "sizeInSquareKilometers": 1307.0,
+    "sizeInSquareKilometers": 1307,
     "nationalParkSince": 1935,
-    "website": "http://parcostelvio.it"
+    "website": "http://parcostelvio.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-vesuvius-national-park",
@@ -85,7 +113,11 @@
     "longitude": 14.425853,
     "sizeInSquareKilometers": 72.59,
     "nationalParkSince": 1995,
-    "website": "http://parconazionaledelvesuvio.it"
+    "website": "http://parconazionaledelvesuvio.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-parco-nazionale-del-cilento-vallo-di-diano-e-alburni",
@@ -96,7 +128,11 @@
     "longitude": 15.360849,
     "sizeInSquareKilometers": 1810.48,
     "nationalParkSince": 1991,
-    "website": "http://cilentoediano.it"
+    "website": "http://cilentoediano.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-parco-nazionale-del-pollino",
@@ -107,7 +143,11 @@
     "longitude": 16.122265,
     "sizeInSquareKilometers": 1925.65,
     "nationalParkSince": 1993,
-    "website": "http://parcopollino.gov.it"
+    "website": "http://parcopollino.gov.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-parco-nazionale-del-gargano",
@@ -118,7 +158,11 @@
     "longitude": 15.851642,
     "sizeInSquareKilometers": 1181.44,
     "nationalParkSince": 1991,
-    "website": "http://parcogargano.it"
+    "website": "http://parcogargano.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-parco-nazionale-del-gran-sasso-e-monti-della-laga",
@@ -129,7 +173,11 @@
     "longitude": 13.497426,
     "sizeInSquareKilometers": 1413.41,
     "nationalParkSince": 1991,
-    "website": "http://gransassolagapark.it"
+    "website": "http://gransassolagapark.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-parco-nazionale-dell-arcipelago-toscano",
@@ -140,7 +188,11 @@
     "longitude": 10.268673,
     "sizeInSquareKilometers": 168.56,
     "nationalParkSince": 1996,
-    "website": "http://islepark.it"
+    "website": "http://islepark.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-parco-nazionale-dell-appennino-tosco-emiliano",
@@ -151,7 +203,11 @@
     "longitude": 10.10312,
     "sizeInSquareKilometers": 261.49,
     "nationalParkSince": 2001,
-    "website": "http://parcoappennino.it"
+    "website": "http://parcoappennino.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-asinara-national-park",
@@ -162,7 +218,11 @@
     "longitude": 8.274076,
     "sizeInSquareKilometers": 51.7,
     "nationalParkSince": 1997,
-    "website": "http://parcoasinara.org"
+    "website": "http://parcoasinara.org",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-parco-nazionale-delle-cinque-terre",
@@ -173,7 +233,11 @@
     "longitude": 9.712391,
     "sizeInSquareKilometers": 38.6,
     "nationalParkSince": 1999,
-    "website": "http://parconazionale5terre.it"
+    "website": "http://parconazionale5terre.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-aspromonte-national-park",
@@ -184,7 +248,11 @@
     "longitude": 15.948358,
     "sizeInSquareKilometers": 641.05,
     "nationalParkSince": 1989,
-    "website": "http://parcoaspromonte.gov.it"
+    "website": "http://parcoaspromonte.gov.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-sila-national-park",
@@ -195,7 +263,11 @@
     "longitude": 16.579186,
     "sizeInSquareKilometers": 736.95,
     "nationalParkSince": 2002,
-    "website": "http://parcosila.it"
+    "website": "http://parcosila.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-parco-nazionale-dell-appennino-lucano-val-d-agri-lagonegrese",
@@ -206,7 +278,11 @@
     "longitude": 15.872586,
     "sizeInSquareKilometers": 689.96,
     "nationalParkSince": 2007,
-    "website": "http://parcoappenninolucano.it"
+    "website": "http://parcoappenninolucano.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-alta-murgia-national-park",
@@ -217,7 +293,11 @@
     "longitude": 16.369927,
     "sizeInSquareKilometers": 680.77,
     "nationalParkSince": 2004,
-    "website": "http://parcoaltamurgia.gov.it"
+    "website": "http://parcoaltamurgia.gov.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-parco-nazionale-della-maiella",
@@ -228,7 +308,11 @@
     "longitude": 14.089175,
     "sizeInSquareKilometers": 740.95,
     "nationalParkSince": 1991,
-    "website": "http://parcomajella.it"
+    "website": "http://parcomajella.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-parco-nazionale-delle-foreste-casentinesi-monte-falterona-e-campigna",
@@ -239,7 +323,11 @@
     "longitude": 11.735263,
     "sizeInSquareKilometers": 368.43,
     "nationalParkSince": 1993,
-    "website": "http://parcoforestecasentinesi.it"
+    "website": "http://parcoforestecasentinesi.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-parco-nazionale-della-val-grande",
@@ -250,7 +338,11 @@
     "longitude": 8.463083,
     "sizeInSquareKilometers": 145.98,
     "nationalParkSince": 1992,
-    "website": "http://parcovalgrande.it"
+    "website": "http://parcovalgrande.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-parco-nazionale-del-circeo",
@@ -261,7 +353,11 @@
     "longitude": 12.916487,
     "sizeInSquareKilometers": 84.4,
     "nationalParkSince": 1934,
-    "website": "http://parcocirceo.it"
+    "website": "http://parcocirceo.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "it-pantelleria-island-national-park",
@@ -272,6 +368,10 @@
     "longitude": 12.007364,
     "sizeInSquareKilometers": 65.6,
     "nationalParkSince": 2016,
-    "website": "http://parconazionalepantelleria.it"
+    "website": "http://parconazionalepantelleria.it",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

@@ -8,7 +8,11 @@
     "longitude": 5.615112,
     "sizeInSquareKilometers": 127.42,
     "nationalParkSince": 2006,
-    "website": "https://www.nationaalparkhogekempen.be/"
+    "website": "https://www.nationaalparkhogekempen.be/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "be-nationaal-park-bosland",
@@ -19,7 +23,11 @@
     "longitude": 5.316873,
     "sizeInSquareKilometers": 51.37,
     "nationalParkSince": 2023,
-    "website": "https://www.nationaalparkbosland.be/"
+    "website": "https://www.nationaalparkbosland.be/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "be-nationaal-park-scheldevallei",
@@ -28,9 +36,13 @@
     "code": "BE",
     "latitude": 51.110803,
     "longitude": 4.221458,
-    "sizeInSquareKilometers": 86.0,
+    "sizeInSquareKilometers": 86,
     "nationalParkSince": 2023,
-    "website": "https://www.nationaalparkscheldevallei.be/"
+    "website": "https://www.nationaalparkscheldevallei.be/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "be-nationaal-park-brabantse-wouden",
@@ -39,9 +51,13 @@
     "code": "BE",
     "latitude": 50.810863,
     "longitude": 4.662938,
-    "sizeInSquareKilometers": 100.0,
+    "sizeInSquareKilometers": 100,
     "nationalParkSince": 2023,
-    "website": "https://www.brabantsewouden.be/"
+    "website": "https://www.brabantsewouden.be/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "be-vallee-de-la-semois-national-park",
@@ -52,7 +68,11 @@
     "longitude": 5.13373,
     "sizeInSquareKilometers": 289.03,
     "nationalParkSince": 2022,
-    "website": "https://www.semois-parcnational.be/en"
+    "website": "https://www.semois-parcnational.be/en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "be-entre-sambre-et-meuse-national-park",
@@ -61,9 +81,13 @@
     "code": "BE",
     "latitude": 50.073414,
     "longitude": 4.428946,
-    "sizeInSquareKilometers": 220.0,
+    "sizeInSquareKilometers": 220,
     "nationalParkSince": 2022,
-    "website": "https://www.parc-national-esem.be/en"
+    "website": "https://www.parc-national-esem.be/en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "be-grenspark-kalmthoutse-heide",
@@ -74,6 +98,10 @@
     "longitude": 4.407619,
     "sizeInSquareKilometers": 37.5,
     "nationalParkSince": 2001,
-    "website": "https://grensparkkalmthoutseheide.com"
+    "website": "https://grensparkkalmthoutseheide.com",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

@@ -8,7 +8,11 @@
     "longitude": 19.229809,
     "sizeInSquareKilometers": 728.42,
     "nationalParkSince": 1978,
-    "website": "https://www.napant.sk/"
+    "website": "https://www.napant.sk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "sk-national-park-great-fatra",
@@ -19,7 +23,11 @@
     "longitude": 19.087296,
     "sizeInSquareKilometers": 403.71,
     "nationalParkSince": 2002,
-    "website": "https://npvelkafatra.sk/en/"
+    "website": "https://npvelkafatra.sk/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "sk-slovak-paradise-national-park",
@@ -30,7 +38,11 @@
     "longitude": 20.385218,
     "sizeInSquareKilometers": 194.14,
     "nationalParkSince": 1988,
-    "website": "https://www.npslovenskyraj.sk/"
+    "website": "https://www.npslovenskyraj.sk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "sk-tatra-national-park",
@@ -39,9 +51,13 @@
     "code": "SK",
     "latitude": 49.206546,
     "longitude": 19.933708,
-    "sizeInSquareKilometers": 738.0,
+    "sizeInSquareKilometers": 738,
     "nationalParkSince": 1949,
-    "website": "https://www.tanap.org/english/"
+    "website": "https://www.tanap.org/english/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "sk-mala-fatra-national-park",
@@ -52,7 +68,11 @@
     "longitude": 19.061178,
     "sizeInSquareKilometers": 208.35,
     "nationalParkSince": 1988,
-    "website": "https://www.npmalafatra.sk/"
+    "website": "https://www.npmalafatra.sk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "sk-poloniny-national-park",
@@ -63,7 +83,11 @@
     "longitude": 22.409885,
     "sizeInSquareKilometers": 298.05,
     "nationalParkSince": 1997,
-    "website": "https://www.nppoloniny.sk/en/"
+    "website": "https://www.nppoloniny.sk/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "sk-pieniny-national-park",
@@ -74,7 +98,11 @@
     "longitude": 20.506103,
     "sizeInSquareKilometers": 37.5,
     "nationalParkSince": 1967,
-    "website": "https://www.pienap.sk/"
+    "website": "https://www.pienap.sk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "sk-muran-plateau-national-park",
@@ -85,7 +113,11 @@
     "longitude": 20.033931,
     "sizeInSquareKilometers": 185.16,
     "nationalParkSince": 1997,
-    "website": "https://www.npmuranskaplanina.sk/"
+    "website": "https://www.npmuranskaplanina.sk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "sk-slovak-karst-national-park",
@@ -96,6 +128,10 @@
     "longitude": 20.497618,
     "sizeInSquareKilometers": 346.11,
     "nationalParkSince": 2002,
-    "website": "https://www.npslovenskykras.sk/"
+    "website": "https://www.npslovenskykras.sk/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

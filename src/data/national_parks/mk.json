@@ -8,7 +8,11 @@
     "longitude": 20.735954,
     "sizeInSquareKilometers": 730.88,
     "nationalParkSince": 1949,
-    "website": "https://npmavrovo.org.mk/en/"
+    "website": "https://npmavrovo.org.mk/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "mk-sar-mountain-national-park",
@@ -19,7 +23,11 @@
     "longitude": 20.884158,
     "sizeInSquareKilometers": 627.05,
     "nationalParkSince": 2021,
-    "website": "https://www.sarmountain.org.mk/en"
+    "website": "https://www.sarmountain.org.mk/en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "mk-national-park-galicica",
@@ -30,7 +38,11 @@
     "longitude": 20.840078,
     "sizeInSquareKilometers": 241.51,
     "nationalParkSince": 1958,
-    "website": "https://galicica.org.mk/en/"
+    "website": "https://galicica.org.mk/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "mk-national-park-pelister",
@@ -41,6 +53,10 @@
     "longitude": 21.212962,
     "sizeInSquareKilometers": 171.5,
     "nationalParkSince": 1948,
-    "website": "https://nppelister.mk/en/"
+    "website": "https://nppelister.mk/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

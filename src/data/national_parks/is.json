@@ -6,9 +6,13 @@
     "code": "IS",
     "latitude": 64.7843,
     "longitude": -17.209108,
-    "sizeInSquareKilometers": 14141.0,
+    "sizeInSquareKilometers": 14141,
     "nationalParkSince": 2008,
-    "website": "https://www.vatnajokulsthjodgardur.is/en"
+    "website": "https://www.vatnajokulsthjodgardur.is/en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "is-sn-fellsjokull-national-park",
@@ -17,9 +21,13 @@
     "code": "IS",
     "latitude": 64.908341,
     "longitude": -23.908629,
-    "sizeInSquareKilometers": 170.0,
+    "sizeInSquareKilometers": 170,
     "nationalParkSince": 2001,
-    "website": "https://snaefellsjokull.is/en"
+    "website": "https://snaefellsjokull.is/en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "is-thingvellir-national-park",
@@ -28,8 +36,12 @@
     "code": "IS",
     "latitude": 64.282172,
     "longitude": -21.076449,
-    "sizeInSquareKilometers": 240.0,
+    "sizeInSquareKilometers": 240,
     "nationalParkSince": 1930,
-    "website": "https://www.thingvellir.is/en/"
+    "website": "https://www.thingvellir.is/en/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]

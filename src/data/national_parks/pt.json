@@ -7,5 +7,9 @@
   "longitude": -8.162632,
   "sizeInSquareKilometers": "702.9",
   "nationalParkSince": "1971",
-  "website": "https://natural.pt/protected-areas/parque-nacional-peneda-geres?locale=en"
+  "website": "https://natural.pt/protected-areas/parque-nacional-peneda-geres?locale=en",
+  "youtubeUrl": "",
+  "gpxAvailable": false,
+  "visited": false,
+  "visitDates": []
 }

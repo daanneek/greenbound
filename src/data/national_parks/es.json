@@ -8,7 +8,11 @@
     "longitude": -4.871243,
     "sizeInSquareKilometers": 671.27,
     "nationalParkSince": 1918,
-    "website": "https://parquenacionalpicoseuropa.es/"
+    "website": "https://parquenacionalpicoseuropa.es/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "es-sierra-nevada-national-park",
@@ -19,7 +23,11 @@
     "longitude": -3.400636,
     "sizeInSquareKilometers": 858.83,
     "nationalParkSince": 1999,
-    "website": "https://sierranevada.es/en/invierno/the-station/environment/natural-and-national-park/"
+    "website": "https://sierranevada.es/en/invierno/the-station/environment/natural-and-national-park/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "es-ordesa-y-monte-perdido-national-park",
@@ -30,7 +38,11 @@
     "longitude": 0.0349,
     "sizeInSquareKilometers": 156.96,
     "nationalParkSince": 1918,
-    "website": "https://www.aragon.es/-/parque-nacional-de-ordesa-y-monte-perdido"
+    "website": "https://www.aragon.es/-/parque-nacional-de-ordesa-y-monte-perdido",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "es-parque-nacional-del-teide",
@@ -41,7 +53,11 @@
     "longitude": -16.618268,
     "sizeInSquareKilometers": 189.9,
     "nationalParkSince": 1954,
-    "website": "https://www.volcanoteide.com/en/national_park"
+    "website": "https://www.volcanoteide.com/en/national_park",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "es-parque-nacional-de-cabaneros",
@@ -52,7 +68,11 @@
     "longitude": -4.493183,
     "sizeInSquareKilometers": 408.56,
     "nationalParkSince": 1995,
-    "website": "https://www.visitacabaneros.es/"
+    "website": "https://www.visitacabaneros.es/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "es-timanfaya-national-park",
@@ -63,7 +83,11 @@
     "longitude": -13.782924,
     "sizeInSquareKilometers": 51.07,
     "nationalParkSince": 1974,
-    "website": "https://www.gobiernodecanarias.org/parquesnacionales/timanfaya/"
+    "website": "https://www.gobiernodecanarias.org/parquesnacionales/timanfaya/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "es-donana-national-park",
@@ -72,9 +96,13 @@
     "code": "ES",
     "latitude": 37.042729,
     "longitude": -6.434447,
-    "sizeInSquareKilometers": 543.0,
+    "sizeInSquareKilometers": 543,
     "nationalParkSince": 1969,
-    "website": "https://www.donanareservas.com/en/donana/"
+    "website": "https://www.donanareservas.com/en/donana/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "es-aiguestortes-i-estany-de-sant-maurici-national-park",
@@ -85,7 +113,11 @@
     "longitude": 0.92475,
     "sizeInSquareKilometers": 141.19,
     "nationalParkSince": 1955,
-    "website": "https://parcsnaturals.gencat.cat/en/xarxa-de-parcs/aiguestortes/inici/"
+    "website": "https://parcsnaturals.gencat.cat/en/xarxa-de-parcs/aiguestortes/inici/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "es-parque-nacional-sierra-de-las-nieves",
@@ -96,7 +128,11 @@
     "longitude": -4.997553,
     "sizeInSquareKilometers": 229.79,
     "nationalParkSince": 2021,
-    "website": "https://www.i-sierradelasnieves.com/"
+    "website": "https://www.i-sierradelasnieves.com/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "es-cabrera-archipelago-maritime-terrestrial-national-park",
@@ -105,9 +141,13 @@
     "code": "ES",
     "latitude": 39.141002,
     "longitude": 2.944407,
-    "sizeInSquareKilometers": 908.0,
+    "sizeInSquareKilometers": 908,
     "nationalParkSince": 1991,
-    "website": "https://www.caib.es/rescabfront/?lang=en"
+    "website": "https://www.caib.es/rescabfront/?lang=en",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "es-sierra-de-guadarrama-national-park",
@@ -118,7 +158,11 @@
     "longitude": -3.946476,
     "sizeInSquareKilometers": 339.6,
     "nationalParkSince": 2013,
-    "website": "https://www.parquenacionalsierraguadarrama.es/"
+    "website": "https://www.parquenacionalsierraguadarrama.es/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "es-parque-nacional-de-monfrague",
@@ -127,9 +171,13 @@
     "code": "ES",
     "latitude": 39.813014,
     "longitude": -5.937073,
-    "sizeInSquareKilometers": 179.0,
+    "sizeInSquareKilometers": 179,
     "nationalParkSince": 2007,
-    "website": "https://www.parquenacionaldemonfrague.com/en/monfrague-national-park/"
+    "website": "https://www.parquenacionaldemonfrague.com/en/monfrague-national-park/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "es-parque-nacional-maritimo-terrestre-de-las-islas-atlanticas-de-galicia",
@@ -140,7 +188,11 @@
     "longitude": -8.936686,
     "sizeInSquareKilometers": 84.8,
     "nationalParkSince": 2002,
-    "website": "https://illasatlanticas.gal/es/inicio"
+    "website": "https://illasatlanticas.gal/es/inicio",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "es-tablas-daimiel",
@@ -151,7 +203,11 @@
     "longitude": -3.697037,
     "sizeInSquareKilometers": 30.3,
     "nationalParkSince": 1973,
-    "website": "https://www.lastablasdedaimiel.com/"
+    "website": "https://www.lastablasdedaimiel.com/",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "es-caldera-de-taburiente-national-park",
@@ -162,7 +218,11 @@
     "longitude": -17.870235,
     "sizeInSquareKilometers": 46.9,
     "nationalParkSince": 1954,
-    "website": "https://www.reservasparquesnacionales.es/real/parquesnac/usu/html/listado-actividades-oapn.aspx?cen=4&ii=6eng"
+    "website": "https://www.reservasparquesnacionales.es/real/parquesnac/usu/html/listado-actividades-oapn.aspx?cen=4&ii=6eng",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   },
   {
     "id": "es-parque-nacional-de-garajonay",
@@ -173,6 +233,10 @@
     "longitude": -17.237483,
     "sizeInSquareKilometers": 39.86,
     "nationalParkSince": 1981,
-    "website": "https://www.garajonay.info/english"
+    "website": "https://www.garajonay.info/english",
+    "youtubeUrl": "",
+    "gpxAvailable": false,
+    "visited": false,
+    "visitDates": []
   }
 ]
