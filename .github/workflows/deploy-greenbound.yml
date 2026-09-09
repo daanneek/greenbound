@@ -1,4 +1,4 @@
-name: Deploy European National Parks
+name: Deploy Greenbound
 
 on:
   push:
