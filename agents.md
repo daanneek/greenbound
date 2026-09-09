@@ -118,16 +118,16 @@ A future configuration shape may be:
 
 ```js
 const payhipProducts = {
-	"si-triglav-national-park": {
-		title: "Triglav route pack",
-		price: "EUR 3",
-		checkoutUrl: "https://payhip.com/b/your-product-id",
-	},
-	"slovenia-regional-pack": {
-		title: "Slovenia national parks pack",
-		price: "EUR 5",
-		checkoutUrl: "https://payhip.com/b/your-product-id",
-	},
+  "si-triglav-national-park": {
+    title: "Triglav route pack",
+    price: "EUR 3",
+    checkoutUrl: "https://payhip.com/b/your-product-id",
+  },
+  "slovenia-regional-pack": {
+    title: "Slovenia national parks pack",
+    price: "EUR 5",
+    checkoutUrl: "https://payhip.com/b/your-product-id",
+  },
 };
 ```
 

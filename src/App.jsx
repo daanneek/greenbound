@@ -22,6 +22,20 @@ const countriesAtWar = new Set(["BY", "RU", "UA"]);
 
 const getCountryName = (country) => country || "Unknown country";
 const isCountryAtWar = (park) => countriesAtWar.has(park.code);
+const getNavigationUrl = (park) => {
+  const destination = `${park.latitude},${park.longitude}`;
+  const userAgent = typeof navigator === "undefined" ? "" : navigator.userAgent;
+  const isAppleMobile = /iPhone|iPad|iPod/i.test(userAgent);
+  const isMobile = /Android|Mobile/i.test(userAgent);
+
+  if (isAppleMobile) {
+    return `https://maps.apple.com/?daddr=${destination}&q=${encodeURIComponent(park.name)}`;
+  }
+
+  return isMobile
+    ? `geo:${destination}?q=${encodeURIComponent(park.name)}`
+    : `https://www.google.com/maps/dir/?api=1&destination=${destination}`;
+};
 
 const countries = [
   "All countries",
@@ -671,6 +685,14 @@ function App() {
                     More info <span aria-hidden="true">↗</span>
                   </a>
                 )}
+                <a
+                  className="park-website park-navigation"
+                  href={getNavigationUrl(selectedPark)}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Route to <span aria-hidden="true">↗</span>
+                </a>
                 <div className="park-facts">
                   <div>
                     <span>Size</span>
