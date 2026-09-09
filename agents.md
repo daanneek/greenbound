@@ -18,7 +18,8 @@ Greenbound is a single-page React/Vite app for exploring European national parks
 - `src/App.css`: visual system and responsive layout, including Leaflet overrides.
 - `src/index.css`: document-level typography and page defaults.
 - `src/data/national_parks/*.json`: one file per country code, loaded eagerly with `import.meta.glob`.
-- `public/favicon.svg`: the only static asset in use.
+- `public/logo_transparent.png`: the visible brand logo asset.
+- `public/logo.svg`: the cropped browser favicon asset.
 - `index.html`: document metadata and Vite entry point.
 
 ## Current map implementation

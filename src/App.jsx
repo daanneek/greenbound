@@ -526,7 +526,13 @@ function App() {
           </button>
           <div className="sidebar-heading">
             <a className="wordmark" href="/" aria-label="Greenbound home">
-              <span>✳</span> Greenbound
+              <img
+                className="wordmark-mark"
+                src={`${import.meta.env.BASE_URL}logo_transparent.png`}
+                alt=""
+                aria-hidden="true"
+              />
+              Greenbound
             </a>
           </div>
           <label className="search-label">

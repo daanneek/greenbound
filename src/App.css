@@ -3,9 +3,9 @@
 :root {
   --ink: #17231d;
   --muted: #718077;
-  --paper: #f2f0e8;
+  --paper: var(--brand-yellow);
   --line: #ccd1c5;
-  --green: #2e6d52;
+  --green: var(--brand-green);
   --mint: #dce9dd;
   --orange: #dc754b;
 }
@@ -32,6 +32,9 @@ button {
   overflow: hidden;
 }
 .wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   color: var(--ink);
   text-decoration: none;
   font-size: 19px;
@@ -39,11 +42,10 @@ button {
   font-weight: 700;
   white-space: nowrap;
 }
-.wordmark span {
-  color: var(--orange);
-  font-size: 21px;
-  margin-right: 7px;
-  vertical-align: -2px;
+.wordmark-mark {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
 }
 .filter-title {
   margin: 0 0 14px;
@@ -824,8 +826,9 @@ input::placeholder {
   .wordmark {
     font-size: 17px;
   }
-  .wordmark span {
-    font-size: 19px;
+  .wordmark-mark {
+    width: 46px;
+    height: 46px;
   }
   .mobile-filters-toggle {
     display: inline-flex;
