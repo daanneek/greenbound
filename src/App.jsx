@@ -633,7 +633,11 @@ function App() {
               <span>◌</span> Exclude countries at war{" "}
               <b>{excludeWar ? "ON" : "OFF"}</b>
             </button>
-            <div className="segmented-control" role="radiogroup" aria-label="Visited status">
+            <div
+              className="segmented-control"
+              role="radiogroup"
+              aria-label="Visited status"
+            >
               {[
                 { value: "all", label: "All" },
                 { value: "visited", label: "Visited" },
