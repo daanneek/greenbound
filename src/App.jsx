@@ -818,9 +818,7 @@ function App() {
                   </div>
                 </div>
                 {selectedPark.description?.trim() && (
-                  <p className="card-description">
-                    {selectedPark.description}
-                  </p>
+                  <p className="card-description">{selectedPark.description}</p>
                 )}
               </article>
             )}
