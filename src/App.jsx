@@ -817,6 +817,11 @@ function App() {
                     </strong>
                   </div>
                 </div>
+                {selectedPark.description?.trim() && (
+                  <p className="card-description">
+                    {selectedPark.description}
+                  </p>
+                )}
               </article>
             )}
           </div>

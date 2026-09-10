@@ -2,7 +2,7 @@
 
 :root {
   --ink: #17231d;
-  --muted: #718077;
+  --muted: #545f52;
   --paper: var(--brand-yellow);
   --line: #ccd1c5;
   --green: var(--brand-green);
@@ -64,7 +64,7 @@ p {
   flex: 1;
   min-height: 0;
   display: grid;
-  grid-template-columns: 278px minmax(0, 1fr) 278px;
+  grid-template-columns: 324px minmax(0, 1fr) 324px;
   grid-template-rows: 57px minmax(0, 1fr);
   border: 1px solid var(--line);
   background: #e4ebdf;
@@ -97,10 +97,10 @@ label {
   color: var(--muted);
   display: block;
   font:
-    10px "DM Mono",
+    11px "DM Mono",
     monospace;
   text-transform: uppercase;
-  letter-spacing: 0.09em;
+  letter-spacing: 0.08em;
 }
 input,
 select {
@@ -174,11 +174,11 @@ input::placeholder {
   position: absolute;
   top: 50%;
   right: 12px;
-  width: 8px;
-  height: 8px;
-  margin-top: -6px;
-  border-right: 1.4px solid var(--green);
-  border-bottom: 1.4px solid var(--green);
+  width: 10px;
+  height: 10px;
+  margin-top: -7px;
+  border-right: 2px solid var(--green);
+  border-bottom: 2px solid var(--green);
   transform: rotate(45deg);
   transform-origin: 70% 70%;
   transition: transform 0.2s ease;
@@ -276,17 +276,18 @@ input::placeholder {
 .filter-title {
   color: var(--muted);
   margin-bottom: 13px;
+  font-size: 11px;
 }
 .filter-chip {
   display: flex;
   width: 100%;
   align-items: center;
   gap: 8px;
-  padding: 11px 10px;
+  padding: 13px 12px;
   border: 1px solid var(--line);
   background: transparent;
   color: var(--ink);
-  font-size: 11px;
+  font-size: 12px;
   text-align: left;
 }
 .filter-chip span {
@@ -311,13 +312,19 @@ input::placeholder {
 }
 .segmented-control button {
   flex: 1 1 0;
-  padding: 9px 6px;
+  padding: 11px 8px;
   border: 0;
   border-left: 1px solid var(--line);
   background: transparent;
   color: var(--ink);
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
+  transition:
+    color 0.15s ease,
+    background-color 0.15s ease;
+}
+.segmented-control button:hover {
+  background: rgba(220, 233, 221, 0.5);
 }
 .segmented-control button:first-child {
   border-left: 0;
@@ -328,21 +335,27 @@ input::placeholder {
 }
 .reset-filters {
   width: 100%;
-  margin-top: 9px;
-  padding: 9px 10px;
-  border: 1px solid var(--line);
-  background: transparent;
-  color: var(--muted);
+  margin-top: 11px;
+  padding: 10px 10px;
+  border: 1px solid var(--green);
+  background: rgba(49, 76, 49, 0.06);
+  color: var(--green);
   font:
-    10px "DM Mono",
+    11px "DM Mono",
     monospace;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  font-weight: 600;
+  transition:
+    background-color 0.18s ease,
+    color 0.18s ease,
+    border-color 0.18s ease;
 }
 .reset-filters:hover,
 .reset-filters:focus-visible {
-  border-color: var(--green);
-  color: var(--green);
+  border-color: var(--orange);
+  color: var(--paper);
+  background: var(--orange);
   outline: none;
 }
 .legend {
@@ -351,15 +364,15 @@ input::placeholder {
   padding-top: 22px;
 }
 .legend p:not(.filter-title) {
-  color: var(--muted);
-  font-size: 11px;
-  margin: 9px 0;
+  color: var(--ink);
+  font-size: 13px;
+  margin: 10px 0;
 }
 .legend-dot,
 .card-status > span {
   display: inline-block;
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   margin-right: 8px;
   background: var(--green);
@@ -486,10 +499,11 @@ input::placeholder {
   max-width: none;
   height: 100%;
   margin: 0;
-  padding: 28px 18px;
+  padding: 30px 24px;
   border: 0;
   border-left: 1px solid var(--line);
   background: rgba(242, 240, 232, 0.75);
+  overflow-y: auto;
 }
 .map-toolbar {
   display: flex;
@@ -546,20 +560,41 @@ input::placeholder {
   display: flex;
   align-items: center;
   gap: 11px;
+  padding: 5px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: rgba(242, 240, 232, 0.92);
+  box-shadow: 0 3px 10px rgba(23, 35, 29, 0.16);
 }
 .zoom-controls button {
-  width: 27px;
-  height: 27px;
-  border: 1px solid var(--line);
-  color: var(--ink);
-  background: rgba(242, 240, 232, 0.5);
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--green);
+  border-radius: 3px;
+  color: var(--green);
+  background: var(--paper);
   font-size: 18px;
+  font-weight: 600;
   line-height: 1;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+.zoom-controls button:hover,
+.zoom-controls button:focus-visible {
+  color: var(--paper);
+  background: var(--green);
+  outline: none;
+}
+.zoom-controls button:active {
+  transform: scale(0.94);
 }
 .zoom-controls span {
   min-width: 39px;
   text-align: center;
-  font-size: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--ink);
 }
 .leaflet-map {
   width: 100%;
@@ -790,12 +825,22 @@ input::placeholder {
   }
 }
 .card-status {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid var(--green);
+  border-radius: 999px;
   color: var(--green);
   font:
-    10px "DM Mono",
+    11px "DM Mono",
     monospace;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.07em;
+}
+.card-status:has(> span.caution) {
+  border-color: var(--orange);
+  color: var(--orange);
 }
 .card-visited {
   display: flex;
@@ -834,8 +879,8 @@ input::placeholder {
 .park-actions {
   display: flex;
   flex-wrap: nowrap;
-  gap: 6px;
-  margin-top: 5px;
+  gap: 10px;
+  margin-top: 14px;
 }
 .park-website {
   display: inline-flex;
@@ -843,12 +888,13 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   gap: 7px;
-  padding: 8px 10px;
+  padding: 10px 10px;
   border: 1px solid var(--green);
   color: var(--green);
   font:
     10px "DM Mono",
     monospace;
+  font-weight: 600;
   letter-spacing: 0.08em;
   text-decoration: none;
   text-transform: uppercase;
@@ -856,7 +902,8 @@ input::placeholder {
   transition:
     color 0.18s ease,
     background-color 0.18s ease,
-    border-color 0.18s ease;
+    border-color 0.18s ease,
+    transform 0.12s ease;
 }
 .park-website span {
   font-size: 13px;
@@ -869,20 +916,30 @@ input::placeholder {
   background: #f9e9df;
   outline: none;
 }
+.park-website:active {
+  transform: scale(0.96);
+}
 .park-website.is-disabled,
 .park-website.is-disabled:hover,
 .park-website.is-disabled:focus-visible {
-  border-color: var(--line);
+  border: 1px dashed var(--line);
   color: var(--muted);
-  background: transparent;
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(23, 35, 29, 0.04),
+    rgba(23, 35, 29, 0.04) 4px,
+    transparent 4px,
+    transparent 9px
+  );
   cursor: not-allowed;
-  opacity: 0.55;
+  opacity: 0.6;
+  transform: none;
 }
 .park-facts {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin: 18px 0 15px;
+  margin: 20px 0 18px;
 }
 .park-facts div {
   display: flex;
@@ -902,6 +959,14 @@ input::placeholder {
 .park-facts strong {
   font:
     14px Manrope,
+    sans-serif;
+}
+.card-description {
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  color: var(--ink);
+  font:
+    13px/1.6 Manrope,
     sans-serif;
 }
 @media (max-width: 760px) {
