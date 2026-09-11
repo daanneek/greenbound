@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parc national de forêts"
   },
   {
     "id": "fr-cevennes-national-park",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Cévennes National Park"
   },
   {
     "id": "fr-parc-national-des-calanques",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parc national des Calanques"
   },
   {
     "id": "fr-parc-national-de-port-cros",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parc national de Port-Cros"
   },
   {
     "id": "fr-parc-national-des-pyrenees",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parc national des Pyrénées"
   },
   {
     "id": "fr-parc-national-de-la-vanoise",
@@ -87,7 +92,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parc national de la Vanoise"
   },
   {
     "id": "fr-parc-national-des-ecrins",
@@ -102,7 +108,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parc national des Écrins"
   },
   {
     "id": "fr-parc-national-du-mercantour",
@@ -117,6 +124,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parc national du Mercantour"
   }
 ]

@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Lahemaa National Park"
   },
   {
     "id": "ee-matsalu-national-park",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Matsalu National Park"
   },
   {
     "id": "ee-vilsandi-national-park",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Vilsandi National Park"
   },
   {
     "id": "ee-karula-national-park",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Karula National Park"
   },
   {
     "id": "ee-soomaa-national-park",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Soomaa National Park"
   },
   {
     "id": "ee-alutaguse-national-park",
@@ -87,6 +92,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Alutaguse National Park"
   }
 ]

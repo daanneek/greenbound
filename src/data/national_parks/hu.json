@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Hortobágyi National Park"
   },
   {
     "id": "hu-bukki-national-park",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Bükki National Park"
   },
   {
     "id": "hu-duna-ipoly-nemzeti-park",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Duna-Ipoly Nemzeti Park"
   },
   {
     "id": "hu-aggtelek-national-park",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Aggtelek National Park"
   },
   {
     "id": "hu-orseg-national-park",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Őrség National Park"
   },
   {
     "id": "hu-duna-drava-national-park",
@@ -87,7 +92,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Duna-Dráva National Park"
   },
   {
     "id": "hu-kiskunsag-national-park",
@@ -102,7 +108,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Kiskunság National Park"
   },
   {
     "id": "hu-ferto-hansag-national-park",
@@ -117,7 +124,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Fertő-Hanság National Park"
   },
   {
     "id": "hu-koros-maros-national-park",
@@ -132,7 +140,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Körös-Maros National Park"
   },
   {
     "id": "hu-balaton-uplands-national-park",
@@ -147,6 +156,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Balaton Uplands National Park"
   }
 ]

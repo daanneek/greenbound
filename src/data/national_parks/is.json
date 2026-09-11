@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Vatnajökull National Park"
   },
   {
     "id": "is-sn-fellsjokull-national-park",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Snæfellsjökull National Park"
   },
   {
     "id": "is-thingvellir-national-park",
@@ -42,6 +44,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Thingvellir National Park"
   }
 ]

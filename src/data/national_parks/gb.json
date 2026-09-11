@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Lake District National Park"
   },
   {
     "id": "gb-northumberland-national-park",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Northumberland National Park"
   },
   {
     "id": "gb-cairngorms-national-park",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Cairngorms National Park"
   },
   {
     "id": "gb-loch-lomond-and-the-trossachs-national-park",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Loch Lomond & The Trossachs National Park"
   },
   {
     "id": "gb-eryri-national-park-snowdonia",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Eryri National Park (Snowdonia)"
   },
   {
     "id": "gb-peak-district-national-park",
@@ -87,7 +92,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Peak District National Park"
   },
   {
     "id": "gb-yorkshire-dales-national-park",
@@ -102,7 +108,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Yorkshire Dales National Park"
   },
   {
     "id": "gb-north-york-moors-national-park",
@@ -117,7 +124,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "North York Moors National Park"
   },
   {
     "id": "gb-bannau-brycheiniog-national-park-brecon-beacons",
@@ -132,7 +140,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Bannau Brycheiniog National Park (Brecon Beacons)"
   },
   {
     "id": "gb-pembrokeshire-coast-national-park",
@@ -147,7 +156,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Pembrokeshire Coast National Park"
   },
   {
     "id": "gb-exmoor-national-park",
@@ -162,7 +172,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Exmoor National Park"
   },
   {
     "id": "gb-dartmoor-national-park",
@@ -177,7 +188,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Dartmoor National Park"
   },
   {
     "id": "gb-south-downs-national-park",
@@ -192,7 +204,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "South Downs National Park"
   },
   {
     "id": "gb-new-forest-national-park",
@@ -207,7 +220,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "New Forest National Park"
   },
   {
     "id": "gb-the-broads-national-park",
@@ -222,6 +236,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "The Broads National Park"
   }
 ]

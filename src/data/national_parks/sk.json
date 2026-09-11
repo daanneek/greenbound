@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Low Tatras National Park"
   },
   {
     "id": "sk-national-park-great-fatra",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Veľká Fatra National Park"
   },
   {
     "id": "sk-slovak-paradise-national-park",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Slovak Paradise National Park"
   },
   {
     "id": "sk-tatra-national-park",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Tatra National Park"
   },
   {
     "id": "sk-mala-fatra-national-park",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Malá Fatra National Park"
   },
   {
     "id": "sk-poloniny-national-park",
@@ -87,7 +92,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Poloniny National Park"
   },
   {
     "id": "sk-pieniny-national-park",
@@ -102,7 +108,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Pieniny National Park"
   },
   {
     "id": "sk-muran-plateau-national-park",
@@ -117,7 +124,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Muran Plateau National Park"
   },
   {
     "id": "sk-slovak-karst-national-park",
@@ -132,6 +140,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Slovak Karst National Park"
   }
 ]

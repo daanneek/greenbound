@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Sharr Mountain National Park"
   },
   {
     "id": "xk-bjeshket-e-nemuna-national-park",
@@ -27,6 +28,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Bjeshkët e Nemuna National Park"
   }
 ]

@@ -12,7 +12,11 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "gpxAvailable": true,
     "visited": true,
-    "visitDates": ["2022-08-14", "2023-07-02"]
+    "visitDates": [
+      "2022-08-14",
+      "2023-07-02"
+    ],
+    "nativeName": "Nationaal Park De Biesbosch"
   },
   {
     "id": "nl-oosterschelde-national-park",
@@ -27,7 +31,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Oosterschelde National Park"
   },
   {
     "id": "nl-nationaal-park-duinen-van-texel",
@@ -42,7 +47,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationaal Park Duinen van Texel"
   },
   {
     "id": "nl-het-nationale-park-de-hoge-veluwe",
@@ -57,7 +63,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Het Nationale Park De Hoge Veluwe"
   },
   {
     "id": "nl-nationaal-park-veluwezoom",
@@ -72,7 +79,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationaal Park Veluwezoom"
   },
   {
     "id": "nl-nationaal-park-weerribben-wieden",
@@ -87,7 +95,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationaal Park Weerribben-Wieden"
   },
   {
     "id": "nl-nationaal-park-de-maasduinen",
@@ -102,7 +111,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationaal Park De Maasduinen"
   },
   {
     "id": "nl-meinweg-national-park",
@@ -117,7 +127,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Meinweg National Park"
   },
   {
     "id": "nl-zuid-kennemerland-national-park",
@@ -132,7 +143,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Zuid-Kennemerland National Park"
   },
   {
     "id": "nl-the-loonse-and-drunense-duinen-national-park",
@@ -147,7 +159,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "The Loonse and Drunense Duinen National Park"
   },
   {
     "id": "nl-drents-friese-wold-national-park",
@@ -162,7 +175,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Drents-Friese Wold National Park"
   },
   {
     "id": "nl-utrechtse-heuvelrug-national-park",
@@ -177,7 +191,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Utrechtse Heuvelrug National Park"
   },
   {
     "id": "nl-nationaal-park-drentsche-aa",
@@ -192,7 +207,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationaal Park Drentsche Aa"
   },
   {
     "id": "nl-de-alde-feanen-national-park",
@@ -207,7 +223,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "De Alde Feanen National Park"
   },
   {
     "id": "nl-dwingelderveld-national-park",
@@ -222,7 +239,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Dwingelderveld National Park"
   },
   {
     "id": "nl-sallandse-heuvelrug",
@@ -237,7 +255,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Sallandse Heuvelrug"
   },
   {
     "id": "nl-national-park-lauwersmeer",
@@ -252,7 +271,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "National Park Lauwersmeer"
   },
   {
     "id": "nl-schiermonnikoog-national-park",
@@ -267,7 +287,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Schiermonnikoog National Park"
   },
   {
     "id": "nl-de-groote-peel-national-park",
@@ -282,7 +303,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "De Groote Peel National Park"
   },
   {
     "id": "nl-van-gogh-national-park",
@@ -297,7 +319,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Van Gogh National Park"
   }
 ]
-

@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Pallas-Yllästunturi National Park"
   },
   {
     "id": "fi-pyha-luosto-national-park",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Pyhä-Luosto National Park"
   },
   {
     "id": "fi-oulanka-national-park",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Oulanka National Park"
   },
   {
     "id": "fi-riisitunturi-national-park",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Riisitunturi National Park"
   },
   {
     "id": "fi-koli-national-park",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Koli National Park"
   },
   {
     "id": "fi-nuuksio-national-park",
@@ -87,7 +92,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nuuksio National Park"
   },
   {
     "id": "fi-repovesi-national-park",
@@ -102,7 +108,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Repovesi National Park"
   },
   {
     "id": "fi-urho-kekkonen-national-park",
@@ -117,7 +124,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Urho Kekkonen National Park"
   },
   {
     "id": "fi-archipelago-national-park",
@@ -132,7 +140,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Archipelago National Park"
   },
   {
     "id": "fi-sipoonkorpi-national-park",
@@ -147,7 +156,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Sipoonkorpi National Park"
   },
   {
     "id": "fi-teijo-national-park",
@@ -162,7 +172,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Teijo National Park"
   },
   {
     "id": "fi-perameri-national-park",
@@ -177,7 +188,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Perämeri National Park"
   },
   {
     "id": "fi-selkameri-national-park-pori",
@@ -192,7 +204,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Selkämeri National Park (Pori)"
   },
   {
     "id": "fi-eastern-gulf-of-finland-national-park",
@@ -207,7 +220,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Eastern Gulf of Finland National Park"
   },
   {
     "id": "fi-ekenas-archipelago-national-park",
@@ -222,7 +236,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Ekenäs Archipelago National Park"
   },
   {
     "id": "fi-helvetinjarvi-national-park",
@@ -237,7 +252,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Helvetinjärvi National Park"
   },
   {
     "id": "fi-hiidenportti-national-park",
@@ -252,7 +268,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Hiidenportti National Park"
   },
   {
     "id": "fi-hossa-national-park",
@@ -267,7 +284,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Hossa National Park"
   },
   {
     "id": "fi-isojarvi-national-park",
@@ -282,7 +300,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Isojärvi National Park"
   },
   {
     "id": "fi-kauhaneva-pohjankangas-national-park",
@@ -297,7 +316,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Kauhaneva-Pohjankangas national park"
   },
   {
     "id": "fi-kolovesi-national-park",
@@ -312,7 +332,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Kolovesi National Park"
   },
   {
     "id": "fi-kurjenrahka-national-park",
@@ -327,7 +348,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Kurjenrahka National Park"
   },
   {
     "id": "fi-lauhanvuori-national-park",
@@ -342,7 +364,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Lauhanvuori National Park"
   },
   {
     "id": "fi-leivonmaki-national-park",
@@ -357,6 +380,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Leivonmäki National Park"
   }
 ]

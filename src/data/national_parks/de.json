@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationalpark Eifel"
   },
   {
     "id": "de-nationalpark-schwarzwald",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationalpark Schwarzwald"
   },
   {
     "id": "de-hunsruck-hochwald-national-park",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Hunsrück-Hochwald National Park"
   },
   {
     "id": "de-nationalpark-berchtesgaden",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationalpark Berchtesgaden"
   },
   {
     "id": "de-nationalpark-bayerischer-wald",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationalpark Bayerischer Wald"
   },
   {
     "id": "de-saxon-switzerland-national-park",
@@ -87,7 +92,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Saxon Switzerland National Park"
   },
   {
     "id": "de-harz-national-park",
@@ -102,7 +108,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Harz National Park"
   },
   {
     "id": "de-nationalpark-schleswig-holsteinisches-wattenmeer",
@@ -117,7 +124,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationalpark Schleswig-Holsteinisches Wattenmeer"
   },
   {
     "id": "de-hamburgisches-wattenmeer-national-park",
@@ -132,7 +140,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Hamburgisches Wattenmeer National Park"
   },
   {
     "id": "de-niedersachsisches-wattenmeer-national-park",
@@ -147,7 +156,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Niedersächsisches Wattenmeer National Park"
   },
   {
     "id": "de-hainich-national-park",
@@ -162,7 +172,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Hainich National Park"
   },
   {
     "id": "de-kellerwald-edersee-national-park",
@@ -177,7 +188,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Kellerwald-Edersee National Park"
   },
   {
     "id": "de-jasmund-national-park",
@@ -192,7 +204,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Jasmund National Park"
   },
   {
     "id": "de-nationalpark-vorpommersche-boddenlandschaft",
@@ -207,7 +220,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationalpark Vorpommersche Boddenlandschaft"
   },
   {
     "id": "de-unteres-odertal-national-park",
@@ -222,7 +236,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Unteres Odertal National Park"
   },
   {
     "id": "de-muritz-nationalpark",
@@ -237,6 +252,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Müritz Nationalpark"
   }
 ]

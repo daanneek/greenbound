@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Killarney National Park"
   },
   {
     "id": "ie-kerry-seas-national-park-pairc-naisiunta-na-mara-ciarrai",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Kerry Seas National Park (Páirc Náisiúnta na Mara, Ciarraí)"
   },
   {
     "id": "ie-burren-national-park",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Burren National Park"
   },
   {
     "id": "ie-connemara-national-park",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Connemara National Park"
   },
   {
     "id": "ie-wicklow-mountains-national-park",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Wicklow Mountains National Park"
   },
   {
     "id": "ie-wild-nephin-national-park",
@@ -87,7 +92,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Wild Nephin National Park"
   },
   {
     "id": "ie-glenveagh-national-park",
@@ -102,6 +108,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Glenveagh National Park"
   }
 ]

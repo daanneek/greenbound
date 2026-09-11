@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationalpark Hohe Tauern"
   },
   {
     "id": "at-nationalpark-gesause",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationalpark Gesäuse"
   },
   {
     "id": "at-nationalpark-kalkalpen",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationalpark Kalkalpen"
   },
   {
     "id": "at-thayatal-national-park",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Thayatal National Park"
   },
   {
     "id": "at-lake-neusiedl-seewinkel-national-park",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Lake Neusiedl - Seewinkel National Park"
   },
   {
     "id": "at-nationalpark-donau-auen",
@@ -87,6 +92,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationalpark Donau-Auen"
   }
 ]

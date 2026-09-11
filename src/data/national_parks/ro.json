@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Piatra Craiului National Park"
   },
   {
     "id": "ro-rodnei-mountains-national-park",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Rodnei Mountains National Park"
   },
   {
     "id": "ro-cozia-national-park",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Cozia National Park"
   },
   {
     "id": "ro-retezat-national-park",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Retezat National Park"
   },
   {
     "id": "ro-vatafu-lungulet-national-park",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "\"Vătafu-Lunguleț\" National Park"
   },
   {
     "id": "ro-ceahlau-national-park",
@@ -87,7 +92,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Ceahlău National Park"
   },
   {
     "id": "ro-parcul-national-domogled-valea-cernei",
@@ -102,7 +108,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parcul Național Domogled-Valea Cernei"
   },
   {
     "id": "ro-defileul-jiului-national-park",
@@ -117,7 +124,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Defileul Jiului National Park"
   },
   {
     "id": "ro-semenic-cheile-carasului-national-park",
@@ -132,7 +140,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Semenic - Cheile Carasului National Park"
   },
   {
     "id": "ro-cheile-nerei-beusnita-national-park",
@@ -147,7 +156,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Cheile Nerei-Beușnița National Park"
   },
   {
     "id": "ro-calimani-national-park",
@@ -162,7 +172,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Călimani National Park"
   },
   {
     "id": "ro-buila-vanturarita-national-park",
@@ -177,7 +188,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Buila Vânturarița National Park"
   },
   {
     "id": "ro-parcul-national-cheile-bicazului",
@@ -192,7 +204,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parcul național Cheile Bicazului"
   },
   {
     "id": "ro-macin-mountains-national-park",
@@ -207,6 +220,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Măcin Mountains National Park"
   }
 ]

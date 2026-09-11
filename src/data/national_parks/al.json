@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Fir of Hotova-Dangëlli National Park"
   },
   {
     "id": "al-llogara-national-park",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Llogara National Park"
   },
   {
     "id": "al-shebenik-national-park",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Shebenik National Park"
   },
   {
     "id": "al-dajti-national-park",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Dajti National Park"
   },
   {
     "id": "al-prespa-national-park",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Prespa National Park"
   },
   {
     "id": "al-tomorri-mountain-national-park",
@@ -87,7 +92,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Tomorri Mountain National Park"
   },
   {
     "id": "al-divjaka-karavasta-national-park",
@@ -102,7 +108,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Divjaka-Karavasta National Park"
   },
   {
     "id": "al-vjosa-wild-river-national-park",
@@ -117,7 +124,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Vjosa Wild River National Park"
   },
   {
     "id": "al-butrint-national-archaeological-park",
@@ -132,7 +140,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Butrint National Archaeological Park"
   },
   {
     "id": "al-lura-mt-dejes-national-park",
@@ -147,7 +156,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Lura - Mt. Dejës National Park"
   },
   {
     "id": "al-karaburun-sazan-national-marine-park",
@@ -162,7 +172,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Karaburun-Sazan National Marine Park"
   },
   {
     "id": "al-alps-of-albania-national-park",
@@ -177,6 +188,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Alps of Albania National Park"
   }
 ]

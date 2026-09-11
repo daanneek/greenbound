@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Sarek National Park"
   },
   {
     "id": "se-padjelanta-national-park",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Padjelanta National Park"
   },
   {
     "id": "se-stora-sjofallets-stuor-muorkke-national-park",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Stora Sjöfallets / Stuor Muorkke National Park"
   },
   {
     "id": "se-abisko-national-park",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Abisko National Park"
   },
   {
     "id": "se-gotska-sandon-national-park",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Gotska Sandön National Park"
   },
   {
     "id": "se-tyresta-national-park-and-nature-reserve",
@@ -87,7 +92,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Tyresta National Park and Nature Reserve"
   },
   {
     "id": "se-fulufjallet-national-park",
@@ -102,7 +108,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Fulufjället National Park"
   },
   {
     "id": "se-sonfjallet-national-park",
@@ -117,7 +124,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Sonfjället National Park"
   },
   {
     "id": "se-vadvetjakka-national-park",
@@ -132,7 +140,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Vadvetjåkka National Park"
   },
   {
     "id": "se-muddus-national-park",
@@ -147,7 +156,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Muddus National Park"
   },
   {
     "id": "se-tiveden-national-park",
@@ -162,7 +172,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Tiveden National Park"
   },
   {
     "id": "se-stenshuvud-s-national-park",
@@ -177,7 +188,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Stenshuvud's National Park"
   },
   {
     "id": "se-angso-national-park",
@@ -192,7 +204,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Ängsö National Park"
   },
   {
     "id": "se-asnens-nationalpark",
@@ -207,7 +220,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Åsnens Nationalpark"
   },
   {
     "id": "se-bjornlandets-nationalpark",
@@ -222,7 +236,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Björnlandets Nationalpark"
   },
   {
     "id": "se-bla-jungfrun-nationalpark",
@@ -237,7 +252,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Blå Jungfrun nationalpark"
   },
   {
     "id": "se-dalby-soderskog-national-park",
@@ -252,7 +268,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Dalby Söderskog National Park"
   },
   {
     "id": "se-djuro-national-park",
@@ -267,7 +284,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Djurö National Park"
   },
   {
     "id": "se-farnebofjarden-national-park",
@@ -282,7 +300,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Färnebofjärden National Park"
   },
   {
     "id": "se-garphyttans-nationalpark",
@@ -297,7 +316,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Garphyttans Nationalpark"
   },
   {
     "id": "se-hamra-national-park",
@@ -312,6 +332,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Hamra National Park"
   }
 ]

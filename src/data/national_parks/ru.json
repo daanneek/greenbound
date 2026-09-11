@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Charming Harbor National Park (Ukraine)"
   },
   {
     "id": "ru-alaniya-national-park",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Alaniya National Park"
   },
   {
     "id": "ru-elbrus-national-park",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Elbrus National Park"
   },
   {
     "id": "ru-yugyd-va-national-park",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Yugyd Va National Park"
   },
   {
     "id": "ru-bashkiriya-national-park",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Bashkiriya National Park"
   },
   {
     "id": "ru-buzuluksky-bor-national-park",
@@ -87,7 +92,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Buzuluksky Bor National Park"
   },
   {
     "id": "ru-chuvash-forest-national-park",
@@ -102,7 +108,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Chuvash Forest National Park"
   },
   {
     "id": "ru-crimean-national-park-russia",
@@ -117,7 +124,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Crimean National Park (Russia)"
   },
   {
     "id": "ru-curonian-spit-national-park",
@@ -132,7 +140,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Curonian Spit National Park"
   },
   {
     "id": "ru-kalevalsky-national-park",
@@ -147,7 +156,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Kalevalsky National Park"
   },
   {
     "id": "ru-kenozersky-national-park",
@@ -162,7 +172,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Kenozersky National Park"
   },
   {
     "id": "ru-khibiny-national-park",
@@ -177,7 +188,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Khibiny National Park"
   },
   {
     "id": "ru-khvalynsky-national-park",
@@ -192,7 +204,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Khvalynsky National Park"
   },
   {
     "id": "ru-kislovodsk-national-park",
@@ -207,7 +220,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Kislovodsk National Park"
   },
   {
     "id": "ru-koygorodsky-national-park",
@@ -222,7 +236,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Koygorodsky National Park"
   },
   {
     "id": "ru-ladoga-skerries-national-park",
@@ -237,7 +252,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Ladoga Skerries National Park"
   },
   {
     "id": "ru-losiny-ostrov-national-park",
@@ -252,7 +268,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Losiny Ostrov National Park"
   },
   {
     "id": "ru-mariy-chodra-national-park",
@@ -267,7 +284,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Mariy Chodra National Park"
   },
   {
     "id": "ru-meshchyora-national-park",
@@ -282,7 +300,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Meshchyora National Park"
   },
   {
     "id": "ru-meshchyorsky-national-park",
@@ -297,7 +316,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Meshchyorsky National Park"
   },
   {
     "id": "ru-nechkinsky-national-park",
@@ -312,7 +332,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nechkinsky National Park"
   },
   {
     "id": "ru-nizhnyaya-kama-national-park",
@@ -327,7 +348,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nizhnyaya Kama National Park"
   },
   {
     "id": "ru-onezhskoye-pomorye-national-park",
@@ -342,7 +364,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Onezhskoye Pomorye National Park"
   },
   {
     "id": "ru-orlovskoye-polesye-national-park",
@@ -357,7 +380,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Orlovskoye Polesye National Park"
   },
   {
     "id": "ru-paanajarvi-national-park",
@@ -372,7 +396,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Paanajärvi National Park"
   },
   {
     "id": "ru-lake-pleshcheyevo-national-park",
@@ -387,7 +412,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Lake Pleshcheyevo National Park"
   },
   {
     "id": "ru-russian-arctic-national-park",
@@ -402,7 +428,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Russian Arctic National Park"
   },
   {
     "id": "ru-russian-north-national-park",
@@ -417,7 +444,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Russian North National Park"
   },
   {
     "id": "ru-samarskaya-luka-national-park",
@@ -432,7 +460,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Samarskaya Luka National Park"
   },
   {
     "id": "ru-samursky-national-park",
@@ -447,7 +476,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Samursky National Park"
   },
   {
     "id": "ru-sebezhsky-national-park",
@@ -462,7 +492,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Sebezhsky National Park"
   },
   {
     "id": "ru-sengileev-hills-national-park",
@@ -477,7 +508,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Sengileev Hills National Park"
   },
   {
     "id": "ru-smolenskoye-poozerye-national-park",
@@ -492,7 +524,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Smolenskoye Poozerye National Park"
   },
   {
     "id": "ru-smolny-national-park",
@@ -507,7 +540,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Smolny National Park"
   },
   {
     "id": "ru-sochi-national-park",
@@ -522,7 +556,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Sochi National Park"
   },
   {
     "id": "ru-taganai-national-park",
@@ -537,7 +572,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Taganai National Park"
   },
   {
     "id": "ru-tarkhankut-national-park-russia",
@@ -552,7 +588,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Tarkhankut National Park (Russia)"
   },
   {
     "id": "ru-ugra-national-park",
@@ -567,7 +604,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Ugra National Park"
   },
   {
     "id": "ru-valdaysky-national-park",
@@ -582,7 +620,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Valdaysky National Park"
   },
   {
     "id": "ru-vodlozersky-national-park",
@@ -597,7 +636,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Vodlozersky National Park"
   },
   {
     "id": "ru-zavidovo-national-park",
@@ -612,7 +652,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Zavidovo National Park"
   },
   {
     "id": "ru-zigalga-national-park",
@@ -627,7 +668,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Zigalga National Park"
   },
   {
     "id": "ru-zyuratkul-national-park",
@@ -642,6 +684,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Zyuratkul National Park"
   }
 ]

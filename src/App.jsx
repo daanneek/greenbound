@@ -21,6 +21,13 @@ const parkById = new Map(parks.map((park) => [park.id, park]));
 const countriesAtWar = new Set(["BY", "RU", "UA"]);
 
 const getCountryName = (country) => country || "Unknown country";
+const getParkTitle = (park) => park.name || park.englishName || "Unnamed park";
+const getParkNativeName = (park) =>
+  park.nativeName ||
+  park.originalName ||
+  park.localName ||
+  park.translatedName ||
+  "";
 const isCountryAtWar = (park) => countriesAtWar.has(park.code);
 const getNavigationUrl = (park) => {
   const destination = `${park.latitude},${park.longitude}`;
@@ -29,11 +36,11 @@ const getNavigationUrl = (park) => {
   const isMobile = /Android|Mobile/i.test(userAgent);
 
   if (isAppleMobile) {
-    return `https://maps.apple.com/?daddr=${destination}&q=${encodeURIComponent(park.name)}`;
+    return `https://maps.apple.com/?daddr=${destination}&q=${encodeURIComponent(getParkTitle(park))}`;
   }
 
   return isMobile
-    ? `geo:${destination}?q=${encodeURIComponent(park.name)}`
+    ? `geo:${destination}?q=${encodeURIComponent(getParkTitle(park))}`
     : `https://www.google.com/maps/dir/?api=1&destination=${destination}`;
 };
 
@@ -695,7 +702,7 @@ function App() {
                         </i>
                       )}
                       <span className="result-item__text">
-                        <strong>{park.name}</strong>
+                        <strong>{getParkTitle(park)}</strong>
                         <em>{getCountryName(park.country)}</em>
                       </span>
                     </button>
@@ -765,7 +772,7 @@ function App() {
                 >
                   <span className="card-handle__bar" />
                   <span className="card-handle__label">
-                    {selectedPark.name}
+                    {getParkTitle(selectedPark)}
                   </span>
                 </button>
                 <div className="card-status">
@@ -776,7 +783,12 @@ function App() {
                     ? "Check before travel"
                     : "Open"}
                 </div>
-                <h2>{selectedPark.name}</h2>
+                <h2>{getParkTitle(selectedPark)}</h2>
+                {getParkNativeName(selectedPark) && (
+                  <p className="card-native-name">
+                    {getParkNativeName(selectedPark)}
+                  </p>
+                )}
                 <p className="card-location">
                   {getCountryName(selectedPark.country)} ·{" "}
                   {selectedPark.terrain || "National park"}

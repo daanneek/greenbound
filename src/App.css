@@ -943,6 +943,15 @@ input::placeholder {
   margin: 14px 0 3px;
   font-size: 28px;
 }
+.card-native-name {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font:
+    12px/1.4 "DM Mono",
+    monospace;
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
 .card-location {
   color: var(--muted);
   font-size: 11px;

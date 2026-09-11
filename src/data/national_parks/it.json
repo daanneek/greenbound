@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale delle Dolomiti Bellunesi"
   },
   {
     "id": "it-national-park-of-abruzzo",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "National Park of Abruzzo"
   },
   {
     "id": "it-parco-nazionale-gran-paradiso",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale Gran Paradiso"
   },
   {
     "id": "it-parco-nazionale-dell-arcipelago-di-la-maddalena",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale dell'Arcipelago di La Maddalena"
   },
   {
     "id": "it-parco-nazionale-del-golfo-di-orosei-e-del-gennargentu",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale del Golfo di Orosei e del Gennargentu"
   },
   {
     "id": "it-parco-nazionale-dei-monti-sibillini",
@@ -87,7 +92,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale dei Monti Sibillini"
   },
   {
     "id": "it-stelvio-national-park",
@@ -102,7 +108,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Stelvio National Park"
   },
   {
     "id": "it-vesuvius-national-park",
@@ -117,7 +124,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Vesuvius National Park"
   },
   {
     "id": "it-parco-nazionale-del-cilento-vallo-di-diano-e-alburni",
@@ -132,7 +140,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale del Cilento, Vallo di Diano e Alburni"
   },
   {
     "id": "it-parco-nazionale-del-pollino",
@@ -147,7 +156,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale del Pollino"
   },
   {
     "id": "it-parco-nazionale-del-gargano",
@@ -162,7 +172,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale del Gargano"
   },
   {
     "id": "it-parco-nazionale-del-gran-sasso-e-monti-della-laga",
@@ -177,7 +188,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale del Gran Sasso e Monti della Laga"
   },
   {
     "id": "it-parco-nazionale-dell-arcipelago-toscano",
@@ -192,7 +204,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale dell'Arcipelago Toscano"
   },
   {
     "id": "it-parco-nazionale-dell-appennino-tosco-emiliano",
@@ -207,7 +220,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale dell'Appennino Tosco-Emiliano"
   },
   {
     "id": "it-asinara-national-park",
@@ -222,7 +236,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Asinara National Park"
   },
   {
     "id": "it-parco-nazionale-delle-cinque-terre",
@@ -237,7 +252,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale delle Cinque Terre"
   },
   {
     "id": "it-aspromonte-national-park",
@@ -252,7 +268,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Aspromonte National Park"
   },
   {
     "id": "it-sila-national-park",
@@ -267,7 +284,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Sila National Park"
   },
   {
     "id": "it-parco-nazionale-dell-appennino-lucano-val-d-agri-lagonegrese",
@@ -282,7 +300,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale dell'Appennino Lucano Val d'Agri - Lagonegrese"
   },
   {
     "id": "it-alta-murgia-national-park",
@@ -297,7 +316,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Alta Murgia National Park"
   },
   {
     "id": "it-parco-nazionale-della-maiella",
@@ -312,7 +332,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale della Maiella"
   },
   {
     "id": "it-parco-nazionale-delle-foreste-casentinesi-monte-falterona-e-campigna",
@@ -327,7 +348,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale delle Foreste Casentinesi, Monte Falterona e Campigna"
   },
   {
     "id": "it-parco-nazionale-della-val-grande",
@@ -342,7 +364,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale della Val Grande"
   },
   {
     "id": "it-parco-nazionale-del-circeo",
@@ -357,7 +380,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parco Nazionale del Circeo"
   },
   {
     "id": "it-pantelleria-island-national-park",
@@ -372,6 +396,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Pantelleria Island National Park"
   }
 ]

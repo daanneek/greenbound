@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "National Park Hoge Kempen"
   },
   {
     "id": "be-nationaal-park-bosland",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationaal Park Bosland"
   },
   {
     "id": "be-nationaal-park-scheldevallei",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationaal Park Scheldevallei"
   },
   {
     "id": "be-nationaal-park-brabantse-wouden",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Nationaal Park Brabantse Wouden"
   },
   {
     "id": "be-vallee-de-la-semois-national-park",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Vallée de la Semois National Park"
   },
   {
     "id": "be-entre-sambre-et-meuse-national-park",
@@ -87,7 +92,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Entre-Sambre-et-Meuse National Park"
   },
   {
     "id": "be-grenspark-kalmthoutse-heide",
@@ -102,6 +108,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Grenspark Kalmthoutse Heide"
   }
 ]

@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Rodopi Mountain Range National Park"
   },
   {
     "id": "gr-national-park-of-tzoumerka-peristeri-and-arachthos-gorge",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "National Park of Tzoumerka, Peristeri & Arachthos Gorge"
   },
   {
     "id": "gr-mount-olympus-national-park",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Mount Olympus National Park"
   },
   {
     "id": "gr-samaria-gorge-national-park",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Samaria Gorge National Park"
   },
   {
     "id": "gr-parnassos-national-park",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parnassos National Park"
   },
   {
     "id": "gr-national-park-of-parnitha",
@@ -87,7 +92,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "National Park of Parnitha"
   },
   {
     "id": "gr-ainos-oros",
@@ -102,7 +108,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Ainos Oros"
   },
   {
     "id": "gr-mt-iti-national-park",
@@ -117,7 +124,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Mt Iti National Park"
   },
   {
     "id": "gr-prespa-national-park",
@@ -132,7 +140,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Prespa National Park"
   },
   {
     "id": "gr-kerkini-lake-national-park",
@@ -147,7 +156,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Kerkini Lake National Park"
   },
   {
     "id": "gr-delta-nestos-national-park",
@@ -162,7 +172,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Delta Nestos National Park"
   },
   {
     "id": "gr-pindos-national-park",
@@ -177,7 +188,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Pindos National Park"
   },
   {
     "id": "gr-vikos-national-park",
@@ -192,7 +204,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Vikos National Park"
   },
   {
     "id": "gr-sounion-national-park",
@@ -207,7 +220,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Sounion National Park"
   },
   {
     "id": "gr-national-marine-park",
@@ -222,7 +236,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "National Marine Park"
   },
   {
     "id": "gr-evros-delta-national-park",
@@ -237,7 +252,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Evros Delta National Park"
   },
   {
     "id": "gr-national-forest-park-of-dadia-lefkimi-soufli",
@@ -252,7 +268,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "National Forest Park of Dadia - Lefkimi - Soufli"
   },
   {
     "id": "gr-amvrakikos-wetlands-national-park",
@@ -267,7 +284,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Amvrakikos Wetlands National Park"
   },
   {
     "id": "gr-axios-delta-national-park",
@@ -282,7 +300,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Axios Delta National Park"
   },
   {
     "id": "gr-chelmos-national-park",
@@ -297,7 +316,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Chelmos National Park"
   },
   {
     "id": "gr-national-park-of-eastern-macedonia-and-thrace",
@@ -312,6 +332,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "National Park of Eastern Macedonia and Thrace"
   }
 ]

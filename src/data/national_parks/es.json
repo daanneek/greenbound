@@ -12,7 +12,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Picos de Europa National Park"
   },
   {
     "id": "es-sierra-nevada-national-park",
@@ -27,7 +28,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Sierra Nevada National Park"
   },
   {
     "id": "es-ordesa-y-monte-perdido-national-park",
@@ -42,7 +44,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Ordesa y Monte Perdido National Park"
   },
   {
     "id": "es-parque-nacional-del-teide",
@@ -57,7 +60,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parque Nacional del Teide"
   },
   {
     "id": "es-parque-nacional-de-cabaneros",
@@ -72,7 +76,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parque Nacional de Cabañeros"
   },
   {
     "id": "es-timanfaya-national-park",
@@ -87,7 +92,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Timanfaya National Park"
   },
   {
     "id": "es-donana-national-park",
@@ -102,7 +108,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Doñana National Park"
   },
   {
     "id": "es-aiguestortes-i-estany-de-sant-maurici-national-park",
@@ -117,7 +124,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Aigüestortes i Estany de Sant Maurici National Park"
   },
   {
     "id": "es-parque-nacional-sierra-de-las-nieves",
@@ -132,7 +140,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parque Nacional Sierra de las Nieves"
   },
   {
     "id": "es-cabrera-archipelago-maritime-terrestrial-national-park",
@@ -147,7 +156,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Cabrera Archipelago Maritime-Terrestrial National Park"
   },
   {
     "id": "es-sierra-de-guadarrama-national-park",
@@ -162,7 +172,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Sierra de Guadarrama National Park"
   },
   {
     "id": "es-parque-nacional-de-monfrague",
@@ -177,7 +188,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parque Nacional de Monfragüe"
   },
   {
     "id": "es-parque-nacional-maritimo-terrestre-de-las-islas-atlanticas-de-galicia",
@@ -192,7 +204,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parque Nacional Marítimo-Terrestre de las Islas Atlánticas de Galicia"
   },
   {
     "id": "es-tablas-daimiel",
@@ -207,7 +220,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Tablas de Daimiel National Park"
   },
   {
     "id": "es-caldera-de-taburiente-national-park",
@@ -222,7 +236,8 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Caldera de Taburiente National Park"
   },
   {
     "id": "es-parque-nacional-de-garajonay",
@@ -237,6 +252,7 @@
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
-    "visitDates": []
+    "visitDates": [],
+    "nativeName": "Parque Nacional de Garajonay"
   }
 ]
