@@ -1179,6 +1179,9 @@ input::placeholder {
   .no-selection-content {
     padding: 24px 0 6px;
   }
+  .no-selection-content h2 {
+    display: none;
+  }
   .park-card.is-expanded {
     transform: none;
   }
