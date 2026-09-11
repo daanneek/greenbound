@@ -110,10 +110,6 @@ const getMarkerIcon = (variant, isSelected, visited) => {
   return markerIconCache.get(key);
 };
 
-const mapStyleLabels = Object.values(MAP_STYLES).map((style) => style.label);
-const getMapStyleKey = (label) =>
-  Object.keys(MAP_STYLES).find((key) => MAP_STYLES[key].label === label);
-
 function SearchableSelect({
   label,
   value,
@@ -531,7 +527,6 @@ function App() {
   const [excludeWar, setExcludeWar] = useState(true);
   const [visitedFilter, setVisitedFilter] = useState("all");
   const [selectedId, setSelectedId] = useState(null);
-  const [mapStyle, setMapStyle] = useState("osm");
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [cardExpanded, setCardExpanded] = useState(false);
   const mapRef = useRef(null);
@@ -716,15 +711,6 @@ function App() {
             <span>
               <strong>{visibleParks.length}</strong> parks in view
             </span>
-            <div className="map-style-control">
-              <SearchableSelect
-                label="Map style"
-                searchable={false}
-                value={MAP_STYLES[mapStyle].label}
-                options={mapStyleLabels}
-                onChange={(label) => setMapStyle(getMapStyleKey(label))}
-              />
-            </div>
           </div>
           <div className="map-body">
             <div
@@ -752,7 +738,7 @@ function App() {
               >
                 <MapSizeFix />
                 <MapZoomButtons />
-                <MapStyleLayer mapStyle={mapStyle} />
+                <MapStyleLayer mapStyle="osm" />
                 <ParkMarkers
                   visibleParks={visibleParks}
                   selectedId={selectedPark?.id}

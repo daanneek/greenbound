@@ -590,41 +590,6 @@ input::placeholder {
 .map-toolbar strong {
   color: var(--ink);
 }
-.map-style-control {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  color: var(--muted);
-  font: inherit;
-}
-.map-style-control .combobox {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  margin-top: 0;
-}
-.map-style-control .combobox label {
-  font: inherit;
-  white-space: nowrap;
-}
-.map-style-control .combobox-trigger {
-  min-width: 145px;
-  margin-top: 0;
-  padding: 8px 11px;
-  font:
-    11px Manrope,
-    sans-serif;
-  text-transform: none;
-  letter-spacing: 0;
-}
-.map-style-control .combobox-caret {
-  display: none;
-}
-.map-style-control .combobox-list {
-  left: auto;
-  right: 0;
-  min-width: 175px;
-}
 .zoom-controls {
   display: flex;
   align-items: center;
@@ -1124,13 +1089,6 @@ input::placeholder {
     border: 1px solid var(--line);
     background: rgba(242, 240, 232, 0.9);
     white-space: nowrap;
-  }
-  .map-style-control {
-    padding-left: 10px;
-    border-left: 1px solid var(--line);
-  }
-  .map-style-control .combobox-trigger {
-    min-width: 0;
   }
   .map-stage {
     flex: 1 1 auto;
