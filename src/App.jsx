@@ -569,6 +569,10 @@ function App() {
       ?.scrollIntoView({ block: "nearest" });
   }, [selectedPark]);
 
+  useEffect(() => {
+    if (filtersOpen) sidebarRef.current?.scrollTo({ top: 0, behavior: "auto" });
+  }, [filtersOpen]);
+
   const focusPark = (park) => {
     setSelectedId(park.id);
     setFiltersOpen(false);
