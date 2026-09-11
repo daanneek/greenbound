@@ -9,11 +9,20 @@
       http-equiv="Content-Security-Policy"
       content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://*.tile.openstreetmap.org https://*.tile.opentopomap.org; connect-src 'self'; frame-src 'none'; form-action 'self'"
     />
+    <!-- The HTML shell must always be revalidated; only the hashed
+         /assets files are safe to cache long-term. -->
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <title>Greenbound — European National Parks</title>
   </head>
 
   <body>
     <div id="root"></div>
+    <script src="/reload-guard.js"></script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
