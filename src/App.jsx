@@ -531,6 +531,7 @@ function App() {
   const [cardExpanded, setCardExpanded] = useState(false);
   const mapRef = useRef(null);
   const resultsRef = useRef(null);
+  const sidebarRef = useRef(null);
 
   const visibleParks = useMemo(
     () =>
@@ -557,6 +558,10 @@ function App() {
     [country, excludeWar, searchTerm, visitedFilter],
   );
   const selectedPark = visibleParks.find((park) => park.id === selectedId);
+
+  useLayoutEffect(() => {
+    if (filtersOpen) sidebarRef.current?.scrollTo({ top: 0, behavior: "auto" });
+  }, [filtersOpen]);
 
   useEffect(() => {
     resultsRef.current
@@ -590,7 +595,10 @@ function App() {
           onClick={() => setFiltersOpen(false)}
           aria-hidden="true"
         />
-        <aside className={`sidebar ${filtersOpen ? "is-open" : ""}`}>
+        <aside
+          className={`sidebar ${filtersOpen ? "is-open" : ""}`}
+          ref={sidebarRef}
+        >
           <div className="sidebar-heading">
             <a className="wordmark" href="/" aria-label="Greenbound home">
               <img
