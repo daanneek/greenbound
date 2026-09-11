@@ -528,9 +528,9 @@ function ParkActionLinks({ park }) {
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [country, setCountry] = useState("All countries");
-  const [excludeWar, setExcludeWar] = useState(false);
+  const [excludeWar, setExcludeWar] = useState(true);
   const [visitedFilter, setVisitedFilter] = useState("all");
-  const [selectedId, setSelectedId] = useState("si-triglav-national-park");
+  const [selectedId, setSelectedId] = useState(null);
   const [mapStyle, setMapStyle] = useState("osm");
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [cardExpanded, setCardExpanded] = useState(false);
@@ -561,8 +561,7 @@ function App() {
       }),
     [country, excludeWar, searchTerm, visitedFilter],
   );
-  const selectedPark =
-    visibleParks.find((park) => park.id === selectedId) ?? visibleParks[0];
+  const selectedPark = visibleParks.find((park) => park.id === selectedId);
 
   useEffect(() => {
     resultsRef.current
@@ -584,7 +583,7 @@ function App() {
   const resetFilters = () => {
     setSearchTerm("");
     setCountry("All countries");
-    setExcludeWar(false);
+    setExcludeWar(true);
     setVisitedFilter("all");
   };
 
@@ -761,10 +760,11 @@ function App() {
                 />
               </MapContainer>
             </div>
-            {selectedPark && (
-              <article
-                className={`park-card ${cardExpanded ? "is-expanded" : ""}`}
-              >
+            <article
+              className={`park-card ${selectedPark ? "" : "no-selection"} ${cardExpanded ? "is-expanded" : ""}`}
+            >
+              {selectedPark ? (
+                <>
                 <button
                   className="card-handle"
                   onClick={() => setCardExpanded((open) => !open)}
@@ -832,8 +832,18 @@ function App() {
                 {selectedPark.description?.trim() && (
                   <p className="card-description">{selectedPark.description}</p>
                 )}
-              </article>
-            )}
+                </>
+              ) : (
+                <div className="no-selection-content">
+                  <p className="filter-title">Park details</p>
+                  <h2>No park selected</h2>
+                  <p>
+                    Select a park from the results list or click a marker on the
+                    map to explore its details.
+                  </p>
+                </div>
+              )}
+            </article>
           </div>
         </div>
       </section>

@@ -1053,6 +1053,19 @@ input::placeholder {
     13px/1.6 Manrope,
     sans-serif;
 }
+.no-selection-content {
+  padding-top: 28px;
+}
+.no-selection-content h2 {
+  margin: 12px 0 8px;
+}
+.no-selection-content > p:last-child {
+  max-width: 230px;
+  color: var(--muted);
+  font:
+    13px/1.6 Manrope,
+    sans-serif;
+}
 @media (max-width: 760px) {
   .app-shell {
     height: 100svh;
@@ -1088,7 +1101,9 @@ input::placeholder {
     position: relative;
     display: flex;
     flex-direction: column;
+    margin: 0;
     border: 0;
+    border-radius: 0;
   }
   .map-column,
   .map-body {
@@ -1123,6 +1138,7 @@ input::placeholder {
     min-height: 0;
     border-left: 0;
     border-right: 0;
+    border-radius: 0;
   }
   .mobile-backdrop {
     display: block;
@@ -1193,6 +1209,16 @@ input::placeholder {
     box-shadow: 0 -8px 22px rgba(23, 35, 29, 0.16);
     transform: translateY(calc(100% - 50px));
     transition: transform 0.3s ease;
+  }
+  .park-card .card-status {
+    margin-top: 8px;
+  }
+  .park-card.no-selection {
+    transform: none;
+    padding-top: 0;
+  }
+  .no-selection-content {
+    padding: 24px 0 6px;
   }
   .park-card.is-expanded {
     transform: none;
