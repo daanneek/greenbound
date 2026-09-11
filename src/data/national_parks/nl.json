@@ -1,7 +1,7 @@
 [
   {
     "id": "nl-nationaal-park-de-biesbosch",
-    "name": "Nationaal Park De Biesbosch",
+    "name": "De Biesbosch National Park",
     "country": "Netherlands",
     "code": "NL",
     "latitude": 51.751135,
@@ -12,10 +12,7 @@
     "youtubeUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "gpxAvailable": true,
     "visited": true,
-    "visitDates": [
-      "2022-08-14",
-      "2023-07-02"
-    ],
+    "visitDates": ["2022-08-14", "2023-07-02"],
     "nativeName": "Nationaal Park De Biesbosch"
   },
   {
@@ -32,11 +29,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Oosterschelde National Park"
+    "nativeName": "Nationaal Park Oosterschelde"
   },
   {
     "id": "nl-nationaal-park-duinen-van-texel",
-    "name": "Nationaal Park Duinen van Texel",
+    "name": "Dunes of Texel National Park",
     "country": "Netherlands",
     "code": "NL",
     "latitude": 53.075229,
@@ -52,7 +49,7 @@
   },
   {
     "id": "nl-het-nationale-park-de-hoge-veluwe",
-    "name": "Het Nationale Park De Hoge Veluwe",
+    "name": "De Hoge Veluwe National Park",
     "country": "Netherlands",
     "code": "NL",
     "latitude": 52.078716,
@@ -68,7 +65,7 @@
   },
   {
     "id": "nl-nationaal-park-veluwezoom",
-    "name": "Nationaal Park Veluwezoom",
+    "name": "Veluwezoom National Park",
     "country": "Netherlands",
     "code": "NL",
     "latitude": 52.04831,
@@ -84,7 +81,7 @@
   },
   {
     "id": "nl-nationaal-park-weerribben-wieden",
-    "name": "Nationaal Park Weerribben-Wieden",
+    "name": "Weerribben-Wieden National Park",
     "country": "Netherlands",
     "code": "NL",
     "latitude": 52.725612,
@@ -100,7 +97,7 @@
   },
   {
     "id": "nl-nationaal-park-de-maasduinen",
-    "name": "Nationaal Park De Maasduinen",
+    "name": "De Maasduinen National Park",
     "country": "Netherlands",
     "code": "NL",
     "latitude": 51.583111,
@@ -116,7 +113,7 @@
   },
   {
     "id": "nl-meinweg-national-park",
-    "name": "Meinweg National Park",
+    "name": "De Meinweg National Park",
     "country": "Netherlands",
     "code": "NL",
     "latitude": 51.156074,
@@ -128,7 +125,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Meinweg National Park"
+    "nativeName": "Nationaal Park De Meinweg"
   },
   {
     "id": "nl-zuid-kennemerland-national-park",
@@ -144,11 +141,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Zuid-Kennemerland National Park"
+    "nativeName": "Nationaal Park Zuid-Kennemerland"
   },
   {
     "id": "nl-the-loonse-and-drunense-duinen-national-park",
-    "name": "The Loonse and Drunense Duinen National Park",
+    "name": "Loonse and Drunense Duinen National Park",
     "country": "Netherlands",
     "code": "NL",
     "latitude": 51.653375,
@@ -160,7 +157,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "The Loonse and Drunense Duinen National Park"
+    "nativeName": "Nationaal Park De Loonse en Drunense Duinen"
   },
   {
     "id": "nl-drents-friese-wold-national-park",
@@ -176,7 +173,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Drents-Friese Wold National Park"
+    "nativeName": "Nationaal Park Drents-Friese Wold"
   },
   {
     "id": "nl-utrechtse-heuvelrug-national-park",
@@ -192,11 +189,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Utrechtse Heuvelrug National Park"
+    "nativeName": "Nationaal Park Utrechtse Heuvelrug"
   },
   {
     "id": "nl-nationaal-park-drentsche-aa",
-    "name": "Nationaal Park Drentsche Aa",
+    "name": "Drentsche Aa National Park",
     "country": "Netherlands",
     "code": "NL",
     "latitude": 53.037593,
@@ -224,7 +221,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "De Alde Feanen National Park"
+    "nativeName": "Nationaal Park De Alde Feanen"
   },
   {
     "id": "nl-dwingelderveld-national-park",
@@ -240,11 +237,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Dwingelderveld National Park"
+    "nativeName": "Nationaal Park Dwingelderveld"
   },
   {
     "id": "nl-sallandse-heuvelrug",
-    "name": "Sallandse Heuvelrug",
+    "name": "Sallandse Heuvelrug National Park",
     "country": "Netherlands",
     "code": "NL",
     "latitude": 52.346905,
@@ -256,11 +253,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Sallandse Heuvelrug"
+    "nativeName": "Nationaal Park Sallandse Heuvelrug"
   },
   {
     "id": "nl-national-park-lauwersmeer",
-    "name": "National Park Lauwersmeer",
+    "name": "Lauwersmeer National Park",
     "country": "Netherlands",
     "code": "NL",
     "latitude": 53.380174,
@@ -272,7 +269,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "National Park Lauwersmeer"
+    "nativeName": "Nationaal Park Lauwersmeer"
   },
   {
     "id": "nl-schiermonnikoog-national-park",
@@ -280,46 +277,15 @@
     "country": "Netherlands",
     "code": "NL",
     "latitude": 53.477416,
-    "longitude": 6.161458,
+    "longitude": 6.200155,
     "sizeInSquareKilometers": 54,
     "nationalParkSince": 1989,
-    "website": "https://www.np-schiermonnikoog.nl/nl",
+    "website": "https://np-schiermonnikoog.nl",
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Schiermonnikoog National Park"
-  },
-  {
-    "id": "nl-de-groote-peel-national-park",
-    "name": "De Groote Peel National Park",
-    "country": "Netherlands",
-    "code": "NL",
-    "latitude": 51.346545,
-    "longitude": 5.817371,
-    "sizeInSquareKilometers": 13.4,
-    "nationalParkSince": 1993,
-    "website": "https://npdepeel.nl/nl",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "De Groote Peel National Park"
-  },
-  {
-    "id": "nl-van-gogh-national-park",
-    "name": "Van Gogh National Park",
-    "country": "Netherlands",
-    "code": "NL",
-    "latitude": 51.580988,
-    "longitude": 5.187157,
-    "sizeInSquareKilometers": 1200,
-    "nationalParkSince": 2024,
-    "website": "https://www.vangoghnationalpark.com/nl/homepage",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Van Gogh National Park"
+    "nativeName": "Nationaal Park Schiermonnikoog"
   }
 ]
+

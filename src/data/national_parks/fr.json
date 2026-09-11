@@ -1,7 +1,7 @@
 [
   {
     "id": "fr-parc-national-de-forets",
-    "name": "Parc national de forêts",
+    "name": "Forêts National Park",
     "country": "France",
     "code": "FR",
     "latitude": 47.949141,
@@ -29,11 +29,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Cévennes National Park"
+    "nativeName": "Parc national des Cévennes"
   },
   {
     "id": "fr-parc-national-des-calanques",
-    "name": "Parc national des Calanques",
+    "name": "Calanques National Park",
     "country": "France",
     "code": "FR",
     "latitude": 43.217839,
@@ -49,7 +49,7 @@
   },
   {
     "id": "fr-parc-national-de-port-cros",
-    "name": "Parc national de Port-Cros",
+    "name": "Port-Cros National Park",
     "country": "France",
     "code": "FR",
     "latitude": 43.073926,
@@ -65,7 +65,7 @@
   },
   {
     "id": "fr-parc-national-des-pyrenees",
-    "name": "Parc national des Pyrénées",
+    "name": "Pyrenees National Park",
     "country": "France",
     "code": "FR",
     "latitude": 42.872209,
@@ -81,7 +81,7 @@
   },
   {
     "id": "fr-parc-national-de-la-vanoise",
-    "name": "Parc national de la Vanoise",
+    "name": "Vanoise National Park",
     "country": "France",
     "code": "FR",
     "latitude": 45.336032,
@@ -97,7 +97,7 @@
   },
   {
     "id": "fr-parc-national-des-ecrins",
-    "name": "Parc national des Écrins",
+    "name": "Écrins National Park",
     "country": "France",
     "code": "FR",
     "latitude": 44.83879,
@@ -113,7 +113,7 @@
   },
   {
     "id": "fr-parc-national-du-mercantour",
-    "name": "Parc national du Mercantour",
+    "name": "Mercantour National Park",
     "country": "France",
     "code": "FR",
     "latitude": 44.163977,
@@ -128,3 +128,4 @@
     "nativeName": "Parc national du Mercantour"
   }
 ]
+

@@ -1,7 +1,7 @@
 [
   {
     "id": "be-national-park-hoge-kempen",
-    "name": "National Park Hoge Kempen",
+    "name": "Hoge Kempen National Park",
     "country": "Belgium",
     "code": "BE",
     "latitude": 50.992458,
@@ -13,11 +13,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "National Park Hoge Kempen"
+    "nativeName": "Nationaal Park Hoge Kempen"
   },
   {
     "id": "be-nationaal-park-bosland",
-    "name": "Nationaal Park Bosland",
+    "name": "Bosland National Park",
     "country": "Belgium",
     "code": "BE",
     "latitude": 51.162317,
@@ -33,7 +33,7 @@
   },
   {
     "id": "be-nationaal-park-scheldevallei",
-    "name": "Nationaal Park Scheldevallei",
+    "name": "Scheldevallei National Park",
     "country": "Belgium",
     "code": "BE",
     "latitude": 51.110803,
@@ -49,7 +49,7 @@
   },
   {
     "id": "be-nationaal-park-brabantse-wouden",
-    "name": "Nationaal Park Brabantse Wouden",
+    "name": "Brabantse Wouden National Park",
     "country": "Belgium",
     "code": "BE",
     "latitude": 50.810863,
@@ -65,7 +65,7 @@
   },
   {
     "id": "be-vallee-de-la-semois-national-park",
-    "name": "Vallée de la Semois National Park",
+    "name": "Semois Valley National Park",
     "country": "Belgium",
     "code": "BE",
     "latitude": 49.903179,
@@ -77,7 +77,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Vallée de la Semois National Park"
+    "nativeName": "Parc national de la Vallée de la Semois"
   },
   {
     "id": "be-entre-sambre-et-meuse-national-park",
@@ -93,11 +93,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Entre-Sambre-et-Meuse National Park"
+    "nativeName": "Parc national de l'Entre-Sambre-et-Meuse"
   },
   {
     "id": "be-grenspark-kalmthoutse-heide",
-    "name": "Grenspark Kalmthoutse Heide",
+    "name": "Kalmthoutse Heide Border Park",
     "country": "Belgium",
     "code": "BE",
     "latitude": 51.39959,
@@ -112,3 +112,4 @@
     "nativeName": "Grenspark Kalmthoutse Heide"
   }
 ]
+

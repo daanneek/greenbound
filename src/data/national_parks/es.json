@@ -13,7 +13,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Picos de Europa National Park"
+    "nativeName": "Parque Nacional de Picos de Europa"
   },
   {
     "id": "es-sierra-nevada-national-park",
@@ -29,7 +29,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Sierra Nevada National Park"
+    "nativeName": "Parque Nacional de Sierra Nevada"
   },
   {
     "id": "es-ordesa-y-monte-perdido-national-park",
@@ -45,11 +45,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Ordesa y Monte Perdido National Park"
+    "nativeName": "Parque Nacional de Ordesa y Monte Perdido"
   },
   {
     "id": "es-parque-nacional-del-teide",
-    "name": "Parque Nacional del Teide",
+    "name": "Teide National Park",
     "country": "Spain",
     "code": "ES",
     "latitude": 28.253879,
@@ -65,7 +65,7 @@
   },
   {
     "id": "es-parque-nacional-de-cabaneros",
-    "name": "Parque Nacional de Cabañeros",
+    "name": "Cabañeros National Park",
     "country": "Spain",
     "code": "ES",
     "latitude": 39.400741,
@@ -93,7 +93,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Timanfaya National Park"
+    "nativeName": "Parque Nacional de Timanfaya"
   },
   {
     "id": "es-donana-national-park",
@@ -109,7 +109,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Doñana National Park"
+    "nativeName": "Parque Nacional de Doñana"
   },
   {
     "id": "es-aiguestortes-i-estany-de-sant-maurici-national-park",
@@ -125,11 +125,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Aigüestortes i Estany de Sant Maurici National Park"
+    "nativeName": "Parc Nacional d'Aigüestortes i Estany de Sant Maurici"
   },
   {
     "id": "es-parque-nacional-sierra-de-las-nieves",
-    "name": "Parque Nacional Sierra de las Nieves",
+    "name": "Sierra de las Nieves National Park",
     "country": "Spain",
     "code": "ES",
     "latitude": 36.698977,
@@ -157,7 +157,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Cabrera Archipelago Maritime-Terrestrial National Park"
+    "nativeName": "Parque Nacional Marítimo-Terrestre del Archipiélago de Cabrera"
   },
   {
     "id": "es-sierra-de-guadarrama-national-park",
@@ -173,11 +173,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Sierra de Guadarrama National Park"
+    "nativeName": "Parque Nacional de la Sierra de Guadarrama"
   },
   {
     "id": "es-parque-nacional-de-monfrague",
-    "name": "Parque Nacional de Monfragüe",
+    "name": "Monfragüe National Park",
     "country": "Spain",
     "code": "ES",
     "latitude": 39.813014,
@@ -193,7 +193,7 @@
   },
   {
     "id": "es-parque-nacional-maritimo-terrestre-de-las-islas-atlanticas-de-galicia",
-    "name": "Parque Nacional Marítimo-Terrestre de las Islas Atlánticas de Galicia",
+    "name": "Atlantic Islands of Galicia Maritime-Terrestrial National Park",
     "country": "Spain",
     "code": "ES",
     "latitude": 42.377719,
@@ -221,7 +221,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Tablas de Daimiel National Park"
+    "nativeName": "Parque Nacional de las Tablas de Daimiel"
   },
   {
     "id": "es-caldera-de-taburiente-national-park",
@@ -237,11 +237,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Caldera de Taburiente National Park"
+    "nativeName": "Parque Nacional de la Caldera de Taburiente"
   },
   {
     "id": "es-parque-nacional-de-garajonay",
-    "name": "Parque Nacional de Garajonay",
+    "name": "Garajonay National Park",
     "country": "Spain",
     "code": "ES",
     "latitude": 28.128109,
@@ -256,3 +256,4 @@
     "nativeName": "Parque Nacional de Garajonay"
   }
 ]
+

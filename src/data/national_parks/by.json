@@ -1,7 +1,7 @@
 [
   {
     "id": "by-belavezhskaya-pushcha-national-park",
-    "name": "Belavezhskaya Pushcha National Park",
+    "name": "Belovezhskaya Pushcha National Park",
     "country": "Belarus",
     "code": "BY",
     "latitude": 52.56928,
@@ -13,11 +13,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Belavezhskaya Pushcha National Park"
+    "nativeName": "Нацыянальны парк „Белавежская пушча“"
   },
   {
     "id": "by-braslau-lakes-national-park",
-    "name": "Braslau Lakes National Park",
+    "name": "Braslav Lakes National Park",
     "country": "Belarus",
     "code": "BY",
     "latitude": 55.644909,
@@ -29,11 +29,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Braslau Lakes National Park"
+    "nativeName": "Нацыянальны парк „Браслаўскія азёры“"
   },
   {
     "id": "by-prypyatski-national-park",
-    "name": "Prypyatski National Park",
+    "name": "Pripyat National Park",
     "country": "Belarus",
     "code": "BY",
     "latitude": 52.139285,
@@ -45,7 +45,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Prypyatski National Park"
+    "nativeName": "Нацыянальны парк „Прыпяцкі“"
   },
   {
     "id": "by-narachanski-national-park",
@@ -61,6 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Narachanski National Park"
+    "nativeName": "Нацыянальны парк „Нарачанскі“"
   }
 ]
+

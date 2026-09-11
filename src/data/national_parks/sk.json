@@ -13,7 +13,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Low Tatras National Park"
+    "nativeName": "Národný park Nízke Tatry"
   },
   {
     "id": "sk-national-park-great-fatra",
@@ -29,7 +29,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Veľká Fatra National Park"
+    "nativeName": "Národný park Veľká Fatra"
   },
   {
     "id": "sk-slovak-paradise-national-park",
@@ -45,7 +45,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Slovak Paradise National Park"
+    "nativeName": "Národný park Slovenský raj"
   },
   {
     "id": "sk-tatra-national-park",
@@ -61,7 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Tatra National Park"
+    "nativeName": "Tatranský národný park"
   },
   {
     "id": "sk-mala-fatra-national-park",
@@ -77,7 +77,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Malá Fatra National Park"
+    "nativeName": "Národný park Malá Fatra"
   },
   {
     "id": "sk-poloniny-national-park",
@@ -93,7 +93,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Poloniny National Park"
+    "nativeName": "Národný park Poloniny"
   },
   {
     "id": "sk-pieniny-national-park",
@@ -109,11 +109,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Pieniny National Park"
+    "nativeName": "Pieninský národný park"
   },
   {
     "id": "sk-muran-plateau-national-park",
-    "name": "Muran Plateau National Park",
+    "name": "Muránska Planina National Park",
     "country": "Slovakia",
     "code": "SK",
     "latitude": 48.773922,
@@ -125,7 +125,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Muran Plateau National Park"
+    "nativeName": "Národný park Muránska planina"
   },
   {
     "id": "sk-slovak-karst-national-park",
@@ -141,6 +141,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Slovak Karst National Park"
+    "nativeName": "Národný park Slovenský kras"
   }
 ]
+

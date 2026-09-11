@@ -13,11 +13,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Mavrovo National Park"
+    "nativeName": "Национален парк „Маврово“"
   },
   {
     "id": "mk-sar-mountain-national-park",
-    "name": "Šar Mountain National Park",
+    "name": "Shar Mountain National Park",
     "country": "North Macedonia",
     "code": "MK",
     "latitude": 41.989866,
@@ -29,11 +29,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Šar Mountain National Park"
+    "nativeName": "Национален парк „Шар Планина“"
   },
   {
     "id": "mk-national-park-galicica",
-    "name": "National Park Galicica",
+    "name": "Galicica National Park",
     "country": "North Macedonia",
     "code": "MK",
     "latitude": 40.967271,
@@ -45,11 +45,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "National Park Galicica"
+    "nativeName": "Национален парк „Галичица“"
   },
   {
     "id": "mk-national-park-pelister",
-    "name": "National park Pelister",
+    "name": "Pelister National Park",
     "country": "North Macedonia",
     "code": "MK",
     "latitude": 41.001455,
@@ -61,6 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "National park Pelister"
+    "nativeName": "Национален парк „Пелистер“"
   }
 ]
+

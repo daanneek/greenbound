@@ -8,12 +8,12 @@
     "longitude": 20.944344,
     "sizeInSquareKilometers": "532.72",
     "nationalParkSince": "2012",
-    "website": "https://www.sarmountain.org.mk/en",
+    "website": "https://ammk-rks.net",
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Sharr Mountain National Park"
+    "nativeName": "Parku Kombëtar „Sharr“"
   },
   {
     "id": "xk-bjeshket-e-nemuna-national-park",
@@ -29,6 +29,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Bjeshkët e Nemuna National Park"
+    "nativeName": "Parku Kombëtar „Bjeshkët e Nemuna“"
   }
 ]
+

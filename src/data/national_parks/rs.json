@@ -13,7 +13,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Tara National Park"
+    "nativeName": "Национални парк Тара"
   },
   {
     "id": "rs-djerdap-national-park",
@@ -29,7 +29,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Djerdap National Park"
+    "nativeName": "Национални парк Ђердап"
   },
   {
     "id": "rs-fruska-gora-national-park",
@@ -45,7 +45,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Fruška Gora National Park"
+    "nativeName": "Национални парк Фрушка гора"
   },
   {
     "id": "rs-stara-planina-national-park",
@@ -61,7 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Stara Planina National Park"
+    "nativeName": "Национални парк Стара планина"
   },
   {
     "id": "rs-kopaonik-national-park",
@@ -77,7 +77,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Kopaonik National Park"
+    "nativeName": "Национални парк Копаоник"
   },
   {
     "id": "rs-kucaj-beljanica-national-park",
@@ -93,6 +93,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Kučaj-Beljanica National Park"
+    "nativeName": "Национални парк Кучај-Бељаница"
   }
 ]
+

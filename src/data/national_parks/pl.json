@@ -1,7 +1,7 @@
 [
   {
     "id": "pl-tatra-national-park-poland",
-    "name": "Tatra National Park, Poland",
+    "name": "Tatra National Park",
     "country": "Poland",
     "code": "PL",
     "latitude": 49.271441,
@@ -13,7 +13,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Tatra National Park, Poland"
+    "nativeName": "Tatrzański Park Narodowy"
   },
   {
     "id": "pl-bieszczady-national-park",
@@ -29,7 +29,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Bieszczady National Park"
+    "nativeName": "Bieszczadzki Park Narodowy"
   },
   {
     "id": "pl-pieniny-national-park",
@@ -45,7 +45,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Pieniny National Park"
+    "nativeName": "Pieniński Park Narodowy"
   },
   {
     "id": "pl-babia-gora-national-park",
@@ -61,7 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Babia Góra National Park"
+    "nativeName": "Babiogórski Park Narodowy"
   },
   {
     "id": "pl-bia-owieza-national-park",
@@ -77,7 +77,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Białowieża National Park"
+    "nativeName": "Białowieski Park Narodowy"
   },
   {
     "id": "pl-s-owinski-national-park",
@@ -93,11 +93,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Słowiński National Park"
+    "nativeName": "Słowiński Park Narodowy"
   },
   {
     "id": "pl-biebrzanski-park-narodowy",
-    "name": "Biebrzański Park Narodowy",
+    "name": "Biebrza National Park",
     "country": "Poland",
     "code": "PL",
     "latitude": 53.495788,
@@ -113,7 +113,7 @@
   },
   {
     "id": "pl-wigierski-park-narodowy",
-    "name": "Wigierski Park Narodowy",
+    "name": "Wigry National Park",
     "country": "Poland",
     "code": "PL",
     "latitude": 54.084282,
@@ -129,7 +129,7 @@
   },
   {
     "id": "pl-wolin-national-park",
-    "name": "Wolinski National Park",
+    "name": "Wolin National Park",
     "country": "Poland",
     "code": "PL",
     "latitude": 53.966128,
@@ -141,11 +141,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Wolinski National Park"
+    "nativeName": "Woliński Park Narodowy"
   },
   {
     "id": "pl-warta-mouth-national-park",
-    "name": "Ujście Warty National Park",
+    "name": "Warta Mouth National Park",
     "country": "Poland",
     "code": "PL",
     "latitude": 52.568932,
@@ -157,11 +157,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Ujście Warty National Park"
+    "nativeName": "Park Narodowy „Ujście Warty”"
   },
   {
     "id": "pl-park-narodowy-bory-tucholskie",
-    "name": "Park Narodowy Bory Tucholskie",
+    "name": "Tuchola Forest National Park",
     "country": "Poland",
     "code": "PL",
     "latitude": 53.81517,
@@ -177,7 +177,7 @@
   },
   {
     "id": "pl-drawno-national-park",
-    "name": "Drawieński Park Narodowy",
+    "name": "Drawa National Park",
     "country": "Poland",
     "code": "PL",
     "latitude": 53.213581,
@@ -193,7 +193,7 @@
   },
   {
     "id": "pl-greater-poland-national-park",
-    "name": "Wielkopolska National Park ",
+    "name": "Wielkopolska National Park",
     "country": "Poland",
     "code": "PL",
     "latitude": 52.268706,
@@ -205,11 +205,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Wielkopolska National Park "
+    "nativeName": "Wielkopolski Park Narodowy"
   },
   {
     "id": "pl-kampinos-national-park",
-    "name": "Kampinoski National Park",
+    "name": "Kampinos National Park",
     "country": "Poland",
     "code": "PL",
     "latitude": 52.320009,
@@ -221,11 +221,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Kampinoski National Park"
+    "nativeName": "Kampinoski Park Narodowy"
   },
   {
     "id": "pl-swietokrzyski-national-park",
-    "name": "Swietokrzyski National Park",
+    "name": "Świętokrzyski National Park",
     "country": "Poland",
     "code": "PL",
     "latitude": 50.896028,
@@ -237,11 +237,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Swietokrzyski National Park"
+    "nativeName": "Świętokrzyski Park Narodowy"
   },
   {
     "id": "pl-karkonosze-national-park",
-    "name": "Karkonoski National Park",
+    "name": "Karkonosze National Park",
     "country": "Poland",
     "code": "PL",
     "latitude": 50.767503,
@@ -253,7 +253,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Karkonoski National Park"
+    "nativeName": "Karkonoski Park Narodowy"
   },
   {
     "id": "pl-sto-owe-mountains-national-park",
@@ -269,11 +269,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Stołowe Mountains National Park"
+    "nativeName": "Park Narodowy Gór Stołowych"
   },
   {
     "id": "pl-gorczanski-park-narodowy",
-    "name": "Gorczański Park Narodowy",
+    "name": "Gorce National Park",
     "country": "Poland",
     "code": "PL",
     "latitude": 49.550354,
@@ -289,82 +289,19 @@
   },
   {
     "id": "pl-ojcowski-national-park",
-    "name": "Ojcowski National Park",
+    "name": "Ojców National Park",
     "country": "Poland",
     "code": "PL",
-    "latitude": 50.207052,
-    "longitude": 19.817876,
+    "latitude": 50.212354,
+    "longitude": 19.831092,
     "sizeInSquareKilometers": 21.46,
     "nationalParkSince": 1956,
-    "website": "https://ppn.gov.pl/english-version",
+    "website": "https://ojcowskiparknarodowy.pl",
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Ojcowski National Park"
-  },
-  {
-    "id": "pl-magura-national-park",
-    "name": "Magura National Park",
-    "country": "Poland",
-    "code": "PL",
-    "latitude": 49.509253,
-    "longitude": 21.469835,
-    "sizeInSquareKilometers": 194.39,
-    "nationalParkSince": 1995,
-    "website": "https://ppn.gov.pl/english-version",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Magura National Park"
-  },
-  {
-    "id": "pl-roztocze-national-park",
-    "name": "Roztocze National Park",
-    "country": "Poland",
-    "code": "PL",
-    "latitude": 50.60014,
-    "longitude": 22.962861,
-    "sizeInSquareKilometers": 84.83,
-    "nationalParkSince": 1974,
-    "website": "https://rpn.gov.pl/english-version",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Roztocze National Park"
-  },
-  {
-    "id": "pl-polesie-national-park",
-    "name": "Polesie National Park",
-    "country": "Poland",
-    "code": "PL",
-    "latitude": 51.431387,
-    "longitude": 23.118764,
-    "sizeInSquareKilometers": 97.62,
-    "nationalParkSince": 1990,
-    "website": "https://polpn.gov.pl/english-version",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Polesie National Park"
-  },
-  {
-    "id": "pl-narew-national-park",
-    "name": "Narew National Park",
-    "country": "Poland",
-    "code": "PL",
-    "latitude": 53.072765,
-    "longitude": 22.868615,
-    "sizeInSquareKilometers": 73.5,
-    "nationalParkSince": 1996,
-    "website": "https://ppn.gov.pl/english-version",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Narew National Park"
+    "nativeName": "Ojcowski Park Narodowy"
   }
 ]
+

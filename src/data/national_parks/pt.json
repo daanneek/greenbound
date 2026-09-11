@@ -1,6 +1,6 @@
 {
   "id": "pt-parque-nacional-peneda-geres",
-  "name": "Parque Nacional Peneda-Gerês",
+  "name": "Peneda-Gerês National Park",
   "country": "Portugal",
   "code": "PT",
   "latitude": 41.728217,
@@ -11,5 +11,7 @@
   "youtubeUrl": "",
   "gpxAvailable": false,
   "visited": false,
-  "visitDates": []
+  "visitDates": [],
+  "nativeName": "Parque Nacional da Peneda-Gerês"
 }
+

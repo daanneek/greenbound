@@ -13,11 +13,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Piatra Craiului National Park"
+    "nativeName": "Parcul Național Piatra Craiului"
   },
   {
     "id": "ro-rodnei-mountains-national-park",
-    "name": "Rodnei Mountains National Park",
+    "name": "Rodna Mountains National Park",
     "country": "Romania",
     "code": "RO",
     "latitude": 47.559652,
@@ -29,7 +29,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Rodnei Mountains National Park"
+    "nativeName": "Parcul Național Munții Rodnei"
   },
   {
     "id": "ro-cozia-national-park",
@@ -45,7 +45,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Cozia National Park"
+    "nativeName": "Parcul Național Cozia"
   },
   {
     "id": "ro-retezat-national-park",
@@ -61,11 +61,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Retezat National Park"
+    "nativeName": "Parcul Național Retezat"
   },
   {
     "id": "ro-vatafu-lungulet-national-park",
-    "name": "\"Vătafu-Lunguleț\" National Park",
+    "name": "Vătafu-Lunguleț Protected Area",
     "country": "Romania",
     "code": "RO",
     "latitude": 45.110765,
@@ -77,7 +77,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "\"Vătafu-Lunguleț\" National Park"
+    "nativeName": "Rezervația Biosferei Delta Dunării - Zona protejată Vătafu - Lunguleț"
   },
   {
     "id": "ro-ceahlau-national-park",
@@ -93,11 +93,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Ceahlău National Park"
+    "nativeName": "Parcul Național Ceahlău"
   },
   {
     "id": "ro-parcul-national-domogled-valea-cernei",
-    "name": "Parcul Național Domogled-Valea Cernei",
+    "name": "Domogled-Valea Cernei National Park",
     "country": "Romania",
     "code": "RO",
     "latitude": 44.902235,
@@ -109,11 +109,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Parcul Național Domogled-Valea Cernei"
+    "nativeName": "Parcul Național Domogled - Valea Cernei"
   },
   {
     "id": "ro-defileul-jiului-national-park",
-    "name": "Defileul Jiului National Park",
+    "name": "Jiu Defile National Park",
     "country": "Romania",
     "code": "RO",
     "latitude": 45.314524,
@@ -125,11 +125,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Defileul Jiului National Park"
+    "nativeName": "Parcul Național Defileul Jiului"
   },
   {
     "id": "ro-semenic-cheile-carasului-national-park",
-    "name": "Semenic - Cheile Carasului National Park",
+    "name": "Semenic-Cheile Carașului National Park",
     "country": "Romania",
     "code": "RO",
     "latitude": 45.156394,
@@ -141,7 +141,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Semenic - Cheile Carasului National Park"
+    "nativeName": "Parcul Național Semenic - Cheile Carașului"
   },
   {
     "id": "ro-cheile-nerei-beusnita-national-park",
@@ -157,7 +157,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Cheile Nerei-Beușnița National Park"
+    "nativeName": "Parcul Național Cheile Nerei - Beușnița"
   },
   {
     "id": "ro-calimani-national-park",
@@ -173,11 +173,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Călimani National Park"
+    "nativeName": "Parcul Național Călimani"
   },
   {
     "id": "ro-buila-vanturarita-national-park",
-    "name": "Buila Vânturarița National Park",
+    "name": "Buila-Vânturarița National Park",
     "country": "Romania",
     "code": "RO",
     "latitude": 45.245879,
@@ -189,11 +189,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Buila Vânturarița National Park"
+    "nativeName": "Parcul Național Buila - Vânturarița"
   },
   {
     "id": "ro-parcul-national-cheile-bicazului",
-    "name": "Parcul național Cheile Bicazului",
+    "name": "Bicaz Gorge-Hășmaș National Park",
     "country": "Romania",
     "code": "RO",
     "latitude": 46.821142,
@@ -205,7 +205,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Parcul național Cheile Bicazului"
+    "nativeName": "Parcul Național Cheile Bicazului - Hășmaș"
   },
   {
     "id": "ro-macin-mountains-national-park",
@@ -221,6 +221,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Măcin Mountains National Park"
+    "nativeName": "Parcul Național Munții Măcin"
   }
 ]
+

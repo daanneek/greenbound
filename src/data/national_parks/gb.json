@@ -45,11 +45,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Cairngorms National Park"
+    "nativeName": "Pàirc Niseanta a' Mhonaidh Ruaidh"
   },
   {
     "id": "gb-loch-lomond-and-the-trossachs-national-park",
-    "name": "Loch Lomond & The Trossachs National Park",
+    "name": "Loch Lomond and The Trossachs National Park",
     "country": "United Kingdom",
     "code": "GB",
     "latitude": 56.010169,
@@ -61,11 +61,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Loch Lomond & The Trossachs National Park"
+    "nativeName": "Pàirc Niseanta Loch Laomainn agus nan Tròsaichean"
   },
   {
     "id": "gb-eryri-national-park-snowdonia",
-    "name": "Eryri National Park (Snowdonia)",
+    "name": "Eryri National Park",
     "country": "United Kingdom",
     "code": "GB",
     "latitude": 52.900552,
@@ -77,7 +77,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Eryri National Park (Snowdonia)"
+    "nativeName": "Parc Cenedlaethol Eryri"
   },
   {
     "id": "gb-peak-district-national-park",
@@ -129,7 +129,7 @@
   },
   {
     "id": "gb-bannau-brycheiniog-national-park-brecon-beacons",
-    "name": "Bannau Brycheiniog National Park (Brecon Beacons)",
+    "name": "Bannau Brycheiniog National Park",
     "country": "United Kingdom",
     "code": "GB",
     "latitude": 51.863197,
@@ -141,7 +141,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Bannau Brycheiniog National Park (Brecon Beacons)"
+    "nativeName": "Parc Cenedlaethol Bannau Brycheiniog"
   },
   {
     "id": "gb-pembrokeshire-coast-national-park",
@@ -157,7 +157,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Pembrokeshire Coast National Park"
+    "nativeName": "Parc Cenedlaethol Arfordir Penfro"
   },
   {
     "id": "gb-exmoor-national-park",
@@ -240,3 +240,4 @@
     "nativeName": "The Broads National Park"
   }
 ]
+

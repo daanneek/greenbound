@@ -13,7 +13,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Jostedalsbreen National Park"
+    "nativeName": "Jostedalsbreen nasjonalpark"
   },
   {
     "id": "no-jotunheimen-national-park",
@@ -29,11 +29,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Jotunheimen National Park"
+    "nativeName": "Jotunheimen nasjonalpark"
   },
   {
     "id": "no-lofotodden-nasjonalpark",
-    "name": "Lofotodden nasjonalpark",
+    "name": "Lofotodden National Park",
     "country": "Norway",
     "code": "NO",
     "latitude": 67.976635,
@@ -61,7 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Ånderdalen National Park"
+    "nativeName": "Ånderdalen nasjonalpark"
   },
   {
     "id": "no-vre-dividal-national-park",
@@ -77,7 +77,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Øvre Dividal National Park"
+    "nativeName": "Øvre Dividal nasjonalpark"
   },
   {
     "id": "no-rago-national-park",
@@ -93,7 +93,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Rago National Park"
+    "nativeName": "Rago nasjonalpark"
   },
   {
     "id": "no-sjunkhatten-national-park",
@@ -109,11 +109,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Sjunkhatten National Park"
+    "nativeName": "Sjunkhatten nasjonalpark"
   },
   {
     "id": "no-saltfjellet-svartisen-national-park",
-    "name": "Saltfjellet–Svartisen National Park",
+    "name": "Saltfjellet-Svartisen National Park",
     "country": "Norway",
     "code": "NO",
     "latitude": 66.648363,
@@ -125,7 +125,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Saltfjellet–Svartisen National Park"
+    "nativeName": "Saltfjellet-Svartisen nasjonalpark"
   },
   {
     "id": "no-hardangervidda-national-park",
@@ -141,7 +141,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Hardangervidda National Park"
+    "nativeName": "Hardangervidda nasjonalpark"
   },
   {
     "id": "no-folgefonna-national-park",
@@ -157,7 +157,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Folgefonna National Park"
+    "nativeName": "Folgefonna nasjonalpark"
   },
   {
     "id": "no-rondane-national-park",
@@ -173,11 +173,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Rondane National Park"
+    "nativeName": "Rondane nasjonalpark"
   },
   {
     "id": "no-varanger-national-park",
-    "name": "Varanger National Park",
+    "name": "Varangerhalvøya National Park",
     "country": "Norway",
     "code": "NO",
     "latitude": 70.414114,
@@ -189,7 +189,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Varanger National Park"
+    "nativeName": "Varangerhalvøya nasjonalpark"
   },
   {
     "id": "no-reisa-national-park",
@@ -205,7 +205,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Reisa National Park"
+    "nativeName": "Reisa nasjonalpark"
   },
   {
     "id": "no-raet-national-park",
@@ -221,7 +221,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Raet National Park"
+    "nativeName": "Raet nasjonalpark"
   },
   {
     "id": "no-jomfruland-national-park",
@@ -237,7 +237,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Jomfruland National Park"
+    "nativeName": "Jomfruland nasjonalpark"
   },
   {
     "id": "no-f-rder-national-park",
@@ -253,7 +253,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Færder National Park"
+    "nativeName": "Færder nasjonalpark"
   },
   {
     "id": "no-ytre-hvaler-national-park",
@@ -269,358 +269,23 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Ytre Hvaler National Park"
+    "nativeName": "Ytre Hvaler nasjonalpark"
   },
   {
     "id": "no-hallingskarvet-national-park",
     "name": "Hallingskarvet National Park",
     "country": "Norway",
     "code": "NO",
-    "latitude": 60.614444,
-    "longitude": 7.7378,
+    "latitude": 60.655217,
+    "longitude": 7.784211,
     "sizeInSquareKilometers": "450",
     "nationalParkSince": "2006",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/hallingskarvet/",
+    "website": "https://norgesnasjonalparker.no",
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Hallingskarvet National Park"
-  },
-  {
-    "id": "no-langsua-national-park",
-    "name": "Langsua National Park",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 61.194591,
-    "longitude": 9.814675,
-    "sizeInSquareKilometers": "537",
-    "nationalParkSince": "2011",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/langsua/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Langsua National Park"
-  },
-  {
-    "id": "no-breheimen-national-park",
-    "name": "Breheimen National Park",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 61.803701,
-    "longitude": 7.858495,
-    "sizeInSquareKilometers": "1691",
-    "nationalParkSince": "2009",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/breheimen/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Breheimen National Park"
-  },
-  {
-    "id": "no-gutulia-nasjonalpark",
-    "name": "Gutulia Nasjonalpark",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 62.019201,
-    "longitude": 12.133649,
-    "sizeInSquareKilometers": "23",
-    "nationalParkSince": "1968",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/gutulia/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Gutulia Nasjonalpark"
-  },
-  {
-    "id": "no-femundsmarka-national-park",
-    "name": "Femundsmarka National Park",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 62.319325,
-    "longitude": 12.151693,
-    "sizeInSquareKilometers": "573",
-    "nationalParkSince": "1971",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/femundsmarka/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Femundsmarka National Park"
-  },
-  {
-    "id": "no-dovre-national-park",
-    "name": "Dovre National Park",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 62.091072,
-    "longitude": 9.642129,
-    "sizeInSquareKilometers": "289",
-    "nationalParkSince": "2003",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/dovre/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Dovre National Park"
-  },
-  {
-    "id": "no-reinheimen-national-park",
-    "name": "Reinheimen National Park",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 62.010055,
-    "longitude": 7.866649,
-    "sizeInSquareKilometers": "1969",
-    "nationalParkSince": "2006",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/reinheimen/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Reinheimen National Park"
-  },
-  {
-    "id": "no-dovrefjell-sunndalsfjella-national-park",
-    "name": "Dovrefjell–Sunndalsfjella National Park",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 62.221391,
-    "longitude": 9.545706,
-    "sizeInSquareKilometers": "1830",
-    "nationalParkSince": "2002",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/dovrefjell-sunndalsfjella/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Dovrefjell–Sunndalsfjella National Park"
-  },
-  {
-    "id": "no-forollhogna-national-park",
-    "name": "Forollhogna National Park",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 62.606612,
-    "longitude": 10.704803,
-    "sizeInSquareKilometers": "1059",
-    "nationalParkSince": "2001",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/forollhogna/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Forollhogna National Park"
-  },
-  {
-    "id": "no-skarvan-and-roltdalen-national-park",
-    "name": "Skarvan and Roltdalen National Park",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 63.232883,
-    "longitude": 11.517244,
-    "sizeInSquareKilometers": "441",
-    "nationalParkSince": "2004",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/skarvan-og-roltdalen/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Skarvan and Roltdalen National Park"
-  },
-  {
-    "id": "no-blafjella-skj-kerfjella-nasjonalpark",
-    "name": "Blåfjella-Skjækerfjella Nasjonalpark",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 64.427854,
-    "longitude": 12.478409,
-    "sizeInSquareKilometers": "1931",
-    "nationalParkSince": "2004",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/blafjella-skjakerfjella/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Blåfjella-Skjækerfjella Nasjonalpark"
-  },
-  {
-    "id": "no-lierne-nasjonalpark-lijren-vaarjelimmiedajve",
-    "name": "Lierne nasjonalpark / Lijren vaarjelimmiedajve",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 64.327424,
-    "longitude": 13.967084,
-    "sizeInSquareKilometers": "333",
-    "nationalParkSince": "2004",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/lierne/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Lierne nasjonalpark / Lijren vaarjelimmiedajve"
-  },
-  {
-    "id": "no-b-rgefjell-byrkije-nasjonalpark",
-    "name": "Børgefjell/Byrkije nasjonalpark",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 65.19623,
-    "longitude": 13.946758,
-    "sizeInSquareKilometers": "1447",
-    "nationalParkSince": "1963",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/borgefjell/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Børgefjell/Byrkije nasjonalpark"
-  },
-  {
-    "id": "no-lomsdal-visten-national-park",
-    "name": "Lomsdal–Visten National Park",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 65.443555,
-    "longitude": 12.9728,
-    "sizeInSquareKilometers": "1102",
-    "nationalParkSince": "2009",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/lomsdal-visten/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Lomsdal–Visten National Park"
-  },
-  {
-    "id": "no-lahko-national-park",
-    "name": "Láhko National Park",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 66.829868,
-    "longitude": 14.269809,
-    "sizeInSquareKilometers": "188",
-    "nationalParkSince": "2012",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/lahko/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Láhko National Park"
-  },
-  {
-    "id": "no-junkerdal-national-park",
-    "name": "Junkerdal National Park",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 66.921193,
-    "longitude": 15.745301,
-    "sizeInSquareKilometers": "682",
-    "nationalParkSince": "2004",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/junkerdal/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Junkerdal National Park"
-  },
-  {
-    "id": "no-m-ysalen-national-park",
-    "name": "Møysalen National Park",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 68.503238,
-    "longitude": 15.489665,
-    "sizeInSquareKilometers": "52.2",
-    "nationalParkSince": "2003",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/moysalen/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Møysalen National Park"
-  },
-  {
-    "id": "no-rohkunborri-national-park",
-    "name": "Rohkunborri National Park",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 68.547733,
-    "longitude": 18.794318,
-    "sizeInSquareKilometers": "556",
-    "nationalParkSince": "2011",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/rohkunborri/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Rohkunborri National Park"
-  },
-  {
-    "id": "no-vre-anarjohka-nasjonalpark",
-    "name": "Øvre Anárjohka nasjonalpark",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 68.767119,
-    "longitude": 24.68879,
-    "sizeInSquareKilometers": "1414",
-    "nationalParkSince": "1975",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/anarjohka/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Øvre Anárjohka nasjonalpark"
-  },
-  {
-    "id": "no-vre-pasvik-nasjonalpark",
-    "name": "Øvre Pasvik nasjonalpark",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 69.149935,
-    "longitude": 29.231599,
-    "sizeInSquareKilometers": "119",
-    "nationalParkSince": "1970",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/ovre-pasvik/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Øvre Pasvik nasjonalpark"
-  },
-  {
-    "id": "no-stabbursdalen-national-park",
-    "name": "Stabbursdalen National Park",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 70.179356,
-    "longitude": 24.909608,
-    "sizeInSquareKilometers": "747",
-    "nationalParkSince": "1970",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/stabbursdalen/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Stabbursdalen National Park"
-  },
-  {
-    "id": "no-seiland-national-park",
-    "name": "Seiland National Park",
-    "country": "Norway",
-    "code": "NO",
-    "latitude": 70.38909,
-    "longitude": 23.308438,
-    "sizeInSquareKilometers": "316",
-    "nationalParkSince": "2006",
-    "website": "https://www.norgesnasjonalparker.no/en/nationalparks/seiland/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Seiland National Park"
+    "nativeName": "Hallingskarvet nasjonalpark"
   }
 ]
+

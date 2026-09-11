@@ -1,7 +1,7 @@
 [
   {
     "id": "it-parco-nazionale-delle-dolomiti-bellunesi",
-    "name": "Parco Nazionale delle Dolomiti Bellunesi",
+    "name": "Dolomiti Bellunesi National Park",
     "country": "Italy",
     "code": "IT",
     "latitude": 46.169919,
@@ -13,11 +13,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Parco Nazionale delle Dolomiti Bellunesi"
+    "nativeName": "Parco Nazionale Dolomiti Bellunesi"
   },
   {
     "id": "it-national-park-of-abruzzo",
-    "name": "National Park of Abruzzo",
+    "name": "Abruzzo, Lazio and Molise National Park",
     "country": "Italy",
     "code": "IT",
     "latitude": 41.808807,
@@ -29,11 +29,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "National Park of Abruzzo"
+    "nativeName": "Parco Nazionale d'Abruzzo, Lazio e Molise"
   },
   {
     "id": "it-parco-nazionale-gran-paradiso",
-    "name": "Parco Nazionale Gran Paradiso",
+    "name": "Gran Paradiso National Park",
     "country": "Italy",
     "code": "IT",
     "latitude": 45.522028,
@@ -49,7 +49,7 @@
   },
   {
     "id": "it-parco-nazionale-dell-arcipelago-di-la-maddalena",
-    "name": "Parco Nazionale dell'Arcipelago di La Maddalena",
+    "name": "La Maddalena Archipelago National Park",
     "country": "Italy",
     "code": "IT",
     "latitude": 41.23951,
@@ -65,7 +65,7 @@
   },
   {
     "id": "it-parco-nazionale-del-golfo-di-orosei-e-del-gennargentu",
-    "name": "Parco Nazionale del Golfo di Orosei e del Gennargentu",
+    "name": "Gulf of Orosei and Gennargentu National Park",
     "country": "Italy",
     "code": "IT",
     "latitude": 40.072866,
@@ -81,7 +81,7 @@
   },
   {
     "id": "it-parco-nazionale-dei-monti-sibillini",
-    "name": "Parco Nazionale dei Monti Sibillini",
+    "name": "Monti Sibillini National Park",
     "country": "Italy",
     "code": "IT",
     "latitude": 42.907839,
@@ -109,7 +109,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Stelvio National Park"
+    "nativeName": "Parco Nazionale dello Stelvio"
   },
   {
     "id": "it-vesuvius-national-park",
@@ -125,11 +125,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Vesuvius National Park"
+    "nativeName": "Parco Nazionale del Vesuvio"
   },
   {
     "id": "it-parco-nazionale-del-cilento-vallo-di-diano-e-alburni",
-    "name": "Parco Nazionale del Cilento, Vallo di Diano e Alburni",
+    "name": "Cilento, Vallo di Diano and Alburni National Park",
     "country": "Italy",
     "code": "IT",
     "latitude": 40.288587,
@@ -145,7 +145,7 @@
   },
   {
     "id": "it-parco-nazionale-del-pollino",
-    "name": "Parco Nazionale del Pollino",
+    "name": "Pollino National Park",
     "country": "Italy",
     "code": "IT",
     "latitude": 39.94133,
@@ -161,7 +161,7 @@
   },
   {
     "id": "it-parco-nazionale-del-gargano",
-    "name": "Parco Nazionale del Gargano",
+    "name": "Gargano National Park",
     "country": "Italy",
     "code": "IT",
     "latitude": 41.781708,
@@ -177,7 +177,7 @@
   },
   {
     "id": "it-parco-nazionale-del-gran-sasso-e-monti-della-laga",
-    "name": "Parco Nazionale del Gran Sasso e Monti della Laga",
+    "name": "Gran Sasso and Monti della Laga National Park",
     "country": "Italy",
     "code": "IT",
     "latitude": 42.490648,
@@ -193,7 +193,7 @@
   },
   {
     "id": "it-parco-nazionale-dell-arcipelago-toscano",
-    "name": "Parco Nazionale dell'Arcipelago Toscano",
+    "name": "Tuscan Archipelago National Park",
     "country": "Italy",
     "code": "IT",
     "latitude": 42.824985,
@@ -209,7 +209,7 @@
   },
   {
     "id": "it-parco-nazionale-dell-appennino-tosco-emiliano",
-    "name": "Parco Nazionale dell'Appennino Tosco-Emiliano",
+    "name": "Appennino Tosco-Emiliano National Park",
     "country": "Italy",
     "code": "IT",
     "latitude": 44.384176,
@@ -237,11 +237,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Asinara National Park"
+    "nativeName": "Parco Nazionale dell'Asinara"
   },
   {
     "id": "it-parco-nazionale-delle-cinque-terre",
-    "name": "Parco Nazionale delle Cinque Terre",
+    "name": "Cinque Terre National Park",
     "country": "Italy",
     "code": "IT",
     "latitude": 44.128109,
@@ -269,7 +269,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Aspromonte National Park"
+    "nativeName": "Parco Nazionale dell'Aspromonte"
   },
   {
     "id": "it-sila-national-park",
@@ -279,124 +279,13 @@
     "latitude": 39.276136,
     "longitude": 16.579186,
     "sizeInSquareKilometers": 736.95,
-    "nationalParkSince": 2002,
+    "nationalParkSince": 1997,
     "website": "http://parcosila.it",
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Sila National Park"
-  },
-  {
-    "id": "it-parco-nazionale-dell-appennino-lucano-val-d-agri-lagonegrese",
-    "name": "Parco Nazionale dell'Appennino Lucano Val d'Agri - Lagonegrese",
-    "country": "Italy",
-    "code": "IT",
-    "latitude": 40.358549,
-    "longitude": 15.872586,
-    "sizeInSquareKilometers": 689.96,
-    "nationalParkSince": 2007,
-    "website": "http://parcoappenninolucano.it",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Parco Nazionale dell'Appennino Lucano Val d'Agri - Lagonegrese"
-  },
-  {
-    "id": "it-alta-murgia-national-park",
-    "name": "Alta Murgia National Park",
-    "country": "Italy",
-    "code": "IT",
-    "latitude": 40.999984,
-    "longitude": 16.369927,
-    "sizeInSquareKilometers": 680.77,
-    "nationalParkSince": 2004,
-    "website": "http://parcoaltamurgia.gov.it",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Alta Murgia National Park"
-  },
-  {
-    "id": "it-parco-nazionale-della-maiella",
-    "name": "Parco Nazionale della Maiella",
-    "country": "Italy",
-    "code": "IT",
-    "latitude": 42.076274,
-    "longitude": 14.089175,
-    "sizeInSquareKilometers": 740.95,
-    "nationalParkSince": 1991,
-    "website": "http://parcomajella.it",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Parco Nazionale della Maiella"
-  },
-  {
-    "id": "it-parco-nazionale-delle-foreste-casentinesi-monte-falterona-e-campigna",
-    "name": "Parco Nazionale delle Foreste Casentinesi, Monte Falterona e Campigna",
-    "country": "Italy",
-    "code": "IT",
-    "latitude": 43.956885,
-    "longitude": 11.735263,
-    "sizeInSquareKilometers": 368.43,
-    "nationalParkSince": 1993,
-    "website": "http://parcoforestecasentinesi.it",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Parco Nazionale delle Foreste Casentinesi, Monte Falterona e Campigna"
-  },
-  {
-    "id": "it-parco-nazionale-della-val-grande",
-    "name": "Parco Nazionale della Val Grande",
-    "country": "Italy",
-    "code": "IT",
-    "latitude": 46.038762,
-    "longitude": 8.463083,
-    "sizeInSquareKilometers": 145.98,
-    "nationalParkSince": 1992,
-    "website": "http://parcovalgrande.it",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Parco Nazionale della Val Grande"
-  },
-  {
-    "id": "it-parco-nazionale-del-circeo",
-    "name": "Parco Nazionale del Circeo",
-    "country": "Italy",
-    "code": "IT",
-    "latitude": 41.397774,
-    "longitude": 12.916487,
-    "sizeInSquareKilometers": 84.4,
-    "nationalParkSince": 1934,
-    "website": "http://parcocirceo.it",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Parco Nazionale del Circeo"
-  },
-  {
-    "id": "it-pantelleria-island-national-park",
-    "name": "Pantelleria Island National Park",
-    "country": "Italy",
-    "code": "IT",
-    "latitude": 36.779891,
-    "longitude": 12.007364,
-    "sizeInSquareKilometers": 65.6,
-    "nationalParkSince": 2016,
-    "website": "http://parconazionalepantelleria.it",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Pantelleria Island National Park"
+    "nativeName": "Parco Nazionale della Sila"
   }
 ]
+

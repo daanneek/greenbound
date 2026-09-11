@@ -1,7 +1,7 @@
 [
   {
     "id": "ba-nacionalni-park-una",
-    "name": "Nacionalni park Una",
+    "name": "Una National Park",
     "country": "Bosnia & Herzegovina",
     "code": "BA",
     "latitude": 44.698205,
@@ -29,7 +29,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Sutjeska National Park"
+    "nativeName": "Nacionalni park Sutjeska"
   },
   {
     "id": "ba-kozara-national-park",
@@ -45,11 +45,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Kozara National Park"
+    "nativeName": "Nacionalni park Kozara"
   },
   {
     "id": "ba-nacionalni-park-drina",
-    "name": "Nacionalni Park „Drina“",
+    "name": "Drina National Park",
     "country": "Bosnia & Herzegovina",
     "code": "BA",
     "latitude": 43.97103,
@@ -61,6 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Nacionalni Park „Drina“"
+    "nativeName": "Nacionalni park Drina"
   }
 ]
+

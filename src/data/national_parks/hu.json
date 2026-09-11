@@ -1,7 +1,7 @@
 [
   {
     "id": "hu-hortobagyi-national-park",
-    "name": "Hortobágyi National Park",
+    "name": "Hortobágy National Park",
     "country": "Hungary",
     "code": "HU",
     "latitude": 47.522543,
@@ -13,11 +13,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Hortobágyi National Park"
+    "nativeName": "Hortobágyi Nemzeti Park"
   },
   {
     "id": "hu-bukki-national-park",
-    "name": "Bükki National Park",
+    "name": "Bükk National Park",
     "country": "Hungary",
     "code": "HU",
     "latitude": 48.055631,
@@ -29,11 +29,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Bükki National Park"
+    "nativeName": "Bükki Nemzeti Park"
   },
   {
     "id": "hu-duna-ipoly-nemzeti-park",
-    "name": "Duna-Ipoly Nemzeti Park",
+    "name": "Duna-Ipoly National Park",
     "country": "Hungary",
     "code": "HU",
     "latitude": 47.726442,
@@ -61,7 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Aggtelek National Park"
+    "nativeName": "Aggteleki Nemzeti Park"
   },
   {
     "id": "hu-orseg-national-park",
@@ -77,7 +77,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Őrség National Park"
+    "nativeName": "Őrségi Nemzeti Park"
   },
   {
     "id": "hu-duna-drava-national-park",
@@ -93,7 +93,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Duna-Dráva National Park"
+    "nativeName": "Duna-Dráva Nemzeti Park"
   },
   {
     "id": "hu-kiskunsag-national-park",
@@ -109,7 +109,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Kiskunság National Park"
+    "nativeName": "Kiskunsági Nemzeti Park"
   },
   {
     "id": "hu-ferto-hansag-national-park",
@@ -125,7 +125,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Fertő-Hanság National Park"
+    "nativeName": "Fertő-Hanság Nemzeti Park"
   },
   {
     "id": "hu-koros-maros-national-park",
@@ -141,7 +141,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Körös-Maros National Park"
+    "nativeName": "Körös-Maros Nemzeti Park"
   },
   {
     "id": "hu-balaton-uplands-national-park",
@@ -157,6 +157,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Balaton Uplands National Park"
+    "nativeName": "Balaton-felvidéki Nemzeti Park"
   }
 ]
+

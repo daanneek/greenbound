@@ -13,7 +13,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Krka National Park"
+    "nativeName": "Nacionalni park Krka"
   },
   {
     "id": "hr-mljet-national-park",
@@ -29,7 +29,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Mljet National Park"
+    "nativeName": "Nacionalni park Mljet"
   },
   {
     "id": "hr-plitvice-lakes-national-park",
@@ -45,7 +45,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Plitvice Lakes National Park"
+    "nativeName": "Nacionalni park Plitvička jezera"
   },
   {
     "id": "hr-risnjak-national-park",
@@ -61,7 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Risnjak National Park"
+    "nativeName": "Nacionalni park Risnjak"
   },
   {
     "id": "hr-paklenica-national-park",
@@ -77,7 +77,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Paklenica National Park"
+    "nativeName": "Nacionalni park Paklenica"
   },
   {
     "id": "hr-northern-velebit-national-park",
@@ -93,11 +93,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Northern Velebit National Park"
+    "nativeName": "Nacionalni park Sjeverni Velebit"
   },
   {
     "id": "hr-national-park-kornati",
-    "name": "National Park Kornati",
+    "name": "Kornati National Park",
     "country": "Croatia",
     "code": "HR",
     "latitude": 43.781556,
@@ -109,7 +109,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "National Park Kornati"
+    "nativeName": "Nacionalni park Kornati"
   },
   {
     "id": "hr-brijuni-national-park",
@@ -125,6 +125,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Brijuni National Park"
+    "nativeName": "Nacionalni park Brijuni"
   }
 ]
+

@@ -13,7 +13,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Vatnajökull National Park"
+    "nativeName": "Vatnajökulsþjóðgarður"
   },
   {
     "id": "is-sn-fellsjokull-national-park",
@@ -29,7 +29,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Snæfellsjökull National Park"
+    "nativeName": "Snæfellsjökulsþjóðgarður"
   },
   {
     "id": "is-thingvellir-national-park",
@@ -45,6 +45,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Thingvellir National Park"
+    "nativeName": "Þingvellir"
   }
 ]
+

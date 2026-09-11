@@ -13,7 +13,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Šumava National Park"
+    "nativeName": "Národní park Šumava"
   },
   {
     "id": "cz-bohemian-switzerland-national-park",
@@ -29,7 +29,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Bohemian Switzerland National Park"
+    "nativeName": "Národní park České Švýcarsko"
   },
   {
     "id": "cz-krkonose-national-park",
@@ -45,7 +45,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Krkonoše National Park"
+    "nativeName": "Národní park Krkonoše"
   },
   {
     "id": "cz-podyji-national-park",
@@ -61,6 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Podyjí National Park"
+    "nativeName": "Národní park Podyjí"
   }
 ]
+

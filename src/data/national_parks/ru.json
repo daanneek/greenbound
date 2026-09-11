@@ -1,7 +1,7 @@
 [
   {
     "id": "ru-charming-harbor-national-park-ukraine",
-    "name": "Charming Harbor National Park (Ukraine)",
+    "name": "Tarkhankut National Park",
     "country": "Russia",
     "code": "RU",
     "latitude": 45.357661,
@@ -13,7 +13,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Charming Harbor National Park (Ukraine)"
+    "nativeName": "Национальный парк „Прекрасная гавань“"
   },
   {
     "id": "ru-alaniya-national-park",
@@ -29,7 +29,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Alaniya National Park"
+    "nativeName": "Национальный парк „Алания“"
   },
   {
     "id": "ru-elbrus-national-park",
@@ -45,7 +45,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Elbrus National Park"
+    "nativeName": "Национальный парк „Приэльбрусье“"
   },
   {
     "id": "ru-yugyd-va-national-park",
@@ -61,7 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Yugyd Va National Park"
+    "nativeName": "Национальный парк „Югыд ва“"
   },
   {
     "id": "ru-bashkiriya-national-park",
@@ -77,7 +77,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Bashkiriya National Park"
+    "nativeName": "Национальный парк „Башкирия“"
   },
   {
     "id": "ru-buzuluksky-bor-national-park",
@@ -93,11 +93,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Buzuluksky Bor National Park"
+    "nativeName": "Национальный парк „Бузулукский бор“"
   },
   {
     "id": "ru-chuvash-forest-national-park",
-    "name": "Chuvash Forest National Park",
+    "name": "Chavash Varmane National Park",
     "country": "Russia",
     "code": "RU",
     "latitude": 54.831207,
@@ -109,11 +109,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Chuvash Forest National Park"
+    "nativeName": "Национальный парк „Чаваш Вармане“"
   },
   {
     "id": "ru-crimean-national-park-russia",
-    "name": "Crimean National Park (Russia)",
+    "name": "Crimean National Park",
     "country": "Russia",
     "code": "RU",
     "latitude": 44.680089,
@@ -125,7 +125,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Crimean National Park (Russia)"
+    "nativeName": "Крымский национальный парк"
   },
   {
     "id": "ru-curonian-spit-national-park",
@@ -141,7 +141,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Curonian Spit National Park"
+    "nativeName": "Национальный парк „Куршская коса“"
   },
   {
     "id": "ru-kalevalsky-national-park",
@@ -157,7 +157,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Kalevalsky National Park"
+    "nativeName": "Национальный парк „Калевальский“"
   },
   {
     "id": "ru-kenozersky-national-park",
@@ -173,7 +173,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Kenozersky National Park"
+    "nativeName": "Национальный парк „Кенозерский“"
   },
   {
     "id": "ru-khibiny-national-park",
@@ -189,7 +189,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Khibiny National Park"
+    "nativeName": "Национальный парк „Хибины“"
   },
   {
     "id": "ru-khvalynsky-national-park",
@@ -205,7 +205,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Khvalynsky National Park"
+    "nativeName": "Национальный парк „Хвалынский“"
   },
   {
     "id": "ru-kislovodsk-national-park",
@@ -221,7 +221,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Kislovodsk National Park"
+    "nativeName": "Национальный парк „Кисловодский“"
   },
   {
     "id": "ru-koygorodsky-national-park",
@@ -237,7 +237,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Koygorodsky National Park"
+    "nativeName": "Национальный парк „Койгородский“"
   },
   {
     "id": "ru-ladoga-skerries-national-park",
@@ -253,7 +253,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Ladoga Skerries National Park"
+    "nativeName": "Национальный парк „Ладожские шхеры“"
   },
   {
     "id": "ru-losiny-ostrov-national-park",
@@ -269,7 +269,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Losiny Ostrov National Park"
+    "nativeName": "Национальный парк „Лосиный Остров“"
   },
   {
     "id": "ru-mariy-chodra-national-park",
@@ -285,7 +285,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Mariy Chodra National Park"
+    "nativeName": "Национальный парк „Марий Чодра“"
   },
   {
     "id": "ru-meshchyora-national-park",
@@ -301,7 +301,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Meshchyora National Park"
+    "nativeName": "Национальный парк „Мещёра“"
   },
   {
     "id": "ru-meshchyorsky-national-park",
@@ -317,374 +317,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Meshchyorsky National Park"
-  },
-  {
-    "id": "ru-nechkinsky-national-park",
-    "name": "Nechkinsky National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 56.760764,
-    "longitude": 53.800198,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Nechkinsky National Park"
-  },
-  {
-    "id": "ru-nizhnyaya-kama-national-park",
-    "name": "Nizhnyaya Kama National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 55.730719,
-    "longitude": 51.963546,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Nizhnyaya Kama National Park"
-  },
-  {
-    "id": "ru-onezhskoye-pomorye-national-park",
-    "name": "Onezhskoye Pomorye National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 64.570336,
-    "longitude": 39.828643,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Onezhskoye Pomorye National Park"
-  },
-  {
-    "id": "ru-orlovskoye-polesye-national-park",
-    "name": "Orlovskoye Polesye National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 53.273866,
-    "longitude": 35.262997,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Orlovskoye Polesye National Park"
-  },
-  {
-    "id": "ru-paanajarvi-national-park",
-    "name": "Paanajärvi National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 66.272855,
-    "longitude": 30.452564,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Paanajärvi National Park"
-  },
-  {
-    "id": "ru-lake-pleshcheyevo-national-park",
-    "name": "Lake Pleshcheyevo National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 56.752569,
-    "longitude": 38.778726,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Lake Pleshcheyevo National Park"
-  },
-  {
-    "id": "ru-russian-arctic-national-park",
-    "name": "Russian Arctic National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 76.617411,
-    "longitude": 67.001835,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Russian Arctic National Park"
-  },
-  {
-    "id": "ru-russian-north-national-park",
-    "name": "Russian North National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 59.853467,
-    "longitude": 38.367434,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Russian North National Park"
-  },
-  {
-    "id": "ru-samarskaya-luka-national-park",
-    "name": "Samarskaya Luka National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 53.342011,
-    "longitude": 49.366541,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Samarskaya Luka National Park"
-  },
-  {
-    "id": "ru-samursky-national-park",
-    "name": "Samursky National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 41.844317,
-    "longitude": 48.545115,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Samursky National Park"
-  },
-  {
-    "id": "ru-sebezhsky-national-park",
-    "name": "Sebezhsky National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 56.174643,
-    "longitude": 28.445997,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Sebezhsky National Park"
-  },
-  {
-    "id": "ru-sengileev-hills-national-park",
-    "name": "Sengileev Hills National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 54.000312,
-    "longitude": 48.646582,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Sengileev Hills National Park"
-  },
-  {
-    "id": "ru-smolenskoye-poozerye-national-park",
-    "name": "Smolenskoye Poozerye National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 55.509888,
-    "longitude": 31.83862,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Smolenskoye Poozerye National Park"
-  },
-  {
-    "id": "ru-smolny-national-park",
-    "name": "Smolny National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 54.802076,
-    "longitude": 45.413568,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Smolny National Park"
-  },
-  {
-    "id": "ru-sochi-national-park",
-    "name": "Sochi National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 43.569134,
-    "longitude": 39.743912,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Sochi National Park"
-  },
-  {
-    "id": "ru-taganai-national-park",
-    "name": "Taganai National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 55.221291,
-    "longitude": 59.733173,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Taganai National Park"
-  },
-  {
-    "id": "ru-tarkhankut-national-park-russia",
-    "name": "Tarkhankut National Park (Russia)",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 45.416596,
-    "longitude": 32.666665,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Tarkhankut National Park (Russia)"
-  },
-  {
-    "id": "ru-ugra-national-park",
-    "name": "Ugra National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 54.87122,
-    "longitude": 35.025831,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Ugra National Park"
-  },
-  {
-    "id": "ru-valdaysky-national-park",
-    "name": "Valdaysky National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 57.925974,
-    "longitude": 33.174155,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Valdaysky National Park"
-  },
-  {
-    "id": "ru-vodlozersky-national-park",
-    "name": "Vodlozersky National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 62.230107,
-    "longitude": 36.875966,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Vodlozersky National Park"
-  },
-  {
-    "id": "ru-zavidovo-national-park",
-    "name": "Zavidovo National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 56.421504,
-    "longitude": 36.135009,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Zavidovo National Park"
-  },
-  {
-    "id": "ru-zigalga-national-park",
-    "name": "Zigalga National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 54.592213,
-    "longitude": 58.523138,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Zigalga National Park"
-  },
-  {
-    "id": "ru-zyuratkul-national-park",
-    "name": "Zyuratkul National Park",
-    "country": "Russia",
-    "code": "RU",
-    "latitude": 54.793397,
-    "longitude": 59.050651,
-    "sizeInSquareKilometers": "",
-    "nationalParkSince": "",
-    "website": "",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Zyuratkul National Park"
+    "nativeName": "Национальный парк „Мещёрский“"
   }
 ]
+

@@ -1,7 +1,7 @@
 [
   {
     "id": "at-nationalpark-hohe-tauern",
-    "name": "Nationalpark Hohe Tauern",
+    "name": "Hohe Tauern National Park",
     "country": "Austria",
     "code": "AT",
     "latitude": 47.072024,
@@ -17,7 +17,7 @@
   },
   {
     "id": "at-nationalpark-gesause",
-    "name": "Nationalpark Gesäuse",
+    "name": "Gesäuse National Park",
     "country": "Austria",
     "code": "AT",
     "latitude": 47.565208,
@@ -33,7 +33,7 @@
   },
   {
     "id": "at-nationalpark-kalkalpen",
-    "name": "Nationalpark Kalkalpen",
+    "name": "Kalkalpen National Park",
     "country": "Austria",
     "code": "AT",
     "latitude": 47.782426,
@@ -61,7 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Thayatal National Park"
+    "nativeName": "Nationalpark Thayatal"
   },
   {
     "id": "at-lake-neusiedl-seewinkel-national-park",
@@ -77,11 +77,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Lake Neusiedl - Seewinkel National Park"
+    "nativeName": "Nationalpark Neusiedler See - Seewinkel"
   },
   {
     "id": "at-nationalpark-donau-auen",
-    "name": "Nationalpark Donau-Auen",
+    "name": "Donau-Auen National Park",
     "country": "Austria",
     "code": "AT",
     "latitude": 48.194417,
@@ -96,3 +96,4 @@
     "nativeName": "Nationalpark Donau-Auen"
   }
 ]
+

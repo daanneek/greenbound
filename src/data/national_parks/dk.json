@@ -1,7 +1,7 @@
 [
   {
     "id": "dk-kongernes-nordsjaelland",
-    "name": "Kongernes Nordsjælland",
+    "name": "Kings' North Zealand National Park",
     "country": "Denmark",
     "code": "DK",
     "latitude": 56.046298,
@@ -13,7 +13,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Kongernes Nordsjælland"
+    "nativeName": "Nationalpark Kongernes Nordsjælland"
   },
   {
     "id": "dk-wadden-sea-national-park",
@@ -29,11 +29,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Wadden Sea National Park"
+    "nativeName": "Nationalpark Vadehavet"
   },
   {
     "id": "dk-nationalpark-mols-bjerge",
-    "name": "Nationalpark Mols Bjerge",
+    "name": "Mols Bjerge National Park",
     "country": "Denmark",
     "code": "DK",
     "latitude": 56.283449,
@@ -49,7 +49,7 @@
   },
   {
     "id": "dk-skjoldungernes-land-national-park",
-    "name": "Skjoldungernes Land National Park",
+    "name": "Land of the Scyldings National Park",
     "country": "Denmark",
     "code": "DK",
     "latitude": 55.664652,
@@ -61,11 +61,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Skjoldungernes Land National Park"
+    "nativeName": "Nationalpark Skjoldungernes Land"
   },
   {
     "id": "dk-nationalpark-thy",
-    "name": "Nationalpark Thy",
+    "name": "Thy National Park",
     "country": "Denmark",
     "code": "DK",
     "latitude": 56.929808,
@@ -80,3 +80,4 @@
     "nativeName": "Nationalpark Thy"
   }
 ]
+

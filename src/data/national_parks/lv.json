@@ -13,11 +13,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Gauja National Park"
+    "nativeName": "Gaujas nacionālais parks"
   },
   {
     "id": "lv-raznas-nacionalais-parks",
-    "name": "Rāznas nacionālais parks",
+    "name": "Rāzna National Park",
     "country": "Latvia",
     "code": "LV",
     "latitude": 56.267097,
@@ -45,7 +45,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Ķemeri National Park"
+    "nativeName": "Ķemeru nacionālais parks"
   },
   {
     "id": "lv-slitere-national-park",
@@ -61,6 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Slītere National Park"
+    "nativeName": "Slīteres nacionālais parks"
   }
 ]
+

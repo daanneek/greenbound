@@ -13,7 +13,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Curonian Spit National Park"
+    "nativeName": "Kuršių nerijos nacionalinis parkas"
   },
   {
     "id": "lt-dzukija-national-park",
@@ -29,7 +29,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Dzūkija National Park"
+    "nativeName": "Dzūkijos nacionalinis parkas"
   },
   {
     "id": "lt-aukstaitija-national-park",
@@ -45,7 +45,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Aukštaitija National Park"
+    "nativeName": "Aukštaitijos nacionalinis parkas"
   },
   {
     "id": "lt-trakai-historical-national-park",
@@ -61,7 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Trakai Historical National Park"
+    "nativeName": "Trakų istorinis nacionalinis parkas"
   },
   {
     "id": "lt-zemaitija-national-park",
@@ -77,6 +77,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Žemaitija National Park"
+    "nativeName": "Žemaitijos nacionalinis parkas"
   }
 ]
+

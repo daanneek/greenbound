@@ -13,7 +13,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Rila National Park"
+    "nativeName": "Национален парк „Рила“"
   },
   {
     "id": "bg-central-balkan-national-park",
@@ -29,7 +29,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Central Balkan National Park"
+    "nativeName": "Национален парк „Централен Балкан“"
   },
   {
     "id": "bg-pirin-national-park",
@@ -45,6 +45,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Pirin National Park"
+    "nativeName": "Национален парк „Пирин“"
   }
 ]
+

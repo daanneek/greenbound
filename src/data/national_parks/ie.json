@@ -13,11 +13,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Killarney National Park"
+    "nativeName": "Páirc Náisiúnta Cill Airne"
   },
   {
     "id": "ie-kerry-seas-national-park-pairc-naisiunta-na-mara-ciarrai",
-    "name": "Kerry Seas National Park (Páirc Náisiúnta na Mara, Ciarraí)",
+    "name": "Kerry Seas National Park",
     "country": "Ireland",
     "code": "IE",
     "latitude": 52.275495,
@@ -29,7 +29,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Kerry Seas National Park (Páirc Náisiúnta na Mara, Ciarraí)"
+    "nativeName": "Páirc Náisiúnta na Mara, Ciarraí"
   },
   {
     "id": "ie-burren-national-park",
@@ -45,7 +45,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Burren National Park"
+    "nativeName": "Páirc Náisiúnta Bhoirne"
   },
   {
     "id": "ie-connemara-national-park",
@@ -61,7 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Connemara National Park"
+    "nativeName": "Páirc Náisiúnta Chonamara"
   },
   {
     "id": "ie-wicklow-mountains-national-park",
@@ -77,7 +77,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Wicklow Mountains National Park"
+    "nativeName": "Páirc Náisiúnta Shléibhte Cill Mhantáin"
   },
   {
     "id": "ie-wild-nephin-national-park",
@@ -93,7 +93,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Wild Nephin National Park"
+    "nativeName": "Páirc Náisiúnta Néifinne Fiáine"
   },
   {
     "id": "ie-glenveagh-national-park",
@@ -109,6 +109,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Glenveagh National Park"
+    "nativeName": "Páirc Náisiúnta Ghleann Bheatha"
   }
 ]
+

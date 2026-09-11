@@ -13,7 +13,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Sarek National Park"
+    "nativeName": "Sareks nationalpark"
   },
   {
     "id": "se-padjelanta-national-park",
@@ -29,11 +29,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Padjelanta National Park"
+    "nativeName": "Padjelanta nationalpark"
   },
   {
     "id": "se-stora-sjofallets-stuor-muorkke-national-park",
-    "name": "Stora Sjöfallets / Stuor Muorkke National Park",
+    "name": "Stora Sjöfallet National Park",
     "country": "Sweden",
     "code": "SE",
     "latitude": 67.560248,
@@ -45,7 +45,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Stora Sjöfallets / Stuor Muorkke National Park"
+    "nativeName": "Stora Sjöfallets nationalpark"
   },
   {
     "id": "se-abisko-national-park",
@@ -61,7 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Abisko National Park"
+    "nativeName": "Abisko nationalpark"
   },
   {
     "id": "se-gotska-sandon-national-park",
@@ -77,11 +77,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Gotska Sandön National Park"
+    "nativeName": "Gotska Sandöns nationalpark"
   },
   {
     "id": "se-tyresta-national-park-and-nature-reserve",
-    "name": "Tyresta National Park and Nature Reserve",
+    "name": "Tyresta National Park",
     "country": "Sweden",
     "code": "SE",
     "latitude": 59.18431,
@@ -93,7 +93,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Tyresta National Park and Nature Reserve"
+    "nativeName": "Tyresta nationalpark"
   },
   {
     "id": "se-fulufjallet-national-park",
@@ -109,7 +109,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Fulufjället National Park"
+    "nativeName": "Fulufjällets nationalpark"
   },
   {
     "id": "se-sonfjallet-national-park",
@@ -125,7 +125,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Sonfjället National Park"
+    "nativeName": "Sonfjällets nationalpark"
   },
   {
     "id": "se-vadvetjakka-national-park",
@@ -141,7 +141,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Vadvetjåkka National Park"
+    "nativeName": "Vadvetjåkka nationalpark"
   },
   {
     "id": "se-muddus-national-park",
@@ -157,7 +157,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Muddus National Park"
+    "nativeName": "Muddus nationalpark"
   },
   {
     "id": "se-tiveden-national-park",
@@ -173,11 +173,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Tiveden National Park"
+    "nativeName": "Tivedens nationalpark"
   },
   {
     "id": "se-stenshuvud-s-national-park",
-    "name": "Stenshuvud's National Park",
+    "name": "Stenshuvud National Park",
     "country": "Sweden",
     "code": "SE",
     "latitude": 55.656184,
@@ -189,7 +189,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Stenshuvud's National Park"
+    "nativeName": "Stenshuvuds nationalpark"
   },
   {
     "id": "se-angso-national-park",
@@ -205,11 +205,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Ängsö National Park"
+    "nativeName": "Ängsö nationalpark"
   },
   {
     "id": "se-asnens-nationalpark",
-    "name": "Åsnens Nationalpark",
+    "name": "Åsnen National Park",
     "country": "Sweden",
     "code": "SE",
     "latitude": 56.616667,
@@ -221,11 +221,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Åsnens Nationalpark"
+    "nativeName": "Åsnens nationalpark"
   },
   {
     "id": "se-bjornlandets-nationalpark",
-    "name": "Björnlandets Nationalpark",
+    "name": "Björnlandet National Park",
     "country": "Sweden",
     "code": "SE",
     "latitude": 63.971201,
@@ -237,11 +237,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Björnlandets Nationalpark"
+    "nativeName": "Björnlandets nationalpark"
   },
   {
     "id": "se-bla-jungfrun-nationalpark",
-    "name": "Blå Jungfrun nationalpark",
+    "name": "Blå Jungfrun National Park",
     "country": "Sweden",
     "code": "SE",
     "latitude": 57.253776,
@@ -269,70 +269,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Dalby Söderskog National Park"
-  },
-  {
-    "id": "se-djuro-national-park",
-    "name": "Djurö National Park",
-    "country": "Sweden",
-    "code": "SE",
-    "latitude": 58.86413,
-    "longitude": 13.468351,
-    "sizeInSquareKilometers": 24,
-    "nationalParkSince": 1991,
-    "website": "https://www.sverigesnationalparker.se/en/parks/djuro-national-park",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Djurö National Park"
-  },
-  {
-    "id": "se-farnebofjarden-national-park",
-    "name": "Färnebofjärden National Park",
-    "country": "Sweden",
-    "code": "SE",
-    "latitude": 60.269924,
-    "longitude": 16.908702,
-    "sizeInSquareKilometers": 101,
-    "nationalParkSince": 1998,
-    "website": "https://www.sverigesnationalparker.se/en/parks/farnebofjarden-national-park",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Färnebofjärden National Park"
-  },
-  {
-    "id": "se-garphyttans-nationalpark",
-    "name": "Garphyttans Nationalpark",
-    "country": "Sweden",
-    "code": "SE",
-    "latitude": 59.278503,
-    "longitude": 14.883403,
-    "sizeInSquareKilometers": 1.11,
-    "nationalParkSince": 1909,
-    "website": "https://www.sverigesnationalparker.se/en/parks/garphyttan-national-park",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Garphyttans Nationalpark"
-  },
-  {
-    "id": "se-hamra-national-park",
-    "name": "Hamra National Park",
-    "country": "Sweden",
-    "code": "SE",
-    "latitude": 61.763975,
-    "longitude": 14.757578,
-    "sizeInSquareKilometers": 13.8,
-    "nationalParkSince": 1909,
-    "website": "https://sverigesnationalparker.se",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Hamra National Park"
+    "nativeName": "Dalby Söderskogs nationalpark"
   }
 ]
+

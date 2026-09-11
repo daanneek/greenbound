@@ -1,7 +1,7 @@
 [
   {
     "id": "gr-rodopi-mountain-range-national-park",
-    "name": "Rodopi Mountain Range National Park",
+    "name": "Rhodope Mountain Range National Park",
     "country": "Greece",
     "code": "GR",
     "latitude": 41.470074,
@@ -13,11 +13,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Rodopi Mountain Range National Park"
+    "nativeName": "Εθνικό Πάρκο Οροσειράς Ροδόπης"
   },
   {
     "id": "gr-national-park-of-tzoumerka-peristeri-and-arachthos-gorge",
-    "name": "National Park of Tzoumerka, Peristeri & Arachthos Gorge",
+    "name": "National Park of Tzoumerka, Peristeri and Arachthos Gorge",
     "country": "Greece",
     "code": "GR",
     "latitude": 39.48786,
@@ -29,7 +29,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "National Park of Tzoumerka, Peristeri & Arachthos Gorge"
+    "nativeName": "Εθνικό Πάρκο Τζουμέρκων, Περιστερίου και Χαράδρας Αράχθου"
   },
   {
     "id": "gr-mount-olympus-national-park",
@@ -45,7 +45,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Mount Olympus National Park"
+    "nativeName": "Εθνικός Δρυμός Ολύμπου"
   },
   {
     "id": "gr-samaria-gorge-national-park",
@@ -61,7 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Samaria Gorge National Park"
+    "nativeName": "Εθνικός Δρυμός Σαμαριάς"
   },
   {
     "id": "gr-parnassos-national-park",
@@ -77,11 +77,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Parnassos National Park"
+    "nativeName": "Εθνικός Δρυμός Παρνασσού"
   },
   {
     "id": "gr-national-park-of-parnitha",
-    "name": "National Park of Parnitha",
+    "name": "Parnitha National Park",
     "country": "Greece",
     "code": "GR",
     "latitude": 38.159983,
@@ -93,11 +93,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "National Park of Parnitha"
+    "nativeName": "Εθνικός Δρυμός Πάρνηθας"
   },
   {
     "id": "gr-ainos-oros",
-    "name": "Ainos Oros",
+    "name": "Mount Ainos National Park",
     "country": "Greece",
     "code": "GR",
     "latitude": 38.136667,
@@ -109,11 +109,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Ainos Oros"
+    "nativeName": "Εθνικός Δρυμός Αίνου"
   },
   {
     "id": "gr-mt-iti-national-park",
-    "name": "Mt Iti National Park",
+    "name": "Mount Oiti National Park",
     "country": "Greece",
     "code": "GR",
     "latitude": 38.749371,
@@ -125,7 +125,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Mt Iti National Park"
+    "nativeName": "Εθνικός Δρυμός Οίτης"
   },
   {
     "id": "gr-prespa-national-park",
@@ -141,11 +141,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Prespa National Park"
+    "nativeName": "Εθνικός Δρυμός Πρεσπών"
   },
   {
     "id": "gr-kerkini-lake-national-park",
-    "name": "Kerkini Lake National Park",
+    "name": "Lake Kerkini National Park",
     "country": "Greece",
     "code": "GR",
     "latitude": 41.259262,
@@ -157,11 +157,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Kerkini Lake National Park"
+    "nativeName": "Εθνικό Πάρκο Λίμνης Κερκίνης"
   },
   {
     "id": "gr-delta-nestos-national-park",
-    "name": "Delta Nestos National Park",
+    "name": "Nestos Delta National Park",
     "country": "Greece",
     "code": "GR",
     "latitude": 41.00782,
@@ -173,11 +173,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Delta Nestos National Park"
+    "nativeName": "Εθνικό Πάρκο Δέλτα Νέστου"
   },
   {
     "id": "gr-pindos-national-park",
-    "name": "Pindos National Park",
+    "name": "Pindus National Park",
     "country": "Greece",
     "code": "GR",
     "latitude": 39.941268,
@@ -189,7 +189,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Pindos National Park"
+    "nativeName": "Εθνικός Δρυμός Πίνδου"
   },
   {
     "id": "gr-vikos-national-park",
@@ -205,11 +205,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Vikos National Park"
+    "nativeName": "Εθνικός Δρυμός Βίκου"
   },
   {
     "id": "gr-sounion-national-park",
-    "name": "Sounion National Park",
+    "name": "Sounio National Park",
     "country": "Greece",
     "code": "GR",
     "latitude": 37.715929,
@@ -221,23 +221,23 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Sounion National Park"
+    "nativeName": "Εθνικός Δρυμός Σουνίου"
   },
   {
     "id": "gr-national-marine-park",
-    "name": "National Marine Park",
+    "name": "National Marine Park of Alonissos and Northern Sporades",
     "country": "Greece",
     "code": "GR",
     "latitude": 39.27052,
     "longitude": 23.979669,
     "sizeInSquareKilometers": 2260,
     "nationalParkSince": 1992,
-    "website": "https://alonissos.gr/en/marine-park/overview.html?__cf_chl_tk=7T148Ul_.b3nJzKIi.ijClZKDtDLFPemnQQTfvEluHI-1788776704-1.0.1.1-O1zrCNvFnwN0d8qoYkeoL6U.Q.iOA8pBAaNES7Jv3uM",
+    "website": "https://alonissos.gr/en/marine-park/overview.html",
     "youtubeUrl": "",
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "National Marine Park"
+    "nativeName": "Εθνικό Θαλάσσιο Πάρκο Αλοννήσου Βορείων Σποράδων"
   },
   {
     "id": "gr-evros-delta-national-park",
@@ -253,11 +253,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Evros Delta National Park"
+    "nativeName": "Εθνικό Πάρκο Δέλτα Έβρου"
   },
   {
     "id": "gr-national-forest-park-of-dadia-lefkimi-soufli",
-    "name": "National Forest Park of Dadia - Lefkimi - Soufli",
+    "name": "Dadia-Lefkimi-Soufli Forest National Park",
     "country": "Greece",
     "code": "GR",
     "latitude": 41.122558,
@@ -269,70 +269,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "National Forest Park of Dadia - Lefkimi - Soufli"
-  },
-  {
-    "id": "gr-amvrakikos-wetlands-national-park",
-    "name": "Amvrakikos Wetlands National Park",
-    "country": "Greece",
-    "code": "GR",
-    "latitude": 39.070434,
-    "longitude": 20.838599,
-    "sizeInSquareKilometers": 287,
-    "nationalParkSince": 2008,
-    "website": "https://amvrakikos.eu/park/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Amvrakikos Wetlands National Park"
-  },
-  {
-    "id": "gr-axios-delta-national-park",
-    "name": "Axios Delta National Park",
-    "country": "Greece",
-    "code": "GR",
-    "latitude": 40.529725,
-    "longitude": 22.682967,
-    "sizeInSquareKilometers": 338,
-    "nationalParkSince": 2009,
-    "website": "https://axiosdelta.gr/en/national-park/%CF%87%CF%81%CE%AE%CF%83%CE%B9%CE%BC%CE%B5%CF%82-%CF%80%CE%BB%CE%B7%CF%81%CE%BF%CF%86%CE%BF%CF%81%CE%AF%CE%B5%CF%82/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Axios Delta National Park"
-  },
-  {
-    "id": "gr-chelmos-national-park",
-    "name": "Chelmos National Park",
-    "country": "Greece",
-    "code": "GR",
-    "latitude": 37.98556,
-    "longitude": 22.198394,
-    "sizeInSquareKilometers": 544,
-    "nationalParkSince": 2009,
-    "website": "https://www.unesco.org/en/iggp/chelmos-vouraikos-unesco-global-geopark",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Chelmos National Park"
-  },
-  {
-    "id": "gr-national-park-of-eastern-macedonia-and-thrace",
-    "name": "National Park of Eastern Macedonia and Thrace",
-    "country": "Greece",
-    "code": "GR",
-    "latitude": 40.847059,
-    "longitude": 24.804057,
-    "sizeInSquareKilometers": 931.38,
-    "nationalParkSince": 2008,
-    "website": "https://necca.gov.gr/en/mdpp/management-unit-of-the-protected-areas-of-thrace-necca/",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "National Park of Eastern Macedonia and Thrace"
+    "nativeName": "Εθνικό Πάρκο Δάσους Δαδιάς - Λευκίμης - Σουφλίου"
   }
 ]
+

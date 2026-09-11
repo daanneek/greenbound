@@ -13,7 +13,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Pallas-Yllästunturi National Park"
+    "nativeName": "Pallas-Yllästunturin kansallispuisto"
   },
   {
     "id": "fi-pyha-luosto-national-park",
@@ -29,7 +29,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Pyhä-Luosto National Park"
+    "nativeName": "Pyhä-Luoston kansallispuisto"
   },
   {
     "id": "fi-oulanka-national-park",
@@ -45,7 +45,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Oulanka National Park"
+    "nativeName": "Oulangan kansallispuisto"
   },
   {
     "id": "fi-riisitunturi-national-park",
@@ -61,7 +61,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Riisitunturi National Park"
+    "nativeName": "Riisitunturin kansallispuisto"
   },
   {
     "id": "fi-koli-national-park",
@@ -77,7 +77,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Koli National Park"
+    "nativeName": "Kolin kansallispuisto"
   },
   {
     "id": "fi-nuuksio-national-park",
@@ -93,7 +93,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Nuuksio National Park"
+    "nativeName": "Nuuksion kansallispuisto"
   },
   {
     "id": "fi-repovesi-national-park",
@@ -109,7 +109,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Repovesi National Park"
+    "nativeName": "Repoveden kansallispuisto"
   },
   {
     "id": "fi-urho-kekkonen-national-park",
@@ -125,7 +125,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Urho Kekkonen National Park"
+    "nativeName": "Urho Kekkosen kansallispuisto"
   },
   {
     "id": "fi-archipelago-national-park",
@@ -141,7 +141,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Archipelago National Park"
+    "nativeName": "Saaristomeren kansallispuisto"
   },
   {
     "id": "fi-sipoonkorpi-national-park",
@@ -157,7 +157,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Sipoonkorpi National Park"
+    "nativeName": "Sipoonkorven kansallispuisto"
   },
   {
     "id": "fi-teijo-national-park",
@@ -173,11 +173,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Teijo National Park"
+    "nativeName": "Teijon kansallispuisto"
   },
   {
     "id": "fi-perameri-national-park",
-    "name": "Perämeri National Park",
+    "name": "Bothnian Bay National Park",
     "country": "Finland",
     "code": "FI",
     "latitude": 65.629059,
@@ -189,11 +189,11 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Perämeri National Park"
+    "nativeName": "Perämeren kansallispuisto"
   },
   {
     "id": "fi-selkameri-national-park-pori",
-    "name": "Selkämeri National Park (Pori)",
+    "name": "Bothnian Sea National Park",
     "country": "Finland",
     "code": "FI",
     "latitude": 61.535468,
@@ -205,7 +205,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Selkämeri National Park (Pori)"
+    "nativeName": "Selkämeren kansallispuisto"
   },
   {
     "id": "fi-eastern-gulf-of-finland-national-park",
@@ -221,7 +221,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Eastern Gulf of Finland National Park"
+    "nativeName": "Itäisen Suomenlahden kansallispuisto"
   },
   {
     "id": "fi-ekenas-archipelago-national-park",
@@ -237,7 +237,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Ekenäs Archipelago National Park"
+    "nativeName": "Tammisaaren saariston kansallispuisto"
   },
   {
     "id": "fi-helvetinjarvi-national-park",
@@ -253,7 +253,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Helvetinjärvi National Park"
+    "nativeName": "Helvetinjärven kansallispuisto"
   },
   {
     "id": "fi-hiidenportti-national-park",
@@ -269,118 +269,7 @@
     "gpxAvailable": false,
     "visited": false,
     "visitDates": [],
-    "nativeName": "Hiidenportti National Park"
-  },
-  {
-    "id": "fi-hossa-national-park",
-    "name": "Hossa National Park",
-    "country": "Finland",
-    "code": "FI",
-    "latitude": 65.467649,
-    "longitude": 29.518354,
-    "sizeInSquareKilometers": 110,
-    "nationalParkSince": 2017,
-    "website": "https://www.luontoon.fi/en/destinations/hossa-national-park",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Hossa National Park"
-  },
-  {
-    "id": "fi-isojarvi-national-park",
-    "name": "Isojärvi National Park",
-    "country": "Finland",
-    "code": "FI",
-    "latitude": 61.690591,
-    "longitude": 25.002154,
-    "sizeInSquareKilometers": 22,
-    "nationalParkSince": 1982,
-    "website": "https://www.luontoon.fi/en/destinations/isojarvi-national-park",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Isojärvi National Park"
-  },
-  {
-    "id": "fi-kauhaneva-pohjankangas-national-park",
-    "name": "Kauhaneva-Pohjankangas national park",
-    "country": "Finland",
-    "code": "FI",
-    "latitude": 62.239574,
-    "longitude": 22.323431,
-    "sizeInSquareKilometers": 57,
-    "nationalParkSince": 1982,
-    "website": "https://www.luontoon.fi/en/destinations/kauhaneva-pohjankangas-national-park",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Kauhaneva-Pohjankangas national park"
-  },
-  {
-    "id": "fi-kolovesi-national-park",
-    "name": "Kolovesi National Park",
-    "country": "Finland",
-    "code": "FI",
-    "latitude": 62.252307,
-    "longitude": 28.81853,
-    "sizeInSquareKilometers": 60,
-    "nationalParkSince": 1990,
-    "website": "https://www.luontoon.fi/en/destinations/kolovesi-national-park",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Kolovesi National Park"
-  },
-  {
-    "id": "fi-kurjenrahka-national-park",
-    "name": "Kurjenrahka National Park",
-    "country": "Finland",
-    "code": "FI",
-    "latitude": 60.739957,
-    "longitude": 22.41303,
-    "sizeInSquareKilometers": 29,
-    "nationalParkSince": 1998,
-    "website": "https://www.luontoon.fi/en/destinations/kurjenrahka-national-park",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Kurjenrahka National Park"
-  },
-  {
-    "id": "fi-lauhanvuori-national-park",
-    "name": "Lauhanvuori National Park",
-    "country": "Finland",
-    "code": "FI",
-    "latitude": 62.152116,
-    "longitude": 22.175126,
-    "sizeInSquareKilometers": 53,
-    "nationalParkSince": 1982,
-    "website": "https://www.luontoon.fi/en/destinations/lauhanvuori-national-park",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Lauhanvuori National Park"
-  },
-  {
-    "id": "fi-leivonmaki-national-park",
-    "name": "Leivonmäki National Park",
-    "country": "Finland",
-    "code": "FI",
-    "latitude": 61.934819,
-    "longitude": 25.97981,
-    "sizeInSquareKilometers": 30,
-    "nationalParkSince": 2003,
-    "website": "https://www.luontoon.fi/en/destinations/leivonmaki-national-park",
-    "youtubeUrl": "",
-    "gpxAvailable": false,
-    "visited": false,
-    "visitDates": [],
-    "nativeName": "Leivonmäki National Park"
+    "nativeName": "Hiidenportin kansallispuisto"
   }
 ]
+
