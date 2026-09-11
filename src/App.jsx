@@ -831,9 +831,7 @@ function App() {
                     aria-expanded={cardExpanded}
                   >
                     <span className="card-handle__bar" />
-                    <span className="card-handle__label">
-                      No park selected
-                    </span>
+                    <span className="card-handle__label">No park selected</span>
                   </button>
                   <div className="no-selection-content">
                     <p className="filter-title">Park details</p>
