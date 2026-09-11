@@ -46,6 +46,14 @@ Four more fields are optional and hand-edited per park as the journey log grows 
 - `visited`: boolean; true swaps the map pin's core to a checkmark and shows the visited badge in the detail card.
 - `visitDates`: array of ISO date strings (`"YYYY-MM-DD"`). Visit count and "last visited" are derived from this array (`getSortedVisitDates`/`getLatestVisitDate` in `App.jsx`) rather than stored as a separate count field, so there is one source of truth when hand-editing JSON.
 
+## Deployment, caching, analytics and SEO
+
+- Hosting is GitHub Pages via `.github/workflows/deploy-greenbound.yml`, which builds with `npm run build` and uploads `dist/` as the Pages artifact. The repo's Pages source **must** be set to "GitHub Actions" (Settings → Pages → Build and deployment). If it is set to "Deploy from a branch" instead, GitHub serves the raw repo tree directly — the unbuilt `index.html` (with its `%BASE_URL%` placeholder and `/src/main.jsx` reference) gets served as-is, `main.jsx` loads with the wrong MIME type, and `public/` files 404 at the root. This happened once already; check this setting first if the live site breaks in this exact way again.
+- `index.html` carries `Cache-Control`/`Pragma`/`Expires` meta tags so the HTML shell itself is never long-cached by browsers, while the hashed `dist/assets/*` filenames remain safe to cache indefinitely (Vite fingerprints them per build).
+- Analytics: GoatCounter (privacy-friendly, no cookies, no consent banner needed). The snippet is the last tag in `index.html`'s `<body>`; replace the `YOUR-CODE` placeholder in `data-goatcounter` with the real goatcounter.com site code once an account exists. The CSP already allows `https://gc.zgo.at` (script) and `https://*.goatcounter.com` (img/connect).
+- Client-side analytics (GoatCounter or any JS-based tool) cannot see visitors/bots that fetch HTML without executing JavaScript — this includes most AI crawlers (GPTBot, ClaudeBot, CCBot, PerplexityBot, etc.). Seeing that raw traffic would require edge/server-level visibility, e.g. proxying `greenbound.nkmn.nl` through Cloudflare's free plan in front of GitHub Pages (a DNS-level change outside this repo, not yet done).
+- SEO baseline is meta-tags-only (description, canonical, Open Graph, Twitter Card, `robots` meta) plus `public/robots.txt` (explicitly allows major AI crawlers and points to the sitemap) and `public/sitemap.xml` (currently just the homepage). Because the app is a client-rendered SPA with no per-route pages yet, non-JS crawlers only ever see the `<head>` metadata, not park content — revisit this if/when per-park pages (backlog item 10) exist, and add their URLs to `sitemap.xml` at that point.
+
 ## Product state
 
 Implemented:

@@ -7,7 +7,7 @@
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://*.tile.openstreetmap.org https://*.tile.opentopomap.org; connect-src 'self'; frame-src 'none'; form-action 'self'"
+      content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://*.tile.openstreetmap.org https://*.tile.opentopomap.org https://*.goatcounter.com; connect-src 'self' https://*.goatcounter.com; frame-src 'none'; form-action 'self'"
     />
     <!-- The HTML shell must always be revalidated; only the hashed
          /assets files are safe to cache long-term. -->
@@ -17,11 +17,44 @@
     />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
+    <meta name="theme-color" content="#1f6b4c" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="description"
+      content="Greenbound is an interactive map for exploring national parks across Europe: filter by country, search by name, and browse an ever-growing catalogue of protected places."
+    />
+    <link rel="canonical" href="https://greenbound.nkmn.nl/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Greenbound" />
+    <meta property="og:title" content="Greenbound — European National Parks" />
+    <meta
+      property="og:description"
+      content="An interactive map for exploring national parks across Europe: filter by country, search by name, and browse an ever-growing catalogue of protected places."
+    />
+    <meta property="og:url" content="https://greenbound.nkmn.nl/" />
+    <meta property="og:image" content="https://greenbound.nkmn.nl/banner.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Greenbound — European National Parks" />
+    <meta
+      name="twitter:description"
+      content="An interactive map for exploring national parks across Europe."
+    />
+    <meta
+      name="twitter:image"
+      content="https://greenbound.nkmn.nl/banner.png"
+    />
+
     <title>Greenbound — European National Parks</title>
   </head>
 
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script
+      data-goatcounter="https://greenbound.goatcounter.com/count"
+      async
+      src="https://gc.zgo.at/count.js"
+    ></script>
   </body>
 </html>
