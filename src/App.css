@@ -1135,10 +1135,11 @@ input::placeholder {
   }
   .sidebar-close {
     display: block;
-    align-self: flex-end;
+    align-self: center;
     width: 34px;
     height: 34px;
-    margin-bottom: 8px;
+    margin-bottom: 0;
+    flex-shrink: 0;
     border: 1px solid var(--line);
     background: transparent;
     color: var(--ink);
@@ -1172,7 +1173,7 @@ input::placeholder {
     margin-top: 8px;
   }
   .park-card.no-selection {
-    transform: none;
+    transform: translateY(calc(100% - 50px));
     padding-top: 0;
   }
   .no-selection-content {

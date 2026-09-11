@@ -591,13 +591,6 @@ function App() {
           aria-hidden="true"
         />
         <aside className={`sidebar ${filtersOpen ? "is-open" : ""}`}>
-          <button
-            className="sidebar-close"
-            onClick={() => setFiltersOpen(false)}
-            aria-label="Close filters"
-          >
-            ✕
-          </button>
           <div className="sidebar-heading">
             <a className="wordmark" href="/" aria-label="Greenbound home">
               <img
@@ -608,6 +601,13 @@ function App() {
               />
               Greenbound
             </a>
+            <button
+              className="sidebar-close"
+              onClick={() => setFiltersOpen(false)}
+              aria-label="Close filters"
+            >
+              ✕
+            </button>
           </div>
           <label className="search-label">
             Search {visibleParks.length} places
@@ -824,14 +824,26 @@ function App() {
                   )}
                 </>
               ) : (
-                <div className="no-selection-content">
-                  <p className="filter-title">Park details</p>
-                  <h2>No park selected</h2>
-                  <p>
-                    Select a park from the results list or click a marker on the
-                    map to explore its details.
-                  </p>
-                </div>
+                <>
+                  <button
+                    className="card-handle"
+                    onClick={() => setCardExpanded((open) => !open)}
+                    aria-expanded={cardExpanded}
+                  >
+                    <span className="card-handle__bar" />
+                    <span className="card-handle__label">
+                      No park selected
+                    </span>
+                  </button>
+                  <div className="no-selection-content">
+                    <p className="filter-title">Park details</p>
+                    <h2>No park selected</h2>
+                    <p>
+                      Select a park from the results list or click a marker on
+                      the map to explore its details.
+                    </p>
+                  </div>
+                </>
               )}
             </article>
           </div>
