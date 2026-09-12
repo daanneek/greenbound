@@ -150,12 +150,7 @@
       "filter": ["==", "admin_level", 2],
       "paint": {
         "line-color": "#58645d",
-        "line-opacity": [
-          "case",
-          ["==", ["get", "maritime"], 1],
-          0,
-          0.85
-        ],
+        "line-opacity": ["case", ["==", ["get", "maritime"], 1], 0, 0.85],
         "line-width": ["interpolate", ["linear"], ["zoom"], 2, 0.8, 7, 1.6]
       }
     },

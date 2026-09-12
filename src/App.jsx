@@ -1,8 +1,7 @@
+import "@maplibre/maplibre-gl-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import "maplibre-gl/dist/maplibre-gl.css";
-import "@maplibre/maplibre-gl-leaflet";
-import simpleMapStyle from "./map-style.json";
 import {
   useEffect,
   useId,
@@ -14,6 +13,7 @@ import {
 import { MapContainer, Marker, Popup, useMap } from "react-leaflet";
 import Supercluster from "supercluster";
 import "./App.css";
+import simpleMapStyle from "./map-style.json";
 
 const parkDataModules = import.meta.glob("./data/national_parks/*.json", {
   eager: true,
