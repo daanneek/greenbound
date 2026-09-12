@@ -621,6 +621,12 @@ input::placeholder {
   background: var(--green);
   outline: none;
 }
+.zoom-controls button:disabled {
+  cursor: not-allowed;
+  color: rgba(47, 70, 57, 0.34);
+  border-color: rgba(47, 70, 57, 0.24);
+  background: rgba(255, 255, 255, 0.16);
+}
 .zoom-controls button:active {
   transform: scale(0.94);
 }
@@ -636,6 +642,15 @@ input::placeholder {
   height: 100%;
   background: #d9e8da;
   font-family: Manrope, sans-serif;
+}
+.leaflet-map .leaflet-gl-layer,
+.leaflet-map .leaflet-gl-layer .maplibregl-map,
+.leaflet-map .leaflet-gl-layer .maplibregl-canvas-container {
+  width: 100%;
+  height: 100%;
+}
+.leaflet-map .leaflet-gl-layer .maplibregl-canvas-container {
+  position: absolute;
 }
 .leaflet-map > .zoom-controls {
   position: absolute;

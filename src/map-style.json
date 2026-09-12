@@ -1,0 +1,203 @@
+{
+  "version": 8,
+  "name": "Greenbound Simple",
+  "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "url": "https://tiles.openfreemap.org/planet"
+    }
+  },
+  "glyphs": "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": { "background-color": "#f3f0e8" }
+    },
+    {
+      "id": "woodland",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 5,
+      "filter": ["==", "class", "wood"],
+      "paint": {
+        "fill-color": "#b0c9ac",
+        "fill-opacity": 0.62
+      }
+    },
+    {
+      "id": "grassland",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 5,
+      "filter": ["==", "class", "grass"],
+      "paint": {
+        "fill-color": "#d8e2c2",
+        "fill-opacity": 0.42
+      }
+    },
+    {
+      "id": "wetlands",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "landcover",
+      "minzoom": 5,
+      "filter": ["==", "class", "wetland"],
+      "paint": {
+        "fill-color": "#b9d2c5",
+        "fill-opacity": 0.5
+      }
+    },
+    {
+      "id": "protected-areas",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "park",
+      "minzoom": 5,
+      "paint": {
+        "fill-color": "#a9c99f",
+        "fill-opacity": 0.24,
+        "fill-outline-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "water",
+      "paint": {
+        "fill-color": "#b9d9df",
+        "fill-outline-color": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "id": "waterways",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "waterway",
+      "minzoom": 5,
+      "filter": ["in", "class", "river", "stream"],
+      "paint": {
+        "line-color": "#83b8c4",
+        "line-opacity": 0.7,
+        "line-width": ["interpolate", ["linear"], ["zoom"], 5, 0.5, 10, 2.2]
+      }
+    },
+    {
+      "id": "mountain-peaks",
+      "type": "circle",
+      "source": "openmaptiles",
+      "source-layer": "mountain_peak",
+      "minzoom": 7,
+      "paint": {
+        "circle-color": "#5f6d5c",
+        "circle-radius": ["interpolate", ["linear"], ["zoom"], 7, 2.5, 12, 4],
+        "circle-stroke-color": "#f3f0e8",
+        "circle-stroke-width": 1.2
+      }
+    },
+    {
+      "id": "mountain-peak-labels",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "mountain_peak",
+      "minzoom": 7,
+      "layout": {
+        "text-field": [
+          "concat",
+          ["coalesce", ["get", "name:en"], ["get", "name"]],
+          [
+            "case",
+            ["has", "ele"],
+            ["concat", "\n", ["to-string", ["get", "ele"]], " m"],
+            ""
+          ]
+        ],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": ["interpolate", ["linear"], ["zoom"], 7, 9, 11, 12],
+        "text-offset": [0, 1.1],
+        "text-anchor": "top",
+        "text-max-width": 10
+      },
+      "paint": {
+        "text-color": "#4e5d50",
+        "text-halo-color": "#f3f0e8",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "hiking-paths",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "transportation",
+      "minzoom": 10,
+      "filter": ["in", "class", "path", "track"],
+      "paint": {
+        "line-color": "#8d9d83",
+        "line-opacity": 0.75,
+        "line-dasharray": [1.5, 1.5],
+        "line-width": ["interpolate", ["linear"], ["zoom"], 10, 0.6, 15, 1.8]
+      }
+    },
+    {
+      "id": "country-boundaries",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "boundary",
+      "minzoom": 2,
+      "filter": ["==", "admin_level", 2],
+      "paint": {
+        "line-color": "#58645d",
+        "line-opacity": [
+          "case",
+          ["==", ["get", "maritime"], 1],
+          0,
+          0.85
+        ],
+        "line-width": ["interpolate", ["linear"], ["zoom"], 2, 0.8, 7, 1.6]
+      }
+    },
+    {
+      "id": "settlement-labels",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "minzoom": 3,
+      "filter": ["in", "class", "city", "town", "village"],
+      "layout": {
+        "text-field": ["coalesce", ["get", "name:en"], ["get", "name"]],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": ["match", ["get", "class"], "city", 13, "town", 11, 10],
+        "text-padding": 2
+      },
+      "paint": {
+        "text-color": "#39433e",
+        "text-halo-color": "#f3f0e8",
+        "text-halo-width": 1.5
+      }
+    },
+    {
+      "id": "country-labels",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "minzoom": 3,
+      "maxzoom": 7,
+      "filter": ["==", "class", "country"],
+      "layout": {
+        "text-field": ["coalesce", ["get", "name:en"], ["get", "name"]],
+        "text-font": ["Noto Sans Bold"],
+        "text-size": 12,
+        "text-transform": "uppercase",
+        "text-letter-spacing": 0.08
+      },
+      "paint": {
+        "text-color": "#657068",
+        "text-halo-color": "#f3f0e8",
+        "text-halo-width": 2
+      }
+    }
+  ]
+}

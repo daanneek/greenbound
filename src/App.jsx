@@ -1,5 +1,8 @@
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import "maplibre-gl/dist/maplibre-gl.css";
+import "@maplibre/maplibre-gl-leaflet";
+import simpleMapStyle from "./map-style.json";
 import {
   useEffect,
   useId,
@@ -8,7 +11,7 @@ import {
   useRef,
   useState,
 } from "react";
-import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
+import { MapContainer, Marker, Popup, useMap } from "react-leaflet";
 import Supercluster from "supercluster";
 import "./App.css";
 
@@ -68,21 +71,6 @@ const EUROPE_BOUNDS = [
   [72, 60],
 ];
 const ALL_WORLD_BOUNDS = [-180, -90, 180, 90];
-
-const MAP_STYLES = {
-  osm: {
-    label: "OpenStreetMap",
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-  },
-  opentopo: {
-    label: "OpenTopoMap",
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="https://viewfinderpanoramas.org/">SRTM</a> | map style &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)',
-    url: "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png",
-  },
-};
 
 const MARKER_CORE_CIRCLE = `<circle class="park-marker__core" cx="12" cy="12" r="3"/>`;
 const MARKER_CORE_CHECK = `<path class="park-marker__check" d="M8 12.5l2.6 2.6L16.5 8.6"/>`;
@@ -310,11 +298,19 @@ function MapZoomButtons() {
 
   return (
     <div className="zoom-controls">
-      <button onClick={() => map.zoomIn()} aria-label="Zoom in">
+      <button
+        onClick={() => map.zoomIn()}
+        aria-label="Zoom in"
+        disabled={zoom >= map.getMaxZoom()}
+      >
         +
       </button>
       <span>{zoom}×</span>
-      <button onClick={() => map.zoomOut()} aria-label="Zoom out">
+      <button
+        onClick={() => map.zoomOut()}
+        aria-label="Zoom out"
+        disabled={zoom <= map.getMinZoom()}
+      >
         −
       </button>
     </div>
@@ -329,18 +325,9 @@ function MapSizeFix() {
   // map is already fitted to Europe on the very first render instead of
   // only becoming correct after a later pan/zoom/resize event.
   useLayoutEffect(() => {
-    const fitMapToEurope = () => {
-      map.invalidateSize();
-      // Narrow viewports need a lower floor, otherwise Europe cannot fit horizontally.
-      map.setMinZoom(map.getContainer().clientWidth < 760 ? 3 : 4.5);
-      map.fitBounds(EUROPE_BOUNDS, {
-        padding: [24, 24],
-        maxZoom: 4.5,
-        animate: false,
-      });
-    };
-    fitMapToEurope();
-    const resizeObserver = new ResizeObserver(fitMapToEurope);
+    map.invalidateSize();
+    map.setMinZoom(6); // Prevent zooming out below 6
+    const resizeObserver = new ResizeObserver(() => map.invalidateSize());
     resizeObserver.observe(map.getContainer());
 
     return () => {
@@ -351,22 +338,21 @@ function MapSizeFix() {
   return null;
 }
 
-function MapStyleLayer({ mapStyle }) {
+function MapStyleLayer() {
   const map = useMap();
-  const style = MAP_STYLES[mapStyle] ?? MAP_STYLES.osm;
 
   useEffect(() => {
-    map.invalidateSize();
-  }, [map, mapStyle]);
+    const vectorLayer = L.maplibreGL({
+      style: simpleMapStyle,
+      attribution:
+        'OpenFreeMap <a href="https://openmaptiles.org/">© OpenMapTiles</a> <a href="https://www.openstreetmap.org/copyright">Data from OpenStreetMap</a>',
+    }).addTo(map);
 
-  return (
-    <TileLayer
-      key={mapStyle}
-      attribution={style.attribution}
-      noWrap
-      url={style.url}
-    />
-  );
+    map.invalidateSize();
+    return () => map.removeLayer(vectorLayer);
+  }, [map]);
+
+  return null;
 }
 
 function ParkMarkers({ visibleParks, selectedId, onSelect }) {
@@ -736,9 +722,9 @@ function App() {
                 ☰ Filters
               </button>
               <MapContainer
-                center={[54, 15]}
-                zoom={4.5}
-                minZoom={4.5}
+                center={[49.8153, 6.1296]}
+                zoom={6}
+                minZoom={6}
                 maxZoom={12}
                 maxBounds={EUROPE_BOUNDS}
                 maxBoundsViscosity={1}
