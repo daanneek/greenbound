@@ -102,6 +102,34 @@ p {
   align-items: center;
   margin-bottom: 28px;
 }
+.theme-toggle {
+  display: inline-grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  margin-left: auto;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--ink);
+  background: transparent;
+  font-size: 17px;
+  line-height: 1;
+  transition:
+    color 0.18s ease,
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    transform 0.12s ease;
+}
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  border-color: var(--green);
+  color: var(--paper);
+  background: var(--green);
+  outline: none;
+}
+.theme-toggle:active {
+  transform: scale(0.92);
+}
 h2 {
   font:
     600 24px/1.1 Fraunces,
@@ -1045,6 +1073,104 @@ input::placeholder {
   font:
     13px/1.6 Manrope,
     sans-serif;
+}
+.app-shell.theme-dark {
+  --ink: #e1e9e2;
+  --muted: #9eafa3;
+  --paper: #18231f;
+  --panel: rgba(31, 45, 38, 0.9);
+  --panel-strong: #223229;
+  --line: #405448;
+  --green: #9bc5a2;
+  --mint: #263e32;
+  --orange: #e7a078;
+  --shadow-soft: 0 18px 40px rgba(0, 0, 0, 0.24);
+  --shadow-card: 0 16px 28px rgba(0, 0, 0, 0.3);
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(91, 137, 98, 0.14),
+      transparent 32%
+    ),
+    linear-gradient(180deg, #17221d 0%, #111a16 100%);
+}
+.app-shell.theme-dark .workspace {
+  border-color: rgba(95, 119, 103, 0.65);
+  background: rgba(24, 35, 30, 0.72);
+}
+.app-shell.theme-dark .sidebar,
+.app-shell.theme-dark .park-card {
+  background: linear-gradient(
+    180deg,
+    rgba(31, 45, 38, 0.98),
+    rgba(24, 35, 30, 0.96)
+  );
+}
+.app-shell.theme-dark .map-toolbar {
+  background: rgba(31, 45, 38, 0.86);
+  border-color: rgba(95, 119, 103, 0.45);
+}
+.app-shell.theme-dark .map-stage,
+.app-shell.theme-dark .leaflet-map {
+  background-color: #18231f;
+  background-image:
+    linear-gradient(rgba(123, 166, 132, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(123, 166, 132, 0.05) 1px, transparent 1px);
+}
+.app-shell.theme-dark input,
+.app-shell.theme-dark .combobox-trigger,
+.app-shell.theme-dark .segmented-control,
+.app-shell.theme-dark .results-list,
+.app-shell.theme-dark .park-website,
+.app-shell.theme-dark .card-status,
+.app-shell.theme-dark .zoom-controls {
+  background-color: rgba(40, 58, 48, 0.68);
+}
+.app-shell.theme-dark input:focus,
+.app-shell.theme-dark .combobox-field input:hover,
+.app-shell.theme-dark .combobox-trigger:hover,
+.app-shell.theme-dark .combobox-trigger:focus-visible {
+  background-color: rgba(53, 76, 61, 0.9);
+}
+.app-shell.theme-dark .combobox-list {
+  border-color: rgba(155, 197, 162, 0.24);
+  background: rgba(31, 45, 38, 0.98);
+}
+.app-shell.theme-dark .combobox-option:hover,
+.app-shell.theme-dark .combobox-option.is-active,
+.app-shell.theme-dark .result-item:hover,
+.app-shell.theme-dark .result-item:focus-visible {
+  background: rgba(72, 103, 81, 0.58);
+}
+.app-shell.theme-dark .result-item.is-selected,
+.app-shell.theme-dark .segmented-control button.selected {
+  background: linear-gradient(
+    180deg,
+    rgba(58, 87, 67, 0.92),
+    rgba(47, 72, 55, 0.82)
+  );
+}
+.app-shell.theme-dark .filter-chip.selected {
+  background: linear-gradient(
+    180deg,
+    rgba(91, 61, 48, 0.92),
+    rgba(71, 49, 41, 0.9)
+  );
+}
+.app-shell.theme-dark .reset-filters:hover,
+.app-shell.theme-dark .reset-filters:focus-visible,
+.app-shell.theme-dark .zoom-controls button:hover,
+.app-shell.theme-dark .zoom-controls button:focus-visible,
+.app-shell.theme-dark .theme-toggle:hover,
+.app-shell.theme-dark .theme-toggle:focus-visible {
+  color: #17221d;
+}
+.app-shell.theme-dark .leaflet-control-attribution {
+  background: rgba(24, 35, 31, 0.86) !important;
+}
+.app-shell.theme-dark .leaflet-popup-content-wrapper,
+.app-shell.theme-dark .leaflet-popup-tip {
+  background: #223229;
 }
 @media (max-width: 760px) {
   .app-shell {
