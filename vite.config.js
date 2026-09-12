@@ -1,6 +1,6 @@
+import react from "@vitejs/plugin-react";
 import { copyFileSync } from "node:fs";
 import { resolve } from "node:path";
-import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
 function copyMapLibreWorkerShared() {
