@@ -838,11 +838,7 @@ function App() {
               placeholder="Try a park or country"
             />
           </label>
-          <button
-            type="button"
-            className="copy-link"
-            onClick={copyShareLink}
-          >
+          <button type="button" className="copy-link" onClick={copyShareLink}>
             <span aria-hidden="true">🔗</span>{" "}
             {linkCopied ? "Link copied" : "Copy link to this view"}
           </button>
