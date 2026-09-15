@@ -108,6 +108,7 @@ function SearchableSelect({
   options,
   onChange,
   searchable = true,
+  getOptionBadge,
 }) {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
@@ -197,7 +198,12 @@ function SearchableSelect({
               commit(option);
             }}
           >
-            {option}
+            <span className="combobox-option__label">{option}</span>
+            {getOptionBadge && (
+              <span className="combobox-option__badge">
+                {getOptionBadge(option)}
+              </span>
+            )}
           </li>
         ))
       )}
@@ -342,7 +348,7 @@ function MapSizeFix() {
   return null;
 }
 
-function MapStyleLayer() {
+function MapStyleLayer({ onTilesError, retryKey }) {
   const map = useMap();
   const isDark = document.documentElement.dataset.theme === "dark";
 
@@ -382,9 +388,19 @@ function MapStyleLayer() {
         'OpenFreeMap <a href="https://openmaptiles.org/">© OpenMapTiles</a> <a href="https://www.openstreetmap.org/copyright">Data from OpenStreetMap</a>',
     }).addTo(map);
 
+    const glMap = vectorLayer.getMaplibreMap();
+    const handleError = () => onTilesError?.(true);
+    const handleLoad = () => onTilesError?.(false);
+    glMap.on("error", handleError);
+    glMap.on("load", handleLoad);
+
     map.invalidateSize();
-    return () => map.removeLayer(vectorLayer);
-  }, [isDark, map]);
+    return () => {
+      glMap.off("error", handleError);
+      glMap.off("load", handleLoad);
+      map.removeLayer(vectorLayer);
+    };
+  }, [isDark, map, onTilesError, retryKey]);
 
   return null;
 }
@@ -550,6 +566,8 @@ function App() {
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [cardExpanded, setCardExpanded] = useState(false);
   const [isDark, setIsDark] = useState(false);
+  const [tilesFailed, setTilesFailed] = useState(false);
+  const [mapRetryKey, setMapRetryKey] = useState(0);
   const mapRef = useRef(null);
   const resultsRef = useRef(null);
   const sidebarRef = useRef(null);
@@ -579,6 +597,31 @@ function App() {
     [country, excludeWar, searchTerm, visitedFilter],
   );
   const selectedPark = visibleParks.find((park) => park.id === selectedId);
+
+  // Counts reflect search/war/visited filters but ignore the country filter itself, so every option previews its own result count.
+  const countryCounts = useMemo(() => {
+    const counts = new Map();
+    let total = 0;
+    parks.forEach((park) => {
+      const normalizedSearch = searchTerm.trim().toLowerCase();
+      const searchableText = [park.name, getCountryName(park.country), park.code]
+        .join(" ")
+        .toLowerCase();
+      const matchesFilters =
+        (!normalizedSearch || searchableText.includes(normalizedSearch)) &&
+        (!excludeWar || !isCountryAtWar(park)) &&
+        (visitedFilter === "all" ||
+          (visitedFilter === "visited" && park.visited) ||
+          (visitedFilter === "unvisited" && !park.visited));
+      if (!matchesFilters) return;
+      total += 1;
+      const name = getCountryName(park.country);
+      counts.set(name, (counts.get(name) ?? 0) + 1);
+    });
+    counts.set("All countries", total);
+    return counts;
+  }, [excludeWar, searchTerm, visitedFilter]);
+  const getCountryOptionBadge = (option) => countryCounts.get(option) ?? 0;
 
   useLayoutEffect(() => {
     if (filtersOpen) sidebarRef.current?.scrollTo({ top: 0, behavior: "auto" });
@@ -671,6 +714,7 @@ function App() {
             value={country}
             options={countries}
             onChange={setCountry}
+            getOptionBadge={getCountryOptionBadge}
           />
           <div className="filter-block">
             <p className="filter-title">Quick filters</p>
@@ -725,7 +769,17 @@ function App() {
             <p className="filter-title">Results</p>
             <ul className="results-list" ref={resultsRef}>
               {visibleParks.length === 0 ? (
-                <li className="results-empty">No parks match these filters</li>
+                <li className="results-empty">
+                  <p>No parks match these filters.</p>
+                  <p>Try a different country, search term or visited status.</p>
+                  <button
+                    type="button"
+                    className="reset-filters"
+                    onClick={resetFilters}
+                  >
+                    Reset filters
+                  </button>
+                </li>
               ) : (
                 visibleParks.map((park) => (
                   <li key={park.id}>
@@ -786,13 +840,33 @@ function App() {
               >
                 <MapSizeFix />
                 <MapZoomButtons />
-                <MapStyleLayer mapStyle="osm" />
+                <MapStyleLayer
+                  mapStyle="osm"
+                  onTilesError={setTilesFailed}
+                  retryKey={mapRetryKey}
+                />
                 <ParkMarkers
                   visibleParks={visibleParks}
                   selectedId={selectedPark?.id}
                   onSelect={setSelectedId}
                 />
               </MapContainer>
+              {tilesFailed && (
+                <div className="map-error-overlay" role="alert">
+                  <p>The map tiles couldn't be loaded.</p>
+                  <p>Check your internet connection and try again.</p>
+                  <button
+                    type="button"
+                    className="reset-filters"
+                    onClick={() => {
+                      setTilesFailed(false);
+                      setMapRetryKey((key) => key + 1);
+                    }}
+                  >
+                    Retry
+                  </button>
+                </div>
+              )}
             </div>
             <article
               className={`park-card ${selectedPark ? "" : "no-selection"} ${cardExpanded ? "is-expanded" : ""}`}

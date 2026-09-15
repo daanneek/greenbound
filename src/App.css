@@ -280,6 +280,10 @@ input::placeholder {
   }
 }
 .combobox-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
   padding: 10px 12px;
   border-radius: 10px;
   color: var(--ink);
@@ -289,6 +293,13 @@ input::placeholder {
   text-transform: none;
   letter-spacing: 0;
   cursor: pointer;
+}
+.combobox-option__badge {
+  flex-shrink: 0;
+  color: var(--muted);
+  font:
+    11px "DM Mono",
+    monospace;
 }
 .combobox-option.is-active {
   background: linear-gradient(
@@ -301,9 +312,9 @@ input::placeholder {
   color: var(--green);
   font-weight: 600;
 }
-.combobox-option.is-selected::after {
+.combobox-option.is-selected .combobox-option__label::after {
   content: "✓";
-  float: right;
+  margin-left: 6px;
 }
 .combobox-empty {
   padding: 11px 12px;
@@ -548,9 +559,24 @@ input::placeholder {
   text-transform: uppercase;
 }
 .results-empty {
-  padding: 10px 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 14px 2px;
   color: var(--muted);
   font-size: 11px;
+}
+.results-empty p {
+  margin: 0;
+}
+.results-empty p:first-child {
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 600;
+}
+.results-empty .reset-filters {
+  margin-top: 2px;
 }
 .map-column {
   display: contents;
@@ -582,6 +608,39 @@ input::placeholder {
     linear-gradient(rgba(67, 114, 82, 0.08) 1px, transparent 1px),
     linear-gradient(90deg, rgba(67, 114, 82, 0.08) 1px, transparent 1px);
   background-size: 45px 45px;
+}
+.map-error-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: min(86%, 320px);
+  padding: 20px 18px;
+  transform: translate(-50%, -50%);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel);
+  box-shadow: var(--shadow-card);
+  color: var(--ink);
+  text-align: center;
+}
+.map-error-overlay p {
+  margin: 0;
+  font:
+    13px/1.5 Manrope,
+    sans-serif;
+}
+.map-error-overlay p:first-child {
+  font-weight: 600;
+}
+.map-error-overlay .reset-filters {
+  width: auto;
+  margin-top: 6px;
+  padding: 9px 18px;
 }
 .park-card {
   grid-column: 3;
