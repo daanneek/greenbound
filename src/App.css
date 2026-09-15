@@ -1172,6 +1172,10 @@ input::placeholder {
 .app-shell.theme-dark .leaflet-popup-tip {
   background: #223229;
 }
+.app-shell.theme-dark .mobile-filters-toggle {
+  background: rgba(31, 45, 38, 0.9);
+  border-color: rgba(95, 119, 103, 0.45);
+}
 @media (max-width: 760px) {
   .app-shell {
     height: 100svh;
@@ -1203,6 +1207,9 @@ input::placeholder {
     text-transform: uppercase;
     box-shadow: 0 2px 6px rgba(23, 35, 29, 0.18);
   }
+  .theme-toggle {
+    margin-left: 0;
+  }
   .workspace {
     position: relative;
     display: flex;
@@ -1230,6 +1237,10 @@ input::placeholder {
     border: 1px solid var(--line);
     background: rgba(242, 240, 232, 0.9);
     white-space: nowrap;
+  }
+  .app-shell.theme-dark .map-toolbar > span {
+    background: rgba(40, 58, 48, 0.68);
+    border-color: rgba(95, 119, 103, 0.45);
   }
   .map-stage {
     flex: 1 1 auto;
