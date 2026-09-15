@@ -604,7 +604,11 @@ function App() {
     let total = 0;
     parks.forEach((park) => {
       const normalizedSearch = searchTerm.trim().toLowerCase();
-      const searchableText = [park.name, getCountryName(park.country), park.code]
+      const searchableText = [
+        park.name,
+        getCountryName(park.country),
+        park.code,
+      ]
         .join(" ")
         .toLowerCase();
       const matchesFilters =
