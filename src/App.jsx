@@ -85,6 +85,8 @@ const getParkSlug = (park) => {
   return park.id.startsWith(prefix) ? park.id.slice(prefix.length) : park.id;
 };
 
+const pickRandomPark = (pool) => pool[Math.floor(Math.random() * pool.length)];
+
 const getUrlBasePath = () => import.meta.env.BASE_URL.replace(/\/+$/, "");
 
 // The pathname carries /{country-code}/{park-slug}; everything else stays a query param.
@@ -766,15 +768,34 @@ function App() {
     setTimeout(() => setLinkCopied(false), 2000);
   };
 
-  const focusPark = (park) => {
+  const focusPark = (park, { duration = 0.8 } = {}) => {
+    const map = mapRef.current;
     setSelectedId(park.id);
     setFiltersOpen(false);
-    mapRef.current?.flyTo(
+    if (!map) return;
+
+    // The map's minZoom (6) can clip the natural zoom-out/zoom-in curve flyTo
+    // uses for long hops, making distant jumps look like they snap mid-flight.
+    // Relax it just for this flight, then restore it once the flight settles.
+    map.setMinZoom(3);
+    map.once("moveend", () => map.setMinZoom(6));
+
+    map.flyTo(
       [park.latitude, park.longitude],
       // Must exceed the ParkMarkers cluster maxZoom so nearby parks never fly in as a cluster bubble.
-      Math.max(mapRef.current.getZoom(), 11),
-      { duration: 0.8 },
+      Math.max(map.getZoom(), 11),
+      { duration, easeLinearity: 0.15 },
     );
+  };
+
+  const surpriseMe = () => {
+    if (visibleParks.length === 0) return;
+    const pool = visibleParks.filter((park) => park.id !== selectedPark?.id);
+    // A longer, gentler flight than the usual click-to-focus jump, since the
+    // random pick is often much further away and a fast flyTo feels jarring.
+    focusPark(pickRandomPark(pool.length > 0 ? pool : visibleParks), {
+      duration: 2.2,
+    });
   };
 
   const resetFilters = () => {
@@ -946,6 +967,14 @@ function App() {
             <span>
               <strong>{visibleParks.length}</strong> parks in view
             </span>
+            <button
+              type="button"
+              className="surprise-me"
+              onClick={surpriseMe}
+              disabled={visibleParks.length === 0}
+            >
+              <span aria-hidden="true">🎲</span> Surprise me
+            </button>
           </div>
           <div className="map-body">
             <div
