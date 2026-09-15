@@ -70,6 +70,58 @@ const countries = [
   ...new Set(parks.map((park) => getCountryName(park.country))),
 ];
 
+const DEFAULT_COUNTRY = "All countries";
+
+// Park ids are always "{country-code}-{slug}" (see src/data/national_parks/*.json);
+// URLs use the bare park slug and the country code separately.
+const countryCodeToName = new Map(
+  parks.map((park) => [park.code.toLowerCase(), getCountryName(park.country)]),
+);
+const countryNameToCode = new Map(
+  parks.map((park) => [getCountryName(park.country), park.code.toLowerCase()]),
+);
+const getParkSlug = (park) => {
+  const prefix = `${park.code.toLowerCase()}-`;
+  return park.id.startsWith(prefix) ? park.id.slice(prefix.length) : park.id;
+};
+
+const getUrlBasePath = () => import.meta.env.BASE_URL.replace(/\/+$/, "");
+
+// The pathname carries /{country-code}/{park-slug}; everything else stays a query param.
+const getPathSegments = () => {
+  const basePath = getUrlBasePath();
+  let path = window.location.pathname;
+  if (basePath && path.startsWith(basePath)) path = path.slice(basePath.length);
+  return path
+    .split("/")
+    .filter(Boolean)
+    .map((segment) => decodeURIComponent(segment));
+};
+
+// Keeps window.location in sync with filter/selection state so views are shareable and survive a refresh.
+const readUrlState = () => {
+  const params = new URLSearchParams(window.location.search);
+  const visitedParam = params.get("visited");
+  const [countryCode, parkSlug] = getPathSegments();
+  const selectedPark = parkSlug
+    ? parks.find(
+        (park) =>
+          getParkSlug(park) === parkSlug &&
+          (!countryCode || park.code.toLowerCase() === countryCode),
+      )
+    : null;
+
+  return {
+    searchTerm: params.get("q") ?? "",
+    country: countryCodeToName.get(countryCode) ?? DEFAULT_COUNTRY,
+    excludeWar: params.get("war") !== "0",
+    visitedFilter: ["visited", "unvisited"].includes(visitedParam)
+      ? visitedParam
+      : "all",
+    selectedId: selectedPark?.id ?? null,
+  };
+};
+
 const EUROPE_BOUNDS = [
   [34, -25],
   [72, 60],
@@ -558,19 +610,23 @@ function ParkActionLinks({ park }) {
 }
 
 function App() {
-  const [searchTerm, setSearchTerm] = useState("");
-  const [country, setCountry] = useState("All countries");
-  const [excludeWar, setExcludeWar] = useState(true);
-  const [visitedFilter, setVisitedFilter] = useState("all");
-  const [selectedId, setSelectedId] = useState(null);
+  const [searchTerm, setSearchTerm] = useState(() => readUrlState().searchTerm);
+  const [country, setCountry] = useState(() => readUrlState().country);
+  const [excludeWar, setExcludeWar] = useState(() => readUrlState().excludeWar);
+  const [visitedFilter, setVisitedFilter] = useState(
+    () => readUrlState().visitedFilter,
+  );
+  const [selectedId, setSelectedId] = useState(() => readUrlState().selectedId);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [cardExpanded, setCardExpanded] = useState(false);
   const [isDark, setIsDark] = useState(false);
   const [tilesFailed, setTilesFailed] = useState(false);
   const [mapRetryKey, setMapRetryKey] = useState(0);
+  const [linkCopied, setLinkCopied] = useState(false);
   const mapRef = useRef(null);
   const resultsRef = useRef(null);
   const sidebarRef = useRef(null);
+  const hasFlownToInitialPark = useRef(false);
 
   const visibleParks = useMemo(
     () =>
@@ -640,6 +696,75 @@ function App() {
   useEffect(() => {
     if (filtersOpen) sidebarRef.current?.scrollTo({ top: 0, behavior: "auto" });
   }, [filtersOpen]);
+
+  // Reflect filter/selection state in the URL (without spamming browser history) so the current view is shareable.
+  useEffect(() => {
+    // A selected park always anchors the path to its own country code, even if the
+    // country filter itself is "All countries" (e.g. the park was found via search).
+    const selectedPark = selectedId ? parkById.get(selectedId) : null;
+    const pathCountryCode =
+      country !== DEFAULT_COUNTRY
+        ? countryNameToCode.get(country)
+        : selectedPark
+          ? selectedPark.code.toLowerCase()
+          : null;
+    const segments = [];
+    if (pathCountryCode) segments.push(pathCountryCode);
+    if (selectedPark) segments.push(getParkSlug(selectedPark));
+
+    const params = new URLSearchParams();
+    if (searchTerm.trim()) params.set("q", searchTerm.trim());
+    if (!excludeWar) params.set("war", "0");
+    if (visitedFilter !== "all") params.set("visited", visitedFilter);
+
+    const query = params.toString();
+    const url = `${getUrlBasePath()}/${segments.join("/")}${query ? `?${query}` : ""}`;
+    window.history.replaceState(null, "", url);
+  }, [country, excludeWar, searchTerm, selectedId, visitedFilter]);
+
+  // Support browser back/forward between links that were shared or visited earlier in this session.
+  useEffect(() => {
+    const handlePopState = () => {
+      const next = readUrlState();
+      setSearchTerm(next.searchTerm);
+      setCountry(next.country);
+      setExcludeWar(next.excludeWar);
+      setVisitedFilter(next.visitedFilter);
+      setSelectedId(next.selectedId);
+    };
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, []);
+
+  // Snap (no animation) to a park selected via a shared URL once the map is ready, instead of flying from the default view.
+  useEffect(() => {
+    if (hasFlownToInitialPark.current || !selectedPark || !mapRef.current) {
+      return;
+    }
+    hasFlownToInitialPark.current = true;
+    mapRef.current.flyTo(
+      [selectedPark.latitude, selectedPark.longitude],
+      Math.max(mapRef.current.getZoom(), 11),
+      { duration: 0 },
+    );
+  }, [selectedPark]);
+
+  const copyShareLink = async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+    } catch {
+      const textarea = document.createElement("textarea");
+      textarea.value = window.location.href;
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+    }
+    setLinkCopied(true);
+    setTimeout(() => setLinkCopied(false), 2000);
+  };
 
   const focusPark = (park) => {
     setSelectedId(park.id);
@@ -713,6 +838,14 @@ function App() {
               placeholder="Try a park or country"
             />
           </label>
+          <button
+            type="button"
+            className="copy-link"
+            onClick={copyShareLink}
+          >
+            <span aria-hidden="true">🔗</span>{" "}
+            {linkCopied ? "Link copied" : "Copy link to this view"}
+          </button>
           <SearchableSelect
             label="Country"
             value={country}

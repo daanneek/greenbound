@@ -448,6 +448,30 @@ input::placeholder {
   box-shadow: 0 8px 16px rgba(207, 109, 65, 0.18);
   outline: none;
 }
+.copy-link {
+  width: 100%;
+  margin-top: 10px;
+  padding: 9px 10px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: transparent;
+  color: var(--muted);
+  font:
+    11px "DM Mono",
+    monospace;
+  letter-spacing: 0.04em;
+  transition:
+    color 0.18s ease,
+    border-color 0.18s ease,
+    background-color 0.18s ease;
+}
+.copy-link:hover,
+.copy-link:focus-visible {
+  border-color: var(--green);
+  color: var(--green);
+  background: rgba(47, 70, 57, 0.04);
+  outline: none;
+}
 .legend {
   border-top: 1px solid var(--line);
   margin-top: 27px;

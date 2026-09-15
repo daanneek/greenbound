@@ -7,7 +7,7 @@
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://*.tile.openstreetmap.org https://*.tile.opentopomap.org https://tiles.openfreemap.org https://*.goatcounter.com; connect-src 'self' https://tiles.openfreemap.org https://*.goatcounter.com; frame-src 'none'; form-action 'self'"
+      content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'sha256-EsbHxIGqSdKK4jzJZOT5pOImUabqnjpASD2SLXXvn/s=' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://*.tile.openstreetmap.org https://*.tile.opentopomap.org https://tiles.openfreemap.org https://*.goatcounter.com; connect-src 'self' https://tiles.openfreemap.org https://*.goatcounter.com; frame-src 'none'; form-action 'self'"
     />
     <!-- The HTML shell must always be revalidated; only the hashed
          /assets files are safe to cache long-term. -->
@@ -50,6 +50,24 @@
 
   <body>
     <div id="root"></div>
+    <script>
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash,
+          );
+        }
+      })(window.location);
+    </script>
     <script type="module" src="/src/main.jsx"></script>
     <script
       data-goatcounter="https://greenbound.goatcounter.com/count"
