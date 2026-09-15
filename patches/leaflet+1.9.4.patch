@@ -1,0 +1,44 @@
+diff --git a/node_modules/leaflet/dist/leaflet-src.esm.js b/node_modules/leaflet/dist/leaflet-src.esm.js
+index 1bb1d6a..866cc21 100644
+--- a/node_modules/leaflet/dist/leaflet-src.esm.js
++++ b/node_modules/leaflet/dist/leaflet-src.esm.js
+@@ -4512,15 +4512,13 @@ var Map = Evented.extend({
+ 
+ 	_fireDOMEvent: function (e, type, canvasTargets) {
+ 
+-		if (e.type === 'click') {
++		if (type === 'click') {
+ 			// Fire a synthetic 'preclick' event which propagates up (mainly for closing popups).
+ 			// @event preclick: MouseEvent
+ 			// Fired before mouse click on the map (sometimes useful when you
+ 			// want something to happen on click before any existing click
+ 			// handlers start running).
+-			var synth = extend({}, e);
+-			synth.type = 'preclick';
+-			this._fireDOMEvent(synth, synth.type, canvasTargets);
++			this._fireDOMEvent(e, 'preclick', canvasTargets);
+ 		}
+ 
+ 		// Find the layer the event is propagating from and its parents.
+diff --git a/node_modules/leaflet/dist/leaflet-src.js b/node_modules/leaflet/dist/leaflet-src.js
+index eeb30df..926cfb5 100644
+--- a/node_modules/leaflet/dist/leaflet-src.js
++++ b/node_modules/leaflet/dist/leaflet-src.js
+@@ -4518,15 +4518,13 @@
+ 
+   	_fireDOMEvent: function (e, type, canvasTargets) {
+ 
+-  		if (e.type === 'click') {
++  		if (type === 'click') {
+   			// Fire a synthetic 'preclick' event which propagates up (mainly for closing popups).
+   			// @event preclick: MouseEvent
+   			// Fired before mouse click on the map (sometimes useful when you
+   			// want something to happen on click before any existing click
+   			// handlers start running).
+-  			var synth = extend({}, e);
+-  			synth.type = 'preclick';
+-  			this._fireDOMEvent(synth, synth.type, canvasTargets);
++  			this._fireDOMEvent(e, 'preclick', canvasTargets);
+   		}
+ 
+   		// Find the layer the event is propagating from and its parents.
