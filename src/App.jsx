@@ -788,16 +788,6 @@ function App() {
     );
   };
 
-  const surpriseMe = () => {
-    if (visibleParks.length === 0) return;
-    const pool = visibleParks.filter((park) => park.id !== selectedPark?.id);
-    // A longer, gentler flight than the usual click-to-focus jump, since the
-    // random pick is often much further away and a fast flyTo feels jarring.
-    focusPark(pickRandomPark(pool.length > 0 ? pool : visibleParks), {
-      duration: 2.2,
-    });
-  };
-
   const resetFilters = () => {
     setSearchTerm("");
     setCountry("All countries");
@@ -967,14 +957,6 @@ function App() {
             <span>
               <strong>{visibleParks.length}</strong> parks in view
             </span>
-            <button
-              type="button"
-              className="surprise-me"
-              onClick={surpriseMe}
-              disabled={visibleParks.length === 0}
-            >
-              <span aria-hidden="true">🎲</span> Surprise me
-            </button>
           </div>
           <div className="map-body">
             <div
