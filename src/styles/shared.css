@@ -1,0 +1,43 @@
+/* Utility classes shared across the sidebar, map card and results list. */
+.filter-title {
+  margin: 0 0 14px;
+  color: var(--green);
+  font:
+    10px "DM Mono",
+    monospace;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.legend-dot,
+.card-status > span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 8px;
+  background: var(--green);
+}
+.legend-dot.caution,
+.card-status > span.caution {
+  background: var(--orange);
+}
+.combobox-list::-webkit-scrollbar,
+.results-list::-webkit-scrollbar {
+  width: 8px;
+}
+.combobox-list::-webkit-scrollbar-track,
+.results-list::-webkit-scrollbar-track {
+  background: transparent;
+  border-left: 1px solid var(--line);
+}
+.combobox-list::-webkit-scrollbar-thumb,
+.results-list::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+.combobox-list:hover::-webkit-scrollbar-thumb,
+.results-list:hover::-webkit-scrollbar-thumb {
+  background: var(--green);
+  background-clip: padding-box;
+}

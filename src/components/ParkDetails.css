@@ -1,0 +1,189 @@
+.park-card {
+  grid-column: 3;
+  grid-row: 1 / -1;
+  min-width: 0;
+  max-width: none;
+  height: 100%;
+  margin: 0;
+  padding: 30px 24px;
+  border: 0;
+  border-left: 1px solid var(--line);
+  background: linear-gradient(
+    180deg,
+    rgba(250, 247, 241, 0.96),
+    rgba(241, 236, 226, 0.9)
+  );
+  overflow-y: auto;
+}
+.card-status {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid rgba(47, 70, 57, 0.7);
+  border-radius: 999px;
+  color: var(--green);
+  background: rgba(255, 255, 255, 0.1);
+  font:
+    11px "DM Mono",
+    monospace;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+.card-status:has(> span.caution) {
+  border-color: rgba(207, 109, 65, 0.8);
+  color: var(--orange);
+}
+.card-visited {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+  color: var(--muted);
+  font:
+    10px "DM Mono",
+    monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+.card-visited__check {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  color: var(--paper);
+  background: linear-gradient(180deg, rgba(47, 70, 57, 1), rgba(35, 55, 43, 1));
+  font-size: 9px;
+}
+.card-visited__date {
+  margin-left: 4px;
+}
+.park-card h2 {
+  margin: 14px 0 3px;
+  font-size: 28px;
+}
+.card-native-name {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font:
+    12px/1.4 "DM Mono",
+    monospace;
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+.card-location {
+  color: var(--muted);
+  font-size: 11px;
+}
+.park-actions {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+.park-website {
+  display: inline-flex;
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 10px 10px;
+  border: 1px solid rgba(47, 70, 57, 0.7);
+  border-radius: 12px;
+  color: var(--green);
+  background: rgba(255, 255, 255, 0.15);
+  font:
+    10px "DM Mono",
+    monospace;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  transition:
+    color 0.18s ease,
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    box-shadow 0.18s ease,
+    transform 0.12s ease;
+}
+.park-website span {
+  font-size: 13px;
+  line-height: 0.8;
+}
+.park-website:hover,
+.park-website:focus-visible {
+  border-color: rgba(207, 109, 65, 0.8);
+  color: var(--orange);
+  background: rgba(249, 233, 223, 0.9);
+  box-shadow: 0 8px 16px rgba(207, 109, 65, 0.12);
+  outline: none;
+}
+.park-website:active {
+  transform: scale(0.96);
+}
+.park-website.is-disabled,
+.park-website.is-disabled:hover,
+.park-website.is-disabled:focus-visible {
+  border: 1px dashed var(--line);
+  color: var(--muted);
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(23, 35, 29, 0.04),
+    rgba(23, 35, 29, 0.04) 4px,
+    transparent 4px,
+    transparent 9px
+  );
+  cursor: not-allowed;
+  opacity: 0.6;
+  transform: none;
+}
+.park-facts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 20px 0 18px;
+}
+.park-facts div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.park-facts span {
+  flex: 0 0 auto;
+}
+.park-facts span {
+  color: var(--muted);
+  font:
+    9px "DM Mono",
+    monospace;
+  text-transform: uppercase;
+}
+.park-facts strong {
+  font:
+    14px Manrope,
+    sans-serif;
+}
+.card-description {
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  color: var(--ink);
+  font:
+    13px/1.6 Manrope,
+    sans-serif;
+}
+.no-selection-content {
+  padding-top: 28px;
+}
+.no-selection-content h2 {
+  margin: 12px 0 8px;
+}
+.no-selection-content > p:last-child {
+  max-width: 230px;
+  color: var(--muted);
+  font:
+    13px/1.6 Manrope,
+    sans-serif;
+}

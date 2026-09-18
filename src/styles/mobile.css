@@ -1,0 +1,216 @@
+.mobile-filters-toggle,
+.sidebar-close,
+.card-handle,
+.mobile-backdrop {
+  display: none;
+}
+@media (max-width: 760px) {
+  .app-shell {
+    height: 100svh;
+    padding: 0;
+  }
+  .wordmark {
+    font-size: 17px;
+  }
+  .wordmark-mark {
+    width: 46px;
+    height: 46px;
+  }
+  .mobile-filters-toggle {
+    display: inline-flex;
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    z-index: 900;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 13px;
+    border: 1px solid var(--line);
+    background: rgba(242, 240, 232, 0.9);
+    color: var(--ink);
+    font:
+      10px "DM Mono",
+      monospace;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 2px 6px rgba(23, 35, 29, 0.18);
+  }
+  .theme-toggle {
+    margin-left: 0;
+  }
+  .workspace {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+  }
+  .map-column,
+  .map-body {
+    display: contents;
+  }
+  .map-toolbar {
+    flex: 0 0 auto;
+    height: 46px;
+    padding: 0 16px;
+    border-bottom: 1px solid var(--line);
+    background: rgba(242, 240, 232, 0.75);
+  }
+  .map-toolbar > span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 9px;
+    border: 1px solid var(--line);
+    background: rgba(242, 240, 232, 0.9);
+    white-space: nowrap;
+  }
+  .app-shell.theme-dark .map-toolbar > span {
+    background: rgba(40, 58, 48, 0.68);
+    border-color: rgba(95, 119, 103, 0.45);
+  }
+  .map-stage {
+    flex: 1 1 auto;
+    height: auto;
+    min-height: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+  }
+  .mobile-backdrop {
+    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: 1100;
+    background: rgba(23, 35, 29, 0.45);
+    opacity: 0;
+    visibility: hidden;
+    transition:
+      opacity 0.25s ease,
+      visibility 0.25s ease;
+  }
+  .workspace.filters-open .mobile-backdrop {
+    opacity: 1;
+    visibility: visible;
+  }
+  .sidebar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1200;
+    width: min(86vw, 330px);
+    padding: 26px 22px 24px;
+    border-right: 1px solid var(--line);
+    border-bottom: 0;
+    background: var(--paper);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    transform: translateX(-101%);
+    transition: transform 0.28s ease;
+  }
+  .sidebar.is-open {
+    transform: none;
+  }
+  .sidebar-close {
+    display: block;
+    align-self: center;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 0;
+    flex-shrink: 0;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--ink);
+    font-size: 14px;
+    line-height: 1;
+  }
+  .results {
+    flex: 0 0 auto;
+  }
+  .results-list {
+    flex: 0 0 auto;
+    max-height: 46vh;
+  }
+  .park-card {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    height: auto;
+    margin: 0;
+    padding: 0 18px calc(20px + env(safe-area-inset-bottom));
+    border: 0;
+    border-top: 1px solid var(--line);
+    background: var(--paper);
+    box-shadow: 0 -8px 22px rgba(23, 35, 29, 0.16);
+    transform: translateY(calc(100% - 50px));
+    transition: transform 0.3s ease;
+  }
+  .park-card .card-status {
+    margin-top: 8px;
+  }
+  .park-card.no-selection {
+    transform: translateY(calc(100% - 50px));
+    padding-top: 0;
+  }
+  .no-selection-content {
+    padding: 24px 0 6px;
+  }
+  .no-selection-content h2 {
+    display: none;
+  }
+  .park-card.is-expanded {
+    transform: none;
+  }
+  .card-handle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    width: calc(100% + 36px);
+    margin: 0 -18px;
+    padding: 9px 18px 11px;
+    border: 0;
+    background: transparent;
+    color: var(--ink);
+  }
+  .card-handle__bar {
+    width: 38px;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--line);
+  }
+  .card-handle__label {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font:
+      11px "DM Mono",
+      monospace;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .park-card.is-expanded .card-handle__label {
+    color: var(--muted);
+  }
+  .park-facts {
+    gap: 10px;
+  }
+  .park-card h2 {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  .map-stage.has-selected-park .leaflet-bottom.leaflet-right {
+    bottom: 50px;
+  }
+  .park-marker__pin {
+    transform: scale(1.15);
+  }
+  .park-marker.is-selected .park-marker__pin {
+    transform: scale(1.4);
+  }
+}

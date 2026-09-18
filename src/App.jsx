@@ -4,125 +4,24 @@ import "leaflet/dist/leaflet.css";
 import { setWorkerUrl } from "maplibre-gl";
 import maplibreWorkerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?url";
 import "maplibre-gl/dist/maplibre-gl.css";
-import {
-  useEffect,
-  useId,
-  useLayoutEffect,
-  useMemo,
-  useRef,
-  useState,
-} from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { MapContainer, Marker, Popup, useMap } from "react-leaflet";
 import Supercluster from "supercluster";
 import "./App.css";
-import simpleMapStyle from "./map-style.json";
+import ParkDetails from "./components/ParkDetails";
+import SearchableSelect from "./components/SearchableSelect";
+import { countries, parkById, parks } from "./data/parks";
+import useMapSizeFix from "./hooks/useMapSizeFix";
+import useUrlState, { readUrlState } from "./hooks/useUrlState";
+import useVectorMapStyle from "./hooks/useVectorMapStyle";
+import {
+  getCountryCounts,
+  getCountryName,
+  getParkTitle,
+  isCountryAtWar,
+} from "./lib/parkUtils";
 
 setWorkerUrl(maplibreWorkerUrl);
-
-const parkDataModules = import.meta.glob("./data/national_parks/*.json", {
-  eager: true,
-  import: "default",
-});
-const parks = Object.values(parkDataModules).flat();
-const parkById = new Map(parks.map((park) => [park.id, park]));
-const countriesAtWar = new Set(["BY", "RU", "UA"]);
-
-const getCountryName = (country) => country || "Unknown country";
-const getParkTitle = (park) => park.name || park.englishName || "Unnamed park";
-const getParkNativeName = (park) =>
-  park.nativeName ||
-  park.originalName ||
-  park.localName ||
-  park.translatedName ||
-  "";
-const isCountryAtWar = (park) => countriesAtWar.has(park.code);
-const getNavigationUrl = (park) => {
-  const destination = `${park.latitude},${park.longitude}`;
-  const userAgent = typeof navigator === "undefined" ? "" : navigator.userAgent;
-  const isAppleMobile = /iPhone|iPad|iPod/i.test(userAgent);
-  const isMobile = /Android|Mobile/i.test(userAgent);
-
-  if (isAppleMobile) {
-    return `https://maps.apple.com/?daddr=${destination}&q=${encodeURIComponent(getParkTitle(park))}`;
-  }
-
-  return isMobile
-    ? `geo:${destination}?q=${encodeURIComponent(getParkTitle(park))}`
-    : `https://www.google.com/maps/dir/?api=1&destination=${destination}`;
-};
-
-// Visit dates are hand-edited in the JSON; count/latest are derived so there's one source of truth.
-const getSortedVisitDates = (park) =>
-  Array.isArray(park.visitDates) ? [...park.visitDates].sort() : [];
-const getLatestVisitDate = (park) => {
-  const dates = getSortedVisitDates(park);
-  return dates[dates.length - 1];
-};
-const formatVisitDate = (dateString) =>
-  new Date(dateString).toLocaleDateString(undefined, {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-  });
-
-const countries = [
-  "All countries",
-  ...new Set(parks.map((park) => getCountryName(park.country))),
-];
-
-const DEFAULT_COUNTRY = "All countries";
-
-// Park ids are always "{country-code}-{slug}" (see src/data/national_parks/*.json);
-// URLs use the bare park slug and the country code separately.
-const countryCodeToName = new Map(
-  parks.map((park) => [park.code.toLowerCase(), getCountryName(park.country)]),
-);
-const countryNameToCode = new Map(
-  parks.map((park) => [getCountryName(park.country), park.code.toLowerCase()]),
-);
-const getParkSlug = (park) => {
-  const prefix = `${park.code.toLowerCase()}-`;
-  return park.id.startsWith(prefix) ? park.id.slice(prefix.length) : park.id;
-};
-
-const pickRandomPark = (pool) => pool[Math.floor(Math.random() * pool.length)];
-
-const getUrlBasePath = () => import.meta.env.BASE_URL.replace(/\/+$/, "");
-
-// The pathname carries /{country-code}/{park-slug}; everything else stays a query param.
-const getPathSegments = () => {
-  const basePath = getUrlBasePath();
-  let path = window.location.pathname;
-  if (basePath && path.startsWith(basePath)) path = path.slice(basePath.length);
-  return path
-    .split("/")
-    .filter(Boolean)
-    .map((segment) => decodeURIComponent(segment));
-};
-
-// Keeps window.location in sync with filter/selection state so views are shareable and survive a refresh.
-const readUrlState = () => {
-  const params = new URLSearchParams(window.location.search);
-  const visitedParam = params.get("visited");
-  const [countryCode, parkSlug] = getPathSegments();
-  const selectedPark = parkSlug
-    ? parks.find(
-        (park) =>
-          getParkSlug(park) === parkSlug &&
-          (!countryCode || park.code.toLowerCase() === countryCode),
-      )
-    : null;
-
-  return {
-    searchTerm: params.get("q") ?? "",
-    country: countryCodeToName.get(countryCode) ?? DEFAULT_COUNTRY,
-    excludeWar: params.get("war") !== "0",
-    visitedFilter: ["visited", "unvisited"].includes(visitedParam)
-      ? visitedParam
-      : "all",
-    selectedId: selectedPark?.id ?? null,
-  };
-};
 
 const EUROPE_BOUNDS = [
   [34, -25],
@@ -155,179 +54,6 @@ const getMarkerIcon = (variant, isSelected, visited) => {
   }
   return markerIconCache.get(key);
 };
-
-function SearchableSelect({
-  label,
-  value,
-  options,
-  onChange,
-  searchable = true,
-  getOptionBadge,
-}) {
-  const [open, setOpen] = useState(false);
-  const [query, setQuery] = useState("");
-  const [activeIndex, setActiveIndex] = useState(0);
-  const wrapperRef = useRef(null);
-  const listRef = useRef(null);
-  const id = useId();
-
-  const matches = useMemo(() => {
-    const normalized = query.trim().toLowerCase();
-    return normalized && searchable
-      ? options.filter((option) => option.toLowerCase().includes(normalized))
-      : options;
-  }, [options, query, searchable]);
-
-  useEffect(() => {
-    if (!open) return;
-
-    const closeOnOutsideClick = (event) => {
-      if (!wrapperRef.current?.contains(event.target)) setOpen(false);
-    };
-    document.addEventListener("pointerdown", closeOnOutsideClick);
-    return () =>
-      document.removeEventListener("pointerdown", closeOnOutsideClick);
-  }, [open]);
-
-  useEffect(() => {
-    listRef.current?.children[activeIndex]?.scrollIntoView({
-      block: "nearest",
-    });
-  }, [activeIndex, matches]);
-
-  const openList = () => {
-    if (open) return;
-    setQuery("");
-    setActiveIndex(Math.max(0, options.indexOf(value)));
-    setOpen(true);
-  };
-
-  const commit = (option) => {
-    onChange(option);
-    setOpen(false);
-    setQuery("");
-  };
-
-  const handleKeyDown = (event) => {
-    if (event.key === "ArrowDown" || event.key === "ArrowUp") {
-      event.preventDefault();
-      if (!open) {
-        openList();
-        return;
-      }
-      const step = event.key === "ArrowDown" ? 1 : -1;
-      setActiveIndex((index) =>
-        Math.min(Math.max(index + step, 0), matches.length - 1),
-      );
-    } else if (event.key === "Enter" && open) {
-      event.preventDefault();
-      if (matches[activeIndex]) commit(matches[activeIndex]);
-    } else if (event.key === "Escape" && open) {
-      event.preventDefault();
-      setOpen(false);
-      setQuery("");
-    }
-  };
-
-  const listbox = open && (
-    <ul
-      className="combobox-list"
-      id={`${id}-list`}
-      role="listbox"
-      ref={listRef}
-    >
-      {matches.length === 0 ? (
-        <li className="combobox-empty">No matches</li>
-      ) : (
-        matches.map((option, index) => (
-          <li
-            key={option}
-            id={`${id}-option-${index}`}
-            role="option"
-            aria-selected={option === value}
-            className={`combobox-option ${index === activeIndex ? "is-active" : ""} ${option === value ? "is-selected" : ""}`}
-            onMouseMove={() => setActiveIndex(index)}
-            onPointerDown={(event) => {
-              event.preventDefault();
-              commit(option);
-            }}
-          >
-            <span className="combobox-option__label">{option}</span>
-            {getOptionBadge && (
-              <span className="combobox-option__badge">
-                {getOptionBadge(option)}
-              </span>
-            )}
-          </li>
-        ))
-      )}
-    </ul>
-  );
-
-  if (!searchable) {
-    return (
-      <div className={`combobox ${open ? "is-open" : ""}`} ref={wrapperRef}>
-        <label htmlFor={`${id}-input`}>{label}</label>
-        <div className="combobox-field">
-          <button
-            id={`${id}-input`}
-            type="button"
-            className="combobox-trigger"
-            role="combobox"
-            aria-expanded={open}
-            aria-controls={`${id}-list`}
-            aria-haspopup="listbox"
-            aria-activedescendant={
-              open && matches[activeIndex]
-                ? `${id}-option-${activeIndex}`
-                : undefined
-            }
-            onClick={() => (open ? setOpen(false) : openList())}
-            onKeyDown={handleKeyDown}
-          >
-            {value}
-          </button>
-          <span className="combobox-caret" aria-hidden="true" />
-        </div>
-        {listbox}
-      </div>
-    );
-  }
-
-  return (
-    <div className={`combobox ${open ? "is-open" : ""}`} ref={wrapperRef}>
-      <label htmlFor={`${id}-input`}>{label}</label>
-      <div className="combobox-field">
-        <input
-          id={`${id}-input`}
-          type="text"
-          role="combobox"
-          autoComplete="off"
-          aria-expanded={open}
-          aria-controls={`${id}-list`}
-          aria-autocomplete="list"
-          aria-activedescendant={
-            open && matches[activeIndex]
-              ? `${id}-option-${activeIndex}`
-              : undefined
-          }
-          value={open ? query : value}
-          placeholder={open ? value : undefined}
-          onChange={(event) => {
-            setQuery(event.target.value);
-            setActiveIndex(0);
-            setOpen(true);
-          }}
-          onFocus={openList}
-          onClick={openList}
-          onKeyDown={handleKeyDown}
-        />
-        <span className="combobox-caret" aria-hidden="true" />
-      </div>
-      {listbox}
-    </div>
-  );
-}
 
 const clusterIconCache = new Map();
 
@@ -363,17 +89,25 @@ function MapZoomButtons() {
   return (
     <div className="zoom-controls">
       <button
-        onClick={() => map.zoomIn()}
+        onClick={() => {
+          if (zoom < map.getMaxZoom()) map.zoomIn();
+        }}
         aria-label="Zoom in"
-        disabled={zoom >= map.getMaxZoom()}
+        aria-disabled={zoom >= map.getMaxZoom()}
+        // Native `disabled` removes the button from hit-testing, so clicks
+        // fall through to whatever marker sits underneath it on the map.
+        className={zoom >= map.getMaxZoom() ? "is-disabled" : ""}
       >
         +
       </button>
       <span>{zoom}×</span>
       <button
-        onClick={() => map.zoomOut()}
+        onClick={() => {
+          if (zoom > map.getMinZoom()) map.zoomOut();
+        }}
         aria-label="Zoom out"
-        disabled={zoom <= map.getMinZoom()}
+        aria-disabled={zoom <= map.getMinZoom()}
+        className={zoom <= map.getMinZoom() ? "is-disabled" : ""}
       >
         −
       </button>
@@ -383,78 +117,34 @@ function MapZoomButtons() {
 
 function MapSizeFix() {
   const map = useMap();
-
-  // Runs synchronously before paint (and before sibling components such as
-  // ParkMarkers read map.getBounds() in their own mount effects), so the
-  // map is already fitted to Europe on the very first render instead of
-  // only becoming correct after a later pan/zoom/resize event.
-  useLayoutEffect(() => {
-    map.invalidateSize();
-    map.setMinZoom(6); // Prevent zooming out below 6
-    const resizeObserver = new ResizeObserver(() => map.invalidateSize());
-    resizeObserver.observe(map.getContainer());
-
-    return () => {
-      resizeObserver.disconnect();
-    };
-  }, [map]);
-
+  useMapSizeFix(map);
   return null;
 }
 
 function MapStyleLayer({ onTilesError, retryKey }) {
   const map = useMap();
-  const isDark = document.documentElement.dataset.theme === "dark";
+  useVectorMapStyle(map, onTilesError, retryKey);
+  return null;
+}
 
+function InitialParkFocus({ selectedPark }) {
+  const map = useMap();
+
+  // Runs inside MapContainer so the Leaflet instance is guaranteed to exist,
+  // unlike the App-level mapRef which isn't populated on the very first render.
+  // Empty deps: this must only ever act on the park selected from the URL at
+  // mount time, never on a later click-driven selectedPark change (which is
+  // already animated by focusPark's flyTo).
   useEffect(() => {
-    const style = isDark
-      ? {
-          ...simpleMapStyle,
-          layers: simpleMapStyle.layers.map((layer) => ({
-            ...layer,
-            paint: Object.fromEntries(
-              Object.entries(layer.paint || {}).map(([property, value]) => [
-                property,
-                typeof value === "string"
-                  ? value
-                      .replaceAll("#f3f0e8", "#18231f")
-                      .replaceAll("#b0c9ac", "#294438")
-                      .replaceAll("#d8e2c2", "#3b5140")
-                      .replaceAll("#b9d2c5", "#284a49")
-                      .replaceAll("#a9c99f", "#31533d")
-                      .replaceAll("#b9d9df", "#1e3d47")
-                      .replaceAll("#83b8c4", "#4e8991")
-                      .replaceAll("#5f6d5c", "#a5b8a5")
-                      .replaceAll("#4e5d50", "#b4c4b4")
-                      .replaceAll("#8d9d83", "#799278")
-                      .replaceAll("#58645d", "#879b8d")
-                      .replaceAll("#39433e", "#d1ddd3")
-                      .replaceAll("#657068", "#adbbb0")
-                  : value,
-              ]),
-            ),
-          })),
-        }
-      : simpleMapStyle;
-    const vectorLayer = L.maplibreGL({
-      style,
-      attribution:
-        'OpenFreeMap <a href="https://openmaptiles.org/">© OpenMapTiles</a> <a href="https://www.openstreetmap.org/copyright">Data from OpenStreetMap</a>',
-    }).addTo(map);
-
-    const glMap = vectorLayer.getMaplibreMap();
-    const handleError = () => onTilesError?.(true);
-    const handleLoad = () => onTilesError?.(false);
-    glMap.on("error", handleError);
-    glMap.on("load", handleLoad);
-
-    map.invalidateSize();
-    return () => {
-      glMap.off("error", handleError);
-      glMap.off("load", handleLoad);
-      map.removeLayer(vectorLayer);
-    };
-  }, [isDark, map, onTilesError, retryKey]);
+    if (!selectedPark) return;
+    // setView (not flyTo) snaps immediately: Leaflet's flyTo treats duration: 0
+    // as falsy and substitutes its own multi-second animation instead.
+    map.setView(
+      [selectedPark.latitude, selectedPark.longitude],
+      Math.max(map.getZoom(), 11),
+    );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return null;
 }
@@ -462,6 +152,8 @@ function MapStyleLayer({ onTilesError, retryKey }) {
 function ParkMarkers({ visibleParks, selectedId, onSelect }) {
   const map = useMap();
   const [clusters, setClusters] = useState([]);
+  const markerRefs = useRef(new Map());
+  const openedPopupForId = useRef(null);
 
   // Supercluster indexes the points in a KD-tree once per filter change, so
   // querying the complete park set on zoom stays cheap.
@@ -510,6 +202,23 @@ function ParkMarkers({ visibleParks, selectedId, onSelect }) {
     };
   }, [indexes, map]);
 
+  // Opens the popup once the selected park's marker exists (it may only mount
+  // after a cluster splits open), so shared links and list selections behave
+  // like clicking the marker directly. Deferred a frame because a freshly
+  // mounted Popup rebinds itself (StrictMode double-invokes its effect in
+  // dev), which would immediately close a popup opened in the same tick.
+  // Only opens once per selection (tracked via openedPopupForId) so panning
+  // around later, which also recomputes clusters, doesn't reopen the popup
+  // and auto-pan the map back to the selected park.
+  useEffect(() => {
+    if (openedPopupForId.current === selectedId) return;
+    const marker = markerRefs.current.get(selectedId);
+    if (!marker) return;
+    openedPopupForId.current = selectedId;
+    const frame = requestAnimationFrame(() => marker.openPopup());
+    return () => cancelAnimationFrame(frame);
+  }, [selectedId, clusters]);
+
   return clusters.map(({ feature, index, variant }) => {
     const [longitude, latitude] = feature.geometry.coordinates;
 
@@ -551,8 +260,12 @@ function ParkMarkers({ visibleParks, selectedId, onSelect }) {
           Boolean(park.visited),
         )}
         eventHandlers={{ click: () => onSelect(park.id) }}
+        ref={(instance) => {
+          if (instance) markerRefs.current.set(park.id, instance);
+          else markerRefs.current.delete(park.id);
+        }}
       >
-        <Popup>
+        <Popup autoPan={false}>
           <strong>{park.name}</strong>
           <br />
           {getCountryName(park.country)}
@@ -560,55 +273,6 @@ function ParkMarkers({ visibleParks, selectedId, onSelect }) {
       </Marker>
     );
   });
-}
-
-function ParkActionLinks({ park }) {
-  const hasCoordinates =
-    Number.isFinite(park.latitude) && Number.isFinite(park.longitude);
-  const actions = [
-    {
-      label: "Info",
-      href: park.website?.trim(),
-      disabledReason: "No website link available",
-    },
-    {
-      label: "Route",
-      href: hasCoordinates ? getNavigationUrl(park) : "",
-      disabledReason: "No coordinates available",
-    },
-    {
-      label: "Video",
-      href: park.youtubeUrl?.trim(),
-      disabledReason: "No video available",
-    },
-  ];
-
-  return (
-    <div className="park-actions">
-      {actions.map(({ label, href, disabledReason }) =>
-        href ? (
-          <a
-            key={label}
-            className="park-website"
-            href={href}
-            target="_blank"
-            rel="noreferrer"
-          >
-            {label} <span aria-hidden="true">↗</span>
-          </a>
-        ) : (
-          <span
-            key={label}
-            className="park-website is-disabled"
-            aria-disabled="true"
-            title={disabledReason}
-          >
-            {label}
-          </span>
-        ),
-      )}
-    </div>
-  );
 }
 
 function App() {
@@ -628,7 +292,6 @@ function App() {
   const mapRef = useRef(null);
   const resultsRef = useRef(null);
   const sidebarRef = useRef(null);
-  const hasFlownToInitialPark = useRef(false);
 
   const visibleParks = useMemo(
     () =>
@@ -657,32 +320,10 @@ function App() {
   const selectedPark = visibleParks.find((park) => park.id === selectedId);
 
   // Counts reflect search/war/visited filters but ignore the country filter itself, so every option previews its own result count.
-  const countryCounts = useMemo(() => {
-    const counts = new Map();
-    let total = 0;
-    parks.forEach((park) => {
-      const normalizedSearch = searchTerm.trim().toLowerCase();
-      const searchableText = [
-        park.name,
-        getCountryName(park.country),
-        park.code,
-      ]
-        .join(" ")
-        .toLowerCase();
-      const matchesFilters =
-        (!normalizedSearch || searchableText.includes(normalizedSearch)) &&
-        (!excludeWar || !isCountryAtWar(park)) &&
-        (visitedFilter === "all" ||
-          (visitedFilter === "visited" && park.visited) ||
-          (visitedFilter === "unvisited" && !park.visited));
-      if (!matchesFilters) return;
-      total += 1;
-      const name = getCountryName(park.country);
-      counts.set(name, (counts.get(name) ?? 0) + 1);
-    });
-    counts.set("All countries", total);
-    return counts;
-  }, [excludeWar, searchTerm, visitedFilter]);
+  const countryCounts = useMemo(
+    () => getCountryCounts(parks, { searchTerm, excludeWar, visitedFilter }),
+    [excludeWar, searchTerm, visitedFilter],
+  );
   const getCountryOptionBadge = (option) => countryCounts.get(option) ?? 0;
 
   useLayoutEffect(() => {
@@ -699,57 +340,18 @@ function App() {
     if (filtersOpen) sidebarRef.current?.scrollTo({ top: 0, behavior: "auto" });
   }, [filtersOpen]);
 
-  // Reflect filter/selection state in the URL (without spamming browser history) so the current view is shareable.
-  useEffect(() => {
-    // A selected park always anchors the path to its own country code, even if the
-    // country filter itself is "All countries" (e.g. the park was found via search).
-    const selectedPark = selectedId ? parkById.get(selectedId) : null;
-    const pathCountryCode =
-      country !== DEFAULT_COUNTRY
-        ? countryNameToCode.get(country)
-        : selectedPark
-          ? selectedPark.code.toLowerCase()
-          : null;
-    const segments = [];
-    if (pathCountryCode) segments.push(pathCountryCode);
-    if (selectedPark) segments.push(getParkSlug(selectedPark));
-
-    const params = new URLSearchParams();
-    if (searchTerm.trim()) params.set("q", searchTerm.trim());
-    if (!excludeWar) params.set("war", "0");
-    if (visitedFilter !== "all") params.set("visited", visitedFilter);
-
-    const query = params.toString();
-    const url = `${getUrlBasePath()}/${segments.join("/")}${query ? `?${query}` : ""}`;
-    window.history.replaceState(null, "", url);
-  }, [country, excludeWar, searchTerm, selectedId, visitedFilter]);
-
-  // Support browser back/forward between links that were shared or visited earlier in this session.
-  useEffect(() => {
-    const handlePopState = () => {
-      const next = readUrlState();
-      setSearchTerm(next.searchTerm);
-      setCountry(next.country);
-      setExcludeWar(next.excludeWar);
-      setVisitedFilter(next.visitedFilter);
-      setSelectedId(next.selectedId);
-    };
-    window.addEventListener("popstate", handlePopState);
-    return () => window.removeEventListener("popstate", handlePopState);
-  }, []);
-
-  // Snap (no animation) to a park selected via a shared URL once the map is ready, instead of flying from the default view.
-  useEffect(() => {
-    if (hasFlownToInitialPark.current || !selectedPark || !mapRef.current) {
-      return;
-    }
-    hasFlownToInitialPark.current = true;
-    mapRef.current.flyTo(
-      [selectedPark.latitude, selectedPark.longitude],
-      Math.max(mapRef.current.getZoom(), 11),
-      { duration: 0 },
-    );
-  }, [selectedPark]);
+  useUrlState({
+    country,
+    excludeWar,
+    searchTerm,
+    selectedId,
+    setCountry,
+    setExcludeWar,
+    setSearchTerm,
+    setSelectedId,
+    setVisitedFilter,
+    visitedFilter,
+  });
 
   const copyShareLink = async () => {
     try {
@@ -984,6 +586,7 @@ function App() {
               >
                 <MapSizeFix />
                 <MapZoomButtons />
+                <InitialParkFocus selectedPark={selectedPark} />
                 <MapStyleLayer
                   mapStyle="osm"
                   onTilesError={setTilesFailed}
@@ -1012,104 +615,11 @@ function App() {
                 </div>
               )}
             </div>
-            <article
-              className={`park-card ${selectedPark ? "" : "no-selection"} ${cardExpanded ? "is-expanded" : ""}`}
-            >
-              {selectedPark ? (
-                <>
-                  <button
-                    className="card-handle"
-                    onClick={() => setCardExpanded((open) => !open)}
-                    aria-expanded={cardExpanded}
-                  >
-                    <span className="card-handle__bar" />
-                    <span className="card-handle__label">
-                      {getParkTitle(selectedPark)}
-                    </span>
-                  </button>
-                  <div className="card-status">
-                    <span
-                      className={isCountryAtWar(selectedPark) ? "caution" : ""}
-                    />{" "}
-                    {isCountryAtWar(selectedPark)
-                      ? "Check before travel"
-                      : "Open"}
-                  </div>
-                  <h2>{getParkTitle(selectedPark)}</h2>
-                  {getParkNativeName(selectedPark) && (
-                    <p className="card-native-name">
-                      {getParkNativeName(selectedPark)}
-                    </p>
-                  )}
-                  <p className="card-location">
-                    {getCountryName(selectedPark.country)} ·{" "}
-                    {selectedPark.terrain || "National park"}
-                  </p>
-                  {selectedPark.visited && (
-                    <div className="card-visited">
-                      <span className="card-visited__check" aria-hidden="true">
-                        ✓
-                      </span>
-                      Visited {getSortedVisitDates(selectedPark).length}×
-                      <span className="card-visited__date">
-                        Last:{" "}
-                        {formatVisitDate(getLatestVisitDate(selectedPark))}
-                      </span>
-                    </div>
-                  )}
-                  <ParkActionLinks park={selectedPark} />
-                  <div className="park-facts">
-                    <div>
-                      <span>Size</span>
-                      <strong>
-                        {selectedPark.sizeInSquareKilometers?.toString().trim()
-                          ? `${selectedPark.sizeInSquareKilometers} km²`
-                          : "-"}
-                      </strong>
-                    </div>
-                    <div>
-                      <span>National park since</span>
-                      <strong>
-                        {selectedPark.nationalParkSince?.toString().trim() ||
-                          "-"}
-                      </strong>
-                    </div>
-                    <div>
-                      <span>Coordinates</span>
-                      <strong>
-                        {selectedPark.latitude}° N,{" "}
-                        {Math.abs(selectedPark.longitude)}°{" "}
-                        {selectedPark.longitude < 0 ? "W" : "E"}
-                      </strong>
-                    </div>
-                  </div>
-                  {selectedPark.description?.trim() && (
-                    <p className="card-description">
-                      {selectedPark.description}
-                    </p>
-                  )}
-                </>
-              ) : (
-                <>
-                  <button
-                    className="card-handle"
-                    onClick={() => setCardExpanded((open) => !open)}
-                    aria-expanded={cardExpanded}
-                  >
-                    <span className="card-handle__bar" />
-                    <span className="card-handle__label">No park selected</span>
-                  </button>
-                  <div className="no-selection-content">
-                    <p className="filter-title">Park details</p>
-                    <h2>No park selected</h2>
-                    <p>
-                      Select a park from the results list or click a marker on
-                      the map to explore its details.
-                    </p>
-                  </div>
-                </>
-              )}
-            </article>
+            <ParkDetails
+              selectedPark={selectedPark}
+              cardExpanded={cardExpanded}
+              onToggle={() => setCardExpanded((open) => !open)}
+            />
           </div>
         </div>
       </section>
